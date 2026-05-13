@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NiceSwimRun Terrain Review</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #172033; background: #f5f7fa; }
+    header { padding: 18px 22px; background: white; border-bottom: 1px solid #d7dee8; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    .meta { color: #46546a; line-height: 1.45; }
+    main { padding: 18px 22px 28px; }
+    model-viewer { width: 100%; height: min(76vh, 760px); background: #e9eef4; border: 1px solid #d6dde7; border-radius: 6px; }
+    .viewer-message { padding: 18px; color: #46546a; }
+    section { margin-top: 18px; }
+    a { color: #1e5a9f; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NiceSwimRun Terrain Review</h1>
+    <div class="meta">Project: niceswimrunv2 | Type: Terrain Design | Style: Copernicus - Copernicus001<br>Created: 2026-05-13T16:22:52.824150+00:00</div>
+  </header>
+  <main>
+    <model-viewer src="models/model.glb" camera-controls auto-rotate shadow-intensity="0.75" exposure="1.0" loading="eager" reveal="auto">
+      <div class="viewer-message" slot="poster">Loading 3D preview...</div>
+      <div class="viewer-message" slot="error">The 3D preview could not be loaded. Open the hosted GitHub Pages link or serve this folder over HTTP if the local file viewer blocks WebGL assets.</div>
+    </model-viewer>
+    <section>
+      <p><a href="attribution/ATTRIBUTIONS.md">Attributions</a></p>
+    </section>
+  </main>
+</body>
+</html>
