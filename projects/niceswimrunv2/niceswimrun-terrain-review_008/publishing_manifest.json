@@ -1,0 +1,15 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "Copernicus - Copernicus001",
+  "contains_credentials": false,
+  "created_at": "2026-05-13T16:47:52.238445+00:00",
+  "local_index": "outputs/part_08/niceswimrun-terrain-review_008/index.html",
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/niceswimrunv2/niceswimrun-terrain-review_008/index.html",
+  "project_slug": "niceswimrunv2",
+  "publication_id": "niceswimrun-terrain-review_008",
+  "schema": "myrace3d.publishing_manifest.v1",
+  "source_label": "Terrain Design",
+  "source_type": "terrain",
+  "title": "NiceSwimRun Terrain Review"
+}
