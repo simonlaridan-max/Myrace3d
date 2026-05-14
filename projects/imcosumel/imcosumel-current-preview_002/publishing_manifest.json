@@ -1,0 +1,15 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "Copernicus - Copernicus002",
+  "contains_credentials": false,
+  "created_at": "2026-05-14T14:33:52.368532+00:00",
+  "local_index": "outputs/part_08/imcosumel-current-preview_002/index.html",
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/imcosumel/imcosumel-current-preview_002/index.html",
+  "project_slug": "imcosumel",
+  "publication_id": "imcosumel-current-preview_002",
+  "schema": "myrace3d.publishing_manifest.v1",
+  "source_label": "Current Preview",
+  "source_type": "current",
+  "title": "imcosumel Current Preview"
+}
