@@ -1,0 +1,15 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "Copernicus - Copernicus001",
+  "contains_credentials": false,
+  "created_at": "2026-05-14T15:30:05.535700+00:00",
+  "local_index": "outputs/part_08/saintelyon-current-preview_002/index.html",
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/saintelyon/saintelyon-current-preview_002/index.html",
+  "project_slug": "saintelyon",
+  "publication_id": "saintelyon-current-preview_002",
+  "schema": "myrace3d.publishing_manifest.v1",
+  "source_label": "Current Preview",
+  "source_type": "current",
+  "title": "saintelyon Current Preview"
+}
