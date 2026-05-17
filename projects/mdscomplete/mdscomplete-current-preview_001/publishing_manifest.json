@@ -1,0 +1,1441 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "Copernicus - Copernicus001",
+  "contains_credentials": false,
+  "created_at": "2026-05-17T13:59:55.586056+00:00",
+  "github_path": "projects/mdscomplete/mdscomplete-current-preview_001",
+  "history_policy": "Full nested parameters are stored in this manifest and parent publishing/history/publication_history.json; an Excel-friendly CSV is maintained at parent publishing/history/publication_history.csv.",
+  "local_index": "outputs/part_08/mdscomplete-current-preview_001/index.html",
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/mdscomplete/mdscomplete-current-preview_001/index.html",
+  "package_signature": "5fb797dbf34f7646aabc9558562e09b5c6a65f71f3dc03f24b60ab6414f45894",
+  "package_signature_payload": {
+    "mesh": {
+      "bytes": 4775115,
+      "mtime_ns": 1779024260556618400,
+      "path": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_04\\mesh_0001\\terrain_mesh.obj"
+    },
+    "project_slug": "mdscomplete",
+    "properties": {
+      "active_project": "mdscomplete",
+      "copernicus_color_1": [
+        0.9411764740943909,
+        0.7882353067398071,
+        0.6352941393852234,
+        1.0
+      ],
+      "copernicus_color_2": [
+        0.8039215803146362,
+        0.6823529601097107,
+        0.5686274766921997,
+        1.0
+      ],
+      "copernicus_color_3": [
+        0.8627451062202454,
+        0.7411764860153198,
+        0.6117647290229797,
+        1.0
+      ],
+      "copernicus_color_4": [
+        0.7450980544090271,
+        0.6352941393852234,
+        0.529411792755127,
+        1.0
+      ],
+      "copernicus_color_5": [
+        0.9411764740943909,
+        0.8588235378265381,
+        0.7254902124404907,
+        1.0
+      ],
+      "copernicus_color_6": [
+        0.9411764740943909,
+        0.7529411911964417,
+        0.5607843399047852,
+        1.0
+      ],
+      "copernicus_color_7": [
+        0.9411764740943909,
+        0.9137254953384399,
+        0.7803921699523926,
+        1.0
+      ],
+      "copernicus_color_8": [
+        0.6784313917160034,
+        0.5764706134796143,
+        0.48235294222831726,
+        1.0
+      ],
+      "copernicus_color_count": 8,
+      "copernicus_colors_name": "Copernicus001",
+      "copernicus_colors_status": "35 scene(s), best seam 16.013",
+      "copernicus_colors_update_suspended": false,
+      "copernicus_colors_version": "copernicus_colors_0001",
+      "copernicus_force_resample": false,
+      "copernicus_scene_count": 48,
+      "copernicus_search_mode": "deep",
+      "create_credential_examples": true,
+      "dem_provider": "automatic_free_dem",
+      "foundation_padding_percent": 50.0,
+      "gpx_display_enabled": true,
+      "gpx_files": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\01_MDSday1.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\02_MDSday2.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\03_MDSday3.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\04_MDSday4-5.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\05_MDSday6.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\06_MDSday7.gpx",
+      "gpx_keep_individual_colors": true,
+      "gpx_projection_mode": "surface_raycast",
+      "gpx_trace_height_mm": 0.44999998807907104,
+      "gpx_trace_roundness": 0.8500000238418579,
+      "gpx_trace_simplification": 0.3199999928474426,
+      "gpx_trace_smoothness": 0.6800000071525574,
+      "gpx_trace_style": "raised_tube",
+      "gpx_trace_surface_offset": 0.11999999731779099,
+      "gpx_trace_width_mm": 1.2000000476837158,
+      "layer_tinted_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layer_tinted_color_count": 8,
+      "layer_tinted_elevation_blend": 0.3499999940395355,
+      "layer_tinted_name": "Layer Tint 01",
+      "layer_tinted_neutral_color": [
+        0.5799999833106995,
+        0.6000000238418579,
+        0.550000011920929,
+        1.0
+      ],
+      "layer_tinted_side_shadow": 0.25999999046325684,
+      "layer_tinted_source": "__latest__",
+      "layer_tinted_status": "Ready",
+      "layer_tinted_tint_strength": 0.7200000286102295,
+      "layer_tinted_top_light": 0.07999999821186066,
+      "layer_tinted_top_threshold": 0.6200000047683716,
+      "layer_tinted_update_suspended": false,
+      "layer_tinted_version": "__new__",
+      "layered_auto_update": false,
+      "layered_base_thickness_mm": 3.0,
+      "layered_design_name": "Layered Design 01",
+      "layered_design_update_suspended": false,
+      "layered_design_version": "layered_design_0001",
+      "layered_hide_source_terrain": true,
+      "layered_landscape_print_base_color": [
+        0.23000000417232513,
+        0.3100000023841858,
+        0.20999999344348907,
+        1.0
+      ],
+      "layered_landscape_print_bright_green_color": [
+        0.7400000095367432,
+        0.8199999928474426,
+        0.18000000715255737,
+        1.0
+      ],
+      "layered_landscape_print_earth_color": [
+        0.6100000143051147,
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "layered_landscape_print_elevation_highlight": 0.3400000035762787,
+      "layered_landscape_print_forest_color": [
+        0.11999999731779099,
+        0.36000001430511475,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_grass_color": [
+        0.3799999952316284,
+        0.6200000047683716,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_name": "Landscape Print 01",
+      "layered_landscape_print_rock_color": [
+        0.7200000286102295,
+        0.6899999976158142,
+        0.6100000143051147,
+        1.0
+      ],
+      "layered_landscape_print_sand_color": [
+        0.8199999928474426,
+        0.6800000071525574,
+        0.47999998927116394,
+        1.0
+      ],
+      "layered_landscape_print_saturation": 1.2400000095367432,
+      "layered_landscape_print_side_depth": 0.5799999833106995,
+      "layered_landscape_print_snow_color": [
+        0.9399999976158142,
+        0.9100000262260437,
+        0.8199999928474426,
+        1.0
+      ],
+      "layered_landscape_print_source": "__latest__",
+      "layered_landscape_print_source_strength": 0.41999998688697815,
+      "layered_landscape_print_status": "Ready",
+      "layered_landscape_print_top_select": 0.6399999856948853,
+      "layered_landscape_print_update_suspended": false,
+      "layered_landscape_print_water_color": [
+        0.11999999731779099,
+        0.4699999988079071,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_layer_count": 36,
+      "layered_layer_rounding": 0.550000011920929,
+      "layered_min_area_percent": 0.05000000074505806,
+      "layered_premium_base_color": [
+        0.6200000047683716,
+        0.5,
+        0.3799999952316284,
+        1.0
+      ],
+      "layered_premium_regional_hint": 0.23999999463558197,
+      "layered_premium_side_color": [
+        0.3400000035762787,
+        0.20000000298023224,
+        0.10999999940395355,
+        1.0
+      ],
+      "layered_premium_side_shadow": 0.3799999952316284,
+      "layered_premium_style_name": "Layered Premium 01",
+      "layered_premium_style_source": "__latest__",
+      "layered_premium_style_status": "Ready",
+      "layered_premium_style_update_suspended": false,
+      "layered_premium_top_color": [
+        0.9200000166893005,
+        0.8799999952316284,
+        0.7799999713897705,
+        1.0
+      ],
+      "layered_premium_top_threshold": 0.6600000262260437,
+      "layered_real_colors_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layered_real_colors_contrast": 1.0,
+      "layered_real_colors_name": "Layered Real Colors 01",
+      "layered_real_colors_neutral_color": [
+        0.5600000023841858,
+        0.5899999737739563,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_real_colors_offset_mm": 0.07999999821186066,
+      "layered_real_colors_quality": "preview",
+      "layered_real_colors_saturation": 1.0,
+      "layered_real_colors_source": "__latest__",
+      "layered_real_colors_status": "Ready",
+      "layered_region_terrain_base_thickness_mm": 3.0,
+      "layered_region_terrain_color_count": 8,
+      "layered_region_terrain_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_layer_count": 42,
+      "layered_region_terrain_min_area_percent": 0.03999999910593033,
+      "layered_region_terrain_name": "Region Terrain 01",
+      "layered_region_terrain_region_smoothness": 0.7799999713897705,
+      "layered_region_terrain_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_source": "__latest__",
+      "layered_region_terrain_status": "Ready",
+      "layered_region_terrain_top_light": 0.07999999821186066,
+      "layered_region_terrain_update_suspended": false,
+      "layered_region_terrain_v2_base_thickness_mm": 3.0,
+      "layered_region_terrain_v2_color_1": [
+        0.4668854773044586,
+        0.27816593647003174,
+        0.12849180400371552,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_2": [
+        0.6036492586135864,
+        0.4178234040737152,
+        0.18911468982696533,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_3": [
+        0.9126399755477905,
+        0.5504897236824036,
+        0.2517157793045044,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_4": [
+        0.9344800114631653,
+        0.5686168074607849,
+        0.2652181088924408,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_5": [
+        0.9563199877738953,
+        0.5494664311408997,
+        0.22917747497558594,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_6": [
+        0.9754096269607544,
+        0.2996898889541626,
+        0.012896636500954628,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_7": [
+        0.550000011920929,
+        0.5,
+        0.4300000071525574,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_8": [
+        0.6885941028594971,
+        0.6842410564422607,
+        0.6198639273643494,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_count": 8,
+      "layered_region_terrain_v2_color_pop": 1.649999976158142,
+      "layered_region_terrain_v2_gpx_color_1": [
+        0.12999999523162842,
+        0.3499999940395355,
+        0.7200000286102295,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_2": [
+        0.0007007103995420039,
+        0.8799984455108643,
+        0.09477640688419342,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_3": [
+        0.6000054478645325,
+        0.010499957017600536,
+        0.5516176819801331,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_4": [
+        0.7400099039077759,
+        0.005186376161873341,
+        0.01675179786980152,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_5": [
+        0.8555655479431152,
+        0.8600140810012817,
+        0.010450652800500393,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_6": [
+        0.033333636820316315,
+        0.00845167227089405,
+        0.7400099039077759,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_7": [
+        0.699999988079071,
+        0.2199999988079071,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_8": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "layered_region_terrain_v2_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_v2_layer_count": 35,
+      "layered_region_terrain_v2_min_piece_mm2": 9.0,
+      "layered_region_terrain_v2_name": "Region Terrain v2 02",
+      "layered_region_terrain_v2_quality": "preview",
+      "layered_region_terrain_v2_region_smoothness": 0.6200000047683716,
+      "layered_region_terrain_v2_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_v2_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_v2_source": "copernicus_colors_0001",
+      "layered_region_terrain_v2_status": "Reused preview geometry from copernicus_colors_0001: 84 object(s), materials only",
+      "layered_region_terrain_v2_top_light": 0.03999999910593033,
+      "layered_region_terrain_v2_update_suspended": false,
+      "layered_region_terrain_v2_use_custom_colors": true,
+      "layered_region_terrain_v2_use_custom_gpx_colors": true,
+      "layered_region_terrain_v2_version": "layered_region_terrain_v2_0002",
+      "layered_region_terrain_v2_z_exaggeration": 0.20000000298023224,
+      "layered_region_terrain_version": "__new__",
+      "layered_region_terrain_z_exaggeration": 1.25,
+      "layered_shape_smoothness": 0.7200000286102295,
+      "layered_z_exaggeration": 0.4000000059604645,
+      "max_lat": 45.845001220703125,
+      "max_lon": 6.900000095367432,
+      "mesh_display_mode": "preview",
+      "mesh_resolution": "high",
+      "min_lat": 45.814998626708984,
+      "min_lon": 6.840000152587891,
+      "name": "",
+      "output_model": "inspection",
+      "parent_folder": "C:\\Users\\simon\\Documents\\Parent Folder",
+      "premium_coast_blend": 0.0,
+      "premium_color_1": [
+        0.0784313753247261,
+        0.22745098173618317,
+        0.41960784792900085,
+        1.0
+      ],
+      "premium_color_2": [
+        0.14509804546833038,
+        0.47843137383461,
+        0.6980392336845398,
+        1.0
+      ],
+      "premium_color_3": [
+        0.24313725531101227,
+        0.5803921818733215,
+        0.18431372940540314,
+        1.0
+      ],
+      "premium_color_4": [
+        0.7882353067398071,
+        0.529411792755127,
+        0.239215686917305,
+        1.0
+      ],
+      "premium_color_5": [
+        0.8823529481887817,
+        0.3686274588108063,
+        0.19607843458652496,
+        1.0
+      ],
+      "premium_color_6": [
+        0.6078431606292725,
+        0.545098066329956,
+        0.43921568989753723,
+        1.0
+      ],
+      "premium_color_7": [
+        0.800000011920929,
+        0.7843137383460999,
+        0.6784313917160034,
+        1.0
+      ],
+      "premium_color_8": [
+        0.9529411792755127,
+        0.9215686321258545,
+        0.8117647171020508,
+        1.0
+      ],
+      "premium_color_count": 8,
+      "premium_colors_name": "Premium001",
+      "premium_colors_source": "__latest__",
+      "premium_colors_status": "No premium colors generated",
+      "premium_colors_update_suspended": false,
+      "premium_colors_version": "__new__",
+      "premium_contrast": 1.0,
+      "premium_elevation_influence": 0.0,
+      "premium_min_region_size": 3,
+      "premium_saturation": 1.0,
+      "premium_slope_accent": 0.0,
+      "premium_transition_smoothness": 0.20000000298023224,
+      "premium_vibrance": 0.0,
+      "project_name": "MDSComplete",
+      "publisher_fast_git_sync": true,
+      "publisher_github_base_url": "",
+      "publisher_github_branch": "gh-pages",
+      "publisher_github_owner": "",
+      "publisher_github_repo": "",
+      "publisher_reuse_cached_package": true,
+      "publisher_source": "current",
+      "publisher_title": "",
+      "run_part01": true,
+      "run_part02": true,
+      "run_part03": true,
+      "run_part04": true,
+      "source_mode": "gpx_files",
+      "terrain_base_thickness_mm": 3.0,
+      "terrain_design_live_timer_armed": false,
+      "terrain_design_name": "Terrain Design 01",
+      "terrain_design_pending_target": "",
+      "terrain_design_update_suspended": false,
+      "terrain_design_version": "__new__",
+      "terrain_detail_preservation": 0.7200000286102295,
+      "terrain_layer_height_mm": 5.0,
+      "terrain_layer_rounding": 0.550000011920929,
+      "terrain_min_wall_mm": 1.2000000476837158,
+      "terrain_peak_smoothness": 0.3199999928474426,
+      "terrain_relief_strength": 1.0,
+      "terrain_style_color_1": [
+        0.18039216101169586,
+        0.545098066329956,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_2": [
+        0.43529412150382996,
+        0.7490196228027344,
+        0.35686275362968445,
+        1.0
+      ],
+      "terrain_style_color_3": [
+        0.7215686440467834,
+        0.8509804010391235,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_4": [
+        0.5411764979362488,
+        0.47843137383461,
+        0.2705882489681244,
+        1.0
+      ],
+      "terrain_style_color_5": [
+        0.4274509847164154,
+        0.37254902720451355,
+        0.29019609093666077,
+        1.0
+      ],
+      "terrain_style_color_6": [
+        0.7176470756530762,
+        0.7490196228027344,
+        0.7803921699523926,
+        1.0
+      ],
+      "terrain_style_color_7": [
+        0.9058823585510254,
+        0.9333333373069763,
+        0.9490196108818054,
+        1.0
+      ],
+      "terrain_style_color_8": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "terrain_style_color_count": 8,
+      "terrain_style_name": "Alpine001",
+      "terrain_style_preset": "alpine",
+      "terrain_style_update_suspended": false,
+      "terrain_style_version": "__new__",
+      "terrain_surface_smoothness": 0.2199999988079071,
+      "terrain_valley_preservation": 0.6800000071525574,
+      "terrain_z_exaggeration": 1.350000023841858,
+      "top_veneer_base_color": [
+        0.47999998927116394,
+        0.5,
+        0.46000000834465027,
+        1.0
+      ],
+      "top_veneer_contrast": 1.0,
+      "top_veneer_name": "Top Veneer 01",
+      "top_veneer_saturation": 1.0,
+      "top_veneer_side_color": [
+        0.550000011920929,
+        0.5699999928474426,
+        0.5199999809265137,
+        1.0
+      ],
+      "top_veneer_source": "__latest__",
+      "top_veneer_status": "Ready",
+      "top_veneer_top_threshold": 0.6200000047683716,
+      "top_veneer_update_suspended": false,
+      "top_veneer_version": "__new__",
+      "ui_auto_apply_on_project_switch": false,
+      "ui_show_experimental_sections": false
+    },
+    "schema": "myrace3d.publisher.package_signature.v1",
+    "source": "current",
+    "title": "mdscomplete Current Preview"
+  },
+  "parameter_snapshot": {
+    "all_blender_properties": {
+      "active_project": "mdscomplete",
+      "copernicus_color_1": [
+        0.9411764740943909,
+        0.7882353067398071,
+        0.6352941393852234,
+        1.0
+      ],
+      "copernicus_color_2": [
+        0.8039215803146362,
+        0.6823529601097107,
+        0.5686274766921997,
+        1.0
+      ],
+      "copernicus_color_3": [
+        0.8627451062202454,
+        0.7411764860153198,
+        0.6117647290229797,
+        1.0
+      ],
+      "copernicus_color_4": [
+        0.7450980544090271,
+        0.6352941393852234,
+        0.529411792755127,
+        1.0
+      ],
+      "copernicus_color_5": [
+        0.9411764740943909,
+        0.8588235378265381,
+        0.7254902124404907,
+        1.0
+      ],
+      "copernicus_color_6": [
+        0.9411764740943909,
+        0.7529411911964417,
+        0.5607843399047852,
+        1.0
+      ],
+      "copernicus_color_7": [
+        0.9411764740943909,
+        0.9137254953384399,
+        0.7803921699523926,
+        1.0
+      ],
+      "copernicus_color_8": [
+        0.6784313917160034,
+        0.5764706134796143,
+        0.48235294222831726,
+        1.0
+      ],
+      "copernicus_color_count": 8,
+      "copernicus_colors_name": "Copernicus001",
+      "copernicus_colors_status": "35 scene(s), best seam 16.013",
+      "copernicus_colors_update_suspended": false,
+      "copernicus_colors_version": "copernicus_colors_0001",
+      "copernicus_force_resample": false,
+      "copernicus_scene_count": 48,
+      "copernicus_search_mode": "deep",
+      "create_credential_examples": true,
+      "current_stage": "Complete",
+      "dem_provider": "automatic_free_dem",
+      "foundation_padding_percent": 50.0,
+      "gpx_display_enabled": true,
+      "gpx_files": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\01_MDSday1.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\02_MDSday2.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\03_MDSday3.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\04_MDSday4-5.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\05_MDSday6.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_01\\acq_0001\\inputs\\gpx\\06_MDSday7.gpx",
+      "gpx_keep_individual_colors": true,
+      "gpx_projection_mode": "surface_raycast",
+      "gpx_trace_height_mm": 0.44999998807907104,
+      "gpx_trace_roundness": 0.8500000238418579,
+      "gpx_trace_simplification": 0.3199999928474426,
+      "gpx_trace_smoothness": 0.6800000071525574,
+      "gpx_trace_style": "raised_tube",
+      "gpx_trace_surface_offset": 0.11999999731779099,
+      "gpx_trace_width_mm": 1.2000000476837158,
+      "is_running": false,
+      "last_error": "",
+      "last_gpx_trace_count": 6,
+      "last_mesh_glb_path": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_04\\mesh_0001\\terrain_mesh.glb",
+      "last_mesh_obj_path": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_04\\mesh_0001\\terrain_mesh.obj",
+      "last_project_slug": "mdscomplete",
+      "last_report_path": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_04\\mesh_0001\\validation_report.json",
+      "layer_tinted_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layer_tinted_color_count": 8,
+      "layer_tinted_elevation_blend": 0.3499999940395355,
+      "layer_tinted_name": "Layer Tint 01",
+      "layer_tinted_neutral_color": [
+        0.5799999833106995,
+        0.6000000238418579,
+        0.550000011920929,
+        1.0
+      ],
+      "layer_tinted_side_shadow": 0.25999999046325684,
+      "layer_tinted_source": "__latest__",
+      "layer_tinted_status": "Ready",
+      "layer_tinted_tint_strength": 0.7200000286102295,
+      "layer_tinted_top_light": 0.07999999821186066,
+      "layer_tinted_top_threshold": 0.6200000047683716,
+      "layer_tinted_update_suspended": false,
+      "layer_tinted_version": "__new__",
+      "layered_auto_update": false,
+      "layered_base_thickness_mm": 3.0,
+      "layered_design_name": "Layered Design 01",
+      "layered_design_update_suspended": false,
+      "layered_design_version": "layered_design_0001",
+      "layered_hide_source_terrain": true,
+      "layered_landscape_print_base_color": [
+        0.23000000417232513,
+        0.3100000023841858,
+        0.20999999344348907,
+        1.0
+      ],
+      "layered_landscape_print_bright_green_color": [
+        0.7400000095367432,
+        0.8199999928474426,
+        0.18000000715255737,
+        1.0
+      ],
+      "layered_landscape_print_earth_color": [
+        0.6100000143051147,
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "layered_landscape_print_elevation_highlight": 0.3400000035762787,
+      "layered_landscape_print_forest_color": [
+        0.11999999731779099,
+        0.36000001430511475,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_grass_color": [
+        0.3799999952316284,
+        0.6200000047683716,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_name": "Landscape Print 01",
+      "layered_landscape_print_rock_color": [
+        0.7200000286102295,
+        0.6899999976158142,
+        0.6100000143051147,
+        1.0
+      ],
+      "layered_landscape_print_sand_color": [
+        0.8199999928474426,
+        0.6800000071525574,
+        0.47999998927116394,
+        1.0
+      ],
+      "layered_landscape_print_saturation": 1.2400000095367432,
+      "layered_landscape_print_side_depth": 0.5799999833106995,
+      "layered_landscape_print_snow_color": [
+        0.9399999976158142,
+        0.9100000262260437,
+        0.8199999928474426,
+        1.0
+      ],
+      "layered_landscape_print_source": "__latest__",
+      "layered_landscape_print_source_strength": 0.41999998688697815,
+      "layered_landscape_print_status": "Ready",
+      "layered_landscape_print_top_select": 0.6399999856948853,
+      "layered_landscape_print_update_suspended": false,
+      "layered_landscape_print_water_color": [
+        0.11999999731779099,
+        0.4699999988079071,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_layer_count": 36,
+      "layered_layer_rounding": 0.550000011920929,
+      "layered_min_area_percent": 0.05000000074505806,
+      "layered_premium_base_color": [
+        0.6200000047683716,
+        0.5,
+        0.3799999952316284,
+        1.0
+      ],
+      "layered_premium_regional_hint": 0.23999999463558197,
+      "layered_premium_side_color": [
+        0.3400000035762787,
+        0.20000000298023224,
+        0.10999999940395355,
+        1.0
+      ],
+      "layered_premium_side_shadow": 0.3799999952316284,
+      "layered_premium_style_name": "Layered Premium 01",
+      "layered_premium_style_source": "__latest__",
+      "layered_premium_style_status": "Ready",
+      "layered_premium_style_update_suspended": false,
+      "layered_premium_top_color": [
+        0.9200000166893005,
+        0.8799999952316284,
+        0.7799999713897705,
+        1.0
+      ],
+      "layered_premium_top_threshold": 0.6600000262260437,
+      "layered_real_colors_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layered_real_colors_contrast": 1.0,
+      "layered_real_colors_name": "Layered Real Colors 01",
+      "layered_real_colors_neutral_color": [
+        0.5600000023841858,
+        0.5899999737739563,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_real_colors_offset_mm": 0.07999999821186066,
+      "layered_real_colors_quality": "preview",
+      "layered_real_colors_saturation": 1.0,
+      "layered_real_colors_source": "__latest__",
+      "layered_real_colors_status": "Ready",
+      "layered_region_terrain_base_thickness_mm": 3.0,
+      "layered_region_terrain_color_count": 8,
+      "layered_region_terrain_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_layer_count": 42,
+      "layered_region_terrain_min_area_percent": 0.03999999910593033,
+      "layered_region_terrain_name": "Region Terrain 01",
+      "layered_region_terrain_region_smoothness": 0.7799999713897705,
+      "layered_region_terrain_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_source": "__latest__",
+      "layered_region_terrain_status": "Ready",
+      "layered_region_terrain_top_light": 0.07999999821186066,
+      "layered_region_terrain_update_suspended": false,
+      "layered_region_terrain_v2_base_thickness_mm": 3.0,
+      "layered_region_terrain_v2_color_1": [
+        0.4668854773044586,
+        0.27816593647003174,
+        0.12849180400371552,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_2": [
+        0.6036492586135864,
+        0.4178234040737152,
+        0.18911468982696533,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_3": [
+        0.9126399755477905,
+        0.5504897236824036,
+        0.2517157793045044,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_4": [
+        0.9344800114631653,
+        0.5686168074607849,
+        0.2652181088924408,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_5": [
+        0.9563199877738953,
+        0.5494664311408997,
+        0.22917747497558594,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_6": [
+        0.9754096269607544,
+        0.2996898889541626,
+        0.012896636500954628,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_7": [
+        0.550000011920929,
+        0.5,
+        0.4300000071525574,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_8": [
+        0.6885941028594971,
+        0.6842410564422607,
+        0.6198639273643494,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_count": 8,
+      "layered_region_terrain_v2_color_pop": 1.649999976158142,
+      "layered_region_terrain_v2_gpx_color_1": [
+        0.12999999523162842,
+        0.3499999940395355,
+        0.7200000286102295,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_2": [
+        0.0007007103995420039,
+        0.8799984455108643,
+        0.09477640688419342,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_3": [
+        0.6000054478645325,
+        0.010499957017600536,
+        0.5516176819801331,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_4": [
+        0.7400099039077759,
+        0.005186376161873341,
+        0.01675179786980152,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_5": [
+        0.8555655479431152,
+        0.8600140810012817,
+        0.010450652800500393,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_6": [
+        0.033333636820316315,
+        0.00845167227089405,
+        0.7400099039077759,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_7": [
+        0.699999988079071,
+        0.2199999988079071,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_8": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "layered_region_terrain_v2_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_v2_layer_count": 35,
+      "layered_region_terrain_v2_min_piece_mm2": 9.0,
+      "layered_region_terrain_v2_name": "Region Terrain v2 02",
+      "layered_region_terrain_v2_quality": "preview",
+      "layered_region_terrain_v2_region_smoothness": 0.6200000047683716,
+      "layered_region_terrain_v2_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_v2_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_v2_source": "copernicus_colors_0001",
+      "layered_region_terrain_v2_status": "Reused preview geometry from copernicus_colors_0001: 84 object(s), materials only",
+      "layered_region_terrain_v2_top_light": 0.03999999910593033,
+      "layered_region_terrain_v2_update_suspended": false,
+      "layered_region_terrain_v2_use_custom_colors": true,
+      "layered_region_terrain_v2_use_custom_gpx_colors": true,
+      "layered_region_terrain_v2_version": "layered_region_terrain_v2_0002",
+      "layered_region_terrain_v2_z_exaggeration": 0.20000000298023224,
+      "layered_region_terrain_version": "__new__",
+      "layered_region_terrain_z_exaggeration": 1.25,
+      "layered_shape_smoothness": 0.7200000286102295,
+      "layered_z_exaggeration": 0.4000000059604645,
+      "max_lat": 45.845001220703125,
+      "max_lon": 6.900000095367432,
+      "mesh_display_mode": "preview",
+      "mesh_resolution": "high",
+      "min_lat": 45.814998626708984,
+      "min_lon": 6.840000152587891,
+      "name": "",
+      "output_model": "inspection",
+      "parent_folder": "C:\\Users\\simon\\Documents\\Parent Folder",
+      "premium_coast_blend": 0.0,
+      "premium_color_1": [
+        0.0784313753247261,
+        0.22745098173618317,
+        0.41960784792900085,
+        1.0
+      ],
+      "premium_color_2": [
+        0.14509804546833038,
+        0.47843137383461,
+        0.6980392336845398,
+        1.0
+      ],
+      "premium_color_3": [
+        0.24313725531101227,
+        0.5803921818733215,
+        0.18431372940540314,
+        1.0
+      ],
+      "premium_color_4": [
+        0.7882353067398071,
+        0.529411792755127,
+        0.239215686917305,
+        1.0
+      ],
+      "premium_color_5": [
+        0.8823529481887817,
+        0.3686274588108063,
+        0.19607843458652496,
+        1.0
+      ],
+      "premium_color_6": [
+        0.6078431606292725,
+        0.545098066329956,
+        0.43921568989753723,
+        1.0
+      ],
+      "premium_color_7": [
+        0.800000011920929,
+        0.7843137383460999,
+        0.6784313917160034,
+        1.0
+      ],
+      "premium_color_8": [
+        0.9529411792755127,
+        0.9215686321258545,
+        0.8117647171020508,
+        1.0
+      ],
+      "premium_color_count": 8,
+      "premium_colors_name": "Premium001",
+      "premium_colors_source": "__latest__",
+      "premium_colors_status": "No premium colors generated",
+      "premium_colors_update_suspended": false,
+      "premium_colors_version": "__new__",
+      "premium_contrast": 1.0,
+      "premium_elevation_influence": 0.0,
+      "premium_min_region_size": 3,
+      "premium_saturation": 1.0,
+      "premium_slope_accent": 0.0,
+      "premium_transition_smoothness": 0.20000000298023224,
+      "premium_vibrance": 0.0,
+      "progress_log": "[ok] Saved Layered Region Terrain v2\n[ok] Built 84 region piece(s), 1 base\n[ok] Authority: source-faithful arid authority\nC:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\project_core\\design_variations\\layered_region_terrain_v2\\layered_region_terrain_v2_0002\\layered_region_terrain_v2.json",
+      "progress_percent": 100.0,
+      "project_name": "MDSComplete",
+      "publisher_fast_git_sync": true,
+      "publisher_github_base_url": "",
+      "publisher_github_branch": "gh-pages",
+      "publisher_github_owner": "",
+      "publisher_github_repo": "",
+      "publisher_last_index_url": "",
+      "publisher_last_package_path": "",
+      "publisher_last_url": "",
+      "publisher_reuse_cached_package": true,
+      "publisher_source": "current",
+      "publisher_status": "Ready",
+      "publisher_title": "",
+      "run_part01": true,
+      "run_part02": true,
+      "run_part03": true,
+      "run_part04": true,
+      "source_mode": "gpx_files",
+      "status": "Saved layered_region_terrain_v2_0002",
+      "terrain_base_thickness_mm": 3.0,
+      "terrain_design_live_timer_armed": false,
+      "terrain_design_name": "Terrain Design 01",
+      "terrain_design_pending_target": "",
+      "terrain_design_update_suspended": false,
+      "terrain_design_version": "__new__",
+      "terrain_detail_preservation": 0.7200000286102295,
+      "terrain_layer_height_mm": 5.0,
+      "terrain_layer_rounding": 0.550000011920929,
+      "terrain_min_wall_mm": 1.2000000476837158,
+      "terrain_peak_smoothness": 0.3199999928474426,
+      "terrain_relief_strength": 1.0,
+      "terrain_style_color_1": [
+        0.18039216101169586,
+        0.545098066329956,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_2": [
+        0.43529412150382996,
+        0.7490196228027344,
+        0.35686275362968445,
+        1.0
+      ],
+      "terrain_style_color_3": [
+        0.7215686440467834,
+        0.8509804010391235,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_4": [
+        0.5411764979362488,
+        0.47843137383461,
+        0.2705882489681244,
+        1.0
+      ],
+      "terrain_style_color_5": [
+        0.4274509847164154,
+        0.37254902720451355,
+        0.29019609093666077,
+        1.0
+      ],
+      "terrain_style_color_6": [
+        0.7176470756530762,
+        0.7490196228027344,
+        0.7803921699523926,
+        1.0
+      ],
+      "terrain_style_color_7": [
+        0.9058823585510254,
+        0.9333333373069763,
+        0.9490196108818054,
+        1.0
+      ],
+      "terrain_style_color_8": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "terrain_style_color_count": 8,
+      "terrain_style_name": "Alpine001",
+      "terrain_style_preset": "alpine",
+      "terrain_style_update_suspended": false,
+      "terrain_style_version": "__new__",
+      "terrain_surface_smoothness": 0.2199999988079071,
+      "terrain_valley_preservation": 0.6800000071525574,
+      "terrain_z_exaggeration": 1.350000023841858,
+      "top_veneer_base_color": [
+        0.47999998927116394,
+        0.5,
+        0.46000000834465027,
+        1.0
+      ],
+      "top_veneer_contrast": 1.0,
+      "top_veneer_name": "Top Veneer 01",
+      "top_veneer_saturation": 1.0,
+      "top_veneer_side_color": [
+        0.550000011920929,
+        0.5699999928474426,
+        0.5199999809265137,
+        1.0
+      ],
+      "top_veneer_source": "__latest__",
+      "top_veneer_status": "Ready",
+      "top_veneer_top_threshold": 0.6200000047683716,
+      "top_veneer_update_suspended": false,
+      "top_veneer_version": "__new__",
+      "ui_auto_apply_on_project_switch": false,
+      "ui_show_experimental_sections": false
+    },
+    "captured_at": "2026-05-17T13:59:55.569487+00:00",
+    "gpx": {
+      "display_enabled": true,
+      "projection_mode": "surface_raycast",
+      "trace_height_mm": 0.44999998807907104,
+      "trace_roundness": 0.8500000238418579,
+      "trace_smoothness": 0.6800000071525574,
+      "trace_style": "raised_tube",
+      "trace_width_mm": 1.2000000476837158
+    },
+    "layer_tinted_layers": {
+      "base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "color_count": 8,
+      "elevation_blend": 0.3499999940395355,
+      "name": "Layer Tint 01",
+      "neutral_color": [
+        0.5799999833106995,
+        0.6000000238418579,
+        0.550000011920929,
+        1.0
+      ],
+      "side_shadow": 0.25999999046325684,
+      "source": "__latest__",
+      "tint_strength": 0.7200000286102295,
+      "top_light": 0.07999999821186066,
+      "top_threshold": 0.6200000047683716,
+      "version": "__new__"
+    },
+    "layered_design": {
+      "base_thickness_mm": 3.0,
+      "layer_count": 36,
+      "layer_rounding": 0.550000011920929,
+      "min_area_percent": 0.05000000074505806,
+      "name": "Layered Design 01",
+      "shape_smoothness": 0.7200000286102295,
+      "version": "layered_design_0001",
+      "z_exaggeration": 0.4000000059604645
+    },
+    "layered_top_veneer": {
+      "base_color": [
+        0.47999998927116394,
+        0.5,
+        0.46000000834465027,
+        1.0
+      ],
+      "contrast": 1.0,
+      "name": "Top Veneer 01",
+      "saturation": 1.0,
+      "side_color": [
+        0.550000011920929,
+        0.5699999928474426,
+        0.5199999809265137,
+        1.0
+      ],
+      "source": "__latest__",
+      "top_threshold": 0.6200000047683716,
+      "version": "__new__"
+    },
+    "local_terrain_colors": {
+      "candidate_count": 48,
+      "color_count": 8,
+      "colors": [
+        {
+          "hex": "#F0C9A2",
+          "index": 1,
+          "rgba": [
+            0.9411764740943909,
+            0.7882353067398071,
+            0.6352941393852234,
+            1.0
+          ]
+        },
+        {
+          "hex": "#CDAE91",
+          "index": 2,
+          "rgba": [
+            0.8039215803146362,
+            0.6823529601097107,
+            0.5686274766921997,
+            1.0
+          ]
+        },
+        {
+          "hex": "#DCBD9C",
+          "index": 3,
+          "rgba": [
+            0.8627451062202454,
+            0.7411764860153198,
+            0.6117647290229797,
+            1.0
+          ]
+        },
+        {
+          "hex": "#BEA287",
+          "index": 4,
+          "rgba": [
+            0.7450980544090271,
+            0.6352941393852234,
+            0.529411792755127,
+            1.0
+          ]
+        },
+        {
+          "hex": "#F0DBB9",
+          "index": 5,
+          "rgba": [
+            0.9411764740943909,
+            0.8588235378265381,
+            0.7254902124404907,
+            1.0
+          ]
+        },
+        {
+          "hex": "#F0C08F",
+          "index": 6,
+          "rgba": [
+            0.9411764740943909,
+            0.7529411911964417,
+            0.5607843399047852,
+            1.0
+          ]
+        },
+        {
+          "hex": "#F0E9C7",
+          "index": 7,
+          "rgba": [
+            0.9411764740943909,
+            0.9137254953384399,
+            0.7803921699523926,
+            1.0
+          ]
+        },
+        {
+          "hex": "#AD937B",
+          "index": 8,
+          "rgba": [
+            0.6784313917160034,
+            0.5764706134796143,
+            0.48235294222831726,
+            1.0
+          ]
+        }
+      ],
+      "force_resample": false,
+      "name": "Copernicus001",
+      "search_mode": "deep",
+      "version": "copernicus_colors_0001"
+    },
+    "premium_terrain_colors": {
+      "coast_blend": 0.0,
+      "color_count": 8,
+      "colors": [
+        {
+          "hex": "#143A6B",
+          "index": 1,
+          "rgba": [
+            0.0784313753247261,
+            0.22745098173618317,
+            0.41960784792900085,
+            1.0
+          ]
+        },
+        {
+          "hex": "#257AB2",
+          "index": 2,
+          "rgba": [
+            0.14509804546833038,
+            0.47843137383461,
+            0.6980392336845398,
+            1.0
+          ]
+        },
+        {
+          "hex": "#3E942F",
+          "index": 3,
+          "rgba": [
+            0.24313725531101227,
+            0.5803921818733215,
+            0.18431372940540314,
+            1.0
+          ]
+        },
+        {
+          "hex": "#C9873D",
+          "index": 4,
+          "rgba": [
+            0.7882353067398071,
+            0.529411792755127,
+            0.239215686917305,
+            1.0
+          ]
+        },
+        {
+          "hex": "#E15E32",
+          "index": 5,
+          "rgba": [
+            0.8823529481887817,
+            0.3686274588108063,
+            0.19607843458652496,
+            1.0
+          ]
+        },
+        {
+          "hex": "#9B8B70",
+          "index": 6,
+          "rgba": [
+            0.6078431606292725,
+            0.545098066329956,
+            0.43921568989753723,
+            1.0
+          ]
+        },
+        {
+          "hex": "#CCC8AD",
+          "index": 7,
+          "rgba": [
+            0.800000011920929,
+            0.7843137383460999,
+            0.6784313917160034,
+            1.0
+          ]
+        },
+        {
+          "hex": "#F3EBCF",
+          "index": 8,
+          "rgba": [
+            0.9529411792755127,
+            0.9215686321258545,
+            0.8117647171020508,
+            1.0
+          ]
+        }
+      ],
+      "contrast": 1.0,
+      "elevation_influence": 0.0,
+      "min_region_size": 3,
+      "name": "Premium001",
+      "saturation": 1.0,
+      "slope_accent": 0.0,
+      "source": "__latest__",
+      "transition_smoothness": 0.20000000298023224,
+      "version": "__new__",
+      "vibrance": 0.0
+    },
+    "project": {
+      "gpx_trace_count": 6,
+      "mesh_glb": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_04\\mesh_0001\\terrain_mesh.glb",
+      "mesh_obj": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete\\outputs\\part_04\\mesh_0001\\terrain_mesh.obj",
+      "parent_folder": "C:\\Users\\simon\\Documents\\Parent Folder",
+      "project_root": "C:\\Users\\simon\\Documents\\Parent Folder\\mdscomplete",
+      "slug": "mdscomplete"
+    },
+    "terrain_design": {
+      "base_thickness_mm": 3.0,
+      "detail_preservation": 0.7200000286102295,
+      "name": "Terrain Design 01",
+      "peak_smoothness": 0.3199999928474426,
+      "relief_strength": 1.0,
+      "surface_smoothness": 0.2199999988079071,
+      "valley_preservation": 0.6800000071525574,
+      "version": "__new__",
+      "z_exaggeration": 1.350000023841858
+    },
+    "terrain_style": {
+      "color_count": 8,
+      "colors": [
+        {
+          "hex": "#2E8B57",
+          "index": 1,
+          "rgba": [
+            0.18039216101169586,
+            0.545098066329956,
+            0.34117648005485535,
+            1.0
+          ]
+        },
+        {
+          "hex": "#6FBF5B",
+          "index": 2,
+          "rgba": [
+            0.43529412150382996,
+            0.7490196228027344,
+            0.35686275362968445,
+            1.0
+          ]
+        },
+        {
+          "hex": "#B8D957",
+          "index": 3,
+          "rgba": [
+            0.7215686440467834,
+            0.8509804010391235,
+            0.34117648005485535,
+            1.0
+          ]
+        },
+        {
+          "hex": "#8A7A45",
+          "index": 4,
+          "rgba": [
+            0.5411764979362488,
+            0.47843137383461,
+            0.2705882489681244,
+            1.0
+          ]
+        },
+        {
+          "hex": "#6D5F4A",
+          "index": 5,
+          "rgba": [
+            0.4274509847164154,
+            0.37254902720451355,
+            0.29019609093666077,
+            1.0
+          ]
+        },
+        {
+          "hex": "#B7BFC7",
+          "index": 6,
+          "rgba": [
+            0.7176470756530762,
+            0.7490196228027344,
+            0.7803921699523926,
+            1.0
+          ]
+        },
+        {
+          "hex": "#E7EEF2",
+          "index": 7,
+          "rgba": [
+            0.9058823585510254,
+            0.9333333373069763,
+            0.9490196108818054,
+            1.0
+          ]
+        },
+        {
+          "hex": "#FFFFFF",
+          "index": 8,
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "name": "Alpine001",
+      "preset": "alpine",
+      "version": "__new__"
+    }
+  },
+  "project_slug": "mdscomplete",
+  "publication_id": "mdscomplete-current-preview_001",
+  "published_at": "2026-05-17T13:59:57.745499+00:00",
+  "schema": "myrace3d.publishing_manifest.v1",
+  "source_label": "Current Preview",
+  "source_type": "current",
+  "title": "mdscomplete Current Preview"
+}
