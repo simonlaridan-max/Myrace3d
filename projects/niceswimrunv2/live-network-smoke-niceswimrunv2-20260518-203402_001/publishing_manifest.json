@@ -1,0 +1,1461 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "Premium - Premium007",
+  "contains_credentials": false,
+  "created_at": "2026-05-18T20:34:11.902668+00:00",
+  "github_path": "projects/niceswimrunv2/live-network-smoke-niceswimrunv2-20260518-203402_001",
+  "history_policy": "Full nested parameters are stored in this manifest and parent publishing/history/publication_history.json; an Excel-friendly CSV is maintained at parent publishing/history/publication_history.csv.",
+  "local_index": "outputs/part_08/live-network-smoke-niceswimrunv2-20260518-203402_001/index.html",
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/niceswimrunv2/live-network-smoke-niceswimrunv2-20260518-203402_001/index.html",
+  "package_signature": "b86f5b4481e91ed7e3c97f43565bc41aeb0ae5e6a3a1522329aabeb67945e0b4",
+  "package_signature_payload": {
+    "mesh": {
+      "bytes": 4254547,
+      "mtime_ns": 1778658773769625300,
+      "path": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_04\\mesh_0002\\terrain_mesh.obj"
+    },
+    "project_slug": "niceswimrunv2",
+    "properties": {
+      "active_project": "niceswimrunv2",
+      "copernicus_color_1": [
+        0.0784313753247261,
+        0.20000000298023224,
+        0.29019609093666077,
+        1.0
+      ],
+      "copernicus_color_2": [
+        0.08627451211214066,
+        0.27843138575553894,
+        0.364705890417099,
+        1.0
+      ],
+      "copernicus_color_3": [
+        0.2980392277240753,
+        0.3450980484485626,
+        0.24313725531101227,
+        1.0
+      ],
+      "copernicus_color_4": [
+        0.35686275362968445,
+        0.3960784375667572,
+        0.29411765933036804,
+        1.0
+      ],
+      "copernicus_color_5": [
+        0.6274510025978088,
+        0.5803921818733215,
+        0.5215686559677124,
+        1.0
+      ],
+      "copernicus_color_6": [
+        0.5686274766921997,
+        0.529411792755127,
+        0.46666666865348816,
+        1.0
+      ],
+      "copernicus_color_7": [
+        0.47058823704719543,
+        0.46666666865348816,
+        0.40392157435417175,
+        1.0
+      ],
+      "copernicus_color_8": [
+        0.7333333492279053,
+        0.6941176652908325,
+        0.6352941393852234,
+        1.0
+      ],
+      "copernicus_color_count": 8,
+      "copernicus_colors_name": "Copernicus002",
+      "copernicus_colors_status": "Cached: 8 scene(s), best seam 61.704",
+      "copernicus_colors_update_suspended": false,
+      "copernicus_colors_version": "copernicus_colors_0002",
+      "copernicus_force_resample": false,
+      "copernicus_scene_count": 8,
+      "copernicus_search_mode": "premium",
+      "create_credential_examples": true,
+      "dem_provider": "automatic_free_dem",
+      "foundation_padding_percent": 50.0,
+      "gpx_display_enabled": true,
+      "gpx_files": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_01\\acq_0001\\inputs\\gpx\\01_NiceRun.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_01\\acq_0001\\inputs\\gpx\\02_NiceSwim.gpx",
+      "gpx_keep_individual_colors": true,
+      "gpx_projection_mode": "surface_raycast",
+      "gpx_trace_height_mm": 0.44999998807907104,
+      "gpx_trace_roundness": 0.949999988079071,
+      "gpx_trace_simplification": 0.3199999928474426,
+      "gpx_trace_smoothness": 0.6800000071525574,
+      "gpx_trace_style": "raised_tube",
+      "gpx_trace_surface_offset": 0.11999999731779099,
+      "gpx_trace_width_mm": 1.7999999523162842,
+      "layer_tinted_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layer_tinted_color_count": 8,
+      "layer_tinted_elevation_blend": 0.3499999940395355,
+      "layer_tinted_name": "Layer Tint",
+      "layer_tinted_neutral_color": [
+        0.5799999833106995,
+        0.6000000238418579,
+        0.550000011920929,
+        1.0
+      ],
+      "layer_tinted_side_shadow": 0.25999999046325684,
+      "layer_tinted_source": "__latest__",
+      "layer_tinted_status": "Ready",
+      "layer_tinted_tint_strength": 0.7200000286102295,
+      "layer_tinted_top_light": 0.07999999821186066,
+      "layer_tinted_top_threshold": 0.6200000047683716,
+      "layer_tinted_update_suspended": false,
+      "layer_tinted_version": "__new__",
+      "layered_auto_update": false,
+      "layered_base_thickness_mm": 3.5,
+      "layered_color_volume_name": "Color Volume",
+      "layered_color_volume_source": "__latest__",
+      "layered_color_volume_status": "Ready",
+      "layered_color_volume_update_suspended": false,
+      "layered_design_name": "Layered Design 10",
+      "layered_design_update_suspended": false,
+      "layered_design_version": "layered_design_0011",
+      "layered_hide_source_terrain": true,
+      "layered_landscape_print_base_color": [
+        0.23000000417232513,
+        0.3100000023841858,
+        0.20999999344348907,
+        1.0
+      ],
+      "layered_landscape_print_bright_green_color": [
+        0.7400000095367432,
+        0.8199999928474426,
+        0.18000000715255737,
+        1.0
+      ],
+      "layered_landscape_print_earth_color": [
+        0.6100000143051147,
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "layered_landscape_print_elevation_highlight": 0.3400000035762787,
+      "layered_landscape_print_forest_color": [
+        0.11999999731779099,
+        0.36000001430511475,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_grass_color": [
+        0.3799999952316284,
+        0.6200000047683716,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_name": "Landscape Print",
+      "layered_landscape_print_rock_color": [
+        0.7200000286102295,
+        0.6899999976158142,
+        0.6100000143051147,
+        1.0
+      ],
+      "layered_landscape_print_sand_color": [
+        0.8199999928474426,
+        0.6800000071525574,
+        0.47999998927116394,
+        1.0
+      ],
+      "layered_landscape_print_saturation": 1.2400000095367432,
+      "layered_landscape_print_side_depth": 0.5799999833106995,
+      "layered_landscape_print_snow_color": [
+        0.9399999976158142,
+        0.9100000262260437,
+        0.8199999928474426,
+        1.0
+      ],
+      "layered_landscape_print_source": "__latest__",
+      "layered_landscape_print_source_strength": 0.41999998688697815,
+      "layered_landscape_print_status": "Ready",
+      "layered_landscape_print_top_select": 0.6399999856948853,
+      "layered_landscape_print_update_suspended": false,
+      "layered_landscape_print_water_color": [
+        0.11999999731779099,
+        0.4699999988079071,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_layer_count": 36,
+      "layered_layer_rounding": 0.75,
+      "layered_min_area_percent": 0.05000000074505806,
+      "layered_premium_base_color": [
+        0.6200000047683716,
+        0.5,
+        0.3799999952316284,
+        1.0
+      ],
+      "layered_premium_regional_hint": 0.23999999463558197,
+      "layered_premium_side_color": [
+        0.3400000035762787,
+        0.20000000298023224,
+        0.10999999940395355,
+        1.0
+      ],
+      "layered_premium_side_shadow": 0.3799999952316284,
+      "layered_premium_style_name": "Layered Premium",
+      "layered_premium_style_source": "__latest__",
+      "layered_premium_style_status": "Ready",
+      "layered_premium_style_update_suspended": false,
+      "layered_premium_top_color": [
+        0.9200000166893005,
+        0.8799999952316284,
+        0.7799999713897705,
+        1.0
+      ],
+      "layered_premium_top_threshold": 0.6600000262260437,
+      "layered_real_colors_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layered_real_colors_contrast": 1.0,
+      "layered_real_colors_name": "Layered Real Colors 01",
+      "layered_real_colors_neutral_color": [
+        0.5600000023841858,
+        0.5899999737739563,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_real_colors_offset_mm": 0.07999999821186066,
+      "layered_real_colors_quality": "preview",
+      "layered_real_colors_saturation": 1.0,
+      "layered_real_colors_source": "__latest__",
+      "layered_real_colors_status": "Ready",
+      "layered_region_terrain_base_thickness_mm": 3.0,
+      "layered_region_terrain_color_count": 8,
+      "layered_region_terrain_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_layer_count": 42,
+      "layered_region_terrain_min_area_percent": 0.03999999910593033,
+      "layered_region_terrain_name": "Region Terrain",
+      "layered_region_terrain_region_smoothness": 0.7799999713897705,
+      "layered_region_terrain_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_source": "__latest__",
+      "layered_region_terrain_status": "Ready",
+      "layered_region_terrain_top_light": 0.07999999821186066,
+      "layered_region_terrain_update_suspended": false,
+      "layered_region_terrain_v2_base_thickness_mm": 3.0,
+      "layered_region_terrain_v2_color_1": [
+        0.07000000029802322,
+        0.3199999928474426,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_2": [
+        0.1599999964237213,
+        0.5199999809265137,
+        0.6000000238418579,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_3": [
+        0.20000000298023224,
+        0.41999998688697815,
+        0.23999999463558197,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_4": [
+        0.47999998927116394,
+        0.6200000047683716,
+        0.2800000011920929,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_5": [
+        0.800000011920929,
+        0.44999998807907104,
+        0.2199999988079071,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_6": [
+        0.75,
+        0.6800000071525574,
+        0.5299999713897705,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_7": [
+        0.5600000023841858,
+        0.5400000214576721,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_8": [
+        0.8799999952316284,
+        0.8399999737739563,
+        0.699999988079071,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_count": 8,
+      "layered_region_terrain_v2_color_pop": 1.649999976158142,
+      "layered_region_terrain_v2_gpx_color_1": [
+        0.12999999523162842,
+        0.3499999940395355,
+        0.7200000286102295,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_2": [
+        0.8799999952316284,
+        0.44999998807907104,
+        0.23999999463558197,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_3": [
+        0.18000000715255737,
+        0.6000000238418579,
+        0.36000001430511475,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_4": [
+        0.5600000023841858,
+        0.3199999928474426,
+        0.7400000095367432,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_5": [
+        0.8600000143051147,
+        0.7200000286102295,
+        0.20000000298023224,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_6": [
+        0.11999999731779099,
+        0.6800000071525574,
+        0.7400000095367432,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_7": [
+        0.699999988079071,
+        0.2199999988079071,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_8": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "layered_region_terrain_v2_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_v2_layer_count": 42,
+      "layered_region_terrain_v2_min_piece_mm2": 9.0,
+      "layered_region_terrain_v2_name": "Region Terrain v2 01",
+      "layered_region_terrain_v2_quality": "preview",
+      "layered_region_terrain_v2_region_smoothness": 0.6200000047683716,
+      "layered_region_terrain_v2_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_v2_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_v2_source": "__latest__",
+      "layered_region_terrain_v2_status": "Ready",
+      "layered_region_terrain_v2_top_light": 0.03999999910593033,
+      "layered_region_terrain_v2_update_suspended": false,
+      "layered_region_terrain_v2_use_custom_colors": false,
+      "layered_region_terrain_v2_use_custom_gpx_colors": false,
+      "layered_region_terrain_v2_version": "__new__",
+      "layered_region_terrain_v2_z_exaggeration": 1.25,
+      "layered_region_terrain_version": "__new__",
+      "layered_region_terrain_z_exaggeration": 1.25,
+      "layered_shape_smoothness": 0.8500000238418579,
+      "layered_z_exaggeration": 1.4500000476837158,
+      "max_lat": 45.845001220703125,
+      "max_lon": 6.900000095367432,
+      "mesh_display_mode": "preview",
+      "mesh_resolution": "high",
+      "min_lat": 45.814998626708984,
+      "min_lon": 6.840000152587891,
+      "name": "",
+      "output_model": "inspection",
+      "parent_folder": "C:\\Users\\simon\\Documents\\Parent Folder",
+      "premium_coast_blend": 0.0,
+      "premium_color_1": [
+        0.0117647061124444,
+        0.1882352977991104,
+        0.3019607961177826,
+        1.0
+      ],
+      "premium_color_2": [
+        0.125490203499794,
+        0.20000000298023224,
+        0.2980392277240753,
+        1.0
+      ],
+      "premium_color_3": [
+        0.6235294342041016,
+        0.5803921818733215,
+        0.5215686559677124,
+        1.0
+      ],
+      "premium_color_4": [
+        0.46666666865348816,
+        0.4627451002597809,
+        0.40784314274787903,
+        1.0
+      ],
+      "premium_color_5": [
+        0.5686274766921997,
+        0.5254902243614197,
+        0.46666666865348816,
+        1.0
+      ],
+      "premium_color_6": [
+        0.7333333492279053,
+        0.686274528503418,
+        0.6352941393852234,
+        1.0
+      ],
+      "premium_color_7": [
+        0.35686275362968445,
+        0.40392157435417175,
+        0.2980392277240753,
+        1.0
+      ],
+      "premium_color_8": [
+        0.3019607961177826,
+        0.3529411852359772,
+        0.24705882370471954,
+        1.0
+      ],
+      "premium_color_count": 8,
+      "premium_colors_name": "Premium007",
+      "premium_colors_source": "copernicus_colors_0002",
+      "premium_colors_status": "Loaded Premium007; click Reapply Source Preview",
+      "premium_colors_update_suspended": false,
+      "premium_colors_version": "premium_colors_0008",
+      "premium_contrast": 1.0,
+      "premium_elevation_influence": 0.0,
+      "premium_min_region_size": 3,
+      "premium_saturation": 1.0,
+      "premium_slope_accent": 0.0,
+      "premium_transition_smoothness": 0.20000000298023224,
+      "premium_vibrance": 0.0,
+      "project_name": "New Terrain Project",
+      "publisher_source": "terrain",
+      "publisher_title": "live-network-smoke-niceswimrunv2-20260518-203402",
+      "run_part01": true,
+      "run_part02": true,
+      "run_part03": true,
+      "run_part04": true,
+      "source_mode": "gpx_files",
+      "terrain_base_thickness_mm": 3.0,
+      "terrain_context_confidence": 0.7986000180244446,
+      "terrain_context_force_refresh": false,
+      "terrain_context_profile": "mediterranean_coastal_mountain",
+      "terrain_context_region_atlas_preview_path": "",
+      "terrain_context_region_atlas_report_path": "",
+      "terrain_context_region_atlas_status": "No region atlas yet",
+      "terrain_context_report_path": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\terrain_context\\context_0002\\terrain_context_report.json",
+      "terrain_context_status": "mediterranean_coastal_mountain (0.80)",
+      "terrain_context_use_online_osm": true,
+      "terrain_design_live_timer_armed": false,
+      "terrain_design_name": "Terrain Design 10",
+      "terrain_design_pending_target": "",
+      "terrain_design_update_suspended": false,
+      "terrain_design_version": "terrain_design_0021",
+      "terrain_detail_preservation": 0.7200000286102295,
+      "terrain_layer_height_mm": 5.0,
+      "terrain_layer_rounding": 0.550000011920929,
+      "terrain_min_wall_mm": 1.2000000476837158,
+      "terrain_peak_smoothness": 0.3199999928474426,
+      "terrain_relief_strength": 1.2000000476837158,
+      "terrain_style_color_1": [
+        0.18039216101169586,
+        0.545098066329956,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_2": [
+        0.43529412150382996,
+        0.7490196228027344,
+        0.35686275362968445,
+        1.0
+      ],
+      "terrain_style_color_3": [
+        0.7215686440467834,
+        0.8509804010391235,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_4": [
+        0.5411764979362488,
+        0.47843137383461,
+        0.2705882489681244,
+        1.0
+      ],
+      "terrain_style_color_5": [
+        0.4274509847164154,
+        0.37254902720451355,
+        0.29019609093666077,
+        1.0
+      ],
+      "terrain_style_color_6": [
+        0.7176470756530762,
+        0.7490196228027344,
+        0.7803921699523926,
+        1.0
+      ],
+      "terrain_style_color_7": [
+        0.9058823585510254,
+        0.9333333373069763,
+        0.9490196108818054,
+        1.0
+      ],
+      "terrain_style_color_8": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "terrain_style_color_count": 8,
+      "terrain_style_name": "Alpine001",
+      "terrain_style_preset": "alpine",
+      "terrain_style_update_suspended": false,
+      "terrain_style_version": "__new__",
+      "terrain_surface_smoothness": 0.3499999940395355,
+      "terrain_valley_preservation": 0.6800000071525574,
+      "terrain_z_exaggeration": 1.7000000476837158,
+      "top_veneer_base_color": [
+        0.47999998927116394,
+        0.5,
+        0.46000000834465027,
+        1.0
+      ],
+      "top_veneer_contrast": 1.0,
+      "top_veneer_name": "Top Veneer",
+      "top_veneer_saturation": 1.0,
+      "top_veneer_side_color": [
+        0.550000011920929,
+        0.5699999928474426,
+        0.5199999809265137,
+        1.0
+      ],
+      "top_veneer_source": "__latest__",
+      "top_veneer_status": "Ready",
+      "top_veneer_top_threshold": 0.6200000047683716,
+      "top_veneer_update_suspended": false,
+      "top_veneer_version": "__new__",
+      "ui_auto_apply_on_project_switch": false,
+      "ui_show_experimental_sections": false
+    },
+    "schema": "myrace3d.publisher.package_signature.v1",
+    "source": "terrain",
+    "title": "live-network-smoke-niceswimrunv2-20260518-203402"
+  },
+  "parameter_snapshot": {
+    "all_blender_properties": {
+      "active_project": "niceswimrunv2",
+      "copernicus_color_1": [
+        0.0784313753247261,
+        0.20000000298023224,
+        0.29019609093666077,
+        1.0
+      ],
+      "copernicus_color_2": [
+        0.08627451211214066,
+        0.27843138575553894,
+        0.364705890417099,
+        1.0
+      ],
+      "copernicus_color_3": [
+        0.2980392277240753,
+        0.3450980484485626,
+        0.24313725531101227,
+        1.0
+      ],
+      "copernicus_color_4": [
+        0.35686275362968445,
+        0.3960784375667572,
+        0.29411765933036804,
+        1.0
+      ],
+      "copernicus_color_5": [
+        0.6274510025978088,
+        0.5803921818733215,
+        0.5215686559677124,
+        1.0
+      ],
+      "copernicus_color_6": [
+        0.5686274766921997,
+        0.529411792755127,
+        0.46666666865348816,
+        1.0
+      ],
+      "copernicus_color_7": [
+        0.47058823704719543,
+        0.46666666865348816,
+        0.40392157435417175,
+        1.0
+      ],
+      "copernicus_color_8": [
+        0.7333333492279053,
+        0.6941176652908325,
+        0.6352941393852234,
+        1.0
+      ],
+      "copernicus_color_count": 8,
+      "copernicus_colors_name": "Copernicus002",
+      "copernicus_colors_status": "Cached: 8 scene(s), best seam 61.704",
+      "copernicus_colors_update_suspended": false,
+      "copernicus_colors_version": "copernicus_colors_0002",
+      "copernicus_force_resample": false,
+      "copernicus_scene_count": 8,
+      "copernicus_search_mode": "premium",
+      "create_credential_examples": true,
+      "current_stage": "Ready",
+      "dem_provider": "automatic_free_dem",
+      "foundation_padding_percent": 50.0,
+      "gpx_display_enabled": true,
+      "gpx_files": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_01\\acq_0001\\inputs\\gpx\\01_NiceRun.gpx\nC:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_01\\acq_0001\\inputs\\gpx\\02_NiceSwim.gpx",
+      "gpx_keep_individual_colors": true,
+      "gpx_projection_mode": "surface_raycast",
+      "gpx_trace_height_mm": 0.44999998807907104,
+      "gpx_trace_roundness": 0.949999988079071,
+      "gpx_trace_simplification": 0.3199999928474426,
+      "gpx_trace_smoothness": 0.6800000071525574,
+      "gpx_trace_style": "raised_tube",
+      "gpx_trace_surface_offset": 0.11999999731779099,
+      "gpx_trace_width_mm": 1.7999999523162842,
+      "is_running": false,
+      "last_error": "",
+      "last_gpx_trace_count": 2,
+      "last_mesh_glb_path": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_04\\mesh_0002\\terrain_mesh.glb",
+      "last_mesh_obj_path": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_04\\mesh_0002\\terrain_mesh.obj",
+      "last_project_slug": "niceswimrunv2",
+      "last_report_path": "",
+      "layer_tinted_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layer_tinted_color_count": 8,
+      "layer_tinted_elevation_blend": 0.3499999940395355,
+      "layer_tinted_name": "Layer Tint",
+      "layer_tinted_neutral_color": [
+        0.5799999833106995,
+        0.6000000238418579,
+        0.550000011920929,
+        1.0
+      ],
+      "layer_tinted_side_shadow": 0.25999999046325684,
+      "layer_tinted_source": "__latest__",
+      "layer_tinted_status": "Ready",
+      "layer_tinted_tint_strength": 0.7200000286102295,
+      "layer_tinted_top_light": 0.07999999821186066,
+      "layer_tinted_top_threshold": 0.6200000047683716,
+      "layer_tinted_update_suspended": false,
+      "layer_tinted_version": "__new__",
+      "layered_auto_update": false,
+      "layered_base_thickness_mm": 3.5,
+      "layered_color_volume_name": "Color Volume",
+      "layered_color_volume_source": "__latest__",
+      "layered_color_volume_status": "Ready",
+      "layered_color_volume_update_suspended": false,
+      "layered_design_name": "Layered Design 10",
+      "layered_design_update_suspended": false,
+      "layered_design_version": "layered_design_0011",
+      "layered_hide_source_terrain": true,
+      "layered_landscape_print_base_color": [
+        0.23000000417232513,
+        0.3100000023841858,
+        0.20999999344348907,
+        1.0
+      ],
+      "layered_landscape_print_bright_green_color": [
+        0.7400000095367432,
+        0.8199999928474426,
+        0.18000000715255737,
+        1.0
+      ],
+      "layered_landscape_print_earth_color": [
+        0.6100000143051147,
+        0.44999998807907104,
+        0.2800000011920929,
+        1.0
+      ],
+      "layered_landscape_print_elevation_highlight": 0.3400000035762787,
+      "layered_landscape_print_forest_color": [
+        0.11999999731779099,
+        0.36000001430511475,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_grass_color": [
+        0.3799999952316284,
+        0.6200000047683716,
+        0.25,
+        1.0
+      ],
+      "layered_landscape_print_name": "Landscape Print",
+      "layered_landscape_print_rock_color": [
+        0.7200000286102295,
+        0.6899999976158142,
+        0.6100000143051147,
+        1.0
+      ],
+      "layered_landscape_print_sand_color": [
+        0.8199999928474426,
+        0.6800000071525574,
+        0.47999998927116394,
+        1.0
+      ],
+      "layered_landscape_print_saturation": 1.2400000095367432,
+      "layered_landscape_print_side_depth": 0.5799999833106995,
+      "layered_landscape_print_snow_color": [
+        0.9399999976158142,
+        0.9100000262260437,
+        0.8199999928474426,
+        1.0
+      ],
+      "layered_landscape_print_source": "__latest__",
+      "layered_landscape_print_source_strength": 0.41999998688697815,
+      "layered_landscape_print_status": "Ready",
+      "layered_landscape_print_top_select": 0.6399999856948853,
+      "layered_landscape_print_update_suspended": false,
+      "layered_landscape_print_water_color": [
+        0.11999999731779099,
+        0.4699999988079071,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_layer_count": 36,
+      "layered_layer_rounding": 0.75,
+      "layered_min_area_percent": 0.05000000074505806,
+      "layered_premium_base_color": [
+        0.6200000047683716,
+        0.5,
+        0.3799999952316284,
+        1.0
+      ],
+      "layered_premium_regional_hint": 0.23999999463558197,
+      "layered_premium_side_color": [
+        0.3400000035762787,
+        0.20000000298023224,
+        0.10999999940395355,
+        1.0
+      ],
+      "layered_premium_side_shadow": 0.3799999952316284,
+      "layered_premium_style_name": "Layered Premium",
+      "layered_premium_style_source": "__latest__",
+      "layered_premium_style_status": "Ready",
+      "layered_premium_style_update_suspended": false,
+      "layered_premium_top_color": [
+        0.9200000166893005,
+        0.8799999952316284,
+        0.7799999713897705,
+        1.0
+      ],
+      "layered_premium_top_threshold": 0.6600000262260437,
+      "layered_real_colors_base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "layered_real_colors_contrast": 1.0,
+      "layered_real_colors_name": "Layered Real Colors 01",
+      "layered_real_colors_neutral_color": [
+        0.5600000023841858,
+        0.5899999737739563,
+        0.5199999809265137,
+        1.0
+      ],
+      "layered_real_colors_offset_mm": 0.07999999821186066,
+      "layered_real_colors_quality": "preview",
+      "layered_real_colors_saturation": 1.0,
+      "layered_real_colors_source": "__latest__",
+      "layered_real_colors_status": "Ready",
+      "layered_region_terrain_base_thickness_mm": 3.0,
+      "layered_region_terrain_color_count": 8,
+      "layered_region_terrain_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_layer_count": 42,
+      "layered_region_terrain_min_area_percent": 0.03999999910593033,
+      "layered_region_terrain_name": "Region Terrain",
+      "layered_region_terrain_region_smoothness": 0.7799999713897705,
+      "layered_region_terrain_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_source": "__latest__",
+      "layered_region_terrain_status": "Ready",
+      "layered_region_terrain_top_light": 0.07999999821186066,
+      "layered_region_terrain_update_suspended": false,
+      "layered_region_terrain_v2_base_thickness_mm": 3.0,
+      "layered_region_terrain_v2_color_1": [
+        0.07000000029802322,
+        0.3199999928474426,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_2": [
+        0.1599999964237213,
+        0.5199999809265137,
+        0.6000000238418579,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_3": [
+        0.20000000298023224,
+        0.41999998688697815,
+        0.23999999463558197,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_4": [
+        0.47999998927116394,
+        0.6200000047683716,
+        0.2800000011920929,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_5": [
+        0.800000011920929,
+        0.44999998807907104,
+        0.2199999988079071,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_6": [
+        0.75,
+        0.6800000071525574,
+        0.5299999713897705,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_7": [
+        0.5600000023841858,
+        0.5400000214576721,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_8": [
+        0.8799999952316284,
+        0.8399999737739563,
+        0.699999988079071,
+        1.0
+      ],
+      "layered_region_terrain_v2_color_count": 8,
+      "layered_region_terrain_v2_color_pop": 1.649999976158142,
+      "layered_region_terrain_v2_gpx_color_1": [
+        0.12999999523162842,
+        0.3499999940395355,
+        0.7200000286102295,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_2": [
+        0.8799999952316284,
+        0.44999998807907104,
+        0.23999999463558197,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_3": [
+        0.18000000715255737,
+        0.6000000238418579,
+        0.36000001430511475,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_4": [
+        0.5600000023841858,
+        0.3199999928474426,
+        0.7400000095367432,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_5": [
+        0.8600000143051147,
+        0.7200000286102295,
+        0.20000000298023224,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_6": [
+        0.11999999731779099,
+        0.6800000071525574,
+        0.7400000095367432,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_7": [
+        0.699999988079071,
+        0.2199999988079071,
+        0.41999998688697815,
+        1.0
+      ],
+      "layered_region_terrain_v2_gpx_color_8": [
+        0.3400000035762787,
+        0.3400000035762787,
+        0.3400000035762787,
+        1.0
+      ],
+      "layered_region_terrain_v2_high_color_start": 0.6800000071525574,
+      "layered_region_terrain_v2_layer_count": 42,
+      "layered_region_terrain_v2_min_piece_mm2": 9.0,
+      "layered_region_terrain_v2_name": "Region Terrain v2 01",
+      "layered_region_terrain_v2_quality": "preview",
+      "layered_region_terrain_v2_region_smoothness": 0.6200000047683716,
+      "layered_region_terrain_v2_shape_smoothness": 0.7200000286102295,
+      "layered_region_terrain_v2_side_shadow": 0.2199999988079071,
+      "layered_region_terrain_v2_source": "__latest__",
+      "layered_region_terrain_v2_status": "Ready",
+      "layered_region_terrain_v2_top_light": 0.03999999910593033,
+      "layered_region_terrain_v2_update_suspended": false,
+      "layered_region_terrain_v2_use_custom_colors": false,
+      "layered_region_terrain_v2_use_custom_gpx_colors": false,
+      "layered_region_terrain_v2_version": "__new__",
+      "layered_region_terrain_v2_z_exaggeration": 1.25,
+      "layered_region_terrain_version": "__new__",
+      "layered_region_terrain_z_exaggeration": 1.25,
+      "layered_shape_smoothness": 0.8500000238418579,
+      "layered_z_exaggeration": 1.4500000476837158,
+      "max_lat": 45.845001220703125,
+      "max_lon": 6.900000095367432,
+      "mesh_display_mode": "preview",
+      "mesh_resolution": "high",
+      "min_lat": 45.814998626708984,
+      "min_lon": 6.840000152587891,
+      "name": "",
+      "output_model": "inspection",
+      "parent_folder": "C:\\Users\\simon\\Documents\\Parent Folder",
+      "premium_coast_blend": 0.0,
+      "premium_color_1": [
+        0.0117647061124444,
+        0.1882352977991104,
+        0.3019607961177826,
+        1.0
+      ],
+      "premium_color_2": [
+        0.125490203499794,
+        0.20000000298023224,
+        0.2980392277240753,
+        1.0
+      ],
+      "premium_color_3": [
+        0.6235294342041016,
+        0.5803921818733215,
+        0.5215686559677124,
+        1.0
+      ],
+      "premium_color_4": [
+        0.46666666865348816,
+        0.4627451002597809,
+        0.40784314274787903,
+        1.0
+      ],
+      "premium_color_5": [
+        0.5686274766921997,
+        0.5254902243614197,
+        0.46666666865348816,
+        1.0
+      ],
+      "premium_color_6": [
+        0.7333333492279053,
+        0.686274528503418,
+        0.6352941393852234,
+        1.0
+      ],
+      "premium_color_7": [
+        0.35686275362968445,
+        0.40392157435417175,
+        0.2980392277240753,
+        1.0
+      ],
+      "premium_color_8": [
+        0.3019607961177826,
+        0.3529411852359772,
+        0.24705882370471954,
+        1.0
+      ],
+      "premium_color_count": 8,
+      "premium_colors_name": "Premium007",
+      "premium_colors_source": "copernicus_colors_0002",
+      "premium_colors_status": "Loaded Premium007; click Reapply Source Preview",
+      "premium_colors_update_suspended": false,
+      "premium_colors_version": "premium_colors_0008",
+      "premium_contrast": 1.0,
+      "premium_elevation_influence": 0.0,
+      "premium_min_region_size": 3,
+      "premium_saturation": 1.0,
+      "premium_slope_accent": 0.0,
+      "premium_transition_smoothness": 0.20000000298023224,
+      "premium_vibrance": 0.0,
+      "progress_log": "[ok] Loaded terrain mesh\n[ok] Loaded 2 GPX trace(s)\n[ok] Terrain Context: mediterranean_coastal_mountain (0.80)\n[ok] Terrain Design parameters: Terrain Design 10\n[ok] Layered Design parameters: Layered Design 10\n[info] Terrain Style: defaults\n[ok] Local Terrain Colors cached: Copernicus002\n[ok] Premium Terrain Colors parameters: Premium007\n[info] Layered Region Terrain v2: defaults\n[info] Fast switch: previews were not rebuilt; use Refresh Preview, Generate Source Preview, or Build when needed",
+      "progress_percent": 0.0,
+      "project_name": "New Terrain Project",
+      "publisher_fast_git_sync": true,
+      "publisher_github_base_url": "",
+      "publisher_github_branch": "gh-pages",
+      "publisher_github_owner": "",
+      "publisher_github_repo": "",
+      "publisher_last_index_url": "",
+      "publisher_last_package_path": "",
+      "publisher_last_url": "",
+      "publisher_reuse_cached_package": false,
+      "publisher_source": "terrain",
+      "publisher_status": "Ready",
+      "publisher_title": "live-network-smoke-niceswimrunv2-20260518-203402",
+      "run_part01": true,
+      "run_part02": true,
+      "run_part03": true,
+      "run_part04": true,
+      "source_mode": "gpx_files",
+      "status": "Foundation ready",
+      "terrain_base_thickness_mm": 3.0,
+      "terrain_context_confidence": 0.7986000180244446,
+      "terrain_context_force_refresh": false,
+      "terrain_context_profile": "mediterranean_coastal_mountain",
+      "terrain_context_region_atlas_preview_path": "",
+      "terrain_context_region_atlas_report_path": "",
+      "terrain_context_region_atlas_status": "No region atlas yet",
+      "terrain_context_report_path": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\terrain_context\\context_0002\\terrain_context_report.json",
+      "terrain_context_status": "mediterranean_coastal_mountain (0.80)",
+      "terrain_context_use_online_osm": true,
+      "terrain_design_live_timer_armed": false,
+      "terrain_design_name": "Terrain Design 10",
+      "terrain_design_pending_target": "",
+      "terrain_design_update_suspended": false,
+      "terrain_design_version": "terrain_design_0021",
+      "terrain_detail_preservation": 0.7200000286102295,
+      "terrain_layer_height_mm": 5.0,
+      "terrain_layer_rounding": 0.550000011920929,
+      "terrain_min_wall_mm": 1.2000000476837158,
+      "terrain_peak_smoothness": 0.3199999928474426,
+      "terrain_relief_strength": 1.2000000476837158,
+      "terrain_style_color_1": [
+        0.18039216101169586,
+        0.545098066329956,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_2": [
+        0.43529412150382996,
+        0.7490196228027344,
+        0.35686275362968445,
+        1.0
+      ],
+      "terrain_style_color_3": [
+        0.7215686440467834,
+        0.8509804010391235,
+        0.34117648005485535,
+        1.0
+      ],
+      "terrain_style_color_4": [
+        0.5411764979362488,
+        0.47843137383461,
+        0.2705882489681244,
+        1.0
+      ],
+      "terrain_style_color_5": [
+        0.4274509847164154,
+        0.37254902720451355,
+        0.29019609093666077,
+        1.0
+      ],
+      "terrain_style_color_6": [
+        0.7176470756530762,
+        0.7490196228027344,
+        0.7803921699523926,
+        1.0
+      ],
+      "terrain_style_color_7": [
+        0.9058823585510254,
+        0.9333333373069763,
+        0.9490196108818054,
+        1.0
+      ],
+      "terrain_style_color_8": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "terrain_style_color_count": 8,
+      "terrain_style_name": "Alpine001",
+      "terrain_style_preset": "alpine",
+      "terrain_style_update_suspended": false,
+      "terrain_style_version": "__new__",
+      "terrain_surface_smoothness": 0.3499999940395355,
+      "terrain_valley_preservation": 0.6800000071525574,
+      "terrain_z_exaggeration": 1.7000000476837158,
+      "top_veneer_base_color": [
+        0.47999998927116394,
+        0.5,
+        0.46000000834465027,
+        1.0
+      ],
+      "top_veneer_contrast": 1.0,
+      "top_veneer_name": "Top Veneer",
+      "top_veneer_saturation": 1.0,
+      "top_veneer_side_color": [
+        0.550000011920929,
+        0.5699999928474426,
+        0.5199999809265137,
+        1.0
+      ],
+      "top_veneer_source": "__latest__",
+      "top_veneer_status": "Ready",
+      "top_veneer_top_threshold": 0.6200000047683716,
+      "top_veneer_update_suspended": false,
+      "top_veneer_version": "__new__",
+      "ui_auto_apply_on_project_switch": false,
+      "ui_show_experimental_sections": false
+    },
+    "captured_at": "2026-05-18T20:34:11.890564+00:00",
+    "gpx": {
+      "display_enabled": true,
+      "projection_mode": "surface_raycast",
+      "trace_height_mm": 0.44999998807907104,
+      "trace_roundness": 0.949999988079071,
+      "trace_smoothness": 0.6800000071525574,
+      "trace_style": "raised_tube",
+      "trace_width_mm": 1.7999999523162842
+    },
+    "layer_tinted_layers": {
+      "base_color": [
+        0.46000000834465027,
+        0.47999998927116394,
+        0.4399999976158142,
+        1.0
+      ],
+      "color_count": 8,
+      "elevation_blend": 0.3499999940395355,
+      "name": "Layer Tint",
+      "neutral_color": [
+        0.5799999833106995,
+        0.6000000238418579,
+        0.550000011920929,
+        1.0
+      ],
+      "side_shadow": 0.25999999046325684,
+      "source": "__latest__",
+      "tint_strength": 0.7200000286102295,
+      "top_light": 0.07999999821186066,
+      "top_threshold": 0.6200000047683716,
+      "version": "__new__"
+    },
+    "layered_design": {
+      "base_thickness_mm": 3.5,
+      "layer_count": 36,
+      "layer_rounding": 0.75,
+      "min_area_percent": 0.05000000074505806,
+      "name": "Layered Design 10",
+      "shape_smoothness": 0.8500000238418579,
+      "version": "layered_design_0011",
+      "z_exaggeration": 1.4500000476837158
+    },
+    "layered_top_veneer": {
+      "base_color": [
+        0.47999998927116394,
+        0.5,
+        0.46000000834465027,
+        1.0
+      ],
+      "contrast": 1.0,
+      "name": "Top Veneer",
+      "saturation": 1.0,
+      "side_color": [
+        0.550000011920929,
+        0.5699999928474426,
+        0.5199999809265137,
+        1.0
+      ],
+      "source": "__latest__",
+      "top_threshold": 0.6200000047683716,
+      "version": "__new__"
+    },
+    "local_terrain_colors": {
+      "candidate_count": 8,
+      "color_count": 8,
+      "colors": [
+        {
+          "hex": "#14334A",
+          "index": 1,
+          "rgba": [
+            0.0784313753247261,
+            0.20000000298023224,
+            0.29019609093666077,
+            1.0
+          ]
+        },
+        {
+          "hex": "#16475D",
+          "index": 2,
+          "rgba": [
+            0.08627451211214066,
+            0.27843138575553894,
+            0.364705890417099,
+            1.0
+          ]
+        },
+        {
+          "hex": "#4C583E",
+          "index": 3,
+          "rgba": [
+            0.2980392277240753,
+            0.3450980484485626,
+            0.24313725531101227,
+            1.0
+          ]
+        },
+        {
+          "hex": "#5B654B",
+          "index": 4,
+          "rgba": [
+            0.35686275362968445,
+            0.3960784375667572,
+            0.29411765933036804,
+            1.0
+          ]
+        },
+        {
+          "hex": "#A09485",
+          "index": 5,
+          "rgba": [
+            0.6274510025978088,
+            0.5803921818733215,
+            0.5215686559677124,
+            1.0
+          ]
+        },
+        {
+          "hex": "#918777",
+          "index": 6,
+          "rgba": [
+            0.5686274766921997,
+            0.529411792755127,
+            0.46666666865348816,
+            1.0
+          ]
+        },
+        {
+          "hex": "#787767",
+          "index": 7,
+          "rgba": [
+            0.47058823704719543,
+            0.46666666865348816,
+            0.40392157435417175,
+            1.0
+          ]
+        },
+        {
+          "hex": "#BBB1A2",
+          "index": 8,
+          "rgba": [
+            0.7333333492279053,
+            0.6941176652908325,
+            0.6352941393852234,
+            1.0
+          ]
+        }
+      ],
+      "force_resample": false,
+      "name": "Copernicus002",
+      "search_mode": "premium",
+      "version": "copernicus_colors_0002"
+    },
+    "premium_terrain_colors": {
+      "coast_blend": 0.0,
+      "color_count": 8,
+      "colors": [
+        {
+          "hex": "#03304D",
+          "index": 1,
+          "rgba": [
+            0.0117647061124444,
+            0.1882352977991104,
+            0.3019607961177826,
+            1.0
+          ]
+        },
+        {
+          "hex": "#20334C",
+          "index": 2,
+          "rgba": [
+            0.125490203499794,
+            0.20000000298023224,
+            0.2980392277240753,
+            1.0
+          ]
+        },
+        {
+          "hex": "#9F9485",
+          "index": 3,
+          "rgba": [
+            0.6235294342041016,
+            0.5803921818733215,
+            0.5215686559677124,
+            1.0
+          ]
+        },
+        {
+          "hex": "#777668",
+          "index": 4,
+          "rgba": [
+            0.46666666865348816,
+            0.4627451002597809,
+            0.40784314274787903,
+            1.0
+          ]
+        },
+        {
+          "hex": "#918677",
+          "index": 5,
+          "rgba": [
+            0.5686274766921997,
+            0.5254902243614197,
+            0.46666666865348816,
+            1.0
+          ]
+        },
+        {
+          "hex": "#BBAFA2",
+          "index": 6,
+          "rgba": [
+            0.7333333492279053,
+            0.686274528503418,
+            0.6352941393852234,
+            1.0
+          ]
+        },
+        {
+          "hex": "#5B674C",
+          "index": 7,
+          "rgba": [
+            0.35686275362968445,
+            0.40392157435417175,
+            0.2980392277240753,
+            1.0
+          ]
+        },
+        {
+          "hex": "#4D5A3F",
+          "index": 8,
+          "rgba": [
+            0.3019607961177826,
+            0.3529411852359772,
+            0.24705882370471954,
+            1.0
+          ]
+        }
+      ],
+      "contrast": 1.0,
+      "elevation_influence": 0.0,
+      "min_region_size": 3,
+      "name": "Premium007",
+      "saturation": 1.0,
+      "slope_accent": 0.0,
+      "source": "copernicus_colors_0002",
+      "transition_smoothness": 0.20000000298023224,
+      "version": "premium_colors_0008",
+      "vibrance": 0.0
+    },
+    "project": {
+      "gpx_trace_count": 2,
+      "mesh_glb": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_04\\mesh_0002\\terrain_mesh.glb",
+      "mesh_obj": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2\\outputs\\part_04\\mesh_0002\\terrain_mesh.obj",
+      "parent_folder": "C:\\Users\\simon\\Documents\\Parent Folder",
+      "project_root": "C:\\Users\\simon\\Documents\\Parent Folder\\niceswimrunv2",
+      "slug": "niceswimrunv2"
+    },
+    "terrain_design": {
+      "base_thickness_mm": 3.0,
+      "detail_preservation": 0.7200000286102295,
+      "name": "Terrain Design 10",
+      "peak_smoothness": 0.3199999928474426,
+      "relief_strength": 1.2000000476837158,
+      "surface_smoothness": 0.3499999940395355,
+      "valley_preservation": 0.6800000071525574,
+      "version": "terrain_design_0021",
+      "z_exaggeration": 1.7000000476837158
+    },
+    "terrain_style": {
+      "color_count": 8,
+      "colors": [
+        {
+          "hex": "#2E8B57",
+          "index": 1,
+          "rgba": [
+            0.18039216101169586,
+            0.545098066329956,
+            0.34117648005485535,
+            1.0
+          ]
+        },
+        {
+          "hex": "#6FBF5B",
+          "index": 2,
+          "rgba": [
+            0.43529412150382996,
+            0.7490196228027344,
+            0.35686275362968445,
+            1.0
+          ]
+        },
+        {
+          "hex": "#B8D957",
+          "index": 3,
+          "rgba": [
+            0.7215686440467834,
+            0.8509804010391235,
+            0.34117648005485535,
+            1.0
+          ]
+        },
+        {
+          "hex": "#8A7A45",
+          "index": 4,
+          "rgba": [
+            0.5411764979362488,
+            0.47843137383461,
+            0.2705882489681244,
+            1.0
+          ]
+        },
+        {
+          "hex": "#6D5F4A",
+          "index": 5,
+          "rgba": [
+            0.4274509847164154,
+            0.37254902720451355,
+            0.29019609093666077,
+            1.0
+          ]
+        },
+        {
+          "hex": "#B7BFC7",
+          "index": 6,
+          "rgba": [
+            0.7176470756530762,
+            0.7490196228027344,
+            0.7803921699523926,
+            1.0
+          ]
+        },
+        {
+          "hex": "#E7EEF2",
+          "index": 7,
+          "rgba": [
+            0.9058823585510254,
+            0.9333333373069763,
+            0.9490196108818054,
+            1.0
+          ]
+        },
+        {
+          "hex": "#FFFFFF",
+          "index": 8,
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "name": "Alpine001",
+      "preset": "alpine",
+      "version": "__new__"
+    }
+  },
+  "project_slug": "niceswimrunv2",
+  "publication_id": "live-network-smoke-niceswimrunv2-20260518-203402_001",
+  "published_at": "2026-05-18T20:34:12.318303+00:00",
+  "schema": "myrace3d.publishing_manifest.v1",
+  "source_label": "Terrain Design",
+  "source_type": "terrain",
+  "title": "live-network-smoke-niceswimrunv2-20260518-203402"
+}
