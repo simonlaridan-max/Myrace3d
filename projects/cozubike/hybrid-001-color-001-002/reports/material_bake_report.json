@@ -1,0 +1,158 @@
+{
+  "classification_palette": [
+    "#4C566B",
+    "#3D485F",
+    "#59745C",
+    "#688069",
+    "#59A2A1",
+    "#596378",
+    "#4A7685",
+    "#4B6950"
+  ],
+  "coloring_mode": "copernicus",
+  "coloring_mode_source": "Copernicus terrain colors - copernicus_colors_0001",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_image_index_locked_v1_20260520",
+  "gpx_geometries": 1,
+  "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\project_core\\design_variations\\copernicus_terrain_colors\\copernicus_colors_0001\\source_scenes\\copernicus_clean_mosaic.png",
+  "materials": [
+    {
+      "hex": "#2752B4",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "faces": 536479,
+      "hex": "#4C566B",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 356970,
+      "hex": "#3D485F",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 197105,
+      "hex": "#59745C",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 152682,
+      "hex": "#688069",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 75233,
+      "hex": "#59A2A1",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 85815,
+      "hex": "#596378",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 71183,
+      "hex": "#4A7685",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 40983,
+      "hex": "#4B6950",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1509466,
+      "hex": "#889682",
+      "index": 1,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "copernicus",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#4C566B",
+      "index": 1,
+      "label": "Color 1",
+      "percent": 0.475067,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#3D485F",
+      "index": 2,
+      "label": "Color 2",
+      "percent": 0.176225,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#59745C",
+      "index": 3,
+      "label": "Color 3",
+      "percent": 0.22429,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#688069",
+      "index": 4,
+      "label": "Color 4",
+      "percent": 0.042273,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#59A2A1",
+      "index": 5,
+      "label": "Color 5",
+      "percent": 0.006322,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#596378",
+      "index": 6,
+      "label": "Color 6",
+      "percent": 0.030795,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#4A7685",
+      "index": 7,
+      "label": "Color 7",
+      "percent": 0.027317,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#4B6950",
+      "index": 8,
+      "label": "Color 8",
+      "percent": 0.017711,
+      "role": ""
+    }
+  ],
+  "updated_materials": 10
+}
