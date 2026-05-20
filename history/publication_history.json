@@ -1,6 +1,457 @@
 [
   {
     "attribution_path": "attribution/ATTRIBUTIONS.md",
+    "color_style": "copernicus",
+    "contains_credentials": false,
+    "created_at": "2026-05-20T10:31:03Z",
+    "github_path": "projects/cozubike/hybrid-001-color-001-002",
+    "local_index": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\outputs\\part_08\\hybrid-001-color-001_002\\index.html",
+    "model_bytes": 58533152,
+    "model_path": "models/model.glb",
+    "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/cozubike/hybrid-001-color-001-002/index.html",
+    "parameter_snapshot": {
+      "bake_report": {
+        "classification_palette": [
+          "#4C566B",
+          "#3D485F",
+          "#59745C",
+          "#688069",
+          "#59A2A1",
+          "#596378",
+          "#4A7685",
+          "#4B6950"
+        ],
+        "coloring_mode": "copernicus",
+        "coloring_mode_source": "Copernicus terrain colors - copernicus_colors_0001",
+        "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+        "colorizer_version": "v3_fast_color_authority_image_index_locked_v1_20260520",
+        "gpx_geometries": 1,
+        "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\project_core\\design_variations\\copernicus_terrain_colors\\copernicus_colors_0001\\source_scenes\\copernicus_clean_mosaic.png",
+        "materials": [
+          {
+            "hex": "#2752B4",
+            "index": 0,
+            "name": "gpx-trace-01",
+            "role": "gpx"
+          },
+          {
+            "faces": 536479,
+            "hex": "#4C566B",
+            "index": 1,
+            "name": "terrain-color-01",
+            "role": "terrain"
+          },
+          {
+            "faces": 356970,
+            "hex": "#3D485F",
+            "index": 2,
+            "name": "terrain-color-02",
+            "role": "terrain"
+          },
+          {
+            "faces": 197105,
+            "hex": "#59745C",
+            "index": 3,
+            "name": "terrain-color-03",
+            "role": "terrain"
+          },
+          {
+            "faces": 152682,
+            "hex": "#688069",
+            "index": 4,
+            "name": "terrain-color-04",
+            "role": "terrain"
+          },
+          {
+            "faces": 75233,
+            "hex": "#59A2A1",
+            "index": 5,
+            "name": "terrain-color-05",
+            "role": "terrain"
+          },
+          {
+            "faces": 85815,
+            "hex": "#596378",
+            "index": 6,
+            "name": "terrain-color-06",
+            "role": "terrain"
+          },
+          {
+            "faces": 71183,
+            "hex": "#4A7685",
+            "index": 7,
+            "name": "terrain-color-07",
+            "role": "terrain"
+          },
+          {
+            "faces": 40983,
+            "hex": "#4B6950",
+            "index": 8,
+            "name": "terrain-color-08",
+            "role": "terrain"
+          },
+          {
+            "faces": 1509466,
+            "hex": "#889682",
+            "index": 1,
+            "name": "base-bottom",
+            "role": "base"
+          }
+        ],
+        "mode": "copernicus",
+        "terrain_face_groups": 8,
+        "terrain_palette": [
+          {
+            "area_types": [],
+            "hex": "#4C566B",
+            "index": 1,
+            "label": "Color 1",
+            "percent": 0.475067,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#3D485F",
+            "index": 2,
+            "label": "Color 2",
+            "percent": 0.176225,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#59745C",
+            "index": 3,
+            "label": "Color 3",
+            "percent": 0.22429,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#688069",
+            "index": 4,
+            "label": "Color 4",
+            "percent": 0.042273,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#59A2A1",
+            "index": 5,
+            "label": "Color 5",
+            "percent": 0.006322,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#596378",
+            "index": 6,
+            "label": "Color 6",
+            "percent": 0.030795,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#4A7685",
+            "index": 7,
+            "label": "Color 7",
+            "percent": 0.027317,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#4B6950",
+            "index": 8,
+            "label": "Color 8",
+            "percent": 0.017711,
+            "role": ""
+          }
+        ],
+        "updated_materials": 10
+      },
+      "base_color": {
+        "hex": "#889682",
+        "label": "Base",
+        "role": "base"
+      },
+      "coloring_mode": "copernicus",
+      "coloring_mode_source": "Copernicus terrain colors - copernicus_colors_0001",
+      "created_at": "2026-05-20T10:31:03Z",
+      "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+      "gpx_palette": [
+        {
+          "hex": "#2752B4",
+          "index": 1,
+          "label": "Trace 1",
+          "role": "gpx"
+        }
+      ],
+      "premium_terrain_colors": {
+        "colors": [
+          {
+            "area_types": [],
+            "hex": "#4C566B",
+            "index": 1,
+            "label": "Color 1",
+            "percent": 0.475067,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#3D485F",
+            "index": 2,
+            "label": "Color 2",
+            "percent": 0.176225,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#59745C",
+            "index": 3,
+            "label": "Color 3",
+            "percent": 0.22429,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#688069",
+            "index": 4,
+            "label": "Color 4",
+            "percent": 0.042273,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#59A2A1",
+            "index": 5,
+            "label": "Color 5",
+            "percent": 0.006322,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#596378",
+            "index": 6,
+            "label": "Color 6",
+            "percent": 0.030795,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#4A7685",
+            "index": 7,
+            "label": "Color 7",
+            "percent": 0.027317,
+            "role": ""
+          },
+          {
+            "area_types": [],
+            "hex": "#4B6950",
+            "index": 8,
+            "label": "Color 8",
+            "percent": 0.017711,
+            "role": ""
+          }
+        ],
+        "mode": "copernicus",
+        "source": "Copernicus terrain colors - copernicus_colors_0001"
+      },
+      "project_slug": "cozubike",
+      "schema": "myrace3d.v3.colored_build_parameters.v1",
+      "source_design_build_id": "hybrid-001_001",
+      "source_design_geometry_report": {
+        "base_thickness_mm": 3.0,
+        "cols": 788,
+        "controls": {
+          "base_thickness_mm": 3,
+          "custom_relief_height_mm": 3,
+          "design_quality_mode": "final",
+          "display_relief_boost": 2.6,
+          "enhanced_relief_boost": 1.8,
+          "geometry_algorithm_version": "v3_fast_design_peak_safe_color_groups_v2_20260520",
+          "hybrid_detail_strength": 0.38,
+          "hybrid_landform_contrast": 0.28,
+          "hybrid_peak_softness": 0.26,
+          "layer_border_smoothness": 0.55,
+          "layer_count": 48,
+          "max_long_side": 960,
+          "minimum_printable_region_percent": 0.005,
+          "peak_layer_density": 0,
+          "relief": 1,
+          "smoothness": 0.36,
+          "terrain_type": "hybrid",
+          "vertical_scale_mode": "enhanced_relief",
+          "z_exaggeration": 1
+        },
+        "depth_mm": 150.0,
+        "design_quality_mode": "final",
+        "faces": 3025916,
+        "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+        "geometry_kind": "continuous_heightfield",
+        "gpx_traces": {
+          "enabled": true,
+          "surface_offset_mm": 0.18,
+          "trace_count": 1,
+          "trace_radius_mm": 0.45
+        },
+        "height_max_mm": 6.0,
+        "height_min_mm": 3.0,
+        "hybrid_policy": {
+          "detail_strength": 0.38,
+          "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+          "landform_contrast": 0.28,
+          "peak_softness": 0.26,
+          "policy": "continuous_realistic_surface_with_detail_restoration_and_peak_softening"
+        },
+        "is_closed_heightfield": true,
+        "layered_policy": {},
+        "max_long_side": 960,
+        "model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\outputs\\part_08\\hybrid-001_001\\models\\model.glb",
+        "quality_checks": {
+          "has_gpx_overlay": true,
+          "height_authority_preserved": true,
+          "solid_base_policy": "z0_floor_with_base_thickness"
+        },
+        "relief_height_mm": 3.0,
+        "rows": 960,
+        "schema": "myrace3d.v3.design_geometry_report.v1",
+        "size_authority": {
+          "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+          "depth_mm": 150.0,
+          "mode": "foundation_aspect",
+          "target_depth_mm": 150.0,
+          "target_width_mm": 150.0,
+          "terrain_aspect": 0.7738028230961803,
+          "terrain_depth_m": 47329.08855416033,
+          "terrain_width_m": 36623.38233777838,
+          "width_mm": 116.07042346442705
+        },
+        "source_elevation": {
+          "elevation_max_m": 23.154634475708008,
+          "elevation_min_m": -2.6346378326416016,
+          "elevation_range_m": 25.78927230834961,
+          "source": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\outputs\\part_03\\terrain_0001\\elevation_normalization_contract.json"
+        },
+        "terrain_type": "hybrid",
+        "vertical_scale": {
+          "base_relief_height_mm": 3.0,
+          "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+          "custom_relief_height_mm": 3.0,
+          "depth_mm": 150.0,
+          "display_relief_boost": null,
+          "enhanced_floor_mm": 3.0,
+          "enhanced_relief_boost": 1.8,
+          "hybrid_policy": {
+            "detail_strength": 0.38,
+            "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+            "landform_contrast": 0.28,
+            "peak_softness": 0.26,
+            "policy": "continuous_realistic_surface_with_detail_restoration_and_peak_softening"
+          },
+          "meters_per_print_mm": 315.5272570277355,
+          "meters_per_print_mm_x": 315.5272570277355,
+          "meters_per_print_mm_y": 315.5272570277355,
+          "mode": "enhanced_relief",
+          "policy": "true_project_xy_scale_with_optional_enhancement",
+          "preview_dem_max": 232.40821838378906,
+          "preview_dem_min": 25.71818733215332,
+          "preview_dem_range": 206.69003105163574,
+          "print_relief_height_mm": 3.0,
+          "relief": 1.0,
+          "source_elevation_max_m": 23.154634475708008,
+          "source_elevation_min_m": -2.6346378326416016,
+          "source_elevation_range_m": 25.78927230834961,
+          "source_max_m": 23.154634475708008,
+          "source_min_m": -2.6346378326416016,
+          "source_range_m": 25.78927230834961,
+          "terrain_depth_m": 47329.08855416033,
+          "terrain_width_m": 36623.38233777838,
+          "true_relief_height_mm": 0.08173389694216712,
+          "width_mm": 116.07042346442705,
+          "xy_scale_mismatch_percent": 0.0,
+          "z_exaggeration": 1.0
+        },
+        "vertices": 1512960,
+        "width_mm": 116.07042346442705
+      },
+      "source_design_label": "Hybrid 001",
+      "source_design_terrain_type": "hybrid",
+      "source_model_id": "hybrid-001_001",
+      "source_model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\cozubike\\outputs\\part_08\\hybrid-001_001\\models\\model.glb",
+      "source_palette": {
+        "colors": [
+          {
+            "hex": "#4C566B",
+            "index": 1,
+            "label": "Color 1",
+            "percent": 0.475067,
+            "role": ""
+          },
+          {
+            "hex": "#3D485F",
+            "index": 2,
+            "label": "Color 2",
+            "percent": 0.176225,
+            "role": ""
+          },
+          {
+            "hex": "#59745C",
+            "index": 3,
+            "label": "Color 3",
+            "percent": 0.22429,
+            "role": ""
+          },
+          {
+            "hex": "#688069",
+            "index": 4,
+            "label": "Color 4",
+            "percent": 0.042273,
+            "role": ""
+          },
+          {
+            "hex": "#59A2A1",
+            "index": 5,
+            "label": "Color 5",
+            "percent": 0.006322,
+            "role": ""
+          },
+          {
+            "hex": "#596378",
+            "index": 6,
+            "label": "Color 6",
+            "percent": 0.030795,
+            "role": ""
+          },
+          {
+            "hex": "#4A7685",
+            "index": 7,
+            "label": "Color 7",
+            "percent": 0.027317,
+            "role": ""
+          },
+          {
+            "hex": "#4B6950",
+            "index": 8,
+            "label": "Color 8",
+            "percent": 0.017711,
+            "role": ""
+          }
+        ],
+        "source": "Copernicus terrain colors - copernicus_colors_0001"
+      }
+    },
+    "prepared_at": "2026-05-20T12:39:50Z",
+    "project_slug": "cozubike",
+    "publication_id": "hybrid-001-color-001_002",
+    "published_at": "2026-05-20T12:39:50Z",
+    "schema": "myrace3d.v3.local_colored_build_manifest.v1",
+    "source_design_build_id": "hybrid-001_001",
+    "source_design_label": "Hybrid 001",
+    "source_label": "Hybrid Design Build - Colored Build",
+    "source_type": "design_hybrid_colored",
+    "title": "CozuBike Hybrid Color Review"
+  },
+  {
+    "attribution_path": "attribution/ATTRIBUTIONS.md",
     "color_style": "Premium - Premium007",
     "contains_credentials": false,
     "created_at": "2026-05-18T20:34:11.902668+00:00",
