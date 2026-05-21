@@ -1,0 +1,437 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "copernicus",
+  "contains_credentials": false,
+  "created_at": "2026-05-21T16:47:55Z",
+  "github_path": "projects/ushuaia-antarctica-route/normal-001-color-001-004",
+  "local_index": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\outputs\\part_08\\normal-001-color-001_004\\index.html",
+  "model_bytes": 56859968,
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/ushuaia-antarctica-route/normal-001-color-001-004/index.html",
+  "parameter_snapshot": {
+    "bake_report": {
+      "classification_palette": [
+        "#3F5876",
+        "#586984",
+        "#F0F0F0",
+        "#687891",
+        "#CBCCDA",
+        "#DBDAE8",
+        "#BDBECD",
+        "#AEB1BF"
+      ],
+      "coloring_mode": "copernicus",
+      "coloring_mode_source": "Copernicus Sentinel-3 Big Map - copernicus_colors_0013",
+      "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+      "colorizer_version": "v3_fast_color_authority_image_index_locked_v1_20260520",
+      "gpx_geometries": 1,
+      "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\project_core\\design_variations\\copernicus_terrain_colors\\copernicus_colors_0013\\source_scenes\\copernicus_continent_olci_mosaic.png",
+      "materials": [
+        {
+          "hex": "#2752B4",
+          "index": 0,
+          "name": "gpx-trace-01",
+          "role": "gpx"
+        },
+        {
+          "faces": 873678,
+          "hex": "#3F5876",
+          "index": 1,
+          "name": "terrain-color-01",
+          "role": "terrain"
+        },
+        {
+          "faces": 330846,
+          "hex": "#586984",
+          "index": 2,
+          "name": "terrain-color-02",
+          "role": "terrain"
+        },
+        {
+          "faces": 81737,
+          "hex": "#F0F0F0",
+          "index": 3,
+          "name": "terrain-color-03",
+          "role": "terrain"
+        },
+        {
+          "faces": 100927,
+          "hex": "#687891",
+          "index": 4,
+          "name": "terrain-color-04",
+          "role": "terrain"
+        },
+        {
+          "faces": 16202,
+          "hex": "#CBCCDA",
+          "index": 5,
+          "name": "terrain-color-05",
+          "role": "terrain"
+        },
+        {
+          "faces": 21161,
+          "hex": "#DBDAE8",
+          "index": 6,
+          "name": "terrain-color-06",
+          "role": "terrain"
+        },
+        {
+          "faces": 15336,
+          "hex": "#BDBECD",
+          "index": 7,
+          "name": "terrain-color-07",
+          "role": "terrain"
+        },
+        {
+          "faces": 45811,
+          "hex": "#AEB1BF",
+          "index": 8,
+          "name": "terrain-color-08",
+          "role": "terrain"
+        },
+        {
+          "faces": 1478778,
+          "hex": "#71816A",
+          "index": 1,
+          "name": "base-bottom",
+          "role": "base"
+        }
+      ],
+      "mode": "copernicus",
+      "terrain_face_groups": 8,
+      "terrain_palette": [
+        {
+          "area_types": [],
+          "hex": "#3F5876",
+          "index": 1,
+          "label": "Color 1",
+          "percent": 0.700615,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#586984",
+          "index": 2,
+          "label": "Color 2",
+          "percent": 0.099848,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#F0F0F0",
+          "index": 3,
+          "label": "Color 3",
+          "percent": 0.0924,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#687891",
+          "index": 4,
+          "label": "Color 4",
+          "percent": 0.038059,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#CBCCDA",
+          "index": 5,
+          "label": "Color 5",
+          "percent": 0.018121,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#DBDAE8",
+          "index": 6,
+          "label": "Color 6",
+          "percent": 0.018553,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#BDBECD",
+          "index": 7,
+          "label": "Color 7",
+          "percent": 0.016804,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#AEB1BF",
+          "index": 8,
+          "label": "Color 8",
+          "percent": 0.015601,
+          "role": ""
+        }
+      ],
+      "updated_materials": 10
+    },
+    "base_color": {
+      "hex": "#71816A",
+      "label": "Base",
+      "role": "base"
+    },
+    "classification_id": "classification_0001",
+    "coloring_mode": "copernicus",
+    "coloring_mode_source": "Copernicus Sentinel-3 Big Map - copernicus_colors_0013",
+    "created_at": "2026-05-21T16:47:55Z",
+    "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+    "gpx_palette": [
+      {
+        "hex": "#2752B4",
+        "index": 1,
+        "label": "Trace 1",
+        "role": "gpx"
+      }
+    ],
+    "premium_terrain_colors": {
+      "colors": [
+        {
+          "area_types": [],
+          "hex": "#3F5876",
+          "index": 1,
+          "label": "Color 1",
+          "percent": 0.700615,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#586984",
+          "index": 2,
+          "label": "Color 2",
+          "percent": 0.099848,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#F0F0F0",
+          "index": 3,
+          "label": "Color 3",
+          "percent": 0.0924,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#687891",
+          "index": 4,
+          "label": "Color 4",
+          "percent": 0.038059,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#CBCCDA",
+          "index": 5,
+          "label": "Color 5",
+          "percent": 0.018121,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#DBDAE8",
+          "index": 6,
+          "label": "Color 6",
+          "percent": 0.018553,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#BDBECD",
+          "index": 7,
+          "label": "Color 7",
+          "percent": 0.016804,
+          "role": ""
+        },
+        {
+          "area_types": [],
+          "hex": "#AEB1BF",
+          "index": 8,
+          "label": "Color 8",
+          "percent": 0.015601,
+          "role": ""
+        }
+      ],
+      "mode": "copernicus",
+      "source": "Copernicus Sentinel-3 Big Map - copernicus_colors_0013"
+    },
+    "project_slug": "ushuaia_antarctica_route",
+    "schema": "myrace3d.v3.colored_build_parameters.v1",
+    "source_design_build_id": "antarctica-padded-etopo-normal_001",
+    "source_design_geometry_report": {
+      "base_thickness_mm": 4.0,
+      "cols": 420,
+      "controls": {
+        "base_thickness_mm": 4.0,
+        "custom_relief_height_mm": 34.0,
+        "design_quality_mode": "final",
+        "geometry_algorithm_version": "v3_fast_design_peak_safe_color_groups_v2_20260520",
+        "layer_border_smoothness": 0.9,
+        "layer_count": 108,
+        "max_long_side": 420,
+        "mega_landscape_relief_boost": 30.0,
+        "peak_layer_density": 0.72,
+        "preserve_foundation_aspect": true,
+        "relief": 1.0,
+        "smoothness": 0.14,
+        "terrain_type": "normal",
+        "vertical_scale_mode": "mega_landscape",
+        "z_exaggeration": 1.0
+      },
+      "depth_mm": 150.0,
+      "design_quality_mode": "final",
+      "faces": 567836,
+      "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+      "geometry_kind": "continuous_heightfield",
+      "gpx_traces": {
+        "enabled": true,
+        "surface_offset_mm": 0.18,
+        "trace_count": 1,
+        "trace_radius_mm": 0.45
+      },
+      "height_max_mm": 38.0,
+      "height_min_mm": 4.0,
+      "hybrid_policy": {},
+      "is_closed_heightfield": true,
+      "layered_policy": {},
+      "max_long_side": 420,
+      "model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\outputs\\part_08\\antarctica-padded-etopo-normal_001\\models\\model.glb",
+      "quality_checks": {
+        "has_gpx_overlay": true,
+        "height_authority_preserved": true,
+        "solid_base_policy": "z0_floor_with_base_thickness"
+      },
+      "relief_height_mm": 34.0,
+      "rows": 338,
+      "schema": "myrace3d.v3.design_geometry_report.v1",
+      "size_authority": {
+        "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\outputs\\part_01\\acq_0002\\foundation_area_definition.json",
+        "depth_mm": 150.0,
+        "mode": "foundation_aspect",
+        "target_depth_mm": 150.0,
+        "target_width_mm": 150.0,
+        "terrain_aspect": 0.624319820204103,
+        "terrain_depth_m": 1574195.2822192195,
+        "terrain_width_m": 982801.3155612503,
+        "width_mm": 93.64797303061546
+      },
+      "source_elevation": {
+        "elevation_max_m": 2511.098388671875,
+        "elevation_min_m": 0.0,
+        "elevation_range_m": 2511.098388671875,
+        "source": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\outputs\\part_02\\dem_etopo_0002\\dem_metadata.json"
+      },
+      "terrain_type": "normal",
+      "vertical_scale": {
+        "base_relief_height_mm": 34.0,
+        "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\outputs\\part_01\\acq_0002\\foundation_area_definition.json",
+        "custom_relief_height_mm": 34.0,
+        "depth_mm": 150.0,
+        "display_relief_boost": null,
+        "enhanced_floor_mm": null,
+        "enhanced_relief_boost": null,
+        "hybrid_policy": {},
+        "mega_landscape_relief_boost": 30.0,
+        "meters_per_print_mm": 10494.635214794796,
+        "meters_per_print_mm_x": 10494.635214794796,
+        "meters_per_print_mm_y": 10494.635214794796,
+        "mode": "mega_landscape",
+        "policy": "true_project_xy_scale_with_optional_enhancement",
+        "preview_dem_max": 2100.56982421875,
+        "preview_dem_min": 0.0,
+        "preview_dem_range": 2100.56982421875,
+        "print_relief_height_mm": 34.0,
+        "relief": 1.0,
+        "source_elevation_max_m": 2511.098388671875,
+        "source_elevation_min_m": 0.0,
+        "source_elevation_range_m": 2511.098388671875,
+        "source_max_m": 2511.098388671875,
+        "source_min_m": 0.0,
+        "source_range_m": 2511.098388671875,
+        "terrain_depth_m": 1574195.2822192195,
+        "terrain_width_m": 982801.3155612503,
+        "true_relief_height_mm": 0.23927448046329974,
+        "width_mm": 93.64797303061546,
+        "xy_scale_mismatch_percent": 0.0,
+        "z_exaggeration": 1.0
+      },
+      "vertices": 283920,
+      "width_mm": 93.64797303061546
+    },
+    "source_design_label": "Normal 001",
+    "source_design_terrain_type": "normal",
+    "source_model_id": "antarctica-padded-etopo-normal_001",
+    "source_model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\outputs\\part_08\\antarctica-padded-etopo-normal_001\\models\\model.glb",
+    "source_palette": {
+      "colors": [
+        {
+          "hex": "#3F5876",
+          "index": 1,
+          "label": "Color 1",
+          "percent": 0.700615,
+          "role": ""
+        },
+        {
+          "hex": "#586984",
+          "index": 2,
+          "label": "Color 2",
+          "percent": 0.099848,
+          "role": ""
+        },
+        {
+          "hex": "#F0F0F0",
+          "index": 3,
+          "label": "Color 3",
+          "percent": 0.0924,
+          "role": ""
+        },
+        {
+          "hex": "#687891",
+          "index": 4,
+          "label": "Color 4",
+          "percent": 0.038059,
+          "role": ""
+        },
+        {
+          "hex": "#CBCCDA",
+          "index": 5,
+          "label": "Color 5",
+          "percent": 0.018121,
+          "role": ""
+        },
+        {
+          "hex": "#DBDAE8",
+          "index": 6,
+          "label": "Color 6",
+          "percent": 0.018553,
+          "role": ""
+        },
+        {
+          "hex": "#BDBECD",
+          "index": 7,
+          "label": "Color 7",
+          "percent": 0.016804,
+          "role": ""
+        },
+        {
+          "hex": "#AEB1BF",
+          "index": 8,
+          "label": "Color 8",
+          "percent": 0.015601,
+          "role": ""
+        }
+      ],
+      "source": "Copernicus Sentinel-3 Big Map - copernicus_colors_0013"
+    }
+  },
+  "prepared_at": "2026-05-21T16:48:30Z",
+  "project_slug": "ushuaia_antarctica_route",
+  "publication_id": "normal-001-color-001_004",
+  "published_at": "2026-05-21T16:48:30Z",
+  "schema": "myrace3d.v3.local_colored_build_manifest.v1",
+  "source_design_build_id": "antarctica-padded-etopo-normal_001",
+  "source_design_label": "Normal 001",
+  "source_label": "Normal Design Build - Colored Build",
+  "source_type": "design_normal_colored",
+  "title": "Normal 001 Color 001"
+}
