@@ -1,0 +1,158 @@
+{
+  "classification_palette": [
+    "#3F5876",
+    "#586984",
+    "#F0F0F0",
+    "#687891",
+    "#CBCCDA",
+    "#DBDAE8",
+    "#BDBECD",
+    "#AEB1BF"
+  ],
+  "coloring_mode": "copernicus",
+  "coloring_mode_source": "Copernicus Sentinel-3 Big Map - copernicus_colors_0013",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_image_index_locked_v1_20260520",
+  "gpx_geometries": 1,
+  "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\ushuaia_antarctica_route\\project_core\\design_variations\\copernicus_terrain_colors\\copernicus_colors_0013\\source_scenes\\copernicus_continent_olci_mosaic.png",
+  "materials": [
+    {
+      "hex": "#2752B4",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "faces": 873678,
+      "hex": "#3F5876",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 330846,
+      "hex": "#586984",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 81737,
+      "hex": "#F0F0F0",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 100927,
+      "hex": "#687891",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 16202,
+      "hex": "#CBCCDA",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 21161,
+      "hex": "#DBDAE8",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 15336,
+      "hex": "#BDBECD",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 45811,
+      "hex": "#AEB1BF",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1478778,
+      "hex": "#71816A",
+      "index": 1,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "copernicus",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#3F5876",
+      "index": 1,
+      "label": "Color 1",
+      "percent": 0.700615,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#586984",
+      "index": 2,
+      "label": "Color 2",
+      "percent": 0.099848,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#F0F0F0",
+      "index": 3,
+      "label": "Color 3",
+      "percent": 0.0924,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#687891",
+      "index": 4,
+      "label": "Color 4",
+      "percent": 0.038059,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#CBCCDA",
+      "index": 5,
+      "label": "Color 5",
+      "percent": 0.018121,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#DBDAE8",
+      "index": 6,
+      "label": "Color 6",
+      "percent": 0.018553,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#BDBECD",
+      "index": 7,
+      "label": "Color 7",
+      "percent": 0.016804,
+      "role": ""
+    },
+    {
+      "area_types": [],
+      "hex": "#AEB1BF",
+      "index": 8,
+      "label": "Color 8",
+      "percent": 0.015601,
+      "role": ""
+    }
+  ],
+  "updated_materials": 10
+}
