@@ -1,0 +1,154 @@
+{
+  "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+  "classification_palette": [
+    "#A67D37",
+    "#18500A",
+    "#B2AE93",
+    "#D8C8A5",
+    "#657B36",
+    "#4A5E1D",
+    "#FEFDF3",
+    "#707B20"
+  ],
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_image_index_locked_v1_20260520",
+  "final_color_count": "8",
+  "gpx_geometries": 0,
+  "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+  "materials": [
+    {
+      "faces": 292996,
+      "hex": "#685D4B",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 233244,
+      "hex": "#1B4E09",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 149896,
+      "hex": "#A8A8A1",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 103788,
+      "hex": "#C6C2B7",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 123239,
+      "hex": "#5A7A1F",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 77374,
+      "hex": "#8CB238",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 62086,
+      "hex": "#F8FAF8",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 22157,
+      "hex": "#9FAE19",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1058736,
+      "hex": "#889682",
+      "index": 0,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#685D4B",
+      "index": 1,
+      "label": "Rock Mountain / Shadow",
+      "percent": 0.275311,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#1B4E09",
+      "index": 2,
+      "label": "Vegetation / Forest",
+      "percent": 0.218941,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#A8A8A1",
+      "index": 3,
+      "label": "Limestone / Light Rock",
+      "percent": 0.14078,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#C6C2B7",
+      "index": 4,
+      "label": "Deep Shadow / Dark Rock",
+      "percent": 0.097702,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#5A7A1F",
+      "index": 5,
+      "label": "Vegetation / Forest",
+      "percent": 0.115317,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#8CB238",
+      "index": 6,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.072739,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#F8FAF8",
+      "index": 7,
+      "label": "Snow / Salt / Bright Ground",
+      "percent": 0.058381,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#9FAE19",
+      "index": 8,
+      "label": "Mixed Natural Ground",
+      "percent": 0.020827,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 9
+}

@@ -1,6 +1,740 @@
 [
   {
     "attribution_path": "attribution/ATTRIBUTIONS.md",
+    "color_style": "classification_saved",
+    "contains_credentials": false,
+    "created_at": "2026-05-22T06:18:01Z",
+    "github_path": "projects/montblancrectangle/hybrid-001-color-001-001",
+    "local_index": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\outputs\\part_08\\hybrid-001-color-001_001\\index.html",
+    "model_bytes": 43097336,
+    "model_path": "models/model.glb",
+    "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/montblancrectangle/hybrid-001-color-001-001/index.html",
+    "parameter_snapshot": {
+      "bake_report": {
+        "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+        "classification_palette": [
+          "#A67D37",
+          "#18500A",
+          "#B2AE93",
+          "#D8C8A5",
+          "#657B36",
+          "#4A5E1D",
+          "#FEFDF3",
+          "#707B20"
+        ],
+        "coloring_mode": "classification_saved",
+        "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+        "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+        "colorizer_version": "v3_fast_color_authority_image_index_locked_v1_20260520",
+        "final_color_count": "8",
+        "gpx_geometries": 0,
+        "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+        "materials": [
+          {
+            "faces": 292996,
+            "hex": "#685D4B",
+            "index": 1,
+            "name": "terrain-color-01",
+            "role": "terrain"
+          },
+          {
+            "faces": 233244,
+            "hex": "#1B4E09",
+            "index": 2,
+            "name": "terrain-color-02",
+            "role": "terrain"
+          },
+          {
+            "faces": 149896,
+            "hex": "#A8A8A1",
+            "index": 3,
+            "name": "terrain-color-03",
+            "role": "terrain"
+          },
+          {
+            "faces": 103788,
+            "hex": "#C6C2B7",
+            "index": 4,
+            "name": "terrain-color-04",
+            "role": "terrain"
+          },
+          {
+            "faces": 123239,
+            "hex": "#5A7A1F",
+            "index": 5,
+            "name": "terrain-color-05",
+            "role": "terrain"
+          },
+          {
+            "faces": 77374,
+            "hex": "#8CB238",
+            "index": 6,
+            "name": "terrain-color-06",
+            "role": "terrain"
+          },
+          {
+            "faces": 62086,
+            "hex": "#F8FAF8",
+            "index": 7,
+            "name": "terrain-color-07",
+            "role": "terrain"
+          },
+          {
+            "faces": 22157,
+            "hex": "#9FAE19",
+            "index": 8,
+            "name": "terrain-color-08",
+            "role": "terrain"
+          },
+          {
+            "faces": 1058736,
+            "hex": "#889682",
+            "index": 0,
+            "name": "base-bottom",
+            "role": "base"
+          }
+        ],
+        "mode": "classification_saved",
+        "terrain_face_groups": 8,
+        "terrain_palette": [
+          {
+            "area_types": [],
+            "hex": "#685D4B",
+            "index": 1,
+            "label": "Rock Mountain / Shadow",
+            "percent": 0.275311,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#1B4E09",
+            "index": 2,
+            "label": "Vegetation / Forest",
+            "percent": 0.218941,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#A8A8A1",
+            "index": 3,
+            "label": "Limestone / Light Rock",
+            "percent": 0.14078,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#C6C2B7",
+            "index": 4,
+            "label": "Deep Shadow / Dark Rock",
+            "percent": 0.097702,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#5A7A1F",
+            "index": 5,
+            "label": "Vegetation / Forest",
+            "percent": 0.115317,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#8CB238",
+            "index": 6,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.072739,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#F8FAF8",
+            "index": 7,
+            "label": "Snow / Salt / Bright Ground",
+            "percent": 0.058381,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#9FAE19",
+            "index": 8,
+            "label": "Mixed Natural Ground",
+            "percent": 0.020827,
+            "role": "classification_final_color"
+          }
+        ],
+        "updated_materials": 9
+      },
+      "base_color": {
+        "hex": "#889682",
+        "label": "Base",
+        "role": "base"
+      },
+      "classification_id": "classification_0001",
+      "coloring_mode": "classification_saved",
+      "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+      "created_at": "2026-05-22T06:18:01Z",
+      "final_color_count": "8",
+      "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+      "gpx_palette": [
+        {
+          "hex": "#2752B4",
+          "index": 1,
+          "label": "Trace 1",
+          "role": "gpx"
+        },
+        {
+          "hex": "#D6582C",
+          "index": 2,
+          "label": "Trace 2",
+          "role": "gpx"
+        },
+        {
+          "hex": "#7251A5",
+          "index": 3,
+          "label": "Trace 3",
+          "role": "gpx"
+        },
+        {
+          "hex": "#1C8A64",
+          "index": 4,
+          "label": "Trace 4",
+          "role": "gpx"
+        }
+      ],
+      "premium_terrain_colors": {
+        "colors": [
+          {
+            "area_types": [],
+            "hex": "#685D4B",
+            "index": 1,
+            "label": "Rock Mountain / Shadow",
+            "percent": 0.275311,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#1B4E09",
+            "index": 2,
+            "label": "Vegetation / Forest",
+            "percent": 0.218941,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#A8A8A1",
+            "index": 3,
+            "label": "Limestone / Light Rock",
+            "percent": 0.14078,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#C6C2B7",
+            "index": 4,
+            "label": "Deep Shadow / Dark Rock",
+            "percent": 0.097702,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#5A7A1F",
+            "index": 5,
+            "label": "Vegetation / Forest",
+            "percent": 0.115317,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#8CB238",
+            "index": 6,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.072739,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#F8FAF8",
+            "index": 7,
+            "label": "Snow / Salt / Bright Ground",
+            "percent": 0.058381,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#9FAE19",
+            "index": 8,
+            "label": "Mixed Natural Ground",
+            "percent": 0.020827,
+            "role": "classification_final_color"
+          }
+        ],
+        "mode": "classification_saved",
+        "source": "2D classification final 8 colors - classification_0001"
+      },
+      "project_slug": "montblancrectangle",
+      "schema": "myrace3d.v3.colored_build_parameters.v1",
+      "source_design_build_id": "hybrid-001_001",
+      "source_design_geometry_report": {
+        "base_thickness_mm": 3.0,
+        "cols": 960,
+        "controls": {
+          "base_thickness_mm": 3,
+          "custom_relief_height_mm": 2,
+          "design_quality_mode": "final",
+          "display_relief_boost": 2.6,
+          "enhanced_relief_boost": 1.45,
+          "geometry_algorithm_version": "v3_fast_design_hybrid_premium_quality_report_v1_20260521",
+          "hybrid_detail_strength": 0.38,
+          "hybrid_landform_contrast": 0.18,
+          "hybrid_noise_cleanup": 0.36,
+          "hybrid_peak_softness": 0.18,
+          "hybrid_ridge_clarity": 0.42,
+          "hybrid_valley_readability": 0.32,
+          "layer_border_smoothness": 0.55,
+          "layer_count": 48,
+          "max_long_side": 960,
+          "minimum_printable_region_percent": 0.005,
+          "peak_layer_density": 0,
+          "relief": 1,
+          "smoothness": 0.36,
+          "terrain_type": "hybrid",
+          "vertical_scale_mode": "display_strong",
+          "z_exaggeration": 1
+        },
+        "depth_mm": 123.55188159153032,
+        "design_quality_mode": "final",
+        "faces": 2123516,
+        "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+        "geometry_kind": "continuous_heightfield",
+        "gpx_traces": {
+          "enabled": true,
+          "reason": "no_gpx_authority",
+          "trace_count": 0
+        },
+        "height_max_mm": 35.828678131103516,
+        "height_min_mm": 3.0,
+        "height_quality": {
+          "height_max_mm": 32.828678131103516,
+          "height_min_mm": 0.0,
+          "height_p50_mm": 12.089681625366211,
+          "height_p95_mm": 20.67848014831543,
+          "height_p99_mm": 24.530616760253906,
+          "mesh_volume_mm3": 66142.23490028967,
+          "mesh_watertight": true,
+          "peak_plateau_percent": 0.0011301989150090416,
+          "peak_plateau_tolerance_mm": 0.08207169532775879,
+          "relief_error_mm": 1.1061153770697274e-08,
+          "relief_error_percent": 3.3693570367947564e-08,
+          "relief_height_mm": 32.828678131103516,
+          "target_relief_height_mm": 32.82867814216467
+        },
+        "hybrid_policy": {
+          "detail_strength": 0.38,
+          "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+          "landform_contrast": 0.18,
+          "mean_absolute_shape_delta": 0.010633929632604122,
+          "noise_cleanup": 0.36,
+          "p95_absolute_shape_delta": 0.012292206287384033,
+          "peak_mean_absolute_shape_delta": 0.005597352050244808,
+          "peak_softness": 0.18,
+          "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+          "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+          "ridge_clarity": 0.42,
+          "valley_readability": 0.32
+        },
+        "is_closed_heightfield": true,
+        "layered_policy": {},
+        "max_long_side": 960,
+        "model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\outputs\\part_08\\hybrid-001_001\\models\\model.glb",
+        "quality_checks": {
+          "has_gpx_overlay": false,
+          "height_authority_preserved": true,
+          "hybrid_shape_delta_mean": 0.010633929632604122,
+          "hybrid_shape_delta_p95": 0.012292206287384033,
+          "hybrid_visibly_distinct_from_normal": true,
+          "mesh_watertight": true,
+          "peak_clipping_risk": false,
+          "peak_plateau_percent": 0.0011301989150090416,
+          "relief_error_percent": 3.3693570367947564e-08,
+          "solid_base_policy": "z0_floor_with_base_thickness"
+        },
+        "relief_height_mm": 32.828678131103516,
+        "rows": 553,
+        "schema": "myrace3d.v3.design_geometry_report.v1",
+        "size_authority": {
+          "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\outputs\\part_03\\terrain_0002\\downstream_geometry_contract.json",
+          "depth_mm": 123.55188159153032,
+          "mode": "foundation_aspect",
+          "target_depth_mm": 150.0,
+          "target_width_mm": 150.0,
+          "terrain_aspect": 1.2140648775864757,
+          "terrain_depth_m": 42236.26346816096,
+          "terrain_width_m": 51277.56403718298,
+          "width_mm": 150.0
+        },
+        "source_elevation": {
+          "elevation_max_m": 4810.71728515625,
+          "elevation_min_m": 494.3720397949219,
+          "elevation_range_m": 4316.345245361328,
+          "source": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\outputs\\part_03\\terrain_0002\\elevation_normalization_contract.json"
+        },
+        "terrain_type": "hybrid",
+        "vertical_scale": {
+          "base_relief_height_mm": 32.82867814216467,
+          "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\outputs\\part_03\\terrain_0002\\downstream_geometry_contract.json",
+          "custom_relief_height_mm": 2.0,
+          "depth_mm": 123.55188159153032,
+          "display_relief_boost": 2.6,
+          "enhanced_floor_mm": null,
+          "enhanced_relief_boost": null,
+          "hybrid_policy": {
+            "detail_strength": 0.38,
+            "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+            "landform_contrast": 0.18,
+            "mean_absolute_shape_delta": 0.010633929632604122,
+            "noise_cleanup": 0.36,
+            "p95_absolute_shape_delta": 0.012292206287384033,
+            "peak_mean_absolute_shape_delta": 0.005597352050244808,
+            "peak_softness": 0.18,
+            "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+            "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+            "ridge_clarity": 0.42,
+            "valley_readability": 0.32
+          },
+          "mega_landscape_relief_boost": null,
+          "meters_per_print_mm": 341.85042691455317,
+          "meters_per_print_mm_x": 341.8504269145532,
+          "meters_per_print_mm_y": 341.85042691455317,
+          "mode": "display_strong",
+          "policy": "true_project_xy_scale_with_optional_enhancement",
+          "preview_dem_max": 251.99264526367188,
+          "preview_dem_min": 0.04893137142062187,
+          "preview_dem_range": 251.94371389225125,
+          "print_relief_height_mm": 32.82867814216467,
+          "relief": 1.0,
+          "source_elevation_max_m": 4810.71728515625,
+          "source_elevation_min_m": 494.3720397949219,
+          "source_elevation_range_m": 4316.345245361328,
+          "source_max_m": 4810.71728515625,
+          "source_min_m": 494.3720397949219,
+          "source_range_m": 4316.345245361328,
+          "terrain_depth_m": 42236.26346816096,
+          "terrain_width_m": 51277.56403718298,
+          "true_relief_height_mm": 12.626414670063335,
+          "width_mm": 150.0,
+          "xy_scale_mismatch_percent": 1.6628155001548747e-14,
+          "z_exaggeration": 1.0
+        },
+        "vertices": 1061760,
+        "width_mm": 150.0
+      },
+      "source_design_label": "Hybrid 001",
+      "source_design_terrain_type": "hybrid",
+      "source_model_id": "hybrid-001_001",
+      "source_model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\montblancrectangle\\outputs\\part_08\\hybrid-001_001\\models\\model.glb",
+      "source_palette": {
+        "analysis_colors": [
+          "#A67D37",
+          "#18500A",
+          "#B2AE93",
+          "#D8C8A5",
+          "#657B36",
+          "#4A5E1D",
+          "#FEFDF3",
+          "#707B20"
+        ],
+        "classification_id": "classification_0001",
+        "colors": [
+          {
+            "analysis_hex": "#A67D37",
+            "hex": "#685D4B",
+            "index": 1,
+            "label": "Rock Mountain / Shadow",
+            "percent": 0.275311,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_3"
+            ],
+            "source_slot": 1
+          },
+          {
+            "analysis_hex": "#18500A",
+            "hex": "#1B4E09",
+            "index": 2,
+            "label": "Vegetation / Forest",
+            "percent": 0.218941,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_4"
+            ],
+            "source_slot": 2
+          },
+          {
+            "analysis_hex": "#B2AE93",
+            "hex": "#A8A8A1",
+            "index": 3,
+            "label": "Limestone / Light Rock",
+            "percent": 0.14078,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_6",
+              "0group_7",
+              "manual_group_1779430487519_f2263d",
+              "group_12"
+            ],
+            "source_slot": 3
+          },
+          {
+            "analysis_hex": "#D8C8A5",
+            "hex": "#C6C2B7",
+            "index": 4,
+            "label": "Deep Shadow / Dark Rock",
+            "percent": 0.097702,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_1"
+            ],
+            "source_slot": 4
+          },
+          {
+            "analysis_hex": "#657B36",
+            "hex": "#5A7A1F",
+            "index": 5,
+            "label": "Vegetation / Forest",
+            "percent": 0.115317,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_8",
+              "group_10",
+              "group_11"
+            ],
+            "source_slot": 5
+          },
+          {
+            "analysis_hex": "#4A5E1D",
+            "hex": "#8CB238",
+            "index": 6,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.072739,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_9"
+            ],
+            "source_slot": 6
+          },
+          {
+            "analysis_hex": "#FEFDF3",
+            "hex": "#F8FAF8",
+            "index": 7,
+            "label": "Snow / Salt / Bright Ground",
+            "percent": 0.058381,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_2"
+            ],
+            "source_slot": 7
+          },
+          {
+            "analysis_hex": "#707B20",
+            "hex": "#9FAE19",
+            "index": 8,
+            "label": "Mixed Natural Ground",
+            "percent": 0.020827,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "0group_5"
+            ],
+            "source_slot": 8
+          }
+        ],
+        "final_color_count": 8,
+        "final_color_plan": {
+          "max_colors": 8,
+          "reductions": {
+            "1": {
+              "active_slots": [
+                1
+              ],
+              "merge_map": {
+                "2": 1
+              }
+            },
+            "2": {
+              "active_slots": [
+                1,
+                2
+              ],
+              "merge_map": {
+                "3": 1
+              }
+            },
+            "3": {
+              "active_slots": [
+                1,
+                2,
+                3
+              ],
+              "merge_map": {
+                "4": 3
+              }
+            },
+            "4": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "merge_map": {
+                "5": 1
+              }
+            },
+            "5": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "merge_map": {
+                "6": 5
+              }
+            },
+            "6": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "merge_map": {
+                "7": 4
+              }
+            },
+            "7": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "merge_map": {
+                "8": 5
+              }
+            }
+          },
+          "schema": "myrace3d.v3.final_color_plan.v1",
+          "slots": [
+            {
+              "analysis_hex": "#A67D37",
+              "group_ids": [
+                "0group_3"
+              ],
+              "hex": "#685D4B",
+              "label": "Rock Mountain / Shadow",
+              "percent": 0.275311,
+              "slot": 1
+            },
+            {
+              "analysis_hex": "#18500A",
+              "group_ids": [
+                "0group_4"
+              ],
+              "hex": "#1B4E09",
+              "label": "Vegetation / Forest",
+              "percent": 0.218941,
+              "slot": 2
+            },
+            {
+              "analysis_hex": "#B2AE93",
+              "group_ids": [
+                "0group_6",
+                "0group_7",
+                "manual_group_1779430487519_f2263d",
+                "group_12"
+              ],
+              "hex": "#A8A8A1",
+              "label": "Limestone / Light Rock",
+              "percent": 0.14078,
+              "slot": 3
+            },
+            {
+              "analysis_hex": "#D8C8A5",
+              "group_ids": [
+                "0group_1"
+              ],
+              "hex": "#C6C2B7",
+              "label": "Deep Shadow / Dark Rock",
+              "percent": 0.097702,
+              "slot": 4
+            },
+            {
+              "analysis_hex": "#657B36",
+              "group_ids": [
+                "0group_8",
+                "group_10",
+                "group_11"
+              ],
+              "hex": "#5A7A1F",
+              "label": "Vegetation / Forest",
+              "percent": 0.115317,
+              "slot": 5
+            },
+            {
+              "analysis_hex": "#4A5E1D",
+              "group_ids": [
+                "0group_9"
+              ],
+              "hex": "#8CB238",
+              "label": "Dirt Road / Beach Track",
+              "percent": 0.072739,
+              "slot": 6
+            },
+            {
+              "analysis_hex": "#FEFDF3",
+              "group_ids": [
+                "0group_2"
+              ],
+              "hex": "#F8FAF8",
+              "label": "Snow / Salt / Bright Ground",
+              "percent": 0.058381,
+              "slot": 7
+            },
+            {
+              "analysis_hex": "#707B20",
+              "group_ids": [
+                "0group_5"
+              ],
+              "hex": "#9FAE19",
+              "label": "Mixed Natural Ground",
+              "percent": 0.020827,
+              "slot": 8
+            }
+          ],
+          "updated_at": "2026-05-22T06:17:38Z"
+        },
+        "source": "2D classification final 8 colors - classification_0001"
+      }
+    },
+    "prepared_at": "2026-05-22T06:21:20Z",
+    "project_slug": "montblancrectangle",
+    "publication_id": "hybrid-001-color-001_001",
+    "published_at": "2026-05-22T06:21:20Z",
+    "schema": "myrace3d.v3.local_colored_build_manifest.v1",
+    "source_design_build_id": "hybrid-001_001",
+    "source_design_label": "Hybrid 001",
+    "source_label": "Hybrid Design Build - Colored Build",
+    "source_type": "design_hybrid_colored",
+    "title": "Hybrid 001 Color 001"
+  },
+  {
+    "attribution_path": "attribution/ATTRIBUTIONS.md",
     "color_style": "copernicus",
     "contains_credentials": false,
     "created_at": "2026-05-21T17:02:58Z",
