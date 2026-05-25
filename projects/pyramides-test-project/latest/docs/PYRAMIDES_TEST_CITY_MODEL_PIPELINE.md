@@ -14,7 +14,7 @@ Preview target:
 
 This section is the source of truth for the current standalone Pyramides preview.
 
-The active standalone review has now been rebuilt from `GPX_Terrain_Studio_v3_LIVE/tools/build_lille_building_block_test.py` with the missing late changes restored:
+The active standalone review has now been rebuilt from `GPX_Terrain_Studio_v3_LIVE/tools/build_lille_building_block_test.py` with the late changes restored and merged into one Pyramides artifact:
 
 - selected address red marker enabled for `6 rue des Pyramides, Lille`
 - selected address source footprint: `way/42671152`
@@ -23,6 +23,12 @@ The active standalone review has now been rebuilt from `GPX_Terrain_Studio_v3_LI
 - default normal-building height: `3.0 x 3.1 m = 9.3 m`
 - three automatic landmark model replacements inserted from `data/landmark_model_database`
 - custom landmarks use solid opaque white material
+- visible road masks exported in the `Printable v1` GLB
+- secondary and local road masks use light beige `#E8D8B8`
+- visible green-space masks exported in the `Printable v1` GLB
+- waterway mask export is implemented in blue `#2563EB`; the current Pyramides rectangle has `0` OSM waterway masks returned by Overpass
+- left-side terrain layer panel controls visibility for buildings, landmarks, selected red building, roads, green spaces, waterways, rail, and other road classes
+- rail is unchecked by default in the local and published preview
 - roof treatment remains disabled
 - printability status: `READY`
 - auto-rotate remains off in the published viewer
@@ -31,8 +37,18 @@ Important correction:
 
 - The generic Building Authority run `buildings_009` had the selected-address and height fixes first.
 - The standalone Pyramides preview had the landmark replacements first.
-- The current rebuilt standalone preview combines those two lines of work for selected address, normalized heights, and landmark replacements.
-- The standalone preview still does not yet include the later road/green/water visible mask implementation described as a future/required layer below. Road, rail, and water are currently used as no-merge barriers in the standalone generator, not as visible printable overlays.
+- The current rebuilt standalone preview combines selected address, normalized heights, landmark replacements, visible road masks, visible green-space masks, and implemented waterway mask support.
+- Road, rail, and water are still used as no-merge barriers for building grouping; road, water, and green masks are also exported as thin raised visible context layers in `Printable v1`.
+
+Current rebuilt mask counts:
+
+- Major road masks: `0`
+- Secondary road masks: `68`
+- Local street masks: `69`
+- Waterway masks: `0`
+- Green-space masks: `44`
+- Printable model size: `18.73 MB`
+- Printable STL size: `51.97 MB`
 
 The goal of this test model is to prove a scalable city-to-print workflow on a small rectangle of Lille before applying it to larger or global terrain products.
 
@@ -244,20 +260,20 @@ Operations:
 
 ### Printable v2
 
-Required next standalone review model.
+Optional future standalone review model.
 
 Rules:
 
 - Use individual source footprints or print-safe touch groups according to the active review mode.
 - Keep normal-building height normalized to the project default unless a future mode explicitly opts into per-building heights.
 - Keep landmark 3D model replacements inserted.
-- Add visible roads, water, and green-space masks as flat overlays.
+- Keep visible roads, water, and green-space masks as thin raised overlays.
 - Keep roof treatment disabled.
 
 Current status:
 
-- Not yet generated in the active standalone review folder.
-- The current active standalone model is `Printable v1` with selected-address red fix, normalized heights, and three landmark replacements.
+- Not generated in the active standalone review folder.
+- The current active standalone model is `Printable v1` with selected-address red fix, normalized heights, three landmark replacements, visible beige road masks, visible green-space masks, and implemented blue waterway mask support.
 
 ## 7. Base And Material Colors
 
@@ -302,8 +318,10 @@ Roads are generated from OSM lines using Shapely `line.buffer(width)`.
 Standalone current behavior:
 
 - Road/rail/water line masks are used as no-merge barriers for building grouping.
-- They are not yet exported as visible beige/blue/black printable overlays in the standalone review folder.
-- The generic Building Authority run `buildings_009` did export printable road/street strips, but that output does not yet include the landmark-model replacement pass.
+- Road/rail/water masks are exported as visible context overlays in `Printable v1`.
+- Major, secondary, and local road masks use light beige `#E8D8B8`.
+- Waterway masks use blue `#2563EB`; the current Pyramides rectangle has no returned waterway features.
+- Rail and lower-priority road/path masks are generated for completeness but are visually muted.
 
 Important detail:
 
@@ -331,14 +349,14 @@ The current narrowed road mask buffers are:
 | `waterway=*` line | `1.2 m` | `2.4 m` |
 | `railway=*` minimum | `1.7 m` | `3.4 m` |
 
-Required future default visible mask classes:
+Current default visible mask classes:
 
 - `major`
 - `secondary`
 - `local`
 - `water`
 
-Counts observed in the generic Building Authority road pass for the current Lille rectangle:
+Counts observed in the current standalone Pyramides pass:
 
 - Major roads: `0`
 - Secondary roads: about `68`
@@ -346,20 +364,23 @@ Counts observed in the generic Building Authority road pass for the current Lill
 - Service roads: about `45`
 - Pedestrian/cycle: about `193`
 - Rail: about `3`
-- Waterways: about `1`
+- Waterways: `0`
 - Other roads: about `1`
 
-Required future standalone UI behavior:
+Standalone UI behavior:
 
-- Road layer checkboxes control both the 2D preview overlays and the active 3D GLB combo.
-- Default 3D combo is `secondary + local + water` because there are no `major` masks in this rectangle.
-- Water must be included by default and shown in blue when data exists.
+- The default 3D model is `Printable v1`, which includes secondary roads, local roads, green spaces, and implemented waterway support.
+- Water is represented in blue when data exists.
+- A left-side `Terrain Layers` panel provides checkbox controls for buildings, landmarks, selected address, road classes, green spaces, waterways, rail, and other roads.
+- Default checked layers: buildings, landmarks, selected red, major roads, secondary roads, local streets, green spaces, waterways.
+- Default unchecked layers: service roads, pedestrian/paths, rail, other roads.
+- Rail is present in the source GLB but hidden by default using the layer control state.
 
 ## 9. Green-Space Mask Sources
 
 Green spaces should use globally scalable OSM tags rather than a Lille-specific dataset.
 
-Required classes for the next standalone green-space pass:
+Current standalone green-space pass uses:
 
 - `leisure=park`
 - `leisure=garden`
@@ -736,6 +757,7 @@ Key review outputs:
 - `lille_touch_consolidated_buildings.glb`
 - `lille_printable_buildings_v1.glb`
 - `lille_printable_buildings_v1.stl`
+- `lille_printable_buildings_v1.png`
 - `lille_printable_coverage_audit.png`
 - `lille_topology_qa.png`
 - `lille_printability_qa.png`
@@ -744,7 +766,7 @@ Key review outputs:
 - `building_printability_report_v1.json`
 - `building_address_selection.json`
 
-Files not currently present in the standalone review folder, but required for the next v2 pass:
+Optional future files not currently present as separate exports:
 
 - `lille_printable_buildings_v2_green_base.glb`
 - `lille_printable_buildings_v2_roads_green.glb`
@@ -753,6 +775,8 @@ Files not currently present in the standalone review folder, but required for th
 - `lille_road_layer_*.glb`
 - `lille_road_layer_*.png`
 - `lille_printable_buildings_v2_roads_green.png`
+
+These are optional because `lille_printable_buildings_v1.glb` now contains the merged visible road, green-space, and waterway-support layers.
 
 ## 17. Rebuild Steps
 
@@ -774,7 +798,8 @@ Rebuild command:
 Expected runtime:
 
 - About 30-60 seconds for the current standalone v1 rebuild on the local machine.
-- The future road-combo GLB pass will be slower because every checkbox combination can be exported.
+- The current merged v1 pass includes visible masks.
+- A future road-combo GLB pass will be slower because every checkbox combination can be exported.
 
 Preview server:
 

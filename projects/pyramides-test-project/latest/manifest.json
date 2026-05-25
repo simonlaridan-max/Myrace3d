@@ -188,7 +188,7 @@
     },
     "export": {
       "glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
-      "glb_bytes": 19316008,
+      "glb_bytes": 19642176,
       "mesh_audit": {
         "bespoke_3d_model": {
           "empty": true,
@@ -202,22 +202,22 @@
             [
               -2.0,
               0.0,
-              -1.668556
+              -1.668556014878995
             ],
             [
               2.0,
               0.24019181174435356,
-              1.668556
+              1.668556014878995
             ]
           ],
-          "components": 130,
+          "components": 553,
           "degenerate_faces": 0,
           "empty": false,
-          "faces": 1072688,
+          "faces": 1089956,
           "min_face_area": 2.000000329656903e-12,
           "non_manifold_edges": 0,
-          "tiny_faces": 6709,
-          "vertices": 536374,
+          "tiny_faces": 6715,
+          "vertices": 545842,
           "watertight": true,
           "winding_consistent": true
         },
@@ -388,10 +388,178 @@
           "vertices": 76244,
           "watertight": true,
           "winding_consistent": true
+        },
+        "visible_green_mask": {
+          "bounds": [
+            [
+              -1.870229508196666,
+              0.049,
+              -1.668556014878995
+            ],
+            [
+              2.0,
+              0.05646666666666667,
+              1.668556014878995
+            ]
+          ],
+          "components": 44,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 2592,
+          "min_face_area": 1.4307920820820612e-07,
+          "non_manifold_edges": 0,
+          "tiny_faces": 0,
+          "vertices": 1384,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "visible_local_mask": {
+          "bounds": [
+            [
+              -2.0,
+              0.049,
+              -1.668556014878995
+            ],
+            [
+              2.0,
+              0.05646666666666667,
+              1.668556014878995
+            ]
+          ],
+          "components": 69,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 2832,
+          "min_face_area": 1.7020969360386417e-09,
+          "non_manifold_edges": 0,
+          "tiny_faces": 4,
+          "vertices": 1554,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "visible_other_mask": {
+          "bounds": [
+            [
+              0.0056963532288261025,
+              0.049,
+              -1.6466844501050801
+            ],
+            [
+              0.039355339411654665,
+              0.05646666666666667,
+              -1.6131633721762353
+            ]
+          ],
+          "components": 1,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 16,
+          "min_face_area": 4.537304050106024e-05,
+          "non_manifold_edges": 0,
+          "tiny_faces": 0,
+          "vertices": 10,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "visible_pedestrian_path_mask": {
+          "bounds": [
+            [
+              -2.0,
+              0.049,
+              -1.668556014878995
+            ],
+            [
+              2.0,
+              0.05646666666666667,
+              1.668556014878995
+            ]
+          ],
+          "components": 193,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 7204,
+          "min_face_area": 1.34411554149886e-08,
+          "non_manifold_edges": 0,
+          "tiny_faces": 0,
+          "vertices": 3978,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "visible_rail_mask": {
+          "bounds": [
+            [
+              -2.0,
+              0.049,
+              -1.668556014878995
+            ],
+            [
+              -0.04704677329003766,
+              0.05646666666666667,
+              0.3644992972648038
+            ]
+          ],
+          "components": 3,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 452,
+          "min_face_area": 1.0241126826757672e-07,
+          "non_manifold_edges": 0,
+          "tiny_faces": 0,
+          "vertices": 232,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "visible_secondary_mask": {
+          "bounds": [
+            [
+              -2.0,
+              0.049,
+              -1.668556014878995
+            ],
+            [
+              2.0,
+              0.05646666666666667,
+              1.668556014878995
+            ]
+          ],
+          "components": 68,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 3136,
+          "min_face_area": 8.319310524870262e-09,
+          "non_manifold_edges": 0,
+          "tiny_faces": 2,
+          "vertices": 1704,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "visible_service_mask": {
+          "bounds": [
+            [
+              -1.9693725649554803,
+              0.049,
+              -1.668556014878995
+            ],
+            [
+              2.0,
+              0.05646666666666667,
+              1.442333834125737
+            ]
+          ],
+          "components": 45,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 1036,
+          "min_face_area": 1.5823908006216535e-07,
+          "non_manifold_edges": 0,
+          "tiny_faces": 0,
+          "vertices": 606,
+          "watertight": true,
+          "winding_consistent": true
         }
       },
       "stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
-      "stl_bytes": 53634484
+      "stl_bytes": 54497884
     },
     "print_rules": {
       "corner_polish_radius_mm": 0.08,
@@ -486,6 +654,44 @@
         ],
         "total_area_mm2": 8412.875565429373
       }
+    },
+    "visible_masks": {
+      "green": {
+        "area_mm2": 466.227,
+        "count": 44
+      },
+      "local": {
+        "area_mm2": 619.0517,
+        "count": 69
+      },
+      "major": {
+        "area_mm2": 0.0,
+        "count": 0
+      },
+      "other": {
+        "area_mm2": 0.7937,
+        "count": 1
+      },
+      "pedestrian_path": {
+        "area_mm2": 380.0407,
+        "count": 193
+      },
+      "rail": {
+        "area_mm2": 130.7069,
+        "count": 3
+      },
+      "secondary": {
+        "area_mm2": 800.833,
+        "count": 68
+      },
+      "service": {
+        "area_mm2": 119.6815,
+        "count": 45
+      },
+      "water": {
+        "area_mm2": 0.0,
+        "count": 0
+      }
     }
   },
   "project": "Pyramides Test Project",
@@ -516,7 +722,7 @@
     }
   ],
   "summary": {
-    "OSM elements": "2,759",
+    "OSM elements": "2,833",
     "authority QA": "pass",
     "authority edge-clipped records": "139",
     "authority invalid records": "0",
@@ -525,6 +731,7 @@
     "building provider": "OpenStreetMap via Overpass API",
     "courtyard holes preserved": "97",
     "green landmark footprints": "5",
+    "green mask color": "#22C55E",
     "height default levels": "3.00",
     "height max": "40.0 m",
     "height median": "9.3 m",
@@ -536,42 +743,49 @@
     "landmark micro model replacements": "3",
     "landmark replacement slugs": "palais_beaux_arts_lille, saint_michel_lille, theatre_sebastopol_lille",
     "large/high buildings": "37",
-    "model size": "16.05 MB",
+    "model size": "16.32 MB",
     "printability degenerate faces": "0",
     "printability failures": "none",
     "printability non-manifold edges": "0",
     "printability status": "READY",
-    "printability street intrusion": "0.0329%",
+    "printability street intrusion": "0.0004%",
     "printability warnings": "none",
-    "printable STL size": "51.15 MB",
+    "printable STL size": "51.97 MB",
     "printable components": "129",
     "printable covered area preserved": "99.9547%",
     "printable extra area": "1.1486% (100.39 mm2)",
     "printable missing area": "0.0453% (3.96 mm2)",
-    "printable model size": "18.42 MB",
+    "printable model size": "18.73 MB",
     "printable watertight": "yes",
     "project": "Pyramides Test Project",
     "provider fallback policy": "no_silent_fallback",
     "rectangle": "862 m x 719 m",
     "red landmark footprints": "3",
     "requested landmark points": "3",
+    "road mask color": "#E8D8B8",
     "selected address": "6 rue des Pyramides, Lille",
     "selected address red footprints": "1",
     "selected address red hits": "1",
-    "small block groups": "68",
-    "small individual preserved": "211",
+    "small block groups": "72",
+    "small individual preserved": "22",
     "smallest printable component": "0.352 mm2",
     "source building footprints": "1,745",
     "source green classified": "5",
     "source model size": "16.78 MB",
     "source normal white buildings": "1,736",
     "source red classified": "4",
-    "street-block cells": "80",
+    "street-block cells": "160",
     "tiny isolated removed": "22",
     "tiny removed area": "0.047%",
     "tiny/sliver holes filled": "186",
     "touch model size": "16.41 MB",
-    "touch-consolidated white groups": "120"
+    "touch-consolidated white groups": "120",
+    "visible green-space masks": "44",
+    "visible road local masks": "69",
+    "visible road major masks": "0",
+    "visible road secondary masks": "68",
+    "visible waterway masks": "0",
+    "water mask color": "#2563EB"
   },
   "target_landmark_hits": [
     {

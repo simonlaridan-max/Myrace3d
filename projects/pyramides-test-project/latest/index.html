@@ -3,126 +3,288 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pyramides Test Project - Lille City Model</title>
+  <title>Lille Building Consolidation Test</title>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <style>
-    html, body {
-      height: 100%;
-    }
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #0f172a;
-      background: #edf2f7;
-      display: flex;
-      flex-direction: column;
-    }
-    header {
-      background: #ffffff;
-      border-bottom: 1px solid #cbd5e1;
-      padding: 14px 18px;
-    }
-    h1 {
-      margin: 0 0 4px;
-      font-size: 20px;
-    }
-    .meta {
-      color: #475569;
-      font-size: 13px;
-      line-height: 1.45;
-    }
-    main {
-      flex: 1 1 auto;
-      min-height: 0;
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 320px;
-    }
-    .viewer {
-      min-height: 0;
-      background: linear-gradient(145deg, #64748b, #2f3946);
-    }
-    model-viewer {
-      width: 100%;
-      height: 100%;
-      background: transparent;
-      --poster-color: transparent;
-    }
-    aside {
-      background: #ffffff;
-      border-left: 1px solid #cbd5e1;
-      padding: 16px;
-      overflow: auto;
-    }
-    dl {
-      display: grid;
-      grid-template-columns: 132px 1fr;
-      gap: 8px;
-      font-size: 12px;
-    }
-    dt {
-      color: #64748b;
-    }
-    dd {
-      margin: 0;
-      font-weight: 700;
-    }
-    a {
-      color: #0f766e;
-    }
-    @media (max-width: 860px) {
-      main {
-        grid-template-columns: 1fr;
-      }
-      aside {
-        border-left: 0;
-        border-top: 1px solid #cbd5e1;
-      }
-      .viewer {
-        min-height: 62vh;
-      }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #edf2f7; color: #0f172a; }
+    header { padding: 12px 18px; background: #fff; border-bottom: 1px solid #cbd5e1; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    h1 { margin: 0; font-size: 18px; }
+    button { border:1px solid #cbd5e1; background:#fff; border-radius:6px; padding:7px 10px; font-size:12px; cursor:pointer; }
+    button.active { border-color:#0f766e; color:#0f766e; box-shadow:inset 0 0 0 1px #0f766e; }
+    main { display: grid; grid-template-columns: 280px minmax(0, 1fr) 360px; min-height: calc(100vh - 52px); }
+    model-viewer { width: 100%; height: calc(100vh - 52px); background: linear-gradient(145deg, #64748b, #2f3946); }
+    aside { background: #fff; border-left: 1px solid #cbd5e1; padding: 14px; overflow: auto; }
+    .layerPanel { background:#fff; border-right:1px solid #cbd5e1; padding:14px; overflow:auto; }
+    .layerPanel h2 { margin:0 0 10px; font-size:14px; }
+    .layerPanel p { margin:0 0 12px; color:#64748b; font-size:12px; line-height:1.45; }
+    .layerToggle { min-height:30px; display:grid; grid-template-columns:18px 1fr auto; align-items:center; gap:8px; margin:0; padding:5px 0; border-bottom:1px solid #eef2f7; color:#334155; font-size:12px; font-weight:700; }
+    .layerToggle input { width:14px; height:14px; margin:0; }
+    .layerToggle b { color:#64748b; font-size:11px; font-weight:700; }
+    dl { display: grid; grid-template-columns: 170px 1fr; gap: 8px; font-size: 12px; }
+    dt { color: #64748b; }
+    dd { margin: 0; font-weight: 700; }
+    img { width: 100%; border: 1px solid #cbd5e1; border-radius: 6px; }
+    input { width: 100%; box-sizing: border-box; border: 1px solid #cbd5e1; border-radius: 6px; padding: 7px 8px; font-size: 12px; margin: 3px 0 8px; }
+    label { display:block; color:#475569; font-size:11px; font-weight:700; margin-top:6px; }
+    .formRow { display:grid; grid-template-columns: 1fr 1fr; gap:8px; }
+    .statusLine { color:#475569; font-size:12px; min-height:16px; }
+    .tag { display: inline-flex; padding: 2px 7px; border-radius: 999px; margin: 2px; font-size: 11px; font-weight: 700; }
+    @media (max-width: 980px) {
+      main { grid-template-columns: 1fr; }
+      .layerPanel { border-right:0; border-bottom:1px solid #cbd5e1; }
+      model-viewer { height: 62vh; }
+      aside { border-left:0; border-top:1px solid #cbd5e1; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Pyramides Test Project</h1>
-    <div class="meta">Lille city-area 3D preview. Auto-rotate is off; use mouse or touch to inspect the model.</div>
+    <h1>Lille Building Source + Touch Consolidation Test</h1>
+    <div>
+      <button type="button" data-mode="source">Original All Buildings</button>
+      <button type="button" data-mode="touch">Touch Consolidated</button>
+      <button type="button" class="active" data-mode="printable">Printable v1</button>
+      <button type="button" data-mode="audit">Coverage Audit</button>
+      <button type="button" data-mode="topology">Topology QA</button>
+      <button type="button" data-mode="printqa">Printability QA</button>
+    </div>
   </header>
   <main>
-    <section class="viewer" aria-label="3D model viewer">
-      <model-viewer
-        src="models/pyramides-test-model.glb"
-        camera-controls
-        interaction-prompt="none"
-        shadow-intensity="0.85"
-        exposure="0.95"
-        camera-orbit="45deg 58deg 135%"
-        field-of-view="30deg"
-        min-field-of-view="18deg"
-        max-field-of-view="45deg"
-        loading="eager"
-        reveal="auto">
-        <div slot="poster">Loading Pyramides Test Project...</div>
-        <div slot="error">The 3D preview could not be loaded.</div>
-      </model-viewer>
+    <section class="layerPanel" aria-label="Terrain layers">
+      <h2>Terrain Layers</h2>
+      <p>Toggle the visible context layers in the active 3D model. Rail is unchecked by default for the published version.</p>
+      <label class="layerToggle"><input type="checkbox" data-layer="buildings" checked><span>Buildings</span><b>129</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="landmarks" checked><span>Landmarks</span><b>3</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="selected" checked><span>Selected red</span><b>1</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="major" checked><span>Major roads</span><b>0</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="secondary" checked><span>Secondary roads</span><b>68</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="local" checked><span>Local streets</span><b>69</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="service" ><span>Service roads</span><b>45</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="paths" ><span>Pedestrian / paths</span><b>193</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="green" checked><span>Green spaces</span><b>44</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="water" checked><span>Waterways</span><b>0</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="rail" ><span>Rail</span><b>3</b></label>
+<label class="layerToggle"><input type="checkbox" data-layer="other" ><span>Other roads</span><b>1</b></label>
     </section>
+    <model-viewer id="viewer" src="lille_printable_buildings_v1.glb" camera-controls shadow-intensity="1" exposure="0.9" camera-orbit="45deg 58deg 135%" field-of-view="30deg"></model-viewer>
     <aside>
-      <h2>Preview Notes</h2>
-      <dl>
-        <dt>Project</dt><dd>Pyramides Test Project</dd>
-        <dt>Area</dt><dd>Lille, France</dd>
-        <dt>Model</dt><dd>Printable v1 with landmarks, red selection, and normalized heights</dd>
-        <dt>Auto-rotate</dt><dd>Off</dd>
-        <dt>Landmarks</dt><dd>3 micro models inserted</dd>
-        <dt>Selected address</dt><dd>6 rue des Pyramides</dd>
-        <dt>Height policy</dt><dd>Normal buildings normalized to 3 levels</dd>
-        <dt>Status</dt><dd>Printability READY</dd>
-        <dt>Source</dt><dd>OpenStreetMap via Overpass</dd>
-        <dt>License</dt><dd>ODbL attribution required</dd>
-      </dl>
-      <p class="meta">Building, road, and green-space data: &copy; OpenStreetMap contributors.</p>
-      <p class="meta"><a href="manifest.json">Build manifest</a></p>
+      <h2 id="modeTitle">Printable Buildings v1</h2>
+      <p><span class="tag" style="background:#fff;border:1px solid #cbd5e1">normal buildings</span><span class="tag" style="background:#16a34a;color:#fff">landmark</span><span class="tag" style="background:#dc2626;color:#fff">selected red</span><span class="tag" style="background:#e8d8b8">roads</span><span class="tag" style="background:#2563eb;color:#fff">water</span><span class="tag" style="background:#22c55e;color:#fff">green space</span></p>
+      <dl><dt>project</dt><dd>Pyramides Test Project</dd>
+<dt>OSM elements</dt><dd>2,833</dd>
+<dt>source building footprints</dt><dd>1,745</dd>
+<dt>source normal white buildings</dt><dd>1,736</dd>
+<dt>source green classified</dt><dd>5</dd>
+<dt>source red classified</dt><dd>4</dd>
+<dt>landmark database records in bounds</dt><dd>3</dd>
+<dt>landmark micro model replacements</dt><dd>3</dd>
+<dt>building provider</dt><dd>OpenStreetMap via Overpass API</dd>
+<dt>provider fallback policy</dt><dd>no_silent_fallback</dd>
+<dt>selected address</dt><dd>6 rue des Pyramides, Lille</dd>
+<dt>selected address red hits</dt><dd>1</dd>
+<dt>height source high confidence</dt><dd>5</dd>
+<dt>height source medium confidence</dt><dd>1,722</dd>
+<dt>height source low confidence</dt><dd>18</dd>
+<dt>height default levels</dt><dd>3.00</dd>
+<dt>height normal buildings normalized</dt><dd>yes</dd>
+<dt>height median</dt><dd>9.3 m</dd>
+<dt>height max</dt><dd>40.0 m</dd>
+<dt>visible road major masks</dt><dd>0</dd>
+<dt>visible road secondary masks</dt><dd>68</dd>
+<dt>visible road local masks</dt><dd>69</dd>
+<dt>visible waterway masks</dt><dd>0</dd>
+<dt>visible green-space masks</dt><dd>44</dd>
+<dt>road mask color</dt><dd>#E8D8B8</dd>
+<dt>water mask color</dt><dd>#2563EB</dd>
+<dt>green mask color</dt><dd>#22C55E</dd>
+<dt>authority QA</dt><dd>pass</dd>
+<dt>authority source records</dt><dd>1,745</dd>
+<dt>authority protected records</dt><dd>45</dd>
+<dt>authority edge-clipped records</dt><dd>139</dd>
+<dt>authority invalid records</dt><dd>0</dd>
+<dt>printability status</dt><dd>READY</dd>
+<dt>printability failures</dt><dd>none</dd>
+<dt>printability warnings</dt><dd>none</dd>
+<dt>printability non-manifold edges</dt><dd>0</dd>
+<dt>printability degenerate faces</dt><dd>0</dd>
+<dt>printability street intrusion</dt><dd>0.0004%</dd>
+<dt>printable covered area preserved</dt><dd>99.9547%</dd>
+<dt>printable missing area</dt><dd>0.0453% (3.96 mm2)</dd>
+<dt>printable extra area</dt><dd>1.1486% (100.39 mm2)</dd>
+<dt>printable watertight</dt><dd>yes</dd>
+<dt>printable components</dt><dd>129</dd>
+<dt>smallest printable component</dt><dd>0.352 mm2</dd>
+<dt>printable model size</dt><dd>18.73 MB</dd>
+<dt>printable STL size</dt><dd>51.97 MB</dd>
+<dt>touch-consolidated white groups</dt><dd>120</dd>
+<dt>tiny isolated removed</dt><dd>22</dd>
+<dt>tiny removed area</dt><dd>0.047%</dd>
+<dt>courtyard holes preserved</dt><dd>97</dd>
+<dt>tiny/sliver holes filled</dt><dd>186</dd>
+<dt>source model size</dt><dd>16.78 MB</dd>
+<dt>touch model size</dt><dd>16.41 MB</dd>
+<dt>rectangle</dt><dd>862 m x 719 m</dd>
+<dt>requested landmark points</dt><dd>3</dd></dl>
+      <h2>2D Authority</h2>
+      <img id="preview" src="lille_printable_buildings_v1.png" alt="Lille source authority map">
+      <p id="description">Printable v1 with selected address red, normalized building heights, landmark model replacements, and visible beige roads, blue waterways, and green-space masks.</p>
+      <h2>Selected Address</h2>
+      <label for="addressInput">Address</label>
+      <input id="addressInput" value="6 rue des Pyramides, Lille" placeholder="6 rue des Pyramides, Lille">
+      <label for="osmRefInput">Exact Source Footprint</label>
+      <input id="osmRefInput" value="way/42671152" placeholder="optional, for example way/42671152">
+      <div class="formRow">
+        <div>
+          <label for="latInput">Latitude</label>
+          <input id="latInput" value="50.6278" placeholder="optional">
+        </div>
+        <div>
+          <label for="lonInput">Longitude</label>
+          <input id="lonInput" value="3.06" placeholder="optional">
+        </div>
+      </div>
+      <button id="selectAddressBtn" type="button">Apply Red Building</button>
+      <button id="clearAddressBtn" type="button">Clear</button>
+      <p id="addressStatus" class="statusLine">Use coordinates or an exact source footprint when the source has no address tag; nearest matching is strict.</p>
+      <p>Attribution: contains information from OpenStreetMap and its contributors, available under the Open Database License.</p>
     </aside>
   </main>
+  <script>
+    const modes = {
+      source: {
+        title: "Original All Buildings",
+        model: "lille_source_authority_all_buildings.glb",
+        image: "lille_source_authority_all_buildings.png",
+        description: "Every original OSM building footprint is shown without grouping. Normal buildings are white, classified/preserved landmarks are green or red."
+      },
+      touch: {
+        title: "Touch Consolidated Buildings",
+        model: "lille_touch_consolidated_buildings.glb",
+        image: "lille_touch_consolidated_buildings.png",
+        description: "Only touching or overlapping normal building footprints are dissolved together. No buffer is applied, so the covered source area and street gaps are preserved, except tiny isolated fragments below the printability threshold."
+      },
+      printable: {
+        title: "Printable Buildings v1",
+        model: "lille_printable_buildings_v1.glb",
+        image: "lille_printable_buildings_v1.png",
+        description: "Printable v1 with selected address red, normalized building heights, landmark model replacements, and visible beige roads, blue waterways, and green-space masks."
+      },
+      audit: {
+        title: "Coverage Audit",
+        model: "lille_printable_buildings_v1.glb",
+        image: "lille_printable_coverage_audit.png",
+        description: "Coverage audit against original OSM footprints. Light gray is original source coverage, black is printable output outline, red is missing source area, and blue is extra area added by print polishing."
+      },
+      topology: {
+        title: "Topology QA",
+        model: "lille_touch_consolidated_buildings.glb",
+        image: "lille_topology_qa.png",
+        description: "Authority topology audit. Pale gray is original source, black outlines are touch-consolidated authority blocks, green/red are protected landmarks, and orange marks tiny isolated source fragments treated as optional print-risk details."
+      },
+      printqa: {
+        title: "Printability QA",
+        model: "lille_printable_buildings_v1.glb",
+        image: "lille_printability_qa.png",
+        description: "Printability audit. Gray is printable output, red is lost source coverage, blue is extra polishing, purple is extra area intruding into street corridors, orange is below the current component-size warning threshold, and green/red outlines are protected landmarks."
+      }
+    };
+    const viewer = document.querySelector("#viewer");
+    const preview = document.querySelector("#preview");
+    const title = document.querySelector("#modeTitle");
+    const description = document.querySelector("#description");
+    const layerMaterialMatchers = {
+      buildings: ["printable-normal-buildings-white", "source-normal-buildings-white"],
+      landmarks: ["landmark-micro-model-solid-white", "printable-enhanced-landmarks-green", "source-green-classified-landmarks"],
+      selected: ["printable-selected-address-red", "source-selected-address-red"],
+      major: ["road-major-light-beige"],
+      secondary: ["road-secondary-light-beige"],
+      local: ["road-local-light-beige"],
+      service: ["road-service-muted"],
+      paths: ["road-path-muted"],
+      green: ["green-space-mask"],
+      water: ["waterway-blue"],
+      rail: ["rail-dark-context"],
+      other: ["road-other-muted"]
+    };
+    const layerState = Object.fromEntries(Array.from(document.querySelectorAll("[data-layer]")).map((item) => [item.dataset.layer, item.checked]));
+    function materialBelongsToLayer(materialName, layer) {
+      const name = String(materialName || "");
+      return (layerMaterialMatchers[layer] || []).some((token) => name.includes(token));
+    }
+    function setMaterialVisible(material, visible) {
+      try {
+        if (material.setAlphaMode) material.setAlphaMode(visible ? "OPAQUE" : "BLEND");
+        if (material.pbrMetallicRoughness?.setBaseColorFactor) {
+          const current = material.pbrMetallicRoughness.baseColorFactor || [1, 1, 1, 1];
+          material.pbrMetallicRoughness.setBaseColorFactor([current[0], current[1], current[2], visible ? 1 : 0]);
+        }
+      } catch (error) {
+        console.warn("Layer visibility update failed", material?.name, error);
+      }
+    }
+    function applyLayerVisibility() {
+      if (!viewer.model?.materials) return;
+      for (const material of viewer.model.materials) {
+        for (const layer of Object.keys(layerMaterialMatchers)) {
+          if (materialBelongsToLayer(material.name, layer)) {
+            setMaterialVisible(material, layerState[layer] !== false);
+          }
+        }
+      }
+    }
+    viewer.addEventListener("load", applyLayerVisibility);
+    document.querySelectorAll("[data-layer]").forEach((checkbox) => {
+      checkbox.addEventListener("change", () => {
+        layerState[checkbox.dataset.layer] = checkbox.checked;
+        applyLayerVisibility();
+      });
+    });
+    document.querySelectorAll("button[data-mode]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const mode = modes[button.dataset.mode];
+        viewer.setAttribute("src", mode.model);
+        preview.setAttribute("src", mode.image);
+        title.textContent = mode.title;
+        description.textContent = mode.description;
+        document.querySelectorAll("button[data-mode]").forEach((item) => item.classList.toggle("active", item === button));
+        window.setTimeout(applyLayerVisibility, 250);
+      });
+    });
+    async function postAddressSelection(payload) {
+      const status = document.querySelector("#addressStatus");
+      status.textContent = "Updating selected building...";
+      const response = await fetch("/api/lille-building-blocks/address-selection", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const result = await response.json();
+      if (!response.ok) {
+        status.textContent = result.error || "Address update failed.";
+        return;
+      }
+      const hits = result.manifest?.summary?.["selected address red hits"] || "0";
+      status.textContent = `Updated. Red building hits: ${hits}. Reloading...`;
+      window.location.href = "index.html?v=" + Date.now();
+    }
+    document.querySelector("#selectAddressBtn").addEventListener("click", () => {
+      const address = document.querySelector("#addressInput").value.trim();
+      const osmRef = document.querySelector("#osmRefInput").value.trim();
+      const latText = document.querySelector("#latInput").value.trim();
+      const lonText = document.querySelector("#lonInput").value.trim();
+      postAddressSelection({
+        enabled: true,
+        label: address || "Selected address",
+        address,
+        osm_ref: osmRef || null,
+        lat: latText ? Number(latText) : null,
+        lon: lonText ? Number(lonText) : null
+      });
+    });
+    document.querySelector("#clearAddressBtn").addEventListener("click", () => {
+      postAddressSelection({ enabled: false });
+    });
+  </script>
 </body>
 </html>
