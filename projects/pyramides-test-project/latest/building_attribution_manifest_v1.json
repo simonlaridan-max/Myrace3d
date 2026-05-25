@@ -1,0 +1,82 @@
+{
+  "commercial_package_status": "attribution_manifest_complete_for_selected_provider",
+  "commercial_use_checklist": {
+    "license_review_required_before_sale": true,
+    "no_silent_fallback": true,
+    "odbl_share_alike_review_required_if_distributing_derivative_database": true,
+    "provider_lineage_present": true,
+    "required_attribution_present": true,
+    "source_cache_recorded": true
+  },
+  "commercial_use_review_required": true,
+  "landmark_model_database": {
+    "commercial_use_note": "Keep each landmark package attribution report with commercial terrain releases; generated models are placed against OSM-derived footprints, so OSM attribution remains required.",
+    "index": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\landmark_model_database_index.json",
+    "inserted_models": [
+      {
+        "attribution_report": "data/landmark_model_database/processed/palais_beaux_arts_lille_handoff_package/palais_beaux_arts_lille/attribution/attribution_report.md",
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\palais_beaux_arts_lille_handoff_package\\palais_beaux_arts_lille\\models\\micro\\palais_beaux_arts_lille_micro_print_slicer_ready.stl",
+        "name": "Palais des Beaux-Arts de Lille",
+        "slug": "palais_beaux_arts_lille",
+        "source_footprint_osm_ref": "way/152835085"
+      },
+      {
+        "attribution_report": "data/landmark_model_database/processed/saint_michel_lille_handoff_package/saint_michel_lille/attribution/attribution_report.md",
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\saint_michel_lille_handoff_package\\saint_michel_lille\\models\\micro\\saint_michel_lille_micro_print_slicer_ready.stl",
+        "name": "Eglise Saint-Michel de Lille",
+        "slug": "saint_michel_lille",
+        "source_footprint_osm_ref": "relation/11371647"
+      },
+      {
+        "attribution_report": "data/landmark_model_database/processed/theatre_sebastopol_lille_handoff_package/theatre_sebastopol_lille/attribution/attribution_report.md",
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\theatre_sebastopol_lille_handoff_package\\theatre_sebastopol_lille\\models\\micro\\theatre_sebastopol_lille_micro_print_slicer_ready.stl",
+        "name": "Theatre Sebastopol de Lille",
+        "slug": "theatre_sebastopol_lille",
+        "source_footprint_osm_ref": "way/37594524"
+      }
+    ]
+  },
+  "lineage_outputs": {
+    "building_authority_manifest": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_authority_manifest_v1.json",
+    "building_printability_report": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_printability_report_v1.json",
+    "printable_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
+    "printable_stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
+    "review_page": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\index.html"
+  },
+  "project": "Pyramides Test Project",
+  "provider_policy": {
+    "failure_behavior": "Write provider failure report and stop instead of silently switching providers.",
+    "fallbacks_allowed": false
+  },
+  "providers": [
+    {
+      "attribution": "\u00a9 OpenStreetMap contributors",
+      "attribution_guidelines_url": "https://osmfoundation.org/wiki/Licence/Attribution_Guidelines",
+      "commercial_use_note": "Commercial use is possible, subject to ODbL attribution/share-alike obligations for derivative databases.",
+      "copyright_url": "https://www.openstreetmap.org/copyright",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "fallback_policy": "no_silent_fallback",
+      "license": "Open Data Commons Open Database License (ODbL)",
+      "provider_id": "osm_overpass_primary",
+      "provider_name": "OpenStreetMap via Overpass API",
+      "query_bounds": {
+        "max_lat": 50.63215,
+        "max_lon": 3.06745,
+        "min_lat": 50.62565,
+        "min_lon": 3.05525
+      },
+      "source_cache": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_osm_overpass_response.json",
+      "used_for": [
+        "building footprints",
+        "building tags",
+        "landmark tags",
+        "road/path/water/green masks"
+      ]
+    }
+  ],
+  "recommended_public_display_text": "Building and map data: \u00a9 OpenStreetMap contributors.",
+  "required_display_attribution": [
+    "\u00a9 OpenStreetMap contributors"
+  ],
+  "schema": "myrace3d.building_attribution_manifest.v1"
+}

@@ -77,7 +77,7 @@
       "maximum": 0.1,
       "pass": true,
       "severity": "warn",
-      "value": 0.03289824076624355
+      "value": 0.0003838079375940012
     }
   },
   "coverage_report": {
@@ -98,7 +98,7 @@
     "edge_clipped_components": 45,
     "printable_components": 129,
     "printable_union_area_mm2": 8836.496601273984,
-    "street_intrusion_extra_mm2": 2.875318564921876
+    "street_intrusion_extra_mm2": 0.033544957500000035
   },
   "failing_checks": [],
   "mesh_audit": {
@@ -114,22 +114,22 @@
         [
           -2.0,
           0.0,
-          -1.668556
+          -1.668556014878995
         ],
         [
           2.0,
           0.24019181174435356,
-          1.668556
+          1.668556014878995
         ]
       ],
-      "components": 130,
+      "components": 553,
       "degenerate_faces": 0,
       "empty": false,
-      "faces": 1072688,
+      "faces": 1089956,
       "min_face_area": 2.000000329656903e-12,
       "non_manifold_edges": 0,
-      "tiny_faces": 6709,
-      "vertices": 536374,
+      "tiny_faces": 6715,
+      "vertices": 545842,
       "watertight": true,
       "winding_consistent": true
     },
@@ -298,6 +298,174 @@
       "non_manifold_edges": 0,
       "tiny_faces": 6438,
       "vertices": 76244,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_green_mask": {
+      "bounds": [
+        [
+          -1.870229508196666,
+          0.049,
+          -1.668556014878995
+        ],
+        [
+          2.0,
+          0.05646666666666667,
+          1.668556014878995
+        ]
+      ],
+      "components": 44,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 2592,
+      "min_face_area": 1.4307920820820612e-07,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 1384,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_local_mask": {
+      "bounds": [
+        [
+          -2.0,
+          0.049,
+          -1.668556014878995
+        ],
+        [
+          2.0,
+          0.05646666666666667,
+          1.668556014878995
+        ]
+      ],
+      "components": 69,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 2832,
+      "min_face_area": 1.7020969360386417e-09,
+      "non_manifold_edges": 0,
+      "tiny_faces": 4,
+      "vertices": 1554,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_other_mask": {
+      "bounds": [
+        [
+          0.0056963532288261025,
+          0.049,
+          -1.6466844501050801
+        ],
+        [
+          0.039355339411654665,
+          0.05646666666666667,
+          -1.6131633721762353
+        ]
+      ],
+      "components": 1,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 16,
+      "min_face_area": 4.537304050106024e-05,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 10,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_pedestrian_path_mask": {
+      "bounds": [
+        [
+          -2.0,
+          0.049,
+          -1.668556014878995
+        ],
+        [
+          2.0,
+          0.05646666666666667,
+          1.668556014878995
+        ]
+      ],
+      "components": 193,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 7204,
+      "min_face_area": 1.34411554149886e-08,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 3978,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_rail_mask": {
+      "bounds": [
+        [
+          -2.0,
+          0.049,
+          -1.668556014878995
+        ],
+        [
+          -0.04704677329003766,
+          0.05646666666666667,
+          0.3644992972648038
+        ]
+      ],
+      "components": 3,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 452,
+      "min_face_area": 1.0241126826757672e-07,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 232,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_secondary_mask": {
+      "bounds": [
+        [
+          -2.0,
+          0.049,
+          -1.668556014878995
+        ],
+        [
+          2.0,
+          0.05646666666666667,
+          1.668556014878995
+        ]
+      ],
+      "components": 68,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 3136,
+      "min_face_area": 8.319310524870262e-09,
+      "non_manifold_edges": 0,
+      "tiny_faces": 2,
+      "vertices": 1704,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "visible_service_mask": {
+      "bounds": [
+        [
+          -1.9693725649554803,
+          0.049,
+          -1.668556014878995
+        ],
+        [
+          2.0,
+          0.05646666666666667,
+          1.442333834125737
+        ]
+      ],
+      "components": 45,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 1036,
+      "min_face_area": 1.5823908006216535e-07,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 606,
       "watertight": true,
       "winding_consistent": true
     }
