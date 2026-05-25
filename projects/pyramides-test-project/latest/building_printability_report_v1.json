@@ -1,0 +1,294 @@
+{
+  "checks": {
+    "base_contact": {
+      "pass": true,
+      "severity": "fail",
+      "value": {
+        "base_max_y": 0.04800000041723251,
+        "base_min_y": 0.0,
+        "below_base_vertices": false,
+        "building_min_y": [
+          0.048,
+          0.048
+        ],
+        "floating_categories": []
+      }
+    },
+    "combined_degenerate_faces": {
+      "maximum": 0,
+      "pass": true,
+      "severity": "warn",
+      "value": 0
+    },
+    "combined_non_manifold_edges": {
+      "maximum": 0,
+      "pass": true,
+      "severity": "fail",
+      "value": 0
+    },
+    "combined_watertight": {
+      "pass": true,
+      "severity": "fail",
+      "value": true
+    },
+    "combined_winding_consistent": {
+      "pass": true,
+      "severity": "fail",
+      "value": true
+    },
+    "component_overlap_percent": {
+      "maximum": 0.05,
+      "pass": true,
+      "severity": "warn",
+      "value": 2.2922975444477455e-05
+    },
+    "coverage_extra_percent": {
+      "maximum": 2.0,
+      "pass": true,
+      "severity": "warn",
+      "value": 1.1486542433445117
+    },
+    "coverage_missing_percent": {
+      "maximum": 0.5,
+      "pass": true,
+      "severity": "fail",
+      "value": 0.04528100831799365
+    },
+    "coverage_preserved_percent": {
+      "minimum": 99.5,
+      "pass": true,
+      "severity": "fail",
+      "value": 99.954718991682
+    },
+    "invalid_polygons": {
+      "maximum": 0,
+      "pass": true,
+      "severity": "fail",
+      "value": 0
+    },
+    "minimum_component_area_mm2": {
+      "minimum": 0.18,
+      "pass": true,
+      "severity": "warn",
+      "value": 0.35206327124999937
+    },
+    "street_intrusion_extra_percent": {
+      "maximum": 0.1,
+      "pass": true,
+      "severity": "warn",
+      "value": 0.03289834414287433
+    }
+  },
+  "coverage_report": {
+    "covered_area_extra_mm2": 100.39281109382814,
+    "covered_area_extra_percent": 1.1486542433445117,
+    "covered_area_missing_mm2": 3.957577086878846,
+    "covered_area_missing_percent": 0.04528100831799365,
+    "covered_area_preserved_percent": 99.954718991682,
+    "output_area_mm2": 8836.497905220001,
+    "output_area_model_units": 6.283731843712002,
+    "source_area_mm2": 8740.037454745005,
+    "source_area_model_units": 6.215137745596449
+  },
+  "diagnostics": {
+    "component_area_sum_mm2": 8836.49990869664,
+    "component_overlap_mm2": 0.0020034766395893295,
+    "courtyard_holes": 107,
+    "edge_clipped_components": 45,
+    "printable_components": 127,
+    "printable_union_area_mm2": 8836.497905220001,
+    "street_intrusion_extra_mm2": 2.8753276000781263
+  },
+  "failing_checks": [],
+  "mesh_audit": {
+    "bespoke_3d_model": {
+      "empty": true,
+      "faces": 0,
+      "skipped_for_landmark_model_replacement": true,
+      "vertices": 0,
+      "watertight": false
+    },
+    "combined_print_mesh": {
+      "bounds": [
+        [
+          -2.0,
+          0.0,
+          -1.668556
+        ],
+        [
+          2.0,
+          0.24019181174435356,
+          1.668556
+        ]
+      ],
+      "components": 128,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 1072636,
+      "min_face_area": 2.000000329656903e-12,
+      "non_manifold_edges": 0,
+      "tiny_faces": 6695,
+      "vertices": 536344,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "enhanced_landmark_massing": {
+      "bounds": [
+        [
+          1.14093,
+          0.048,
+          -0.704066
+        ],
+        [
+          1.942095,
+          0.15014734671893415,
+          1.63394
+        ]
+      ],
+      "components": 5,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 3804,
+      "min_face_area": 8.200000000249549e-11,
+      "non_manifold_edges": 0,
+      "tiny_faces": 206,
+      "vertices": 1912,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "flat_base": {
+      "bounds": [
+        [
+          -2.0,
+          0.0,
+          -1.6685559749603271
+        ],
+        [
+          2.0,
+          0.04800000041723251,
+          1.6685559749603271
+        ]
+      ],
+      "components": 1,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 12,
+      "min_face_area": 0.0800906874942715,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 8,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "landmark_asset_1": {
+      "bounds": [
+        [
+          0.20647736825657503,
+          0.048799999999999996,
+          -1.0754498108456803
+        ],
+        [
+          0.7719565850133888,
+          0.23595399015148688,
+          -0.5091343605958261
+        ]
+      ],
+      "components": 1,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 525284,
+      "min_face_area": 1.0336684673899941e-09,
+      "non_manifold_edges": 0,
+      "tiny_faces": 16,
+      "vertices": 262640,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "landmark_asset_2": {
+      "bounds": [
+        [
+          -0.08566871601969363,
+          0.048799999999999996,
+          0.8881836808683558
+        ],
+        [
+          0.05377561793079953,
+          0.24019181174435356,
+          1.1263145624599569
+        ]
+      ],
+      "components": 1,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 205204,
+      "min_face_area": 2.651082641827057e-10,
+      "non_manifold_edges": 0,
+      "tiny_faces": 43,
+      "vertices": 102592,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "landmark_asset_3": {
+      "bounds": [
+        [
+          -1.2335441348056895,
+          0.048799999999999996,
+          -0.2188161808121445
+        ],
+        [
+          -1.0030232191611013,
+          0.14352247802747248,
+          0.012519232749143822
+        ]
+      ],
+      "components": 1,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 185848,
+      "min_face_area": 5.5506580567747464e-08,
+      "non_manifold_edges": 0,
+      "tiny_faces": 0,
+      "vertices": 92926,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "selected_address_marker": {
+      "empty": true,
+      "faces": 0,
+      "vertices": 0,
+      "watertight": false
+    },
+    "standard_building_or_marker": {
+      "bounds": [
+        [
+          -2.0,
+          0.048,
+          -1.668556
+        ],
+        [
+          2.0,
+          0.1637013710162938,
+          1.668556
+        ]
+      ],
+      "components": 119,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 152484,
+      "min_face_area": 2.000000329656903e-12,
+      "non_manifold_edges": 0,
+      "tiny_faces": 6430,
+      "vertices": 76266,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "schema": "myrace3d.building_printability_report.v1",
+  "status": "READY",
+  "threshold_policy": {
+    "coverage_is_always_a_hard_gate": true,
+    "reference_print_width_mm_for_mm2_numbers": 150.0,
+    "thresholds_are_parameterized_for_future_print_profiles": true
+  },
+  "warning_checks": []
+}
