@@ -1,0 +1,15 @@
+{
+  "schema": "myrace3d.building_address_selection.v1",
+  "selected_addresses": [
+    {
+      "enabled": true,
+      "selection_id": "selected_address_red_fix_6_rue_des_pyramides",
+      "label": "6 rue des Pyramides, Lille",
+      "address": "6 rue des Pyramides, Lille",
+      "osm_ref": "way/42671152",
+      "lat": 50.6278,
+      "lon": 3.06,
+      "nearest_match_max_m": 5.0
+    }
+  ]
+}

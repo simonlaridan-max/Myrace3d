@@ -176,19 +176,19 @@
   },
   "printable_v1": {
     "coverage_report": {
-      "covered_area_extra_mm2": 100.39281109382814,
-      "covered_area_extra_percent": 1.1486542433445117,
-      "covered_area_missing_mm2": 3.957577086878846,
-      "covered_area_missing_percent": 0.04528100831799365,
-      "covered_area_preserved_percent": 99.954718991682,
-      "output_area_mm2": 8836.497905220001,
-      "output_area_model_units": 6.283731843712002,
+      "covered_area_extra_mm2": 100.39149992039064,
+      "covered_area_extra_percent": 1.1486392414243909,
+      "covered_area_missing_mm2": 3.9575782268814574,
+      "covered_area_missing_percent": 0.04528102136144589,
+      "covered_area_preserved_percent": 99.95471897863854,
+      "output_area_mm2": 8836.496601273984,
+      "output_area_model_units": 6.283730916461502,
       "source_area_mm2": 8740.037454745005,
       "source_area_model_units": 6.215137745596449
     },
     "export": {
       "glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
-      "glb_bytes": 19314256,
+      "glb_bytes": 19316008,
       "mesh_audit": {
         "bespoke_3d_model": {
           "empty": true,
@@ -210,14 +210,14 @@
               1.668556
             ]
           ],
-          "components": 128,
+          "components": 130,
           "degenerate_faces": 0,
           "empty": false,
-          "faces": 1072636,
+          "faces": 1072688,
           "min_face_area": 2.000000329656903e-12,
           "non_manifold_edges": 0,
-          "tiny_faces": 6695,
-          "vertices": 536344,
+          "tiny_faces": 6709,
+          "vertices": 536374,
           "watertight": true,
           "winding_consistent": true
         },
@@ -342,10 +342,28 @@
           "winding_consistent": true
         },
         "selected_address_marker": {
-          "empty": true,
-          "faces": 0,
-          "vertices": 0,
-          "watertight": false
+          "bounds": [
+            [
+              -0.464159,
+              0.048,
+              0.500722
+            ],
+            [
+              -0.434331,
+              0.09118046929482217,
+              0.592309
+            ]
+          ],
+          "components": 1,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 100,
+          "min_face_area": 4.416000000002477e-09,
+          "non_manifold_edges": 0,
+          "tiny_faces": 6,
+          "vertices": 52,
+          "watertight": true,
+          "winding_consistent": true
         },
         "standard_building_or_marker": {
           "bounds": [
@@ -356,24 +374,24 @@
             ],
             [
               2.0,
-              0.1637013710162938,
+              0.09118046929482217,
               1.668556
             ]
           ],
-          "components": 119,
+          "components": 120,
           "degenerate_faces": 0,
           "empty": false,
-          "faces": 152484,
+          "faces": 152436,
           "min_face_area": 2.000000329656903e-12,
           "non_manifold_edges": 0,
-          "tiny_faces": 6430,
-          "vertices": 76266,
+          "tiny_faces": 6438,
+          "vertices": 76244,
           "watertight": true,
           "winding_consistent": true
         }
       },
       "stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
-      "stl_bytes": 53631884
+      "stl_bytes": 53634484
     },
     "print_rules": {
       "corner_polish_radius_mm": 0.08,
@@ -389,9 +407,9 @@
     },
     "printability_report": {
       "all_printable_components": {
-        "count": 127,
+        "count": 129,
         "max_area_mm2": 587.3835800221875,
-        "median_area_mm2": 26.97834021257813,
+        "median_area_mm2": 26.295444605390617,
         "min_area_mm2": 0.35206327124999937,
         "smallest_area_mm2": [
           0.35206327124999937,
@@ -407,7 +425,7 @@
           0.6883650253125018,
           0.8382378817968682
         ],
-        "total_area_mm2": 8836.499908696638
+        "total_area_mm2": 8836.498622740779
       },
       "bespoke_3d_model": {
         "count": 3,
@@ -438,17 +456,19 @@
       "minimum_recommended_component_area_mm2": 0.18,
       "minimum_recommended_visible_width_mm": 0.35,
       "selected_address_marker": {
-        "count": 0,
-        "max_area_mm2": 0.0,
-        "median_area_mm2": 0.0,
-        "min_area_mm2": 0.0,
-        "smallest_area_mm2": [],
-        "total_area_mm2": 0.0
+        "count": 1,
+        "max_area_mm2": 2.9127788999999993,
+        "median_area_mm2": 2.9127788999999993,
+        "min_area_mm2": 2.9127788999999993,
+        "smallest_area_mm2": [
+          2.9127788999999993
+        ],
+        "total_area_mm2": 2.9127788999999993
       },
       "standard_building_or_marker": {
-        "count": 119,
+        "count": 120,
         "max_area_mm2": 587.3835800221875,
-        "median_area_mm2": 26.97834021257813,
+        "median_area_mm2": 26.636888960859373,
         "min_area_mm2": 0.35206327124999937,
         "smallest_area_mm2": [
           0.35206327124999937,
@@ -464,7 +484,7 @@
           0.6883650253125018,
           0.8382378817968682
         ],
-        "total_area_mm2": 8415.789630285231
+        "total_area_mm2": 8412.875565429373
       }
     }
   },
@@ -478,7 +498,23 @@
     "Printable v1 starts from the touch-consolidated authority, applies tiny physical hole/corner repair, and audits covered area against the original source footprints."
   ],
   "schema": "myrace3d.lille_building_block_test.v1",
-  "selected_address_hits": [],
+  "selected_address_hits": [
+    {
+      "area": 0.002070268555437282,
+      "height_treatment": "standard_building_or_marker",
+      "name": "",
+      "osm_ref": "way/42671152",
+      "premium_treatment": "selected_address_marker",
+      "selected_address_hits": [
+        {
+          "label": "6 rue des Pyramides, Lille",
+          "match_method": "explicit_osm_ref",
+          "osm_ref": "way/42671152",
+          "selection_id": "selected_address_red_fix_6_rue_des_pyramides"
+        }
+      ]
+    }
+  ],
   "summary": {
     "OSM elements": "2,759",
     "authority QA": "pass",
@@ -489,11 +525,13 @@
     "building provider": "OpenStreetMap via Overpass API",
     "courtyard holes preserved": "97",
     "green landmark footprints": "5",
+    "height default levels": "3.00",
     "height max": "40.0 m",
-    "height median": "8.9 m",
-    "height source high confidence": "8",
-    "height source low confidence": "1,556",
-    "height source medium confidence": "181",
+    "height median": "9.3 m",
+    "height normal buildings normalized": "yes",
+    "height source high confidence": "5",
+    "height source low confidence": "18",
+    "height source medium confidence": "1,722",
     "landmark database records in bounds": "3",
     "landmark micro model replacements": "3",
     "landmark replacement slugs": "palais_beaux_arts_lille, saint_michel_lille, theatre_sebastopol_lille",
@@ -506,9 +544,9 @@
     "printability street intrusion": "0.0329%",
     "printability warnings": "none",
     "printable STL size": "51.15 MB",
-    "printable components": "127",
+    "printable components": "129",
     "printable covered area preserved": "99.9547%",
-    "printable extra area": "1.1487% (100.39 mm2)",
+    "printable extra area": "1.1486% (100.39 mm2)",
     "printable missing area": "0.0453% (3.96 mm2)",
     "printable model size": "18.42 MB",
     "printable watertight": "yes",
@@ -517,23 +555,23 @@
     "rectangle": "862 m x 719 m",
     "red landmark footprints": "3",
     "requested landmark points": "3",
-    "selected address": "none",
-    "selected address red footprints": "0",
-    "selected address red hits": "0",
+    "selected address": "6 rue des Pyramides, Lille",
+    "selected address red footprints": "1",
+    "selected address red hits": "1",
     "small block groups": "68",
     "small individual preserved": "211",
     "smallest printable component": "0.352 mm2",
     "source building footprints": "1,745",
     "source green classified": "5",
     "source model size": "16.78 MB",
-    "source normal white buildings": "1,737",
-    "source red classified": "3",
+    "source normal white buildings": "1,736",
+    "source red classified": "4",
     "street-block cells": "80",
     "tiny isolated removed": "22",
     "tiny removed area": "0.047%",
     "tiny/sliver holes filled": "186",
     "touch model size": "16.41 MB",
-    "touch-consolidated white groups": "119"
+    "touch-consolidated white groups": "120"
   },
   "target_landmark_hits": [
     {

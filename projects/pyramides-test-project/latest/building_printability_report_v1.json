@@ -9,6 +9,7 @@
         "below_base_vertices": false,
         "building_min_y": [
           0.048,
+          0.048,
           0.048
         ],
         "floating_categories": []
@@ -40,25 +41,25 @@
       "maximum": 0.05,
       "pass": true,
       "severity": "warn",
-      "value": 2.2922975444477455e-05
+      "value": 2.3128811583148047e-05
     },
     "coverage_extra_percent": {
       "maximum": 2.0,
       "pass": true,
       "severity": "warn",
-      "value": 1.1486542433445117
+      "value": 1.1486392414243909
     },
     "coverage_missing_percent": {
       "maximum": 0.5,
       "pass": true,
       "severity": "fail",
-      "value": 0.04528100831799365
+      "value": 0.04528102136144589
     },
     "coverage_preserved_percent": {
       "minimum": 99.5,
       "pass": true,
       "severity": "fail",
-      "value": 99.954718991682
+      "value": 99.95471897863854
     },
     "invalid_polygons": {
       "maximum": 0,
@@ -76,28 +77,28 @@
       "maximum": 0.1,
       "pass": true,
       "severity": "warn",
-      "value": 0.03289834414287433
+      "value": 0.03289824076624355
     }
   },
   "coverage_report": {
-    "covered_area_extra_mm2": 100.39281109382814,
-    "covered_area_extra_percent": 1.1486542433445117,
-    "covered_area_missing_mm2": 3.957577086878846,
-    "covered_area_missing_percent": 0.04528100831799365,
-    "covered_area_preserved_percent": 99.954718991682,
-    "output_area_mm2": 8836.497905220001,
-    "output_area_model_units": 6.283731843712002,
+    "covered_area_extra_mm2": 100.39149992039064,
+    "covered_area_extra_percent": 1.1486392414243909,
+    "covered_area_missing_mm2": 3.9575782268814574,
+    "covered_area_missing_percent": 0.04528102136144589,
+    "covered_area_preserved_percent": 99.95471897863854,
+    "output_area_mm2": 8836.496601273984,
+    "output_area_model_units": 6.283730916461502,
     "source_area_mm2": 8740.037454745005,
     "source_area_model_units": 6.215137745596449
   },
   "diagnostics": {
-    "component_area_sum_mm2": 8836.49990869664,
-    "component_overlap_mm2": 0.0020034766395893295,
+    "component_area_sum_mm2": 8836.49862274078,
+    "component_overlap_mm2": 0.00202146679520454,
     "courtyard_holes": 107,
     "edge_clipped_components": 45,
-    "printable_components": 127,
-    "printable_union_area_mm2": 8836.497905220001,
-    "street_intrusion_extra_mm2": 2.8753276000781263
+    "printable_components": 129,
+    "printable_union_area_mm2": 8836.496601273984,
+    "street_intrusion_extra_mm2": 2.875318564921876
   },
   "failing_checks": [],
   "mesh_audit": {
@@ -121,14 +122,14 @@
           1.668556
         ]
       ],
-      "components": 128,
+      "components": 130,
       "degenerate_faces": 0,
       "empty": false,
-      "faces": 1072636,
+      "faces": 1072688,
       "min_face_area": 2.000000329656903e-12,
       "non_manifold_edges": 0,
-      "tiny_faces": 6695,
-      "vertices": 536344,
+      "tiny_faces": 6709,
+      "vertices": 536374,
       "watertight": true,
       "winding_consistent": true
     },
@@ -253,10 +254,28 @@
       "winding_consistent": true
     },
     "selected_address_marker": {
-      "empty": true,
-      "faces": 0,
-      "vertices": 0,
-      "watertight": false
+      "bounds": [
+        [
+          -0.464159,
+          0.048,
+          0.500722
+        ],
+        [
+          -0.434331,
+          0.09118046929482217,
+          0.592309
+        ]
+      ],
+      "components": 1,
+      "degenerate_faces": 0,
+      "empty": false,
+      "faces": 100,
+      "min_face_area": 4.416000000002477e-09,
+      "non_manifold_edges": 0,
+      "tiny_faces": 6,
+      "vertices": 52,
+      "watertight": true,
+      "winding_consistent": true
     },
     "standard_building_or_marker": {
       "bounds": [
@@ -267,18 +286,18 @@
         ],
         [
           2.0,
-          0.1637013710162938,
+          0.09118046929482217,
           1.668556
         ]
       ],
-      "components": 119,
+      "components": 120,
       "degenerate_faces": 0,
       "empty": false,
-      "faces": 152484,
+      "faces": 152436,
       "min_face_area": 2.000000329656903e-12,
       "non_manifold_edges": 0,
-      "tiny_faces": 6430,
-      "vertices": 76266,
+      "tiny_faces": 6438,
+      "vertices": 76244,
       "watertight": true,
       "winding_consistent": true
     }
