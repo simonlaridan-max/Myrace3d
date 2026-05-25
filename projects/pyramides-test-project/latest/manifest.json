@@ -5,26 +5,174 @@
     "min_lat": 50.62565,
     "min_lon": 3.05525
   },
+  "landmark_model_replacements": {
+    "assets": [
+      {
+        "attribution_report": "data/landmark_model_database/processed/palais_beaux_arts_lille_handoff_package/palais_beaux_arts_lille/attribution/attribution_report.md",
+        "geom_name": "landmark_micro_model_palais_beaux_arts_lille",
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\palais_beaux_arts_lille_handoff_package\\palais_beaux_arts_lille\\models\\micro\\palais_beaux_arts_lille_micro_print_slicer_ready.stl",
+        "name": "Palais des Beaux-Arts de Lille",
+        "osm_ref": "way/152835085",
+        "placement": {
+          "rotation_degrees": 311.9,
+          "rotation_source": "model_minus_y_bearing",
+          "scale_model_units_per_source_meter": 0.002994463419773848,
+          "target_footprint_area_model_units": 0.1358490468359938,
+          "target_footprint_bounds_model_xz": [
+            0.22455737704917667,
+            -1.0590966778738617,
+            0.7508524590164543,
+            -0.5383531806759088
+          ]
+        },
+        "slug": "palais_beaux_arts_lille",
+        "source_index": 1429
+      },
+      {
+        "attribution_report": "data/landmark_model_database/processed/saint_michel_lille_handoff_package/saint_michel_lille/attribution/attribution_report.md",
+        "geom_name": "landmark_micro_model_saint_michel_lille",
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\saint_michel_lille_handoff_package\\saint_michel_lille\\models\\micro\\saint_michel_lille_micro_print_slicer_ready.stl",
+        "name": "Eglise Saint-Michel de Lille",
+        "osm_ref": "relation/11371647",
+        "placement": {
+          "rotation_degrees": 0.41266484383221136,
+          "rotation_source": "footprint_long_axis",
+          "scale_model_units_per_source_meter": 0.002738471748212652,
+          "target_footprint_area_model_units": 0.03484290874086088,
+          "target_footprint_bounds_model_xz": [
+            -0.08826229508195738,
+            0.8447000650089401,
+            0.055442622950794274,
+            1.1698887972651393
+          ]
+        },
+        "slug": "saint_michel_lille",
+        "source_index": 1714
+      },
+      {
+        "attribution_report": "data/landmark_model_database/processed/theatre_sebastopol_lille_handoff_package/theatre_sebastopol_lille/attribution/attribution_report.md",
+        "geom_name": "landmark_micro_model_theatre_sebastopol_lille",
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\theatre_sebastopol_lille_handoff_package\\theatre_sebastopol_lille\\models\\micro\\theatre_sebastopol_lille_micro_print_slicer_ready.stl",
+        "name": "Theatre Sebastopol de Lille",
+        "osm_ref": "way/37594524",
+        "placement": {
+          "rotation_degrees": 39.84030702767927,
+          "rotation_source": "model_minus_y_bearing",
+          "scale_model_units_per_source_meter": 0.003095505610472172,
+          "target_footprint_area_model_units": 0.037362094191353765,
+          "target_footprint_bounds_model_xz": [
+            -1.247540983606505,
+            -0.23354650189848059,
+            -0.9930819672130795,
+            0.036092150108708365
+          ]
+        },
+        "slug": "theatre_sebastopol_lille",
+        "source_index": 0
+      }
+    ],
+    "automatic_discovery_contract": "Records inside the terrain bounds with candidate_for_footprint_replacement are placed from their preferred micro model and matched to the source footprint by OSM metadata, anchor containment, or nearest-anchor fallback.",
+    "database_index": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\landmark_model_database_index.json",
+    "replaced_source_indices": [
+      0,
+      1429,
+      1714
+    ],
+    "reports": [
+      {
+        "inserted": true,
+        "inside_current_bounds": true,
+        "match_distance_m": 0.0,
+        "match_method": "anchor_inside_or_buffered_footprint",
+        "matched_osm_ref": "way/152835085",
+        "matched_source_index": 1429,
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\palais_beaux_arts_lille_handoff_package\\palais_beaux_arts_lille\\models\\micro\\palais_beaux_arts_lille_micro_print_slicer_ready.stl",
+        "name": "Palais des Beaux-Arts de Lille",
+        "placement": {
+          "rotation_degrees": 311.9,
+          "rotation_source": "model_minus_y_bearing",
+          "scale_model_units_per_source_meter": 0.002994463419773848,
+          "target_footprint_area_model_units": 0.1358490468359938,
+          "target_footprint_bounds_model_xz": [
+            0.22455737704917667,
+            -1.0590966778738617,
+            0.7508524590164543,
+            -0.5383531806759088
+          ]
+        },
+        "replacement_status": "candidate_for_footprint_replacement",
+        "slug": "palais_beaux_arts_lille"
+      },
+      {
+        "inserted": true,
+        "inside_current_bounds": true,
+        "match_distance_m": 0.0,
+        "match_method": "anchor_inside_or_buffered_footprint",
+        "matched_osm_ref": "relation/11371647",
+        "matched_source_index": 1714,
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\saint_michel_lille_handoff_package\\saint_michel_lille\\models\\micro\\saint_michel_lille_micro_print_slicer_ready.stl",
+        "name": "Eglise Saint-Michel de Lille",
+        "placement": {
+          "rotation_degrees": 0.41266484383221136,
+          "rotation_source": "footprint_long_axis",
+          "scale_model_units_per_source_meter": 0.002738471748212652,
+          "target_footprint_area_model_units": 0.03484290874086088,
+          "target_footprint_bounds_model_xz": [
+            -0.08826229508195738,
+            0.8447000650089401,
+            0.055442622950794274,
+            1.1698887972651393
+          ]
+        },
+        "replacement_status": "candidate_for_footprint_replacement",
+        "slug": "saint_michel_lille"
+      },
+      {
+        "inserted": true,
+        "inside_current_bounds": true,
+        "match_distance_m": 0.0,
+        "match_method": "explicit_osm_ref",
+        "matched_osm_ref": "way/37594524",
+        "matched_source_index": 0,
+        "model_path": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\data\\landmark_model_database\\processed\\theatre_sebastopol_lille_handoff_package\\theatre_sebastopol_lille\\models\\micro\\theatre_sebastopol_lille_micro_print_slicer_ready.stl",
+        "name": "Theatre Sebastopol de Lille",
+        "placement": {
+          "rotation_degrees": 39.84030702767927,
+          "rotation_source": "model_minus_y_bearing",
+          "scale_model_units_per_source_meter": 0.003095505610472172,
+          "target_footprint_area_model_units": 0.037362094191353765,
+          "target_footprint_bounds_model_xz": [
+            -1.247540983606505,
+            -0.23354650189848059,
+            -0.9930819672130795,
+            0.036092150108708365
+          ]
+        },
+        "replacement_status": "candidate_for_footprint_replacement",
+        "slug": "theatre_sebastopol_lille"
+      }
+    ]
+  },
   "outputs": {
-    "building_address_selection": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_address_selection.json",
-    "building_address_selection_example": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_address_selection.example.json",
-    "building_attribution_manifest": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_attribution_manifest_v1.json",
-    "building_authority_manifest": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_authority_manifest_v1.json",
-    "building_printability_report": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_printability_report_v1.json",
-    "glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_building_blocks.glb",
-    "osm_cache": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_osm_overpass_response.json",
-    "preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_building_blocks.png",
-    "printability_qa_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printability_qa.png",
-    "printable_coverage_audit": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_coverage_audit.png",
-    "printable_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
-    "printable_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.png",
-    "printable_stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
+    "building_address_selection": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_address_selection.json",
+    "building_address_selection_example": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_address_selection.example.json",
+    "building_attribution_manifest": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_attribution_manifest_v1.json",
+    "building_authority_manifest": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_authority_manifest_v1.json",
+    "building_printability_report": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\building_printability_report_v1.json",
+    "glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_building_blocks.glb",
+    "osm_cache": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_osm_overpass_response.json",
+    "preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_building_blocks.png",
+    "printability_qa_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printability_qa.png",
+    "printable_coverage_audit": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_coverage_audit.png",
+    "printable_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
+    "printable_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.png",
+    "printable_stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
     "review_url": "/reviews/lille_building_blocks/index.html",
-    "source_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_source_authority_all_buildings.glb",
-    "source_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_source_authority_all_buildings.png",
-    "topology_qa_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_topology_qa.png",
-    "touch_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_touch_consolidated_buildings.glb",
-    "touch_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_touch_consolidated_buildings.png"
+    "source_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_source_authority_all_buildings.glb",
+    "source_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_source_authority_all_buildings.png",
+    "topology_qa_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_topology_qa.png",
+    "touch_glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_touch_consolidated_buildings.glb",
+    "touch_preview": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_touch_consolidated_buildings.png"
   },
   "printable_v1": {
     "coverage_report": {
@@ -39,12 +187,13 @@
       "source_area_model_units": 6.215137745596449
     },
     "export": {
-      "glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
-      "glb_bytes": 2955888,
+      "glb": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.glb",
+      "glb_bytes": 19314256,
       "mesh_audit": {
         "bespoke_3d_model": {
           "empty": true,
           "faces": 0,
+          "skipped_for_landmark_model_replacement": true,
           "vertices": 0,
           "watertight": false
         },
@@ -57,42 +206,42 @@
             ],
             [
               2.0,
-              0.23372244857988028,
+              0.24019181174435356,
               1.668556
             ]
           ],
           "components": 128,
           "degenerate_faces": 0,
           "empty": false,
-          "faces": 164044,
+          "faces": 1072636,
           "min_face_area": 2.000000329656903e-12,
           "non_manifold_edges": 0,
-          "tiny_faces": 7032,
-          "vertices": 82064,
+          "tiny_faces": 6695,
+          "vertices": 536344,
           "watertight": true,
           "winding_consistent": true
         },
         "enhanced_landmark_massing": {
           "bounds": [
             [
-              -1.247528,
+              1.14093,
               0.048,
-              -1.059083
+              -0.704066
             ],
             [
               1.942095,
-              0.23372244857988028,
+              0.15014734671893415,
               1.63394
             ]
           ],
-          "components": 8,
+          "components": 5,
           "degenerate_faces": 0,
           "empty": false,
-          "faces": 11548,
-          "min_face_area": 3.000000000000449e-11,
+          "faces": 3804,
+          "min_face_area": 8.200000000249549e-11,
           "non_manifold_edges": 0,
-          "tiny_faces": 602,
-          "vertices": 5790,
+          "tiny_faces": 206,
+          "vertices": 1912,
           "watertight": true,
           "winding_consistent": true
         },
@@ -117,6 +266,78 @@
           "non_manifold_edges": 0,
           "tiny_faces": 0,
           "vertices": 8,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "landmark_asset_1": {
+          "bounds": [
+            [
+              0.20647736825657503,
+              0.048799999999999996,
+              -1.0754498108456803
+            ],
+            [
+              0.7719565850133888,
+              0.23595399015148688,
+              -0.5091343605958261
+            ]
+          ],
+          "components": 1,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 525284,
+          "min_face_area": 1.0336684673899941e-09,
+          "non_manifold_edges": 0,
+          "tiny_faces": 16,
+          "vertices": 262640,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "landmark_asset_2": {
+          "bounds": [
+            [
+              -0.08566871601969363,
+              0.048799999999999996,
+              0.8881836808683558
+            ],
+            [
+              0.05377561793079953,
+              0.24019181174435356,
+              1.1263145624599569
+            ]
+          ],
+          "components": 1,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 205204,
+          "min_face_area": 2.651082641827057e-10,
+          "non_manifold_edges": 0,
+          "tiny_faces": 43,
+          "vertices": 102592,
+          "watertight": true,
+          "winding_consistent": true
+        },
+        "landmark_asset_3": {
+          "bounds": [
+            [
+              -1.2335441348056895,
+              0.048799999999999996,
+              -0.2188161808121445
+            ],
+            [
+              -1.0030232191611013,
+              0.14352247802747248,
+              0.012519232749143822
+            ]
+          ],
+          "components": 1,
+          "degenerate_faces": 0,
+          "empty": false,
+          "faces": 185848,
+          "min_face_area": 5.5506580567747464e-08,
+          "non_manifold_edges": 0,
+          "tiny_faces": 0,
+          "vertices": 92926,
           "watertight": true,
           "winding_consistent": true
         },
@@ -151,8 +372,8 @@
           "winding_consistent": true
         }
       },
-      "stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_FAST\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
-      "stl_bytes": 8202284
+      "stl": "C:\\Users\\simon\\Documents\\New project\\GPX_Terrain_Studio_v3_LIVE\\apps\\preview_server\\web\\reviews\\lille_building_blocks\\lille_printable_buildings_v1.stl",
+      "stl_bytes": 53631884
     },
     "print_rules": {
       "corner_polish_radius_mm": 0.08,
@@ -189,29 +410,30 @@
         "total_area_mm2": 8836.499908696638
       },
       "bespoke_3d_model": {
-        "count": 0,
-        "max_area_mm2": 0.0,
-        "median_area_mm2": 0.0,
-        "min_area_mm2": 0.0,
-        "smallest_area_mm2": [],
-        "total_area_mm2": 0.0
+        "count": 3,
+        "max_area_mm2": 191.19652352156226,
+        "median_area_mm2": 52.571630510156155,
+        "min_area_mm2": 49.073301388828135,
+        "smallest_area_mm2": [
+          49.073301388828135,
+          52.571630510156155,
+          191.19652352156226
+        ],
+        "total_area_mm2": 292.84145542054654
       },
       "enhanced_landmark_massing": {
-        "count": 8,
-        "max_area_mm2": 191.19652352156226,
-        "median_area_mm2": 33.98337967535157,
+        "count": 5,
+        "max_area_mm2": 74.7971562677344,
+        "median_area_mm2": 17.755844945625007,
         "min_area_mm2": 7.78598635078125,
         "smallest_area_mm2": [
           7.78598635078125,
           8.636377464843743,
           17.755844945625007,
           18.893457961875008,
-          49.073301388828135,
-          52.571630510156155,
-          74.7971562677344,
-          191.19652352156226
+          74.7971562677344
         ],
-        "total_area_mm2": 420.71027841140597
+        "total_area_mm2": 127.8688229908594
       },
       "minimum_recommended_component_area_mm2": 0.18,
       "minimum_recommended_visible_width_mm": 0.35,
@@ -246,6 +468,7 @@
       }
     }
   },
+  "project": "Pyramides Test Project",
   "rules": [
     "OSM road/path/rail/water features become no-merge barriers.",
     "The rectangle is polygonized into street-block cells.",
@@ -265,30 +488,34 @@
     "authority source records": "1,745",
     "building provider": "OpenStreetMap via Overpass API",
     "courtyard holes preserved": "97",
-    "green landmark footprints": "8",
+    "green landmark footprints": "5",
     "height max": "40.0 m",
     "height median": "8.9 m",
     "height source high confidence": "8",
     "height source low confidence": "1,556",
     "height source medium confidence": "181",
+    "landmark database records in bounds": "3",
+    "landmark micro model replacements": "3",
+    "landmark replacement slugs": "palais_beaux_arts_lille, saint_michel_lille, theatre_sebastopol_lille",
     "large/high buildings": "37",
-    "model size": "0.34 MB",
+    "model size": "16.05 MB",
     "printability degenerate faces": "0",
     "printability failures": "none",
     "printability non-manifold edges": "0",
     "printability status": "READY",
     "printability street intrusion": "0.0329%",
     "printability warnings": "none",
-    "printable STL size": "7.82 MB",
+    "printable STL size": "51.15 MB",
     "printable components": "127",
     "printable covered area preserved": "99.9547%",
     "printable extra area": "1.1487% (100.39 mm2)",
     "printable missing area": "0.0453% (3.96 mm2)",
-    "printable model size": "2.82 MB",
+    "printable model size": "18.42 MB",
     "printable watertight": "yes",
+    "project": "Pyramides Test Project",
     "provider fallback policy": "no_silent_fallback",
     "rectangle": "862 m x 719 m",
-    "red landmark footprints": "0",
+    "red landmark footprints": "3",
     "requested landmark points": "3",
     "selected address": "none",
     "selected address red footprints": "0",
@@ -297,39 +524,42 @@
     "small individual preserved": "211",
     "smallest printable component": "0.352 mm2",
     "source building footprints": "1,745",
-    "source green classified": "8",
-    "source model size": "1.07 MB",
+    "source green classified": "5",
+    "source model size": "16.78 MB",
     "source normal white buildings": "1,737",
-    "source red classified": "0",
+    "source red classified": "3",
     "street-block cells": "80",
     "tiny isolated removed": "22",
     "tiny removed area": "0.047%",
     "tiny/sliver holes filled": "186",
-    "touch model size": "0.70 MB",
+    "touch model size": "16.41 MB",
     "touch-consolidated white groups": "119"
   },
   "target_landmark_hits": [
     {
       "area": 0.037362094191353765,
+      "landmark_model_replacement": "theatre_sebastopol_lille",
       "name": "Th\u00e9\u00e2tre S\u00e9bastopol",
       "osm_ref": "way/37594524",
-      "premium_treatment": "enhanced_landmark_massing",
+      "premium_treatment": "bespoke_3d_model",
       "target_points": []
     },
     {
       "area": 0.1358490468359938,
+      "landmark_model_replacement": "palais_beaux_arts_lille",
       "name": "Palais des Beaux-Arts",
       "osm_ref": "way/152835085",
-      "premium_treatment": "enhanced_landmark_massing",
+      "premium_treatment": "bespoke_3d_model",
       "target_points": [
         "Palais des Beaux-Arts de Lille"
       ]
     },
     {
       "area": 0.03484290874086088,
+      "landmark_model_replacement": "saint_michel_lille",
       "name": "\u00c9glise Saint-Michel",
       "osm_ref": "relation/11371647",
-      "premium_treatment": "enhanced_landmark_massing",
+      "premium_treatment": "bespoke_3d_model",
       "target_points": [
         "Eglise Saint-Michel"
       ]
