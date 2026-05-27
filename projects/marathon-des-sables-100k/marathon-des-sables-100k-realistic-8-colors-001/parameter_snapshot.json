@@ -1,0 +1,779 @@
+{
+  "bake_report": {
+    "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+    "classification_palette": [
+      "#FFA347",
+      "#F99E2F",
+      "#FF9D00",
+      "#A08973",
+      "#877464",
+      "#FFB47B",
+      "#E2D5D5",
+      "#FF9900"
+    ],
+    "coloring_mode": "classification_saved",
+    "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+    "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+    "colorizer_version": "v3_fast_color_authority_srgb_linear_materials_v2_20260525",
+    "final_color_count": 8,
+    "gpx_geometries": 1,
+    "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+    "materials": [
+      {
+        "hex": "#2752B4",
+        "index": 0,
+        "name": "gpx-trace-01",
+        "role": "gpx"
+      },
+      {
+        "faces": 247222,
+        "hex": "#FFA347",
+        "index": 1,
+        "name": "terrain-color-01",
+        "role": "terrain"
+      },
+      {
+        "faces": 178490,
+        "hex": "#F99E2F",
+        "index": 2,
+        "name": "terrain-color-02",
+        "role": "terrain"
+      },
+      {
+        "faces": 160903,
+        "hex": "#FF9D00",
+        "index": 3,
+        "name": "terrain-color-03",
+        "role": "terrain"
+      },
+      {
+        "faces": 306655,
+        "hex": "#A08973",
+        "index": 4,
+        "name": "terrain-color-04",
+        "role": "terrain"
+      },
+      {
+        "faces": 256642,
+        "hex": "#877464",
+        "index": 5,
+        "name": "terrain-color-05",
+        "role": "terrain"
+      },
+      {
+        "faces": 210255,
+        "hex": "#FFB47B",
+        "index": 6,
+        "name": "terrain-color-06",
+        "role": "terrain"
+      },
+      {
+        "faces": 153193,
+        "hex": "#E2D5D5",
+        "index": 7,
+        "name": "terrain-color-07",
+        "role": "terrain"
+      },
+      {
+        "faces": 81892,
+        "hex": "#FF9900",
+        "index": 8,
+        "name": "terrain-color-08",
+        "role": "terrain"
+      },
+      {
+        "faces": 1588104,
+        "hex": "#889682",
+        "index": 1,
+        "name": "base-bottom",
+        "role": "base"
+      }
+    ],
+    "mode": "classification_saved",
+    "terrain_face_groups": 8,
+    "terrain_palette": [
+      {
+        "area_types": [],
+        "hex": "#FFA347",
+        "index": 1,
+        "label": "Orange Dune Field",
+        "percent": 0.155128,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#F99E2F",
+        "index": 2,
+        "label": "Orange Dune Field",
+        "percent": 0.112047,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#FF9D00",
+        "index": 3,
+        "label": "Orange Dune Field",
+        "percent": 0.100854,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#A08973",
+        "index": 4,
+        "label": "Sand Desert Or Dry Soil",
+        "percent": 0.192217,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#877464",
+        "index": 5,
+        "label": "Rock Mountain Or Shadow",
+        "percent": 0.161007,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#FFB47B",
+        "index": 6,
+        "label": "Sand Desert Or Dry Soil",
+        "percent": 0.131557,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#E2D5D5",
+        "index": 7,
+        "label": "Desert Pavement",
+        "percent": 0.095931,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#FF9900",
+        "index": 8,
+        "label": "Orange Dune Field",
+        "percent": 0.051262,
+        "role": "classification_final_color"
+      }
+    ],
+    "updated_materials": 10
+  },
+  "base_color": {
+    "hex": "#889682",
+    "label": "Base",
+    "role": "base"
+  },
+  "classification_id": "classification_0001",
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "created_at": "2026-05-27T12:28:46Z",
+  "final_color_count": 8,
+  "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+  "gpx_palette": [
+    {
+      "hex": "#2752B4",
+      "index": 1,
+      "label": "Trace 1",
+      "role": "gpx"
+    }
+  ],
+  "premium_terrain_colors": {
+    "color_count": 8,
+    "colors": [
+      {
+        "area_types": [],
+        "hex": "#FFA347",
+        "index": 1,
+        "label": "Orange Dune Field",
+        "percent": 0.155128,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#F99E2F",
+        "index": 2,
+        "label": "Orange Dune Field",
+        "percent": 0.112047,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#FF9D00",
+        "index": 3,
+        "label": "Orange Dune Field",
+        "percent": 0.100854,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#A08973",
+        "index": 4,
+        "label": "Sand Desert Or Dry Soil",
+        "percent": 0.192217,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#877464",
+        "index": 5,
+        "label": "Rock Mountain Or Shadow",
+        "percent": 0.161007,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#FFB47B",
+        "index": 6,
+        "label": "Sand Desert Or Dry Soil",
+        "percent": 0.131557,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#E2D5D5",
+        "index": 7,
+        "label": "Desert Pavement",
+        "percent": 0.095931,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#FF9900",
+        "index": 8,
+        "label": "Orange Dune Field",
+        "percent": 0.051262,
+        "role": "classification_final_color"
+      }
+    ],
+    "mode": "classification_saved",
+    "requested_color_count": 8,
+    "source": "2D classification final 8 colors - classification_0001"
+  },
+  "project_slug": "marathon-des-sables-100k",
+  "schema": "myrace3d.v3.colored_build_parameters.v1",
+  "source_design_build_id": "realistic-001_001",
+  "source_design_geometry_report": {
+    "axis_convention": {
+      "bed_plane": "XY",
+      "coordinate_system": "print_z_up",
+      "vertical_axis": "Z",
+      "viewer_note": "Web previews must use Z-up camera presets because model-viewer orbit controls are Y-up by default.",
+      "x_axis": "model_width_mm",
+      "y_axis": "model_depth_mm",
+      "z_axis": "model_height_mm"
+    },
+    "base_thickness_mm": 3.0,
+    "cols": 960,
+    "controls": {
+      "base_thickness_mm": 3,
+      "custom_relief_height_mm": 3,
+      "design_quality_mode": "final",
+      "display_relief_boost": 2.6,
+      "enhanced_relief_boost": 1.8,
+      "geometry_algorithm_version": "v3_fast_design_hybrid_premium_quality_report_v1_20260521",
+      "hybrid_detail_strength": 0.26,
+      "hybrid_landform_contrast": 0.28,
+      "hybrid_noise_cleanup": 0.52,
+      "hybrid_peak_softness": 0.26,
+      "hybrid_ridge_clarity": 0.34,
+      "hybrid_valley_readability": 0.22,
+      "layer_border_smoothness": 0.55,
+      "layer_count": 48,
+      "max_long_side": 960,
+      "minimum_printable_region_percent": 0.005,
+      "peak_layer_density": 0,
+      "relief": 1,
+      "smoothness": 0.46,
+      "terrain_type": "hybrid",
+      "vertical_scale_mode": "display_strong",
+      "z_exaggeration": 2
+    },
+    "depth_mm": 150.0,
+    "design_quality_mode": "final",
+    "faces": 3183356,
+    "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+    "geometry_kind": "continuous_heightfield",
+    "gpx_traces": {
+      "enabled": true,
+      "surface_offset_mm": 0.18,
+      "trace_count": 1,
+      "trace_radius_mm": 0.45
+    },
+    "height_max_mm": 11.0,
+    "height_min_mm": 3.0,
+    "height_quality": {
+      "height_max_mm": 8.0,
+      "height_min_mm": 0.0,
+      "height_p50_mm": 2.70029354095459,
+      "height_p95_mm": 4.6642069816589355,
+      "height_p99_mm": 5.344987869262695,
+      "mesh_volume_mm3": 18341.170705003904,
+      "mesh_watertight": true,
+      "peak_plateau_percent": 0.0006282669883393647,
+      "peak_plateau_tolerance_mm": 0.03,
+      "relief_error_mm": 0.0,
+      "relief_error_percent": 0.0,
+      "relief_height_mm": 8.0,
+      "target_relief_height_mm": 8.0
+    },
+    "hybrid_policy": {
+      "detail_strength": 0.26,
+      "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+      "landform_contrast": 0.28,
+      "mean_absolute_shape_delta": 0.014527850784361362,
+      "noise_cleanup": 0.52,
+      "p95_absolute_shape_delta": 0.017146233469247818,
+      "peak_mean_absolute_shape_delta": 0.008906327188014984,
+      "peak_softness": 0.26,
+      "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+      "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+      "ridge_clarity": 0.34,
+      "valley_readability": 0.22
+    },
+    "is_closed_heightfield": true,
+    "layered_policy": {},
+    "max_long_side": 960,
+    "model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\outputs\\part_08\\realistic-001_001\\models\\model.glb",
+    "quality_checks": {
+      "has_gpx_overlay": true,
+      "height_authority_preserved": true,
+      "hybrid_shape_delta_mean": 0.014527850784361362,
+      "hybrid_shape_delta_p95": 0.017146233469247818,
+      "hybrid_visibly_distinct_from_normal": true,
+      "mesh_watertight": true,
+      "peak_clipping_risk": false,
+      "peak_plateau_percent": 0.0006282669883393647,
+      "relief_error_percent": 0.0,
+      "solid_base_policy": "z0_floor_with_base_thickness"
+    },
+    "relief_height_mm": 8.0,
+    "rows": 829,
+    "schema": "myrace3d.v3.design_geometry_report.v1",
+    "size_authority": {
+      "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+      "depth_mm": 150.0,
+      "mode": "target_print_mm",
+      "terrain_aspect": 1.0,
+      "terrain_depth_m": 67269.16021669487,
+      "terrain_width_m": 67269.16021669487,
+      "width_mm": 150.0
+    },
+    "source_elevation": {
+      "elevation_max_m": 1065.2926025390625,
+      "elevation_min_m": 601.4598999023438,
+      "elevation_range_m": 463.83270263671875,
+      "source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\outputs\\part_03\\terrain_0001\\elevation_normalization_contract.json"
+    },
+    "terrain_type": "hybrid",
+    "vertical_scale": {
+      "base_relief_height_mm": 4.0,
+      "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+      "custom_relief_height_mm": 3.0,
+      "depth_mm": 150.0,
+      "display_relief_boost": 2.6,
+      "enhanced_floor_mm": null,
+      "enhanced_relief_boost": null,
+      "hybrid_policy": {
+        "detail_strength": 0.26,
+        "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+        "landform_contrast": 0.28,
+        "mean_absolute_shape_delta": 0.014527850784361362,
+        "noise_cleanup": 0.52,
+        "p95_absolute_shape_delta": 0.017146233469247818,
+        "peak_mean_absolute_shape_delta": 0.008906327188014984,
+        "peak_softness": 0.26,
+        "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+        "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+        "ridge_clarity": 0.34,
+        "valley_readability": 0.22
+      },
+      "mega_landscape_relief_boost": null,
+      "meters_per_print_mm": 448.46106811129914,
+      "meters_per_print_mm_x": 448.46106811129914,
+      "meters_per_print_mm_y": 448.46106811129914,
+      "mode": "display_strong",
+      "policy": "true_project_xy_scale_with_optional_enhancement",
+      "preview_dem_max": 247.09605407714844,
+      "preview_dem_min": 0.8720475435256958,
+      "preview_dem_range": 246.22400653362274,
+      "print_relief_height_mm": 8.0,
+      "relief": 1.0,
+      "source_elevation_max_m": 1065.2926025390625,
+      "source_elevation_min_m": 601.4598999023438,
+      "source_elevation_range_m": 463.83270263671875,
+      "source_max_m": 1065.2926025390625,
+      "source_min_m": 601.4598999023438,
+      "source_range_m": 463.83270263671875,
+      "terrain_depth_m": 67269.16021669487,
+      "terrain_width_m": 67269.16021669487,
+      "true_relief_height_mm": 1.0342764079614704,
+      "width_mm": 150.0,
+      "xy_scale_mismatch_percent": 0.0,
+      "z_exaggeration": 2.0
+    },
+    "vertices": 1591680,
+    "width_mm": 150.0
+  },
+  "source_design_label": "Realistic 001",
+  "source_design_terrain_type": "hybrid",
+  "source_model_id": "realistic-001_001",
+  "source_model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\outputs\\part_08\\realistic-001_001\\models\\model.glb",
+  "source_palette": {
+    "analysis_colors": [
+      "#FFBD7B",
+      "#FFC784",
+      "#FFD38C",
+      "#E5AC78",
+      "#DBBEA5",
+      "#FFB47B",
+      "#F9D5B7",
+      "#FFC673"
+    ],
+    "classification_id": "classification_0001",
+    "colors": [
+      {
+        "analysis_hex": "#FFBD7B",
+        "hex": "#FFA347",
+        "index": 1,
+        "label": "Orange Dune Field",
+        "merged_source_slots": [
+          1
+        ],
+        "percent": 0.155128,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_01"
+        ],
+        "source_slot": 1
+      },
+      {
+        "analysis_hex": "#FFC784",
+        "hex": "#F99E2F",
+        "index": 2,
+        "label": "Orange Dune Field",
+        "merged_source_slots": [
+          2
+        ],
+        "percent": 0.112047,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_02"
+        ],
+        "source_slot": 2
+      },
+      {
+        "analysis_hex": "#FFD38C",
+        "hex": "#FF9D00",
+        "index": 3,
+        "label": "Orange Dune Field",
+        "merged_source_slots": [
+          3
+        ],
+        "percent": 0.100854,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_03",
+          "group_19"
+        ],
+        "source_slot": 3
+      },
+      {
+        "analysis_hex": "#E5AC78",
+        "hex": "#A08973",
+        "index": 4,
+        "label": "Sand Desert Or Dry Soil",
+        "merged_source_slots": [
+          4
+        ],
+        "percent": 0.192217,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_04",
+          "group_11",
+          "group_12",
+          "group_15",
+          "group_18"
+        ],
+        "source_slot": 4
+      },
+      {
+        "analysis_hex": "#DBBEA5",
+        "hex": "#877464",
+        "index": 5,
+        "label": "Rock Mountain Or Shadow",
+        "merged_source_slots": [
+          5
+        ],
+        "percent": 0.161007,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_05",
+          "group_10",
+          "group_13",
+          "group_20"
+        ],
+        "source_slot": 5
+      },
+      {
+        "analysis_hex": "#FFB47B",
+        "hex": "#FFB47B",
+        "index": 6,
+        "label": "Sand Desert Or Dry Soil",
+        "merged_source_slots": [
+          6
+        ],
+        "percent": 0.131557,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_06",
+          "group_09",
+          "group_14"
+        ],
+        "source_slot": 6
+      },
+      {
+        "analysis_hex": "#F9D5B7",
+        "hex": "#E2D5D5",
+        "index": 7,
+        "label": "Desert Pavement",
+        "merged_source_slots": [
+          7
+        ],
+        "percent": 0.095931,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_07",
+          "group_16",
+          "group_17"
+        ],
+        "source_slot": 7
+      },
+      {
+        "analysis_hex": "#FFC673",
+        "hex": "#FF9900",
+        "index": 8,
+        "label": "Orange Dune Field",
+        "merged_source_slots": [
+          8
+        ],
+        "percent": 0.051262,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_08"
+        ],
+        "source_slot": 8
+      }
+    ],
+    "final_color_count": 8,
+    "final_color_plan": {
+      "max_colors": 8,
+      "reductions": {
+        "1": {
+          "active_slots": [
+            4
+          ],
+          "merge_map": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4
+          }
+        },
+        "2": {
+          "active_slots": [
+            4,
+            5
+          ],
+          "merge_map": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "6": 4,
+            "7": 5,
+            "8": 4
+          }
+        },
+        "3": {
+          "active_slots": [
+            1,
+            5,
+            6
+          ],
+          "merge_map": {
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "7": 5,
+            "8": 1
+          }
+        },
+        "4": {
+          "active_slots": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "merge_map": {
+            "3": 2,
+            "5": 4,
+            "7": 4,
+            "8": 2
+          }
+        },
+        "5": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "merge_map": {
+            "6": 1,
+            "7": 5,
+            "8": 2
+          }
+        },
+        "6": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "merge_map": {
+            "7": 5,
+            "8": 2
+          }
+        },
+        "7": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "merge_map": {
+            "8": 2
+          }
+        }
+      },
+      "schema": "myrace3d.v3.final_color_plan.v1",
+      "slots": [
+        {
+          "analysis_hex": "#FFBD7B",
+          "group_ids": [
+            "group_01"
+          ],
+          "hex": "#FFA347",
+          "label": "Orange Dune Field",
+          "manual_hex": true,
+          "percent": 0.155128,
+          "slot": 1
+        },
+        {
+          "analysis_hex": "#FFC784",
+          "group_ids": [
+            "group_02"
+          ],
+          "hex": "#F99E2F",
+          "label": "Orange Dune Field",
+          "manual_hex": true,
+          "percent": 0.112047,
+          "slot": 2
+        },
+        {
+          "analysis_hex": "#FFD38C",
+          "group_ids": [
+            "group_03",
+            "group_19"
+          ],
+          "hex": "#FF9D00",
+          "label": "Orange Dune Field",
+          "manual_hex": true,
+          "percent": 0.100854,
+          "slot": 3
+        },
+        {
+          "analysis_hex": "#E5AC78",
+          "group_ids": [
+            "group_04",
+            "group_11",
+            "group_12",
+            "group_15",
+            "group_18"
+          ],
+          "hex": "#A08973",
+          "label": "Sand Desert Or Dry Soil",
+          "manual_hex": true,
+          "percent": 0.192217,
+          "slot": 4
+        },
+        {
+          "analysis_hex": "#DBBEA5",
+          "group_ids": [
+            "group_05",
+            "group_10",
+            "group_13",
+            "group_20"
+          ],
+          "hex": "#877464",
+          "label": "Rock Mountain Or Shadow",
+          "manual_hex": true,
+          "percent": 0.161007,
+          "slot": 5
+        },
+        {
+          "analysis_hex": "#FFB47B",
+          "group_ids": [
+            "group_06",
+            "group_09",
+            "group_14"
+          ],
+          "hex": "#FFB47B",
+          "label": "Sand Desert Or Dry Soil",
+          "manual_hex": false,
+          "percent": 0.131557,
+          "slot": 6
+        },
+        {
+          "analysis_hex": "#F9D5B7",
+          "group_ids": [
+            "group_07",
+            "group_16",
+            "group_17"
+          ],
+          "hex": "#E2D5D5",
+          "label": "Desert Pavement",
+          "manual_hex": true,
+          "percent": 0.095931,
+          "slot": 7
+        },
+        {
+          "analysis_hex": "#FFC673",
+          "group_ids": [
+            "group_08"
+          ],
+          "hex": "#FF9900",
+          "label": "Orange Dune Field",
+          "manual_hex": true,
+          "percent": 0.051262,
+          "slot": 8
+        }
+      ],
+      "updated_at": "2026-05-27T12:28:35Z"
+    },
+    "source": "2D classification final 8 colors - classification_0001"
+  },
+  "updated_at": "2026-05-27T12:28:46Z"
+}
