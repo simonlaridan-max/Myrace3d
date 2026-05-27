@@ -1,0 +1,126 @@
+{
+  "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+  "classification_palette": [
+    "#F39420",
+    "#BE793C",
+    "#DCC3AC",
+    "#9C8C7C"
+  ],
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 4 colors - classification_0001",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_srgb_linear_materials_v2_20260525",
+  "final_color_count": 4,
+  "gpx_geometries": 6,
+  "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+  "materials": [
+    {
+      "hex": "#2752B4",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "hex": "#D6582C",
+      "index": 1,
+      "name": "gpx-trace-02",
+      "role": "gpx"
+    },
+    {
+      "hex": "#7251A5",
+      "index": 2,
+      "name": "gpx-trace-03",
+      "role": "gpx"
+    },
+    {
+      "hex": "#1C8A64",
+      "index": 3,
+      "name": "gpx-trace-04",
+      "role": "gpx"
+    },
+    {
+      "hex": "#D6A21A",
+      "index": 4,
+      "name": "gpx-trace-05",
+      "role": "gpx"
+    },
+    {
+      "hex": "#178997",
+      "index": 5,
+      "name": "gpx-trace-06",
+      "role": "gpx"
+    },
+    {
+      "faces": 573122,
+      "hex": "#F39420",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 347282,
+      "hex": "#BE793C",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 330933,
+      "hex": "#DCC3AC",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 341993,
+      "hex": "#9C8C7C",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 1586186,
+      "hex": "#889682",
+      "index": 6,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "terrain_face_groups": 4,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#F39420",
+      "index": 1,
+      "label": "Orange Dune Field",
+      "percent": 0.359316,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#BE793C",
+      "index": 2,
+      "label": "Orange Dune Field",
+      "percent": 0.217933,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#DCC3AC",
+      "index": 3,
+      "label": "Rock Mountain Or Shadow",
+      "percent": 0.207904,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#9C8C7C",
+      "index": 4,
+      "label": "Sand Desert Or Dry Soil",
+      "percent": 0.214845,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 11
+}
