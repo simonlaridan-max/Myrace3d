@@ -1,0 +1,780 @@
+{
+  "bake_report": {
+    "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+    "classification_palette": [
+      "#4D6293",
+      "#357E3B",
+      "#768959",
+      "#27949D",
+      "#1EBFBF",
+      "#E2D6D0",
+      "#91B58E",
+      "#466772"
+    ],
+    "coloring_mode": "classification_saved",
+    "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+    "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+    "colorizer_version": "v3_fast_color_authority_srgb_linear_materials_v2_20260525",
+    "final_color_count": 8,
+    "gpx_geometries": 3,
+    "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+    "materials": [
+      {
+        "hex": "#FF1AD5",
+        "index": 0,
+        "name": "gpx-trace-01",
+        "role": "gpx"
+      },
+      {
+        "hex": "#D6582C",
+        "index": 1,
+        "name": "gpx-trace-02",
+        "role": "gpx"
+      },
+      {
+        "hex": "#4086F7",
+        "index": 2,
+        "name": "gpx-trace-03",
+        "role": "gpx"
+      },
+      {
+        "faces": 1219683,
+        "hex": "#4D6293",
+        "index": 1,
+        "name": "terrain-color-01",
+        "role": "terrain"
+      },
+      {
+        "faces": 310607,
+        "hex": "#357E3B",
+        "index": 2,
+        "name": "terrain-color-02",
+        "role": "terrain"
+      },
+      {
+        "faces": 66530,
+        "hex": "#768959",
+        "index": 3,
+        "name": "terrain-color-03",
+        "role": "terrain"
+      },
+      {
+        "faces": 57791,
+        "hex": "#27949D",
+        "index": 4,
+        "name": "terrain-color-04",
+        "role": "terrain"
+      },
+      {
+        "faces": 39300,
+        "hex": "#1EBFBF",
+        "index": 5,
+        "name": "terrain-color-05",
+        "role": "terrain"
+      },
+      {
+        "faces": 23117,
+        "hex": "#E2D6D0",
+        "index": 6,
+        "name": "terrain-color-06",
+        "role": "terrain"
+      },
+      {
+        "faces": 22985,
+        "hex": "#91B58E",
+        "index": 7,
+        "name": "terrain-color-07",
+        "role": "terrain"
+      },
+      {
+        "faces": 1311,
+        "hex": "#466772",
+        "index": 8,
+        "name": "terrain-color-08",
+        "role": "terrain"
+      },
+      {
+        "faces": 1733872,
+        "hex": "#889682",
+        "index": 3,
+        "name": "base-bottom",
+        "role": "base"
+      }
+    ],
+    "mode": "classification_saved",
+    "terrain_face_groups": 8,
+    "terrain_palette": [
+      {
+        "area_types": [],
+        "hex": "#4D6293",
+        "index": 1,
+        "label": "Sea / Ocean",
+        "percent": 0.700089,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#357E3B",
+        "index": 2,
+        "label": "Vegetation / Forest",
+        "percent": 0.1786,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#768959",
+        "index": 3,
+        "label": "Vegetation / Forest",
+        "percent": 0.038273,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#27949D",
+        "index": 4,
+        "label": "Shallow Water / Lagoon",
+        "percent": 0.033224,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#1EBFBF",
+        "index": 5,
+        "label": "Shallow Water / Lagoon",
+        "percent": 0.022592,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#E2D6D0",
+        "index": 6,
+        "label": "Beach / Coastline",
+        "percent": 0.013236,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#91B58E",
+        "index": 7,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.013226,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#466772",
+        "index": 8,
+        "label": "Shallow Water / Lagoon",
+        "percent": 0.000757,
+        "role": "classification_final_color"
+      }
+    ],
+    "updated_materials": 12
+  },
+  "base_color": {
+    "hex": "#889682",
+    "label": "Base",
+    "role": "base"
+  },
+  "classification_id": "classification_0001",
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "created_at": "2026-05-27T15:46:58Z",
+  "final_color_count": 8,
+  "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+  "gpx_palette": [
+    {
+      "hex": "#FF1AD5",
+      "index": 1,
+      "label": "Trace 1",
+      "role": "gpx"
+    },
+    {
+      "hex": "#D6582C",
+      "index": 2,
+      "label": "Trace 2",
+      "role": "gpx"
+    },
+    {
+      "hex": "#4086F7",
+      "index": 3,
+      "label": "Trace 3",
+      "role": "gpx"
+    }
+  ],
+  "premium_terrain_colors": {
+    "color_count": 8,
+    "colors": [
+      {
+        "area_types": [],
+        "hex": "#4D6293",
+        "index": 1,
+        "label": "Sea / Ocean",
+        "percent": 0.700089,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#357E3B",
+        "index": 2,
+        "label": "Vegetation / Forest",
+        "percent": 0.1786,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#768959",
+        "index": 3,
+        "label": "Vegetation / Forest",
+        "percent": 0.038273,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#27949D",
+        "index": 4,
+        "label": "Shallow Water / Lagoon",
+        "percent": 0.033224,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#1EBFBF",
+        "index": 5,
+        "label": "Shallow Water / Lagoon",
+        "percent": 0.022592,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#E2D6D0",
+        "index": 6,
+        "label": "Beach / Coastline",
+        "percent": 0.013236,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#91B58E",
+        "index": 7,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.013226,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#466772",
+        "index": 8,
+        "label": "Shallow Water / Lagoon",
+        "percent": 0.000757,
+        "role": "classification_final_color"
+      }
+    ],
+    "mode": "classification_saved",
+    "requested_color_count": 8,
+    "source": "2D classification final 8 colors - classification_0001"
+  },
+  "project_slug": "cozumel-ironman",
+  "schema": "myrace3d.v3.colored_build_parameters.v1",
+  "source_design_build_id": "realistic-001_001",
+  "source_design_geometry_report": {
+    "axis_convention": {
+      "bed_plane": "XY",
+      "coordinate_system": "print_z_up",
+      "vertical_axis": "Z",
+      "viewer_note": "Web previews must use Z-up camera presets because model-viewer orbit controls are Y-up by default.",
+      "x_axis": "model_width_mm",
+      "y_axis": "model_depth_mm",
+      "z_axis": "model_height_mm"
+    },
+    "base_thickness_mm": 3.0,
+    "cols": 960,
+    "controls": {
+      "base_thickness_mm": 3,
+      "custom_relief_height_mm": 3,
+      "design_quality_mode": "final",
+      "display_relief_boost": 2.6,
+      "enhanced_relief_boost": 1.8,
+      "geometry_algorithm_version": "v3_fast_design_hybrid_premium_quality_report_v1_20260521",
+      "hybrid_detail_strength": 0.38,
+      "hybrid_landform_contrast": 0.28,
+      "hybrid_noise_cleanup": 0.36,
+      "hybrid_peak_softness": 0.26,
+      "hybrid_ridge_clarity": 0.34,
+      "hybrid_valley_readability": 0.32,
+      "layer_border_smoothness": 0.55,
+      "layer_count": 48,
+      "max_long_side": 960,
+      "minimum_printable_region_percent": 0.005,
+      "peak_layer_density": 0,
+      "relief": 1,
+      "smoothness": 0.36,
+      "terrain_type": "hybrid",
+      "vertical_scale_mode": "display_strong",
+      "z_exaggeration": 1.35
+    },
+    "depth_mm": 150.0,
+    "design_quality_mode": "final",
+    "faces": 3475196,
+    "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+    "geometry_kind": "continuous_heightfield",
+    "gpx_traces": {
+      "enabled": true,
+      "surface_offset_mm": 0.18,
+      "trace_count": 3,
+      "trace_radius_mm": 0.45
+    },
+    "height_max_mm": 8.399999618530273,
+    "height_min_mm": 3.0,
+    "height_quality": {
+      "height_max_mm": 5.400000095367432,
+      "height_min_mm": 0.0,
+      "height_p50_mm": 0.20051629841327667,
+      "height_p95_mm": 2.8949697017669678,
+      "height_p99_mm": 3.99381160736084,
+      "mesh_volume_mm3": -3468.523292322292,
+      "mesh_watertight": true,
+      "peak_plateau_percent": 0.0010359116022099447,
+      "peak_plateau_tolerance_mm": 0.03,
+      "relief_error_mm": 9.536743128535363e-08,
+      "relief_error_percent": 1.7660635423213635e-06,
+      "relief_height_mm": 5.400000095367432,
+      "target_relief_height_mm": 5.4
+    },
+    "hybrid_policy": {
+      "detail_strength": 0.38,
+      "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+      "landform_contrast": 0.28,
+      "mean_absolute_shape_delta": 0.035458486527204514,
+      "noise_cleanup": 0.36,
+      "p95_absolute_shape_delta": 0.03850176930427551,
+      "peak_mean_absolute_shape_delta": 0.007418829016387463,
+      "peak_softness": 0.26,
+      "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+      "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+      "ridge_clarity": 0.34,
+      "valley_readability": 0.32
+    },
+    "is_closed_heightfield": true,
+    "layered_policy": {},
+    "max_long_side": 960,
+    "model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\outputs\\part_08\\realistic-001_001\\models\\model.glb",
+    "quality_checks": {
+      "has_gpx_overlay": true,
+      "height_authority_preserved": true,
+      "hybrid_shape_delta_mean": 0.035458486527204514,
+      "hybrid_shape_delta_p95": 0.03850176930427551,
+      "hybrid_visibly_distinct_from_normal": true,
+      "mesh_watertight": true,
+      "peak_clipping_risk": false,
+      "peak_plateau_percent": 0.0010359116022099447,
+      "relief_error_percent": 1.7660635423213635e-06,
+      "solid_base_policy": "z0_floor_with_base_thickness"
+    },
+    "relief_height_mm": 5.400000095367432,
+    "rows": 905,
+    "schema": "myrace3d.v3.design_geometry_report.v1",
+    "size_authority": {
+      "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+      "depth_mm": 150.0,
+      "mode": "target_print_mm",
+      "terrain_aspect": 1.0,
+      "terrain_depth_m": 46931.17672727509,
+      "terrain_width_m": 46931.17672727509,
+      "width_mm": 150.0
+    },
+    "source_elevation": {
+      "elevation_max_m": 36.14107894897461,
+      "elevation_min_m": -2.6346378326416016,
+      "elevation_range_m": 38.77571678161621,
+      "source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\outputs\\part_03\\terrain_0001\\elevation_normalization_contract.json"
+    },
+    "terrain_type": "hybrid",
+    "vertical_scale": {
+      "base_relief_height_mm": 4.0,
+      "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+      "custom_relief_height_mm": 3.0,
+      "depth_mm": 150.0,
+      "display_relief_boost": 2.6,
+      "enhanced_floor_mm": null,
+      "enhanced_relief_boost": null,
+      "hybrid_policy": {
+        "detail_strength": 0.38,
+        "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+        "landform_contrast": 0.28,
+        "mean_absolute_shape_delta": 0.035458486527204514,
+        "noise_cleanup": 0.36,
+        "p95_absolute_shape_delta": 0.03850176930427551,
+        "peak_mean_absolute_shape_delta": 0.007418829016387463,
+        "peak_softness": 0.26,
+        "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+        "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+        "ridge_clarity": 0.34,
+        "valley_readability": 0.32
+      },
+      "mega_landscape_relief_boost": null,
+      "meters_per_print_mm": 312.8745115151672,
+      "meters_per_print_mm_x": 312.8745115151672,
+      "meters_per_print_mm_y": 312.8745115151672,
+      "mode": "display_strong",
+      "policy": "true_project_xy_scale_with_optional_enhancement",
+      "preview_dem_max": 160.8040313720703,
+      "preview_dem_min": 16.94727325439453,
+      "preview_dem_range": 143.85675811767578,
+      "print_relief_height_mm": 5.4,
+      "relief": 1.0,
+      "source_elevation_max_m": 36.14107894897461,
+      "source_elevation_min_m": -2.6346378326416016,
+      "source_elevation_range_m": 38.77571678161621,
+      "source_max_m": 36.14107894897461,
+      "source_min_m": -2.6346378326416016,
+      "source_range_m": 38.77571678161621,
+      "terrain_depth_m": 46931.17672727509,
+      "terrain_width_m": 46931.17672727509,
+      "true_relief_height_mm": 0.1239337669081314,
+      "width_mm": 150.0,
+      "xy_scale_mismatch_percent": 0.0,
+      "z_exaggeration": 1.35
+    },
+    "vertices": 1737600,
+    "width_mm": 150.0
+  },
+  "source_design_label": "Realistic 001",
+  "source_design_terrain_type": "hybrid",
+  "source_model_id": "realistic-001_001",
+  "source_model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\outputs\\part_08\\realistic-001_001\\models\\model.glb",
+  "source_palette": {
+    "analysis_colors": [
+      "#4D6293",
+      "#357E3B",
+      "#768959",
+      "#27949D",
+      "#1EBFBF",
+      "#E2D6D0",
+      "#91B58E",
+      "#466772"
+    ],
+    "classification_id": "classification_0001",
+    "colors": [
+      {
+        "analysis_hex": "#4D6293",
+        "hex": "#4D6293",
+        "index": 1,
+        "label": "Sea / Ocean",
+        "merged_source_slots": [
+          1
+        ],
+        "percent": 0.700089,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0001"
+        ],
+        "source_slot": 1
+      },
+      {
+        "analysis_hex": "#357E3B",
+        "hex": "#357E3B",
+        "index": 2,
+        "label": "Vegetation / Forest",
+        "merged_source_slots": [
+          2
+        ],
+        "percent": 0.1786,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0002"
+        ],
+        "source_slot": 2
+      },
+      {
+        "analysis_hex": "#768959",
+        "hex": "#768959",
+        "index": 3,
+        "label": "Vegetation / Forest",
+        "merged_source_slots": [
+          3
+        ],
+        "percent": 0.038273,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0005"
+        ],
+        "source_slot": 3
+      },
+      {
+        "analysis_hex": "#27949D",
+        "hex": "#27949D",
+        "index": 4,
+        "label": "Shallow Water / Lagoon",
+        "merged_source_slots": [
+          4
+        ],
+        "percent": 0.033224,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0003"
+        ],
+        "source_slot": 4
+      },
+      {
+        "analysis_hex": "#1EBFBF",
+        "hex": "#1EBFBF",
+        "index": 5,
+        "label": "Shallow Water / Lagoon",
+        "merged_source_slots": [
+          5
+        ],
+        "percent": 0.022592,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0004"
+        ],
+        "source_slot": 5
+      },
+      {
+        "analysis_hex": "#E2D6D0",
+        "hex": "#E2D6D0",
+        "index": 6,
+        "label": "Beach / Coastline",
+        "merged_source_slots": [
+          6
+        ],
+        "percent": 0.013236,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0006"
+        ],
+        "source_slot": 6
+      },
+      {
+        "analysis_hex": "#91B58E",
+        "hex": "#91B58E",
+        "index": 7,
+        "label": "Dirt Road / Beach Track",
+        "merged_source_slots": [
+          7
+        ],
+        "percent": 0.013226,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0007"
+        ],
+        "source_slot": 7
+      },
+      {
+        "analysis_hex": "#466772",
+        "hex": "#466772",
+        "index": 8,
+        "label": "Shallow Water / Lagoon",
+        "merged_source_slots": [
+          8
+        ],
+        "percent": 0.000757,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0008"
+        ],
+        "source_slot": 8
+      }
+    ],
+    "final_color_count": 8,
+    "final_color_plan": {
+      "max_colors": 8,
+      "reductions": {
+        "1": {
+          "active_slots": [
+            1
+          ],
+          "merge_map": {
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1
+          }
+        },
+        "2": {
+          "active_slots": [
+            1,
+            2
+          ],
+          "merge_map": {
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2
+          }
+        },
+        "3": {
+          "active_slots": [
+            1,
+            2,
+            6
+          ],
+          "merge_map": {
+            "3": 2,
+            "4": 6,
+            "5": 6,
+            "7": 6,
+            "8": 2
+          }
+        },
+        "4": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "merge_map": {
+            "4": 6,
+            "5": 6,
+            "7": 6,
+            "8": 2
+          }
+        },
+        "5": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "merge_map": {
+            "6": 4,
+            "7": 4,
+            "8": 2
+          }
+        },
+        "6": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "merge_map": {
+            "7": 4,
+            "8": 2
+          }
+        },
+        "7": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "merge_map": {
+            "8": 2
+          }
+        }
+      },
+      "schema": "myrace3d.v3.final_color_plan.v1",
+      "slots": [
+        {
+          "analysis_hex": "#4D6293",
+          "group_ids": [
+            "group_0001"
+          ],
+          "hex": "#4D6293",
+          "label": "Sea / Ocean",
+          "manual_hex": false,
+          "percent": 0.700089,
+          "slot": 1
+        },
+        {
+          "analysis_hex": "#357E3B",
+          "group_ids": [
+            "group_0002"
+          ],
+          "hex": "#357E3B",
+          "label": "Vegetation / Forest",
+          "manual_hex": false,
+          "percent": 0.1786,
+          "slot": 2
+        },
+        {
+          "analysis_hex": "#768959",
+          "group_ids": [
+            "group_0005"
+          ],
+          "hex": "#768959",
+          "label": "Vegetation / Forest",
+          "manual_hex": false,
+          "percent": 0.038273,
+          "slot": 3
+        },
+        {
+          "analysis_hex": "#27949D",
+          "group_ids": [
+            "group_0003"
+          ],
+          "hex": "#27949D",
+          "label": "Shallow Water / Lagoon",
+          "manual_hex": false,
+          "percent": 0.033224,
+          "slot": 4
+        },
+        {
+          "analysis_hex": "#1EBFBF",
+          "group_ids": [
+            "group_0004"
+          ],
+          "hex": "#1EBFBF",
+          "label": "Shallow Water / Lagoon",
+          "manual_hex": false,
+          "percent": 0.022592,
+          "slot": 5
+        },
+        {
+          "analysis_hex": "#E2D6D0",
+          "group_ids": [
+            "group_0006"
+          ],
+          "hex": "#E2D6D0",
+          "label": "Beach / Coastline",
+          "manual_hex": false,
+          "percent": 0.013236,
+          "slot": 6
+        },
+        {
+          "analysis_hex": "#91B58E",
+          "group_ids": [
+            "group_0007"
+          ],
+          "hex": "#91B58E",
+          "label": "Dirt Road / Beach Track",
+          "manual_hex": false,
+          "percent": 0.013226,
+          "slot": 7
+        },
+        {
+          "analysis_hex": "#466772",
+          "group_ids": [
+            "group_0008"
+          ],
+          "hex": "#466772",
+          "label": "Shallow Water / Lagoon",
+          "manual_hex": false,
+          "percent": 0.000757,
+          "slot": 8
+        }
+      ],
+      "updated_at": "2026-05-27T15:01:24Z"
+    },
+    "source": "2D classification final 8 colors - classification_0001"
+  },
+  "studio_type": "realistic",
+  "updated_at": "2026-05-27T15:46:58Z"
+}

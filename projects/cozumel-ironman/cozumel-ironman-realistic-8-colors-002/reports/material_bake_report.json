@@ -1,0 +1,172 @@
+{
+  "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+  "classification_palette": [
+    "#4D6293",
+    "#357E3B",
+    "#768959",
+    "#27949D",
+    "#1EBFBF",
+    "#E2D6D0",
+    "#91B58E",
+    "#466772"
+  ],
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_srgb_linear_materials_v2_20260525",
+  "final_color_count": 8,
+  "gpx_geometries": 3,
+  "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\cozumel-ironman\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+  "materials": [
+    {
+      "hex": "#FF1AD5",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "hex": "#D6582C",
+      "index": 1,
+      "name": "gpx-trace-02",
+      "role": "gpx"
+    },
+    {
+      "hex": "#4086F7",
+      "index": 2,
+      "name": "gpx-trace-03",
+      "role": "gpx"
+    },
+    {
+      "faces": 1219683,
+      "hex": "#4D6293",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 310607,
+      "hex": "#357E3B",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 66530,
+      "hex": "#768959",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 57791,
+      "hex": "#27949D",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 39300,
+      "hex": "#1EBFBF",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 23117,
+      "hex": "#E2D6D0",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 22985,
+      "hex": "#91B58E",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 1311,
+      "hex": "#466772",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1733872,
+      "hex": "#889682",
+      "index": 3,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#4D6293",
+      "index": 1,
+      "label": "Sea / Ocean",
+      "percent": 0.700089,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#357E3B",
+      "index": 2,
+      "label": "Vegetation / Forest",
+      "percent": 0.1786,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#768959",
+      "index": 3,
+      "label": "Vegetation / Forest",
+      "percent": 0.038273,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#27949D",
+      "index": 4,
+      "label": "Shallow Water / Lagoon",
+      "percent": 0.033224,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#1EBFBF",
+      "index": 5,
+      "label": "Shallow Water / Lagoon",
+      "percent": 0.022592,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#E2D6D0",
+      "index": 6,
+      "label": "Beach / Coastline",
+      "percent": 0.013236,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#91B58E",
+      "index": 7,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.013226,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#466772",
+      "index": 8,
+      "label": "Shallow Water / Lagoon",
+      "percent": 0.000757,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 12
+}
