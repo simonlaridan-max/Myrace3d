@@ -3,6 +3,797 @@
     "attribution_path": "attribution/ATTRIBUTIONS.md",
     "color_style": "classification_saved",
     "contains_credentials": false,
+    "created_at": "2026-05-27T14:21:50Z",
+    "github_path": "projects/diagonale-des-fous-2025/diagonale-des-fous-2025-realistic-8-colors-001",
+    "local_index": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\outputs\\part_08\\diagonale-des-fous-2025-realistic-8-colors_001\\index.html",
+    "model_bytes": 68223980,
+    "model_path": "models/model.glb",
+    "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/diagonale-des-fous-2025/diagonale-des-fous-2025-realistic-8-colors-001/index.html",
+    "parameter_snapshot": {
+      "bake_report": {
+        "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+        "classification_palette": [
+          "#1C3F7A",
+          "#586894",
+          "#2F791A",
+          "#6F6963",
+          "#738D46",
+          "#949F7A",
+          "#4D653E",
+          "#BCC1B6"
+        ],
+        "coloring_mode": "classification_saved",
+        "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+        "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+        "colorizer_version": "v3_fast_color_authority_srgb_linear_materials_v2_20260525",
+        "final_color_count": 8,
+        "gpx_geometries": 1,
+        "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+        "materials": [
+          {
+            "hex": "#2752B4",
+            "index": 0,
+            "name": "gpx-trace-01",
+            "role": "gpx"
+          },
+          {
+            "faces": 688651,
+            "hex": "#1C3F7A",
+            "index": 1,
+            "name": "terrain-color-01",
+            "role": "terrain"
+          },
+          {
+            "faces": 424126,
+            "hex": "#586894",
+            "index": 2,
+            "name": "terrain-color-02",
+            "role": "terrain"
+          },
+          {
+            "faces": 353152,
+            "hex": "#2F791A",
+            "index": 3,
+            "name": "terrain-color-03",
+            "role": "terrain"
+          },
+          {
+            "faces": 64532,
+            "hex": "#6F6963",
+            "index": 4,
+            "name": "terrain-color-04",
+            "role": "terrain"
+          },
+          {
+            "faces": 59912,
+            "hex": "#738D46",
+            "index": 5,
+            "name": "terrain-color-05",
+            "role": "terrain"
+          },
+          {
+            "faces": 54807,
+            "hex": "#949F7A",
+            "index": 6,
+            "name": "terrain-color-06",
+            "role": "terrain"
+          },
+          {
+            "faces": 50882,
+            "hex": "#4D653E",
+            "index": 7,
+            "name": "terrain-color-07",
+            "role": "terrain"
+          },
+          {
+            "faces": 37574,
+            "hex": "#BCC1B6",
+            "index": 8,
+            "name": "terrain-color-08",
+            "role": "terrain"
+          },
+          {
+            "faces": 1726200,
+            "hex": "#889682",
+            "index": 1,
+            "name": "base-bottom",
+            "role": "base"
+          }
+        ],
+        "mode": "classification_saved",
+        "terrain_face_groups": 8,
+        "terrain_palette": [
+          {
+            "area_types": [],
+            "hex": "#1C3F7A",
+            "index": 1,
+            "label": "Sea / Ocean",
+            "percent": 0.397045,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#586894",
+            "index": 2,
+            "label": "Sea / Ocean",
+            "percent": 0.244218,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#2F791A",
+            "index": 3,
+            "label": "Vegetation / Forest",
+            "percent": 0.203875,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#6F6963",
+            "index": 4,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.037353,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#738D46",
+            "index": 5,
+            "label": "Vegetation / Forest",
+            "percent": 0.034616,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#949F7A",
+            "index": 6,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.031829,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#4D653E",
+            "index": 7,
+            "label": "Vegetation / Forest",
+            "percent": 0.029344,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#BCC1B6",
+            "index": 8,
+            "label": "Beach / Coastline",
+            "percent": 0.021719,
+            "role": "classification_final_color"
+          }
+        ],
+        "updated_materials": 10
+      },
+      "base_color": {
+        "hex": "#889682",
+        "label": "Base",
+        "role": "base"
+      },
+      "classification_id": "classification_0001",
+      "coloring_mode": "classification_saved",
+      "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+      "created_at": "2026-05-27T14:21:50Z",
+      "final_color_count": 8,
+      "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+      "gpx_palette": [
+        {
+          "hex": "#2752B4",
+          "index": 1,
+          "label": "Trace 1",
+          "role": "gpx"
+        }
+      ],
+      "premium_terrain_colors": {
+        "color_count": 8,
+        "colors": [
+          {
+            "area_types": [],
+            "hex": "#1C3F7A",
+            "index": 1,
+            "label": "Sea / Ocean",
+            "percent": 0.397045,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#586894",
+            "index": 2,
+            "label": "Sea / Ocean",
+            "percent": 0.244218,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#2F791A",
+            "index": 3,
+            "label": "Vegetation / Forest",
+            "percent": 0.203875,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#6F6963",
+            "index": 4,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.037353,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#738D46",
+            "index": 5,
+            "label": "Vegetation / Forest",
+            "percent": 0.034616,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#949F7A",
+            "index": 6,
+            "label": "Dirt Road / Beach Track",
+            "percent": 0.031829,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#4D653E",
+            "index": 7,
+            "label": "Vegetation / Forest",
+            "percent": 0.029344,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#BCC1B6",
+            "index": 8,
+            "label": "Beach / Coastline",
+            "percent": 0.021719,
+            "role": "classification_final_color"
+          }
+        ],
+        "mode": "classification_saved",
+        "requested_color_count": 8,
+        "source": "2D classification final 8 colors - classification_0001"
+      },
+      "project_slug": "diagonale-des-fous-2025",
+      "schema": "myrace3d.v3.colored_build_parameters.v1",
+      "source_design_build_id": "realistic-001_001",
+      "source_design_geometry_report": {
+        "axis_convention": {
+          "bed_plane": "XY",
+          "coordinate_system": "print_z_up",
+          "vertical_axis": "Z",
+          "viewer_note": "Web previews must use Z-up camera presets because model-viewer orbit controls are Y-up by default.",
+          "x_axis": "model_width_mm",
+          "y_axis": "model_depth_mm",
+          "z_axis": "model_height_mm"
+        },
+        "base_thickness_mm": 3.0,
+        "cols": 960,
+        "controls": {
+          "base_thickness_mm": 3,
+          "custom_relief_height_mm": 2,
+          "design_quality_mode": "final",
+          "display_relief_boost": 2.6,
+          "enhanced_relief_boost": 1.8,
+          "geometry_algorithm_version": "v3_fast_design_hybrid_premium_quality_report_v1_20260521",
+          "hybrid_detail_strength": 0.38,
+          "hybrid_landform_contrast": 0.28,
+          "hybrid_noise_cleanup": 0.36,
+          "hybrid_peak_softness": 0.26,
+          "hybrid_ridge_clarity": 0.34,
+          "hybrid_valley_readability": 0.32,
+          "layer_border_smoothness": 0.55,
+          "layer_count": 48,
+          "max_long_side": 960,
+          "minimum_printable_region_percent": 0.005,
+          "peak_layer_density": 0,
+          "relief": 1,
+          "smoothness": 0.36,
+          "terrain_type": "hybrid",
+          "vertical_scale_mode": "enhanced_relief",
+          "z_exaggeration": 1.55
+        },
+        "depth_mm": 150.0,
+        "design_quality_mode": "final",
+        "faces": 3459836,
+        "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+        "geometry_kind": "continuous_heightfield",
+        "gpx_traces": {
+          "enabled": true,
+          "surface_offset_mm": 0.18,
+          "trace_count": 1,
+          "trace_radius_mm": 0.45
+        },
+        "height_max_mm": 18.401081085205078,
+        "height_min_mm": 3.0,
+        "height_quality": {
+          "height_max_mm": 15.401081085205078,
+          "height_min_mm": 0.0,
+          "height_p50_mm": 0.0,
+          "height_p95_mm": 8.796754837036133,
+          "height_p99_mm": 11.580324172973633,
+          "mesh_volume_mm3": 38631.162436516875,
+          "mesh_watertight": true,
+          "peak_plateau_percent": 0.00034683684794672585,
+          "peak_plateau_tolerance_mm": 0.0385027027130127,
+          "relief_error_mm": 3.151412695245881e-07,
+          "relief_error_percent": 2.04622819224565e-06,
+          "relief_height_mm": 15.401081085205078,
+          "target_relief_height_mm": 15.401081400346348
+        },
+        "hybrid_policy": {
+          "detail_strength": 0.38,
+          "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+          "landform_contrast": 0.28,
+          "mean_absolute_shape_delta": 0.00460470374673605,
+          "noise_cleanup": 0.36,
+          "p95_absolute_shape_delta": 0.01704290509223938,
+          "peak_mean_absolute_shape_delta": 0.005787028931081295,
+          "peak_softness": 0.26,
+          "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+          "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+          "ridge_clarity": 0.34,
+          "valley_readability": 0.32
+        },
+        "is_closed_heightfield": true,
+        "layered_policy": {},
+        "max_long_side": 960,
+        "model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\outputs\\part_08\\realistic-001_001\\models\\model.glb",
+        "quality_checks": {
+          "has_gpx_overlay": true,
+          "height_authority_preserved": true,
+          "hybrid_shape_delta_mean": 0.00460470374673605,
+          "hybrid_shape_delta_p95": 0.01704290509223938,
+          "hybrid_visibly_distinct_from_normal": true,
+          "mesh_watertight": true,
+          "peak_clipping_risk": false,
+          "peak_plateau_percent": 0.00034683684794672585,
+          "relief_error_percent": 2.04622819224565e-06,
+          "solid_base_policy": "z0_floor_with_base_thickness"
+        },
+        "relief_height_mm": 15.401081085205078,
+        "rows": 901,
+        "schema": "myrace3d.v3.design_geometry_report.v1",
+        "size_authority": {
+          "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+          "depth_mm": 150.0,
+          "mode": "target_print_mm",
+          "terrain_aspect": 1.0,
+          "terrain_depth_m": 82909.04054817458,
+          "terrain_width_m": 82909.04054817458,
+          "width_mm": 150.0
+        },
+        "source_elevation": {
+          "elevation_max_m": 3045.4951171875,
+          "elevation_min_m": -5.613323211669922,
+          "elevation_range_m": 3051.10844039917,
+          "source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\outputs\\part_03\\terrain_0001\\elevation_normalization_contract.json"
+        },
+        "terrain_type": "hybrid",
+        "vertical_scale": {
+          "base_relief_height_mm": 9.936181548610547,
+          "bounds_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+          "custom_relief_height_mm": 2.0,
+          "depth_mm": 150.0,
+          "display_relief_boost": null,
+          "enhanced_floor_mm": 2.0,
+          "enhanced_relief_boost": 1.8,
+          "hybrid_policy": {
+            "detail_strength": 0.38,
+            "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+            "landform_contrast": 0.28,
+            "mean_absolute_shape_delta": 0.00460470374673605,
+            "noise_cleanup": 0.36,
+            "p95_absolute_shape_delta": 0.01704290509223938,
+            "peak_mean_absolute_shape_delta": 0.005787028931081295,
+            "peak_softness": 0.26,
+            "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+            "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+            "ridge_clarity": 0.34,
+            "valley_readability": 0.32
+          },
+          "mega_landscape_relief_boost": null,
+          "meters_per_print_mm": 552.7269369878305,
+          "meters_per_print_mm_x": 552.7269369878305,
+          "meters_per_print_mm_y": 552.7269369878305,
+          "mode": "enhanced_relief",
+          "policy": "true_project_xy_scale_with_optional_enhancement",
+          "preview_dem_max": 251.75576782226562,
+          "preview_dem_min": 0.0,
+          "preview_dem_range": 251.75576782226562,
+          "print_relief_height_mm": 15.401081400346348,
+          "relief": 1.0,
+          "source_elevation_max_m": 3045.4951171875,
+          "source_elevation_min_m": -5.613323211669922,
+          "source_elevation_range_m": 3051.10844039917,
+          "source_max_m": 3045.4951171875,
+          "source_min_m": -5.613323211669922,
+          "source_range_m": 3051.10844039917,
+          "terrain_depth_m": 82909.04054817458,
+          "terrain_width_m": 82909.04054817458,
+          "true_relief_height_mm": 5.520100860339192,
+          "width_mm": 150.0,
+          "xy_scale_mismatch_percent": 0.0,
+          "z_exaggeration": 1.55
+        },
+        "vertices": 1729920,
+        "width_mm": 150.0
+      },
+      "source_design_label": "Realistic 001",
+      "source_design_terrain_type": "hybrid",
+      "source_model_id": "realistic-001_001",
+      "source_model_path": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\outputs\\part_08\\realistic-001_001\\models\\model.glb",
+      "source_palette": {
+        "analysis_colors": [
+          "#1C3F7A",
+          "#586894",
+          "#2F791A",
+          "#6F6963",
+          "#738D46",
+          "#949F7A",
+          "#4D653E",
+          "#BCC1B6"
+        ],
+        "classification_id": "classification_0001",
+        "colors": [
+          {
+            "analysis_hex": "#1C3F7A",
+            "hex": "#1C3F7A",
+            "index": 1,
+            "label": "Sea / Ocean",
+            "merged_source_slots": [
+              1
+            ],
+            "percent": 0.397045,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0004",
+              "group_0009"
+            ],
+            "source_slot": 1
+          },
+          {
+            "analysis_hex": "#586894",
+            "hex": "#586894",
+            "index": 2,
+            "label": "Sea / Ocean",
+            "merged_source_slots": [
+              2
+            ],
+            "percent": 0.244218,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0001"
+            ],
+            "source_slot": 2
+          },
+          {
+            "analysis_hex": "#2F791A",
+            "hex": "#2F791A",
+            "index": 3,
+            "label": "Vegetation / Forest",
+            "merged_source_slots": [
+              3
+            ],
+            "percent": 0.203875,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0003"
+            ],
+            "source_slot": 3
+          },
+          {
+            "analysis_hex": "#6F6963",
+            "hex": "#6F6963",
+            "index": 4,
+            "label": "Dirt Road / Beach Track",
+            "merged_source_slots": [
+              4
+            ],
+            "percent": 0.037353,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0008"
+            ],
+            "source_slot": 4
+          },
+          {
+            "analysis_hex": "#738D46",
+            "hex": "#738D46",
+            "index": 5,
+            "label": "Vegetation / Forest",
+            "merged_source_slots": [
+              5
+            ],
+            "percent": 0.034616,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0002"
+            ],
+            "source_slot": 5
+          },
+          {
+            "analysis_hex": "#949F7A",
+            "hex": "#949F7A",
+            "index": 6,
+            "label": "Dirt Road / Beach Track",
+            "merged_source_slots": [
+              6
+            ],
+            "percent": 0.031829,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0007"
+            ],
+            "source_slot": 6
+          },
+          {
+            "analysis_hex": "#4D653E",
+            "hex": "#4D653E",
+            "index": 7,
+            "label": "Vegetation / Forest",
+            "merged_source_slots": [
+              7
+            ],
+            "percent": 0.029344,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0006"
+            ],
+            "source_slot": 7
+          },
+          {
+            "analysis_hex": "#BCC1B6",
+            "hex": "#BCC1B6",
+            "index": 8,
+            "label": "Beach / Coastline",
+            "merged_source_slots": [
+              8
+            ],
+            "percent": 0.021719,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_0005"
+            ],
+            "source_slot": 8
+          }
+        ],
+        "final_color_count": 8,
+        "final_color_plan": {
+          "max_colors": 8,
+          "reductions": {
+            "1": {
+              "active_slots": [
+                1
+              ],
+              "merge_map": {
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1
+              }
+            },
+            "2": {
+              "active_slots": [
+                1,
+                2
+              ],
+              "merge_map": {
+                "3": 2,
+                "4": 1,
+                "5": 2,
+                "6": 2,
+                "7": 2,
+                "8": 2
+              }
+            },
+            "3": {
+              "active_slots": [
+                1,
+                2,
+                6
+              ],
+              "merge_map": {
+                "3": 2,
+                "4": 1,
+                "5": 2,
+                "7": 6,
+                "8": 6
+              }
+            },
+            "4": {
+              "active_slots": [
+                1,
+                2,
+                6,
+                7
+              ],
+              "merge_map": {
+                "3": 2,
+                "4": 1,
+                "5": 2,
+                "8": 7
+              }
+            },
+            "5": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                7,
+                8
+              ],
+              "merge_map": {
+                "4": 1,
+                "5": 2,
+                "6": 3
+              }
+            },
+            "6": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                8
+              ],
+              "merge_map": {
+                "5": 2,
+                "7": 6
+              }
+            },
+            "7": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "merge_map": {
+                "8": 7
+              }
+            }
+          },
+          "schema": "myrace3d.v3.final_color_plan.v1",
+          "slots": [
+            {
+              "analysis_hex": "#1C3F7A",
+              "group_ids": [
+                "group_0004",
+                "group_0009"
+              ],
+              "hex": "#1C3F7A",
+              "label": "Sea / Ocean",
+              "manual_hex": false,
+              "percent": 0.397045,
+              "slot": 1
+            },
+            {
+              "analysis_hex": "#586894",
+              "group_ids": [
+                "group_0001"
+              ],
+              "hex": "#586894",
+              "label": "Sea / Ocean",
+              "manual_hex": false,
+              "percent": 0.244218,
+              "slot": 2
+            },
+            {
+              "analysis_hex": "#2F791A",
+              "group_ids": [
+                "group_0003"
+              ],
+              "hex": "#2F791A",
+              "label": "Vegetation / Forest",
+              "manual_hex": false,
+              "percent": 0.203875,
+              "slot": 3
+            },
+            {
+              "analysis_hex": "#6F6963",
+              "group_ids": [
+                "group_0008"
+              ],
+              "hex": "#6F6963",
+              "label": "Dirt Road / Beach Track",
+              "manual_hex": false,
+              "percent": 0.037353,
+              "slot": 4
+            },
+            {
+              "analysis_hex": "#738D46",
+              "group_ids": [
+                "group_0002"
+              ],
+              "hex": "#738D46",
+              "label": "Vegetation / Forest",
+              "manual_hex": false,
+              "percent": 0.034616,
+              "slot": 5
+            },
+            {
+              "analysis_hex": "#949F7A",
+              "group_ids": [
+                "group_0007"
+              ],
+              "hex": "#949F7A",
+              "label": "Dirt Road / Beach Track",
+              "manual_hex": false,
+              "percent": 0.031829,
+              "slot": 6
+            },
+            {
+              "analysis_hex": "#4D653E",
+              "group_ids": [
+                "group_0006"
+              ],
+              "hex": "#4D653E",
+              "label": "Vegetation / Forest",
+              "manual_hex": false,
+              "percent": 0.029344,
+              "slot": 7
+            },
+            {
+              "analysis_hex": "#BCC1B6",
+              "group_ids": [
+                "group_0005"
+              ],
+              "hex": "#BCC1B6",
+              "label": "Beach / Coastline",
+              "manual_hex": false,
+              "percent": 0.021719,
+              "slot": 8
+            }
+          ],
+          "updated_at": "2026-05-27T14:20:43Z"
+        },
+        "source": "2D classification final 8 colors - classification_0001"
+      },
+      "studio_type": "realistic",
+      "updated_at": "2026-05-27T14:21:50Z"
+    },
+    "prepared_at": "2026-05-27T14:21:51Z",
+    "print_model_bytes": 68223980,
+    "print_model_path": "models/model.glb",
+    "project_slug": "diagonale-des-fous-2025",
+    "publication_id": "diagonale-des-fous-2025-realistic-8-colors_001",
+    "published_at": "2026-05-27T14:21:51Z",
+    "schema": "myrace3d.v3.local_colored_build_manifest.v1",
+    "source_design_build_id": "realistic-001_001",
+    "source_design_label": "Realistic 001",
+    "source_label": "Hybrid Design Build - Colored Build",
+    "source_type": "design_hybrid_colored",
+    "studio_type": "realistic",
+    "title": "Diagonale des Fous 2025 Realistic 8 colors",
+    "updated_at": "2026-05-27T14:21:50Z",
+    "web_model_bytes": 68223980,
+    "web_model_path": "models/model.glb",
+    "web_preview_report": {
+      "reason": "Original GLB is small enough for a faithful web preview.",
+      "source_mb": 65.06,
+      "status": "not_needed",
+      "threshold_mb": 80
+    }
+  },
+  {
+    "attribution_path": "attribution/ATTRIBUTIONS.md",
+    "color_style": "classification_saved",
+    "contains_credentials": false,
     "created_at": "2026-05-27T13:05:47Z",
     "github_path": "projects/marathon-des-sables-100k/marathon-des-sables-100k-realistic-8-colors-002",
     "local_index": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\marathon-des-sables-100k\\outputs\\part_08\\marathon-des-sables-100k-realistic-8-colors_002\\index.html",

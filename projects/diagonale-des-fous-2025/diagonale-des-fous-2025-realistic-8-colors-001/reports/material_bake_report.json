@@ -1,0 +1,160 @@
+{
+  "classification_label_map": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\project_core\\design_variations\\color_classification\\working\\palette_index_map.png",
+  "classification_palette": [
+    "#1C3F7A",
+    "#586894",
+    "#2F791A",
+    "#6F6963",
+    "#738D46",
+    "#949F7A",
+    "#4D653E",
+    "#BCC1B6"
+  ],
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_srgb_linear_materials_v2_20260525",
+  "final_color_count": 8,
+  "gpx_geometries": 1,
+  "image_source": "C:\\Users\\simon\\Documents\\Parent Folder\\LIVE Projects\\diagonale-des-fous-2025\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+  "materials": [
+    {
+      "hex": "#2752B4",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "faces": 688651,
+      "hex": "#1C3F7A",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 424126,
+      "hex": "#586894",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 353152,
+      "hex": "#2F791A",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 64532,
+      "hex": "#6F6963",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 59912,
+      "hex": "#738D46",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 54807,
+      "hex": "#949F7A",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 50882,
+      "hex": "#4D653E",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 37574,
+      "hex": "#BCC1B6",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1726200,
+      "hex": "#889682",
+      "index": 1,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#1C3F7A",
+      "index": 1,
+      "label": "Sea / Ocean",
+      "percent": 0.397045,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#586894",
+      "index": 2,
+      "label": "Sea / Ocean",
+      "percent": 0.244218,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#2F791A",
+      "index": 3,
+      "label": "Vegetation / Forest",
+      "percent": 0.203875,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#6F6963",
+      "index": 4,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.037353,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#738D46",
+      "index": 5,
+      "label": "Vegetation / Forest",
+      "percent": 0.034616,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#949F7A",
+      "index": 6,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.031829,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#4D653E",
+      "index": 7,
+      "label": "Vegetation / Forest",
+      "percent": 0.029344,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#BCC1B6",
+      "index": 8,
+      "label": "Beach / Coastline",
+      "percent": 0.021719,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 10
+}
