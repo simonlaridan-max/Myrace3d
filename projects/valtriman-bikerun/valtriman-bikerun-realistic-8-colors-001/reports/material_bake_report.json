@@ -1,0 +1,169 @@
+{
+  "classification_label_map": "/data/live-projects/valtriman-bikerun/project_core/design_variations/color_classification/working/palette_index_map.png",
+  "classification_palette": [
+    "#257422",
+    "#488B2A",
+    "#878758",
+    "#72882E",
+    "#2A692E",
+    "#B5AE8D",
+    "#517431",
+    "#778647"
+  ],
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_color_authority_realistic_gltf_depth_unflip_v13_20260530",
+  "final_color_count": 8,
+  "gpx_geometries": 2,
+  "image_source": "/data/live-projects/valtriman-bikerun/project_core/design_variations/color_classification/working/copernicus_saturated_analysis.png",
+  "materials": [
+    {
+      "hex": "#FF0A0A",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "hex": "#00FFFB",
+      "index": 1,
+      "name": "gpx-trace-02",
+      "role": "gpx"
+    },
+    {
+      "faces": 469221,
+      "hex": "#257422",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 431790,
+      "hex": "#488B2A",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 104596,
+      "hex": "#878758",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 71179,
+      "hex": "#72882E",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 64803,
+      "hex": "#2A692E",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 20723,
+      "hex": "#B5AE8D",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 16661,
+      "hex": "#517431",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 10737,
+      "hex": "#778647",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1183406,
+      "hex": "#889682",
+      "index": 2,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "source_axis_layout": "gltf_y_up",
+  "spatial_sampling_axes": "x_neg_z_as_print_y",
+  "spatial_sampling_transform": "gltf_z_negated_to_internal_print_y",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#257422",
+      "index": 1,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.394848,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#488B2A",
+      "index": 2,
+      "label": "Vegetation / Forest",
+      "percent": 0.36271,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#878758",
+      "index": 3,
+      "label": "Vegetation / Forest",
+      "percent": 0.087704,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#72882E",
+      "index": 4,
+      "label": "Vegetation / Forest",
+      "percent": 0.059423,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#2A692E",
+      "index": 5,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.054726,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#B5AE8D",
+      "index": 6,
+      "label": "Dirt Road / Beach Track",
+      "percent": 0.017519,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#517431",
+      "index": 7,
+      "label": "Sea / Ocean",
+      "percent": 0.014008,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#778647",
+      "index": 8,
+      "label": "Urban Roof / Warm Ground",
+      "percent": 0.00906,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 11
+}

@@ -1,0 +1,867 @@
+{
+  "bake_report": {
+    "classification_label_map": "/data/live-projects/valtriman-bikerun/project_core/design_variations/color_classification/working/palette_index_map.png",
+    "classification_palette": [
+      "#257422",
+      "#488B2A",
+      "#878758",
+      "#72882E",
+      "#2A692E",
+      "#B5AE8D",
+      "#517431",
+      "#778647"
+    ],
+    "coloring_mode": "classification_saved",
+    "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+    "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+    "colorizer_version": "v3_fast_color_authority_realistic_gltf_depth_unflip_v13_20260530",
+    "final_color_count": 8,
+    "gpx_geometries": 2,
+    "image_source": "/data/live-projects/valtriman-bikerun/project_core/design_variations/color_classification/working/copernicus_saturated_analysis.png",
+    "materials": [
+      {
+        "hex": "#FF0A0A",
+        "index": 0,
+        "name": "gpx-trace-01",
+        "role": "gpx"
+      },
+      {
+        "hex": "#00FFFB",
+        "index": 1,
+        "name": "gpx-trace-02",
+        "role": "gpx"
+      },
+      {
+        "faces": 469221,
+        "hex": "#257422",
+        "index": 1,
+        "name": "terrain-color-01",
+        "role": "terrain"
+      },
+      {
+        "faces": 431790,
+        "hex": "#488B2A",
+        "index": 2,
+        "name": "terrain-color-02",
+        "role": "terrain"
+      },
+      {
+        "faces": 104596,
+        "hex": "#878758",
+        "index": 3,
+        "name": "terrain-color-03",
+        "role": "terrain"
+      },
+      {
+        "faces": 71179,
+        "hex": "#72882E",
+        "index": 4,
+        "name": "terrain-color-04",
+        "role": "terrain"
+      },
+      {
+        "faces": 64803,
+        "hex": "#2A692E",
+        "index": 5,
+        "name": "terrain-color-05",
+        "role": "terrain"
+      },
+      {
+        "faces": 20723,
+        "hex": "#B5AE8D",
+        "index": 6,
+        "name": "terrain-color-06",
+        "role": "terrain"
+      },
+      {
+        "faces": 16661,
+        "hex": "#517431",
+        "index": 7,
+        "name": "terrain-color-07",
+        "role": "terrain"
+      },
+      {
+        "faces": 10737,
+        "hex": "#778647",
+        "index": 8,
+        "name": "terrain-color-08",
+        "role": "terrain"
+      },
+      {
+        "faces": 1183406,
+        "hex": "#889682",
+        "index": 2,
+        "name": "base-bottom",
+        "role": "base"
+      }
+    ],
+    "mode": "classification_saved",
+    "source_axis_layout": "gltf_y_up",
+    "spatial_sampling_axes": "x_neg_z_as_print_y",
+    "spatial_sampling_transform": "gltf_z_negated_to_internal_print_y",
+    "terrain_face_groups": 8,
+    "terrain_palette": [
+      {
+        "area_types": [],
+        "hex": "#257422",
+        "index": 1,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.394848,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#488B2A",
+        "index": 2,
+        "label": "Vegetation / Forest",
+        "percent": 0.36271,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#878758",
+        "index": 3,
+        "label": "Vegetation / Forest",
+        "percent": 0.087704,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#72882E",
+        "index": 4,
+        "label": "Vegetation / Forest",
+        "percent": 0.059423,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#2A692E",
+        "index": 5,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.054726,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#B5AE8D",
+        "index": 6,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.017519,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#517431",
+        "index": 7,
+        "label": "Sea / Ocean",
+        "percent": 0.014008,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#778647",
+        "index": 8,
+        "label": "Urban Roof / Warm Ground",
+        "percent": 0.00906,
+        "role": "classification_final_color"
+      }
+    ],
+    "updated_materials": 11
+  },
+  "base_color": {
+    "hex": "#889682",
+    "label": "Base",
+    "role": "base"
+  },
+  "classification_id": "classification_0001",
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_0001",
+  "created_at": "2026-05-31T07:30:31Z",
+  "final_color_count": 8,
+  "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+  "gpx_palette": [
+    {
+      "hex": "#FF0A0A",
+      "index": 1,
+      "label": "Trace 1",
+      "role": "gpx"
+    },
+    {
+      "hex": "#00FFFB",
+      "index": 2,
+      "label": "Trace 2",
+      "role": "gpx"
+    }
+  ],
+  "premium_terrain_colors": {
+    "color_count": 8,
+    "colors": [
+      {
+        "area_types": [],
+        "hex": "#257422",
+        "index": 1,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.394848,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#488B2A",
+        "index": 2,
+        "label": "Vegetation / Forest",
+        "percent": 0.36271,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#878758",
+        "index": 3,
+        "label": "Vegetation / Forest",
+        "percent": 0.087704,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#72882E",
+        "index": 4,
+        "label": "Vegetation / Forest",
+        "percent": 0.059423,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#2A692E",
+        "index": 5,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.054726,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#B5AE8D",
+        "index": 6,
+        "label": "Dirt Road / Beach Track",
+        "percent": 0.017519,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#517431",
+        "index": 7,
+        "label": "Sea / Ocean",
+        "percent": 0.014008,
+        "role": "classification_final_color"
+      },
+      {
+        "area_types": [],
+        "hex": "#778647",
+        "index": 8,
+        "label": "Urban Roof / Warm Ground",
+        "percent": 0.00906,
+        "role": "classification_final_color"
+      }
+    ],
+    "mode": "classification_saved",
+    "requested_color_count": 8,
+    "source": "2D classification final 8 colors - classification_0001"
+  },
+  "project_slug": "valtriman-bikerun",
+  "schema": "myrace3d.v3.colored_build_parameters.v1",
+  "source_design_build_id": "realistic-001_001",
+  "source_design_geometry_report": {
+    "axis_convention": {
+      "bed_plane": "XY",
+      "coordinate_system": "internal_print_z_up",
+      "glb_export_coordinate_system": "standard_gltf_y_up",
+      "glb_export_transform": "x_gltf=x_print, y_gltf=z_print, z_gltf=-y_print",
+      "vertical_axis": "Z",
+      "viewer_note": "Worker geometry remains print Z-up; exported GLB is rotated once into standard glTF Y-up for model-viewer and Blender.",
+      "x_axis": "model_width_mm",
+      "y_axis": "model_depth_mm",
+      "z_axis": "model_height_mm"
+    },
+    "base_thickness_mm": 3.0,
+    "cols": 960,
+    "controls": {
+      "base_thickness_mm": 3,
+      "custom_relief_height_mm": 3,
+      "design_quality_mode": "final",
+      "display_relief_boost": 2.6,
+      "enhanced_relief_boost": 1.8,
+      "geometry_algorithm_version": "v3_fast_design_layered_gltf_y_up_export_v14_20260528",
+      "hybrid_detail_strength": 0.38,
+      "hybrid_landform_contrast": 0.28,
+      "hybrid_noise_cleanup": 0.36,
+      "hybrid_peak_softness": 0.26,
+      "hybrid_ridge_clarity": 0.34,
+      "hybrid_valley_readability": 0.32,
+      "layer_border_smoothness": 0.55,
+      "layer_count": 48,
+      "max_long_side": 960,
+      "minimum_printable_region_percent": 0.005,
+      "peak_layer_density": 0,
+      "relief": 1,
+      "smoothness": 0.36,
+      "terrain_type": "hybrid",
+      "vertical_scale_mode": "display_strong",
+      "z_exaggeration": 2
+    },
+    "depth_mm": 150.0,
+    "design_quality_mode": "final",
+    "faces": 2373116,
+    "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+    "geometry_kind": "continuous_heightfield",
+    "gpx_traces": {
+      "enabled": true,
+      "projection_policy": "heightfield_surface",
+      "surface_offset_mm": 0.18,
+      "trace_count": 2,
+      "trace_embed_mm": 0.27,
+      "trace_radius_mm": 0.45
+    },
+    "height_max_mm": 13.858604431152344,
+    "height_min_mm": 3.0,
+    "height_quality": {
+      "height_max_mm": 10.858604431152344,
+      "height_min_mm": 0.0,
+      "height_p50_mm": 7.071590423583984,
+      "height_p95_mm": 9.260591506958008,
+      "height_p99_mm": 10.012781143188477,
+      "mesh_volume_mm3": 8554.827931849093,
+      "mesh_watertight": true,
+      "peak_plateau_percent": 0.0008427723840345199,
+      "peak_plateau_tolerance_mm": 0.03,
+      "relief_error_mm": 4.2969826452576854e-07,
+      "relief_error_percent": 3.957214614956282e-06,
+      "relief_height_mm": 10.858604431152344,
+      "target_relief_height_mm": 10.85860400145408
+    },
+    "hybrid_policy": {
+      "detail_strength": 0.38,
+      "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+      "landform_contrast": 0.28,
+      "mean_absolute_shape_delta": 0.018380247056484222,
+      "noise_cleanup": 0.36,
+      "p95_absolute_shape_delta": 0.025254014879465103,
+      "peak_mean_absolute_shape_delta": 0.004002188798040152,
+      "peak_softness": 0.26,
+      "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+      "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+      "ridge_clarity": 0.34,
+      "valley_readability": 0.32
+    },
+    "is_closed_heightfield": true,
+    "layered_policy": {},
+    "max_long_side": 960,
+    "model_path": "/data/live-projects/valtriman-bikerun/outputs/part_08/realistic-001_001/models/model.glb",
+    "quality_checks": {
+      "has_gpx_overlay": true,
+      "height_authority_preserved": true,
+      "hybrid_shape_delta_mean": 0.018380247056484222,
+      "hybrid_shape_delta_p95": 0.025254014879465103,
+      "hybrid_visibly_distinct_from_normal": true,
+      "mesh_watertight": true,
+      "peak_clipping_risk": false,
+      "peak_plateau_percent": 0.0008427723840345199,
+      "relief_error_percent": 3.957214614956282e-06,
+      "solid_base_policy": "z0_floor_with_base_thickness"
+    },
+    "relief_height_mm": 10.858604431152344,
+    "rows": 618,
+    "schema": "myrace3d.v3.design_geometry_report.v1",
+    "size_authority": {
+      "bounds_source": "/data/live-projects/valtriman-bikerun/outputs/part_03/terrain_0001/downstream_geometry_contract.json",
+      "depth_mm": 150.0,
+      "mode": "target_print_mm",
+      "terrain_aspect": 1.0,
+      "terrain_depth_m": 11718.265473809928,
+      "terrain_width_m": 11718.265473809928,
+      "width_mm": 150.0
+    },
+    "source_elevation": {
+      "elevation_max_m": 272.8955078125,
+      "elevation_min_m": 109.76216888427734,
+      "elevation_range_m": 163.13333892822266,
+      "source": "/data/live-projects/valtriman-bikerun/outputs/part_03/terrain_0001/elevation_normalization_contract.json"
+    },
+    "terrain_type": "hybrid",
+    "vertical_scale": {
+      "base_relief_height_mm": 5.42930200072704,
+      "bounds_source": "/data/live-projects/valtriman-bikerun/outputs/part_03/terrain_0001/downstream_geometry_contract.json",
+      "custom_relief_height_mm": 3.0,
+      "depth_mm": 150.0,
+      "display_relief_boost": 2.6,
+      "enhanced_floor_mm": null,
+      "enhanced_relief_boost": null,
+      "hybrid_policy": {
+        "detail_strength": 0.38,
+        "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+        "landform_contrast": 0.28,
+        "mean_absolute_shape_delta": 0.018380247056484222,
+        "noise_cleanup": 0.36,
+        "p95_absolute_shape_delta": 0.025254014879465103,
+        "peak_mean_absolute_shape_delta": 0.004002188798040152,
+        "peak_softness": 0.26,
+        "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+        "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+        "ridge_clarity": 0.34,
+        "valley_readability": 0.32
+      },
+      "mega_landscape_relief_boost": null,
+      "meters_per_print_mm": 78.12176982539953,
+      "meters_per_print_mm_x": 78.12176982539953,
+      "meters_per_print_mm_y": 78.12176982539953,
+      "mode": "display_strong",
+      "policy": "true_project_xy_scale_with_optional_enhancement",
+      "preview_dem_max": 250.88148498535156,
+      "preview_dem_min": 0.8772386908531189,
+      "preview_dem_range": 250.00424629449844,
+      "print_relief_height_mm": 10.85860400145408,
+      "relief": 1.0,
+      "source_elevation_max_m": 272.8955078125,
+      "source_elevation_min_m": 109.76216888427734,
+      "source_elevation_range_m": 163.13333892822266,
+      "source_max_m": 272.8955078125,
+      "source_min_m": 109.76216888427734,
+      "source_range_m": 163.13333892822266,
+      "terrain_depth_m": 11718.265473809928,
+      "terrain_width_m": 11718.265473809928,
+      "true_relief_height_mm": 2.0881930772027073,
+      "width_mm": 150.0,
+      "xy_scale_mismatch_percent": 0.0,
+      "z_exaggeration": 2.0
+    },
+    "vertices": 1186560,
+    "width_mm": 150.0
+  },
+  "source_design_label": "Realistic 001",
+  "source_design_terrain_type": "hybrid",
+  "source_model_id": "realistic-001_001",
+  "source_model_path": "/data/live-projects/valtriman-bikerun/outputs/part_08/realistic-001_001/models/model.glb",
+  "source_palette": {
+    "analysis_colors": [
+      "#257422",
+      "#488B2A",
+      "#878758",
+      "#72882E",
+      "#2A692E",
+      "#B5AE8D",
+      "#517431",
+      "#778647"
+    ],
+    "classification_id": "classification_0001",
+    "colors": [
+      {
+        "analysis_hex": "#257422",
+        "hex": "#257422",
+        "index": 1,
+        "label": "Dirt Road / Beach Track",
+        "merged_source_slots": [
+          1
+        ],
+        "percent": 0.394848,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0003"
+        ],
+        "source_slot": 1
+      },
+      {
+        "analysis_hex": "#488B2A",
+        "hex": "#488B2A",
+        "index": 2,
+        "label": "Vegetation / Forest",
+        "merged_source_slots": [
+          2
+        ],
+        "percent": 0.36271,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0001"
+        ],
+        "source_slot": 2
+      },
+      {
+        "analysis_hex": "#878758",
+        "hex": "#878758",
+        "index": 3,
+        "label": "Vegetation / Forest",
+        "merged_source_slots": [
+          3
+        ],
+        "percent": 0.087704,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0004"
+        ],
+        "source_slot": 3
+      },
+      {
+        "analysis_hex": "#72882E",
+        "hex": "#72882E",
+        "index": 4,
+        "label": "Vegetation / Forest",
+        "merged_source_slots": [
+          4
+        ],
+        "percent": 0.059423,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0002"
+        ],
+        "source_slot": 4
+      },
+      {
+        "analysis_hex": "#2A692E",
+        "hex": "#2A692E",
+        "index": 5,
+        "label": "Dirt Road / Beach Track",
+        "merged_source_slots": [
+          5
+        ],
+        "percent": 0.054726,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0006"
+        ],
+        "source_slot": 5
+      },
+      {
+        "analysis_hex": "#B5AE8D",
+        "hex": "#B5AE8D",
+        "index": 6,
+        "label": "Dirt Road / Beach Track",
+        "merged_source_slots": [
+          6
+        ],
+        "percent": 0.017519,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0005"
+        ],
+        "source_slot": 6
+      },
+      {
+        "analysis_hex": "#517431",
+        "hex": "#517431",
+        "index": 7,
+        "label": "Sea / Ocean",
+        "merged_source_slots": [
+          7
+        ],
+        "percent": 0.014008,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0007"
+        ],
+        "source_slot": 7
+      },
+      {
+        "analysis_hex": "#778647",
+        "hex": "#778647",
+        "index": 8,
+        "label": "Urban Roof / Warm Ground",
+        "merged_source_slots": [
+          8
+        ],
+        "percent": 0.00906,
+        "role": "classification_final_color",
+        "source_group_ids": [
+          "group_0008"
+        ],
+        "source_slot": 8
+      }
+    ],
+    "final_color_count": 8,
+    "final_color_plan": {
+      "assignment_mode": "auto_delta_e",
+      "color_distance": {
+        "algorithm": "CIEDE2000",
+        "basis": "vivid_analysis_hex",
+        "merge_history": [
+          {
+            "delta_e": 4.5965,
+            "kept_slot": 4,
+            "merged_slots": [
+              4,
+              8
+            ],
+            "to_count": 7
+          },
+          {
+            "delta_e": 5.0745,
+            "kept_slot": 1,
+            "merged_slots": [
+              1,
+              5
+            ],
+            "to_count": 6
+          },
+          {
+            "delta_e": 6.5371,
+            "kept_slot": 1,
+            "merged_slots": [
+              1,
+              5,
+              7
+            ],
+            "to_count": 5
+          },
+          {
+            "delta_e": 8.4701,
+            "kept_slot": 2,
+            "merged_slots": [
+              2,
+              4,
+              8
+            ],
+            "to_count": 4
+          },
+          {
+            "delta_e": 10.1876,
+            "kept_slot": 1,
+            "merged_slots": [
+              1,
+              2,
+              4,
+              5,
+              7,
+              8
+            ],
+            "to_count": 3
+          },
+          {
+            "delta_e": 14.143,
+            "kept_slot": 3,
+            "merged_slots": [
+              3,
+              6
+            ],
+            "to_count": 2
+          },
+          {
+            "delta_e": 18.5593,
+            "kept_slot": 1,
+            "merged_slots": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "to_count": 1
+          }
+        ],
+        "thresholds": {
+          "1": 18.5593,
+          "2": 14.143,
+          "3": 10.1876,
+          "4": 8.4701,
+          "5": 6.5371,
+          "6": 5.0745,
+          "7": 4.5965
+        }
+      },
+      "label": "Automated palette",
+      "max_colors": 8,
+      "reductions": {
+        "1": {
+          "active_slots": [
+            1
+          ],
+          "merge_map": {
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1
+          }
+        },
+        "2": {
+          "active_slots": [
+            1,
+            3
+          ],
+          "merge_map": {
+            "2": 1,
+            "4": 1,
+            "5": 1,
+            "6": 3,
+            "7": 1,
+            "8": 1
+          }
+        },
+        "3": {
+          "active_slots": [
+            1,
+            3,
+            6
+          ],
+          "merge_map": {
+            "2": 1,
+            "4": 1,
+            "5": 1,
+            "7": 1,
+            "8": 1
+          }
+        },
+        "4": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "merge_map": {
+            "4": 2,
+            "5": 1,
+            "7": 1,
+            "8": 2
+          }
+        },
+        "5": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "merge_map": {
+            "5": 1,
+            "7": 1,
+            "8": 4
+          }
+        },
+        "6": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "merge_map": {
+            "5": 1,
+            "8": 4
+          }
+        },
+        "7": {
+          "active_slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "merge_map": {
+            "8": 4
+          }
+        }
+      },
+      "schema": "myrace3d.v3.final_color_plan.v1",
+      "slots": [
+        {
+          "analysis_hex": "#257422",
+          "group_ids": [
+            "group_0003"
+          ],
+          "hex": "#257422",
+          "label": "Dirt Road / Beach Track",
+          "manual_hex": false,
+          "percent": 0.394848,
+          "slot": 1
+        },
+        {
+          "analysis_hex": "#488B2A",
+          "group_ids": [
+            "group_0001"
+          ],
+          "hex": "#488B2A",
+          "label": "Vegetation / Forest",
+          "manual_hex": false,
+          "percent": 0.36271,
+          "slot": 2
+        },
+        {
+          "analysis_hex": "#878758",
+          "group_ids": [
+            "group_0004"
+          ],
+          "hex": "#878758",
+          "label": "Vegetation / Forest",
+          "manual_hex": false,
+          "percent": 0.087704,
+          "slot": 3
+        },
+        {
+          "analysis_hex": "#72882E",
+          "group_ids": [
+            "group_0002"
+          ],
+          "hex": "#72882E",
+          "label": "Vegetation / Forest",
+          "manual_hex": false,
+          "percent": 0.059423,
+          "slot": 4
+        },
+        {
+          "analysis_hex": "#2A692E",
+          "group_ids": [
+            "group_0006"
+          ],
+          "hex": "#2A692E",
+          "label": "Dirt Road / Beach Track",
+          "manual_hex": false,
+          "percent": 0.054726,
+          "slot": 5
+        },
+        {
+          "analysis_hex": "#B5AE8D",
+          "group_ids": [
+            "group_0005"
+          ],
+          "hex": "#B5AE8D",
+          "label": "Dirt Road / Beach Track",
+          "manual_hex": false,
+          "percent": 0.017519,
+          "slot": 6
+        },
+        {
+          "analysis_hex": "#517431",
+          "group_ids": [
+            "group_0007"
+          ],
+          "hex": "#517431",
+          "label": "Sea / Ocean",
+          "manual_hex": false,
+          "percent": 0.014008,
+          "slot": 7
+        },
+        {
+          "analysis_hex": "#778647",
+          "group_ids": [
+            "group_0008"
+          ],
+          "hex": "#778647",
+          "label": "Urban Roof / Warm Ground",
+          "manual_hex": false,
+          "percent": 0.00906,
+          "slot": 8
+        }
+      ],
+      "updated_at": "2026-05-31T07:30:17Z"
+    },
+    "source": "2D classification final 8 colors - classification_0001"
+  },
+  "studio_type": "realistic",
+  "updated_at": "2026-05-31T07:30:31Z"
+}
