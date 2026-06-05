@@ -1,0 +1,118 @@
+{
+  "classification_label_map": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\project_core\\design_variations\\color_classification\\classification_automated\\palette_index_map.png",
+  "classification_palette": [
+    "#1D9161",
+    "#5E7206",
+    "#8B8442",
+    "#9CAF8F"
+  ],
+  "classification_print_authority": {
+    "available": true,
+    "changed_pixel_ratio": 0.060544,
+    "majority_filter": {
+      "final_passes": 1,
+      "final_size": 3,
+      "passes": 2,
+      "size": 3
+    },
+    "minimum_island_pixels": 48,
+    "policy": "majority_filter_then_tiny_island_merge",
+    "unique_labels_after": 4,
+    "unique_labels_before": 4
+  },
+  "classification_sampling_policy": "raw_saved_palette_index_map_then_selected_reduction_lookup",
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 4 colors - classification_automated",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_source_region_classification_authority_v42_layered_raised_color_caps_20260603",
+  "final_color_count": 4,
+  "gpx_geometries": 1,
+  "image_source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+  "layered_base_support_faces": 0,
+  "layered_coloring_policy": "",
+  "materials": [
+    {
+      "hex": "#2752B4",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "faces": 524792,
+      "hex": "#1D9161",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 252898,
+      "hex": "#5E7206",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 317979,
+      "hex": "#8B8442",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 70977,
+      "hex": "#9CAF8F",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 1160390,
+      "hex": "#889682",
+      "index": 1,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "source_axis_layout": "gltf_y_up",
+  "source_base_thickness_mm": 3.0,
+  "source_design_terrain_type": "hybrid",
+  "spatial_sampling_axes": "x_neg_z_as_print_y",
+  "spatial_sampling_transform": "gltf_z_negated_to_internal_print_y",
+  "terrain_face_groups": 4,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#1D9161",
+      "index": 1,
+      "label": "Vegetation Or Forest",
+      "percent": 0.449867,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#5E7206",
+      "index": 2,
+      "label": "Vegetation Or Forest",
+      "percent": 0.216575,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#8B8442",
+      "index": 3,
+      "label": "Urban Roof Or Warm Ground",
+      "percent": 0.272636,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#9CAF8F",
+      "index": 4,
+      "label": "Vegetation Or Forest",
+      "percent": 0.060921,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 6
+}
