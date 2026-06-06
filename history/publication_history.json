@@ -3,6 +3,1607 @@
     "attribution_path": "attribution/ATTRIBUTIONS.md",
     "color_style": "classification_saved",
     "contains_credentials": false,
+    "created_at": "2026-06-06T11:26:40Z",
+    "github_path": "projects/wimereux/wimereux-realistic-4-colors-export-publish-final-quality-001",
+    "local_index": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\outputs\\part_08\\wimereux-realistic-4-colors-export-publish-final-quality_001\\index.html",
+    "model_bytes": 44236812,
+    "model_path": "models/model.glb",
+    "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/wimereux/wimereux-realistic-4-colors-export-publish-final-quality-001/index.html",
+    "parameter_snapshot": {
+      "bake_report": {
+        "classification_label_map": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\project_core\\design_variations\\color_classification\\classification_automated\\palette_index_map.png",
+        "classification_palette": [
+          "#1D9161",
+          "#5E7206",
+          "#8B8442",
+          "#9CAF8F"
+        ],
+        "classification_print_authority": {
+          "available": true,
+          "changed_pixel_ratio": 0.060544,
+          "majority_filter": {
+            "final_passes": 1,
+            "final_size": 3,
+            "passes": 2,
+            "size": 3
+          },
+          "minimum_island_pixels": 48,
+          "policy": "majority_filter_then_tiny_island_merge",
+          "unique_labels_after": 4,
+          "unique_labels_before": 4
+        },
+        "classification_sampling_policy": "raw_saved_palette_index_map_then_selected_reduction_lookup",
+        "coloring_mode": "classification_saved",
+        "coloring_mode_source": "2D classification final 4 colors - classification_automated",
+        "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+        "colorizer_version": "v3_fast_source_region_classification_authority_v42_layered_raised_color_caps_20260603",
+        "final_color_count": 4,
+        "gpx_geometries": 1,
+        "image_source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\project_core\\design_variations\\color_classification\\working\\copernicus_saturated_analysis.png",
+        "layered_base_support_faces": 0,
+        "layered_coloring_policy": "",
+        "materials": [
+          {
+            "hex": "#2752B4",
+            "index": 0,
+            "name": "gpx-trace-01",
+            "role": "gpx"
+          },
+          {
+            "faces": 524792,
+            "hex": "#1D9161",
+            "index": 1,
+            "name": "terrain-color-01",
+            "role": "terrain"
+          },
+          {
+            "faces": 252898,
+            "hex": "#5E7206",
+            "index": 2,
+            "name": "terrain-color-02",
+            "role": "terrain"
+          },
+          {
+            "faces": 317979,
+            "hex": "#8B8442",
+            "index": 3,
+            "name": "terrain-color-03",
+            "role": "terrain"
+          },
+          {
+            "faces": 70977,
+            "hex": "#9CAF8F",
+            "index": 4,
+            "name": "terrain-color-04",
+            "role": "terrain"
+          },
+          {
+            "faces": 1160390,
+            "hex": "#889682",
+            "index": 1,
+            "name": "base-bottom",
+            "role": "base"
+          }
+        ],
+        "mode": "classification_saved",
+        "recipe_export_contract": {
+          "color_recipe": {
+            "base_color": {
+              "hex": "#889682",
+              "label": "Base",
+              "role": "base"
+            },
+            "classification_id": "classification_automated",
+            "coloring_mode": "classification_saved",
+            "final_color_count": 4,
+            "gpx_palette": [
+              {
+                "hex": "#2752B4",
+                "index": 1,
+                "label": "01_Wimereux.gpx",
+                "role": "gpx"
+              }
+            ],
+            "terrain_palette": [
+              {
+                "hex": "#1D9161",
+                "index": 1,
+                "label": "Vegetation Or Forest",
+                "percent": 0.449867,
+                "source_group_ids": [
+                  "group_18",
+                  "group_01",
+                  "group_27",
+                  "group_05",
+                  "group_13"
+                ]
+              },
+              {
+                "hex": "#5E7206",
+                "index": 2,
+                "label": "Vegetation Or Forest",
+                "percent": 0.216575,
+                "source_group_ids": [
+                  "group_14",
+                  "group_02",
+                  "group_12",
+                  "group_25",
+                  "group_04",
+                  "group_26",
+                  "group_07",
+                  "group_22"
+                ]
+              },
+              {
+                "hex": "#8B8442",
+                "index": 3,
+                "label": "Urban Roof Or Warm Ground",
+                "percent": 0.272636,
+                "source_group_ids": [
+                  "group_03",
+                  "group_06",
+                  "group_10",
+                  "group_09",
+                  "group_17",
+                  "group_08",
+                  "group_24",
+                  "group_23",
+                  "group_16",
+                  "group_19",
+                  "group_21"
+                ]
+              },
+              {
+                "hex": "#9CAF8F",
+                "index": 4,
+                "label": "Vegetation Or Forest",
+                "percent": 0.060921,
+                "source_group_ids": [
+                  "group_20",
+                  "group_11",
+                  "group_15"
+                ]
+              }
+            ],
+            "terrain_palette_meta": [
+              {
+                "hex": "#1D9161",
+                "index": 1,
+                "label": "Vegetation Or Forest",
+                "merged_source_slots": [
+                  1,
+                  5
+                ],
+                "percent": 0.449867,
+                "slot": 1,
+                "source_group_ids": [
+                  "group_18",
+                  "group_01",
+                  "group_27",
+                  "group_05",
+                  "group_13"
+                ]
+              },
+              {
+                "hex": "#5E7206",
+                "index": 2,
+                "label": "Vegetation Or Forest",
+                "merged_source_slots": [
+                  2
+                ],
+                "percent": 0.216575,
+                "slot": 2,
+                "source_group_ids": [
+                  "group_14",
+                  "group_02",
+                  "group_12",
+                  "group_25",
+                  "group_04",
+                  "group_26",
+                  "group_07",
+                  "group_22"
+                ]
+              },
+              {
+                "hex": "#8B8442",
+                "index": 3,
+                "label": "Urban Roof Or Warm Ground",
+                "merged_source_slots": [
+                  3,
+                  4,
+                  7,
+                  8
+                ],
+                "percent": 0.272636,
+                "slot": 3,
+                "source_group_ids": [
+                  "group_03",
+                  "group_06",
+                  "group_10",
+                  "group_09",
+                  "group_17",
+                  "group_08",
+                  "group_24",
+                  "group_23",
+                  "group_16",
+                  "group_19",
+                  "group_21"
+                ]
+              },
+              {
+                "hex": "#9CAF8F",
+                "index": 4,
+                "label": "Vegetation Or Forest",
+                "merged_source_slots": [
+                  6
+                ],
+                "percent": 0.060921,
+                "slot": 6,
+                "source_group_ids": [
+                  "group_20",
+                  "group_11",
+                  "group_15"
+                ]
+              }
+            ]
+          },
+          "color_recipe_hash": "d2bf1d61da4d7360",
+          "contract_note": "Exported model is generated from the saved terrain design recipe plus saved coloring recipe; preview/final quality changes resolution only, not user parameters.",
+          "created_at": "2026-06-06T11:26:32Z",
+          "design_base_recipe_hash": "ae034398719c4ee2",
+          "design_quality_recipe_hash": "ae034398719c4ee2",
+          "design_recipe": {
+            "parameters": {
+              "base_thickness_mm": 3,
+              "custom_relief_height_mm": 3,
+              "design_quality_mode": "final",
+              "display_relief_boost": 2.6,
+              "enhanced_relief_boost": 1.8,
+              "hybrid_detail_strength": 0.38,
+              "hybrid_landform_contrast": 0.28,
+              "hybrid_noise_cleanup": 0.36,
+              "hybrid_peak_softness": 0.26,
+              "hybrid_ridge_clarity": 0.34,
+              "hybrid_valley_readability": 0.32,
+              "layer_border_smoothness": 0.55,
+              "layer_count": 48,
+              "max_long_side": 960,
+              "minimum_printable_region_percent": 0.005,
+              "peak_layer_density": 0,
+              "relief": 1,
+              "smoothness": 0.36,
+              "vertical_scale_mode": "display_strong",
+              "z_exaggeration": 2
+            },
+            "source_model_id": "mesh_0001",
+            "studio_type": "realistic",
+            "terrain_type": "hybrid"
+          },
+          "export_intent": "export_publish_final_quality",
+          "export_recipe_hash": "9997e795a2aede8d",
+          "requested_quality_mode": "final",
+          "schema": "myrace3d.v3.recipe_export_contract.v1",
+          "source_design_build_id": "realistic-001-final-quality-export-authority_001",
+          "source_design_label": "Realistic 001 - Final Quality Export Authority",
+          "source_design_quality_mode": "final"
+        },
+        "source_axis_layout": "gltf_y_up",
+        "source_base_thickness_mm": 3.0,
+        "source_design_terrain_type": "hybrid",
+        "spatial_sampling_axes": "x_neg_z_as_print_y",
+        "spatial_sampling_transform": "gltf_z_negated_to_internal_print_y",
+        "terrain_face_groups": 4,
+        "terrain_palette": [
+          {
+            "area_types": [],
+            "hex": "#1D9161",
+            "index": 1,
+            "label": "Vegetation Or Forest",
+            "percent": 0.449867,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#5E7206",
+            "index": 2,
+            "label": "Vegetation Or Forest",
+            "percent": 0.216575,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#8B8442",
+            "index": 3,
+            "label": "Urban Roof Or Warm Ground",
+            "percent": 0.272636,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#9CAF8F",
+            "index": 4,
+            "label": "Vegetation Or Forest",
+            "percent": 0.060921,
+            "role": "classification_final_color"
+          }
+        ],
+        "updated_materials": 6
+      },
+      "base_color": {
+        "hex": "#889682",
+        "label": "Base",
+        "role": "base"
+      },
+      "classification_id": "classification_automated",
+      "color_recipe_hash": "d2bf1d61da4d7360",
+      "coloring_mode": "classification_saved",
+      "coloring_mode_source": "2D classification final 4 colors - classification_automated",
+      "created_at": "2026-06-06T11:26:40Z",
+      "design_base_recipe_hash": "ae034398719c4ee2",
+      "design_quality_recipe_hash": "ae034398719c4ee2",
+      "export_recipe_hash": "9997e795a2aede8d",
+      "final_color_count": 4,
+      "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+      "gpx_palette": [
+        {
+          "hex": "#2752B4",
+          "index": 1,
+          "label": "Trace 1",
+          "role": "gpx"
+        }
+      ],
+      "premium_terrain_colors": {
+        "color_count": 4,
+        "colors": [
+          {
+            "area_types": [],
+            "hex": "#1D9161",
+            "index": 1,
+            "label": "Vegetation Or Forest",
+            "percent": 0.449867,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#5E7206",
+            "index": 2,
+            "label": "Vegetation Or Forest",
+            "percent": 0.216575,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#8B8442",
+            "index": 3,
+            "label": "Urban Roof Or Warm Ground",
+            "percent": 0.272636,
+            "role": "classification_final_color"
+          },
+          {
+            "area_types": [],
+            "hex": "#9CAF8F",
+            "index": 4,
+            "label": "Vegetation Or Forest",
+            "percent": 0.060921,
+            "role": "classification_final_color"
+          }
+        ],
+        "mode": "classification_saved",
+        "requested_color_count": 4,
+        "source": "2D classification final 4 colors - classification_automated"
+      },
+      "project_slug": "wimereux",
+      "recipe_export_contract": {
+        "color_recipe": {
+          "base_color": {
+            "hex": "#889682",
+            "label": "Base",
+            "role": "base"
+          },
+          "classification_id": "classification_automated",
+          "coloring_mode": "classification_saved",
+          "final_color_count": 4,
+          "gpx_palette": [
+            {
+              "hex": "#2752B4",
+              "index": 1,
+              "label": "01_Wimereux.gpx",
+              "role": "gpx"
+            }
+          ],
+          "terrain_palette": [
+            {
+              "hex": "#1D9161",
+              "index": 1,
+              "label": "Vegetation Or Forest",
+              "percent": 0.449867,
+              "source_group_ids": [
+                "group_18",
+                "group_01",
+                "group_27",
+                "group_05",
+                "group_13"
+              ]
+            },
+            {
+              "hex": "#5E7206",
+              "index": 2,
+              "label": "Vegetation Or Forest",
+              "percent": 0.216575,
+              "source_group_ids": [
+                "group_14",
+                "group_02",
+                "group_12",
+                "group_25",
+                "group_04",
+                "group_26",
+                "group_07",
+                "group_22"
+              ]
+            },
+            {
+              "hex": "#8B8442",
+              "index": 3,
+              "label": "Urban Roof Or Warm Ground",
+              "percent": 0.272636,
+              "source_group_ids": [
+                "group_03",
+                "group_06",
+                "group_10",
+                "group_09",
+                "group_17",
+                "group_08",
+                "group_24",
+                "group_23",
+                "group_16",
+                "group_19",
+                "group_21"
+              ]
+            },
+            {
+              "hex": "#9CAF8F",
+              "index": 4,
+              "label": "Vegetation Or Forest",
+              "percent": 0.060921,
+              "source_group_ids": [
+                "group_20",
+                "group_11",
+                "group_15"
+              ]
+            }
+          ],
+          "terrain_palette_meta": [
+            {
+              "hex": "#1D9161",
+              "index": 1,
+              "label": "Vegetation Or Forest",
+              "merged_source_slots": [
+                1,
+                5
+              ],
+              "percent": 0.449867,
+              "slot": 1,
+              "source_group_ids": [
+                "group_18",
+                "group_01",
+                "group_27",
+                "group_05",
+                "group_13"
+              ]
+            },
+            {
+              "hex": "#5E7206",
+              "index": 2,
+              "label": "Vegetation Or Forest",
+              "merged_source_slots": [
+                2
+              ],
+              "percent": 0.216575,
+              "slot": 2,
+              "source_group_ids": [
+                "group_14",
+                "group_02",
+                "group_12",
+                "group_25",
+                "group_04",
+                "group_26",
+                "group_07",
+                "group_22"
+              ]
+            },
+            {
+              "hex": "#8B8442",
+              "index": 3,
+              "label": "Urban Roof Or Warm Ground",
+              "merged_source_slots": [
+                3,
+                4,
+                7,
+                8
+              ],
+              "percent": 0.272636,
+              "slot": 3,
+              "source_group_ids": [
+                "group_03",
+                "group_06",
+                "group_10",
+                "group_09",
+                "group_17",
+                "group_08",
+                "group_24",
+                "group_23",
+                "group_16",
+                "group_19",
+                "group_21"
+              ]
+            },
+            {
+              "hex": "#9CAF8F",
+              "index": 4,
+              "label": "Vegetation Or Forest",
+              "merged_source_slots": [
+                6
+              ],
+              "percent": 0.060921,
+              "slot": 6,
+              "source_group_ids": [
+                "group_20",
+                "group_11",
+                "group_15"
+              ]
+            }
+          ]
+        },
+        "color_recipe_hash": "d2bf1d61da4d7360",
+        "contract_note": "Exported model is generated from the saved terrain design recipe plus saved coloring recipe; preview/final quality changes resolution only, not user parameters.",
+        "created_at": "2026-06-06T11:26:32Z",
+        "design_base_recipe_hash": "ae034398719c4ee2",
+        "design_quality_recipe_hash": "ae034398719c4ee2",
+        "design_recipe": {
+          "parameters": {
+            "base_thickness_mm": 3,
+            "custom_relief_height_mm": 3,
+            "design_quality_mode": "final",
+            "display_relief_boost": 2.6,
+            "enhanced_relief_boost": 1.8,
+            "hybrid_detail_strength": 0.38,
+            "hybrid_landform_contrast": 0.28,
+            "hybrid_noise_cleanup": 0.36,
+            "hybrid_peak_softness": 0.26,
+            "hybrid_ridge_clarity": 0.34,
+            "hybrid_valley_readability": 0.32,
+            "layer_border_smoothness": 0.55,
+            "layer_count": 48,
+            "max_long_side": 960,
+            "minimum_printable_region_percent": 0.005,
+            "peak_layer_density": 0,
+            "relief": 1,
+            "smoothness": 0.36,
+            "vertical_scale_mode": "display_strong",
+            "z_exaggeration": 2
+          },
+          "source_model_id": "mesh_0001",
+          "studio_type": "realistic",
+          "terrain_type": "hybrid"
+        },
+        "export_intent": "export_publish_final_quality",
+        "export_recipe_hash": "9997e795a2aede8d",
+        "requested_quality_mode": "final",
+        "schema": "myrace3d.v3.recipe_export_contract.v1",
+        "source_design_build_id": "realistic-001-final-quality-export-authority_001",
+        "source_design_label": "Realistic 001 - Final Quality Export Authority",
+        "source_design_quality_mode": "final"
+      },
+      "requested_source_design_build_id": "realistic-001_005",
+      "requested_source_model_id": "realistic-001_005",
+      "schema": "myrace3d.v3.colored_build_parameters.v1",
+      "source_design_build_id": "realistic-001-final-quality-export-authority_001",
+      "source_design_geometry_report": {
+        "axis_convention": {
+          "bed_plane": "XY",
+          "coordinate_system": "internal_print_z_up",
+          "glb_export_coordinate_system": "standard_gltf_y_up",
+          "glb_export_transform": "x_gltf=x_print, y_gltf=z_print, z_gltf=-y_print",
+          "vertical_axis": "Z",
+          "viewer_note": "Worker geometry remains print Z-up; exported GLB is rotated once into standard glTF Y-up for model-viewer and Blender.",
+          "x_axis": "model_width_mm",
+          "y_axis": "model_depth_mm",
+          "z_axis": "model_height_mm"
+        },
+        "base_thickness_mm": 3.0,
+        "cols": 960,
+        "controls": {
+          "base_thickness_mm": 3,
+          "custom_relief_height_mm": 3,
+          "design_quality_mode": "final",
+          "display_relief_boost": 2.6,
+          "enhanced_relief_boost": 1.8,
+          "geometry_algorithm_version": "v3_fast_design_relief_shaded_preview_v30_gpx_segmented_traces_20260606",
+          "hybrid_detail_strength": 0.38,
+          "hybrid_landform_contrast": 0.28,
+          "hybrid_noise_cleanup": 0.36,
+          "hybrid_peak_softness": 0.26,
+          "hybrid_ridge_clarity": 0.34,
+          "hybrid_valley_readability": 0.32,
+          "layer_border_smoothness": 0.55,
+          "layer_count": 48,
+          "max_long_side": 960,
+          "minimum_printable_region_percent": 0.005,
+          "peak_layer_density": 0,
+          "relief": 1,
+          "smoothness": 0.36,
+          "terrain_type": "hybrid",
+          "vertical_scale_mode": "display_strong",
+          "z_exaggeration": 2
+        },
+        "depth_mm": 150.0,
+        "design_quality_mode": "final",
+        "exported_terrain_geometry_topology": [
+          {
+            "boundary_edges": 0,
+            "faces": 2327036,
+            "nonmanifold_edges": 0,
+            "positive_volume": true,
+            "printable_topology": true,
+            "vertices": 1163520,
+            "volume_mm3": 139058.8240079514,
+            "watertight": true
+          }
+        ],
+        "faces": 2327036,
+        "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+        "geometry_algorithm_version": "v3_fast_design_relief_shaded_preview_v30_gpx_segmented_traces_20260606",
+        "geometry_kind": "continuous_heightfield",
+        "gpx_traces": {
+          "enabled": true,
+          "projection_policy": "heightfield_surface",
+          "segmentation_policy": "preserve_gpx_segments_and_split_abnormal_internal_jumps",
+          "segmentation_reports": [
+            {
+              "implicit_split_count": 0,
+              "max_consecutive_point_gap_m": 144.655,
+              "point_count": 3181,
+              "segment_count": 1,
+              "segmentation_policy": "preserve_gpx_segments_and_split_abnormal_internal_jumps",
+              "source_file": "01_Wimereux.gpx",
+              "split_threshold_m": 350.0,
+              "trace_id": "trace_001"
+            }
+          ],
+          "surface_offset_mm": 0.18,
+          "trace_count": 1,
+          "trace_embed_mm": 0.27,
+          "trace_radius_mm": 0.45
+        },
+        "height_max_mm": 19.96161651611328,
+        "height_min_mm": 3.0,
+        "height_quality": {
+          "height_max_mm": 16.96161651611328,
+          "height_min_mm": 0.0,
+          "height_p50_mm": 1.397855281829834,
+          "height_p95_mm": 10.934703826904297,
+          "height_p99_mm": 14.412091255187988,
+          "mesh_volume_mm3": 139058.8240079514,
+          "mesh_watertight": true,
+          "peak_plateau_percent": 0.004984873487348735,
+          "peak_plateau_tolerance_mm": 0.042404041290283204,
+          "relief_error_mm": 4.2074202966091434e-07,
+          "relief_error_percent": 2.480553777551116e-06,
+          "relief_height_mm": 16.96161651611328,
+          "target_relief_height_mm": 16.96161693685531
+        },
+        "hybrid_policy": {
+          "detail_strength": 0.38,
+          "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+          "landform_contrast": 0.28,
+          "mean_absolute_shape_delta": 0.008320384658873081,
+          "noise_cleanup": 0.36,
+          "p95_absolute_shape_delta": 0.019146859645843506,
+          "peak_mean_absolute_shape_delta": 0.005323990248143673,
+          "peak_softness": 0.26,
+          "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+          "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+          "ridge_clarity": 0.34,
+          "valley_readability": 0.32
+        },
+        "is_closed_heightfield": true,
+        "layered_policy": {},
+        "max_long_side": 960,
+        "mesh_topology": {
+          "boundary_edges": 0,
+          "faces": 2327036,
+          "nonmanifold_edges": 0,
+          "positive_volume": true,
+          "printable_topology": true,
+          "vertices": 1163520,
+          "volume_mm3": 139058.8240079514,
+          "watertight": true
+        },
+        "model_path": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\outputs\\part_08\\realistic-001-final-quality-export-authority_001\\models\\model.glb",
+        "quality_checks": {
+          "boundary_edges": 0,
+          "has_gpx_overlay": true,
+          "height_authority_preserved": true,
+          "hybrid_shape_delta_mean": 0.008320384658873081,
+          "hybrid_shape_delta_p95": 0.019146859645843506,
+          "hybrid_visibly_distinct_from_normal": true,
+          "mesh_watertight": true,
+          "nonmanifold_edges": 0,
+          "peak_clipping_risk": false,
+          "peak_plateau_percent": 0.004984873487348735,
+          "printable_topology": true,
+          "relief_error_percent": 2.480553777551116e-06,
+          "solid_base_policy": "z0_floor_with_base_thickness"
+        },
+        "relief_height_mm": 16.96161651611328,
+        "rows": 606,
+        "schema": "myrace3d.v3.design_geometry_report.v1",
+        "size_authority": {
+          "bounds_source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+          "depth_mm": 150.0,
+          "mode": "target_print_mm",
+          "terrain_aspect": 1.0,
+          "terrain_depth_m": 3472.399844955356,
+          "terrain_width_m": 3472.399844955356,
+          "width_mm": 150.0
+        },
+        "source_elevation": {
+          "elevation_max_m": 75.50963592529297,
+          "elevation_min_m": 0.0,
+          "elevation_range_m": 75.50963592529297,
+          "source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\outputs\\part_03\\terrain_0001\\elevation_normalization_contract.json"
+        },
+        "terrain_type": "hybrid",
+        "vertical_scale": {
+          "base_relief_height_mm": 8.480808468427655,
+          "bounds_source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+          "custom_relief_height_mm": 3.0,
+          "depth_mm": 150.0,
+          "display_relief_boost": 2.6,
+          "enhanced_floor_mm": null,
+          "enhanced_relief_boost": null,
+          "hybrid_policy": {
+            "detail_strength": 0.38,
+            "height_authority": "rescaled_to_full_selected_vertical_relief_after_hybrid_shaping",
+            "landform_contrast": 0.28,
+            "mean_absolute_shape_delta": 0.008320384658873081,
+            "noise_cleanup": 0.36,
+            "p95_absolute_shape_delta": 0.019146859645843506,
+            "peak_mean_absolute_shape_delta": 0.005323990248143673,
+            "peak_softness": 0.26,
+            "policy": "premium_print_continuous_surface_with_noise_cleanup_ridge_valley_clarity_and_summit_preservation",
+            "quality_intent": "visibly_distinct_from_normal_but_continuous_and_printable",
+            "ridge_clarity": 0.34,
+            "valley_readability": 0.32
+          },
+          "mega_landscape_relief_boost": null,
+          "meters_per_print_mm": 23.149332299702372,
+          "meters_per_print_mm_x": 23.149332299702372,
+          "meters_per_print_mm_y": 23.149332299702372,
+          "mode": "display_strong",
+          "policy": "true_project_xy_scale_with_optional_enhancement",
+          "preview_dem_max": 253.76063537597656,
+          "preview_dem_min": 0.0,
+          "preview_dem_range": 253.76063537597656,
+          "print_relief_height_mm": 16.96161693685531,
+          "relief": 1.0,
+          "source_elevation_max_m": 75.50963592529297,
+          "source_elevation_min_m": 0.0,
+          "source_elevation_range_m": 75.50963592529297,
+          "source_max_m": 75.50963592529297,
+          "source_min_m": 0.0,
+          "source_range_m": 75.50963592529297,
+          "terrain_depth_m": 3472.399844955356,
+          "terrain_width_m": 3472.399844955356,
+          "true_relief_height_mm": 3.2618494109337135,
+          "width_mm": 150.0,
+          "xy_scale_mismatch_percent": 0.0,
+          "z_exaggeration": 2.0
+        },
+        "vertices": 1163520,
+        "width_mm": 150.0
+      },
+      "source_design_label": "Realistic 001 - Final Quality Export Authority",
+      "source_design_terrain_type": "hybrid",
+      "source_model_id": "realistic-001-final-quality-export-authority_001",
+      "source_model_path": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\wimereux\\outputs\\part_08\\realistic-001-final-quality-export-authority_001\\models\\model.glb",
+      "source_palette": {
+        "analysis_colors": [
+          "#1D9161",
+          "#5E7206",
+          "#8B8442",
+          "#9CAF8F"
+        ],
+        "classification_id": "classification_automated",
+        "colors": [
+          {
+            "analysis_hex": "#1D9161",
+            "hex": "#1D9161",
+            "index": 1,
+            "label": "Vegetation Or Forest",
+            "merged_source_slots": [
+              1,
+              5
+            ],
+            "percent": 0.449867,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_18",
+              "group_01",
+              "group_27",
+              "group_05",
+              "group_13"
+            ],
+            "source_slot": 1
+          },
+          {
+            "analysis_hex": "#5E7206",
+            "hex": "#5E7206",
+            "index": 2,
+            "label": "Vegetation Or Forest",
+            "merged_source_slots": [
+              2
+            ],
+            "percent": 0.216575,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_14",
+              "group_02",
+              "group_12",
+              "group_25",
+              "group_04",
+              "group_26",
+              "group_07",
+              "group_22"
+            ],
+            "source_slot": 2
+          },
+          {
+            "analysis_hex": "#8B8442",
+            "hex": "#8B8442",
+            "index": 3,
+            "label": "Urban Roof Or Warm Ground",
+            "merged_source_slots": [
+              3,
+              4,
+              7,
+              8
+            ],
+            "percent": 0.272636,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_03",
+              "group_06",
+              "group_10",
+              "group_09",
+              "group_17",
+              "group_08",
+              "group_24",
+              "group_23",
+              "group_16",
+              "group_19",
+              "group_21"
+            ],
+            "source_slot": 3
+          },
+          {
+            "analysis_hex": "#9CAF8F",
+            "hex": "#9CAF8F",
+            "index": 4,
+            "label": "Vegetation Or Forest",
+            "merged_source_slots": [
+              6
+            ],
+            "percent": 0.060921,
+            "role": "classification_final_color",
+            "source_group_ids": [
+              "group_20",
+              "group_11",
+              "group_15"
+            ],
+            "source_slot": 6
+          }
+        ],
+        "final_color_count": 4,
+        "final_color_plan": {
+          "assignment_mode": "auto_delta_e",
+          "color_distance": {
+            "algorithm": "CIEDE2000",
+            "basis": "vivid_analysis_hex",
+            "merge_history": [
+              {
+                "delta_e": 5.0238,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_06",
+                  "group_10"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 26
+              },
+              {
+                "delta_e": 5.0361,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_04",
+                  "group_26"
+                ],
+                "right_element": "vegetation",
+                "to_count": 25
+              },
+              {
+                "delta_e": 5.0926,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_12",
+                  "group_25"
+                ],
+                "right_element": "vegetation",
+                "to_count": 24
+              },
+              {
+                "delta_e": 5.3416,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_01",
+                  "group_27"
+                ],
+                "right_element": "vegetation",
+                "to_count": 23
+              },
+              {
+                "delta_e": 5.3434,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_07",
+                  "group_22"
+                ],
+                "right_element": "vegetation",
+                "to_count": 22
+              },
+              {
+                "delta_e": 5.4507,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_01",
+                  "group_18",
+                  "group_27"
+                ],
+                "right_element": "vegetation",
+                "to_count": 21
+              },
+              {
+                "delta_e": 5.6582,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_09",
+                  "group_17"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 20
+              },
+              {
+                "delta_e": 5.7371,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_02",
+                  "group_12",
+                  "group_25"
+                ],
+                "right_element": "vegetation",
+                "to_count": 19
+              },
+              {
+                "delta_e": 5.676,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_02",
+                  "group_12",
+                  "group_14",
+                  "group_25"
+                ],
+                "right_element": "vegetation",
+                "to_count": 18
+              },
+              {
+                "delta_e": 5.8303,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_16",
+                  "group_19"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 17
+              },
+              {
+                "delta_e": 6.1545,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_03",
+                  "group_06",
+                  "group_10"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 16
+              },
+              {
+                "delta_e": 6.7789,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_04",
+                  "group_07",
+                  "group_22",
+                  "group_26"
+                ],
+                "right_element": "vegetation",
+                "to_count": 15
+              },
+              {
+                "delta_e": 6.9517,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_05",
+                  "group_13"
+                ],
+                "right_element": "vegetation",
+                "to_count": 14
+              },
+              {
+                "delta_e": 7.3368,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_11",
+                  "group_15"
+                ],
+                "right_element": "vegetation",
+                "to_count": 13
+              },
+              {
+                "delta_e": 7.9738,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_08",
+                  "group_24"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 12
+              },
+              {
+                "delta_e": 7.4812,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_08",
+                  "group_09",
+                  "group_17",
+                  "group_24"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 11
+              },
+              {
+                "delta_e": 8.976,
+                "kept_element": "urban_infrastructure",
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_16",
+                  "group_19",
+                  "group_23"
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 10
+              },
+              {
+                "delta_e": 9.4062,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_11",
+                  "group_15",
+                  "group_20"
+                ],
+                "right_element": "vegetation",
+                "to_count": 9
+              },
+              {
+                "delta_e": 9.6543,
+                "kept_element": "vegetation",
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_group_ids": [
+                  "group_02",
+                  "group_04",
+                  "group_07",
+                  "group_12",
+                  "group_14",
+                  "group_22",
+                  "group_25",
+                  "group_26"
+                ],
+                "right_element": "vegetation",
+                "to_count": 8
+              },
+              {
+                "delta_e": 9.8731,
+                "kept_element": "urban_infrastructure",
+                "kept_slot": 3,
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  3,
+                  4
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 7
+              },
+              {
+                "delta_e": 9.9438,
+                "kept_element": "vegetation",
+                "kept_slot": 1,
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  1,
+                  5
+                ],
+                "right_element": "vegetation",
+                "to_count": 6
+              },
+              {
+                "delta_e": 11.6127,
+                "kept_element": "urban_infrastructure",
+                "kept_slot": 3,
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  3,
+                  4,
+                  8
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 5
+              },
+              {
+                "delta_e": 13.0437,
+                "kept_element": "urban_infrastructure",
+                "kept_slot": 3,
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  3,
+                  4,
+                  7,
+                  8
+                ],
+                "right_element": "urban_infrastructure",
+                "to_count": 4
+              },
+              {
+                "delta_e": 18.65,
+                "kept_element": "vegetation",
+                "kept_slot": 1,
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  1,
+                  2,
+                  5
+                ],
+                "right_element": "vegetation",
+                "to_count": 3
+              },
+              {
+                "delta_e": 21.646,
+                "kept_element": "vegetation",
+                "kept_slot": 1,
+                "left_element": "vegetation",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  1,
+                  2,
+                  5,
+                  6
+                ],
+                "right_element": "vegetation",
+                "to_count": 2
+              },
+              {
+                "delta_e": 18.6342,
+                "kept_element": "vegetation",
+                "kept_slot": 1,
+                "left_element": "urban_infrastructure",
+                "merge_basis": "semantic_priority_delta_e",
+                "merged_slots": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "right_element": "vegetation",
+                "to_count": 1
+              }
+            ],
+            "reduction_strategy": "semantic_priority_delta_e",
+            "terrain_element_priority": {
+              "coastal_beach": {
+                "label": "Beach / coastline",
+                "protect_until": 4,
+                "rank": 86
+              },
+              "dark_shadow": {
+                "label": "Dark rock / shadow",
+                "protect_until": 0,
+                "rank": 58
+              },
+              "desert_sand": {
+                "label": "Desert / sand / dry soil",
+                "protect_until": 3,
+                "rank": 70
+              },
+              "mixed_land": {
+                "label": "Mixed land",
+                "protect_until": 0,
+                "rank": 50
+              },
+              "mountain_rock": {
+                "label": "Rock / mountain / cliffs",
+                "protect_until": 3,
+                "rank": 72
+              },
+              "snow_ice": {
+                "label": "Snow / ice / salt",
+                "protect_until": 4,
+                "rank": 76
+              },
+              "urban_infrastructure": {
+                "label": "City / roads / infrastructure",
+                "protect_until": 5,
+                "rank": 84
+              },
+              "vegetation": {
+                "label": "Vegetation / forest",
+                "protect_until": 4,
+                "rank": 78
+              },
+              "water": {
+                "label": "Water / sea / lakes",
+                "protect_until": 2,
+                "rank": 100
+              }
+            },
+            "thresholds": {
+              "1": 18.6342,
+              "2": 21.646,
+              "3": 18.65,
+              "4": 13.0437,
+              "5": 11.6127,
+              "6": 9.9438,
+              "7": 9.8731,
+              "8": 9.6543
+            }
+          },
+          "label": "Automated palette",
+          "max_colors": 8,
+          "reductions": {
+            "1": {
+              "active_slots": [
+                1
+              ],
+              "merge_map": {
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1
+              }
+            },
+            "2": {
+              "active_slots": [
+                1,
+                3
+              ],
+              "merge_map": {
+                "2": 1,
+                "4": 3,
+                "5": 1,
+                "6": 1,
+                "7": 3,
+                "8": 3
+              }
+            },
+            "3": {
+              "active_slots": [
+                1,
+                3,
+                6
+              ],
+              "merge_map": {
+                "2": 1,
+                "4": 3,
+                "5": 1,
+                "7": 3,
+                "8": 3
+              }
+            },
+            "4": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                6
+              ],
+              "merge_map": {
+                "4": 3,
+                "5": 1,
+                "7": 3,
+                "8": 3
+              }
+            },
+            "5": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                6,
+                7
+              ],
+              "merge_map": {
+                "4": 3,
+                "5": 1,
+                "8": 3
+              }
+            },
+            "6": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                6,
+                7,
+                8
+              ],
+              "merge_map": {
+                "4": 3,
+                "5": 1
+              }
+            },
+            "7": {
+              "active_slots": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "merge_map": {
+                "4": 3
+              }
+            }
+          },
+          "schema": "myrace3d.v3.final_color_plan.v1",
+          "slots": [
+            {
+              "analysis_hex": "#1D9161",
+              "element_weights": {
+                "vegetation": 0.381263
+              },
+              "group_ids": [
+                "group_18",
+                "group_01",
+                "group_27"
+              ],
+              "hex": "#1D9161",
+              "label": "Vegetation Or Forest",
+              "manual_hex": false,
+              "percent": 0.381263,
+              "slot": 1,
+              "terrain_element": "vegetation",
+              "terrain_element_label": "Vegetation / forest"
+            },
+            {
+              "analysis_hex": "#5E7206",
+              "element_weights": {
+                "vegetation": 0.21657500000000002
+              },
+              "group_ids": [
+                "group_14",
+                "group_02",
+                "group_12",
+                "group_25",
+                "group_04",
+                "group_26",
+                "group_07",
+                "group_22"
+              ],
+              "hex": "#5E7206",
+              "label": "Vegetation Or Forest",
+              "manual_hex": false,
+              "percent": 0.216575,
+              "slot": 2,
+              "terrain_element": "vegetation",
+              "terrain_element_label": "Vegetation / forest"
+            },
+            {
+              "analysis_hex": "#8B8442",
+              "element_weights": {
+                "urban_infrastructure": 0.120963
+              },
+              "group_ids": [
+                "group_03",
+                "group_06",
+                "group_10"
+              ],
+              "hex": "#8B8442",
+              "label": "Urban Roof Or Warm Ground",
+              "manual_hex": false,
+              "percent": 0.120963,
+              "slot": 3,
+              "terrain_element": "urban_infrastructure",
+              "terrain_element_label": "City / roads / infrastructure"
+            },
+            {
+              "analysis_hex": "#6E6437",
+              "element_weights": {
+                "urban_infrastructure": 0.092699
+              },
+              "group_ids": [
+                "group_09",
+                "group_17",
+                "group_08",
+                "group_24"
+              ],
+              "hex": "#6E6437",
+              "label": "Dirt Road Or Beach Track",
+              "manual_hex": false,
+              "percent": 0.092699,
+              "slot": 4,
+              "terrain_element": "urban_infrastructure",
+              "terrain_element_label": "City / roads / infrastructure"
+            },
+            {
+              "analysis_hex": "#52A670",
+              "element_weights": {
+                "vegetation": 0.068604
+              },
+              "group_ids": [
+                "group_05",
+                "group_13"
+              ],
+              "hex": "#52A670",
+              "label": "Vegetation Or Forest",
+              "manual_hex": false,
+              "percent": 0.068604,
+              "slot": 5,
+              "terrain_element": "vegetation",
+              "terrain_element_label": "Vegetation / forest"
+            },
+            {
+              "analysis_hex": "#9CAF8F",
+              "element_weights": {
+                "vegetation": 0.060921
+              },
+              "group_ids": [
+                "group_20",
+                "group_11",
+                "group_15"
+              ],
+              "hex": "#9CAF8F",
+              "label": "Vegetation Or Forest",
+              "manual_hex": false,
+              "percent": 0.060921,
+              "slot": 6,
+              "terrain_element": "vegetation",
+              "terrain_element_label": "Vegetation / forest"
+            },
+            {
+              "analysis_hex": "#A8855B",
+              "element_weights": {
+                "urban_infrastructure": 0.044565999999999995
+              },
+              "group_ids": [
+                "group_23",
+                "group_16",
+                "group_19"
+              ],
+              "hex": "#A8855B",
+              "label": "Urban Roof Or Warm Ground",
+              "manual_hex": false,
+              "percent": 0.044566,
+              "slot": 7,
+              "terrain_element": "urban_infrastructure",
+              "terrain_element_label": "City / roads / infrastructure"
+            },
+            {
+              "analysis_hex": "#86956F",
+              "element_weights": {
+                "urban_infrastructure": 0.014408
+              },
+              "group_ids": [
+                "group_21"
+              ],
+              "hex": "#86956F",
+              "label": "Dirt Road Or Beach Track",
+              "manual_hex": false,
+              "percent": 0.014408,
+              "slot": 8,
+              "terrain_element": "urban_infrastructure",
+              "terrain_element_label": "City / roads / infrastructure"
+            }
+          ]
+        },
+        "source": "2D classification final 4 colors - classification_automated"
+      },
+      "studio_type": "realistic",
+      "updated_at": "2026-06-06T11:26:40Z"
+    },
+    "prepared_at": "2026-06-06T11:26:42Z",
+    "print_model_bytes": 44236812,
+    "print_model_path": "models/model.glb",
+    "project_slug": "wimereux",
+    "publication_id": "wimereux-realistic-4-colors-export-publish-final-quality_001",
+    "published_at": "2026-06-06T11:26:42Z",
+    "schema": "myrace3d.v3.local_colored_build_manifest.v1",
+    "source_design_build_id": "realistic-001-final-quality-export-authority_001",
+    "source_design_label": "Realistic 001 - Final Quality Export Authority",
+    "source_label": "Hybrid Design Build - Colored Build",
+    "source_type": "design_hybrid_colored",
+    "studio_type": "realistic",
+    "title": "Wimereux Realistic 4 colors",
+    "updated_at": "2026-06-06T11:26:40Z",
+    "web_model_bytes": 44236812,
+    "web_model_path": "models/model.glb",
+    "web_preview_report": {
+      "reason": "Original GLB is small enough for a faithful web preview.",
+      "source_mb": 42.19,
+      "status": "not_needed",
+      "threshold_mb": 80
+    }
+  },
+  {
+    "attribution_path": "attribution/ATTRIBUTIONS.md",
+    "color_style": "classification_saved",
+    "contains_credentials": false,
     "created_at": "2026-06-06T06:36:51Z",
     "github_path": "projects/lillehardelot/lillehardelot-layered-8-colors-export-publish-fast-preview-q-001",
     "local_index": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_08\\lillehardelot-layered-8-colors-export-publish-fast-preview-q_001\\index.html",
