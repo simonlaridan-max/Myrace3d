@@ -1,0 +1,3854 @@
+{
+  "attribution_path": "attribution/ATTRIBUTIONS.md",
+  "color_style": "classification_saved",
+  "contains_credentials": false,
+  "created_at": "2026-06-06T06:36:51Z",
+  "github_path": "projects/lillehardelot/lillehardelot-layered-8-colors-export-publish-fast-preview-q-001",
+  "local_index": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_08\\lillehardelot-layered-8-colors-export-publish-fast-preview-q_001\\index.html",
+  "model_bytes": 58837036,
+  "model_path": "models/model.glb",
+  "online_url": "https://simonlaridan-max.github.io/Myrace3d/projects/lillehardelot/lillehardelot-layered-8-colors-export-publish-fast-preview-q-001/index.html",
+  "parameter_snapshot": {
+    "bake_report": {
+      "classification_label_map": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\project_core\\design_variations\\color_classification\\classification_automated\\palette_index_map.png",
+      "classification_palette": [
+        "#8D8154",
+        "#358111",
+        "#7D932C",
+        "#167F6B",
+        "#197065",
+        "#17616B",
+        "#81806D",
+        "#DCCEB6"
+      ],
+      "classification_print_authority": {
+        "available": true,
+        "changed_pixel_ratio": 0.30841,
+        "majority_filter": {
+          "final_passes": 1,
+          "final_size": 3,
+          "passes": 2,
+          "size": 3
+        },
+        "minimum_island_pixels": 48,
+        "policy": "majority_filter_then_tiny_island_merge",
+        "unique_labels_after": 8,
+        "unique_labels_before": 8
+      },
+      "classification_sampling_policy": "raw_saved_palette_index_map_then_selected_reduction_lookup",
+      "coloring_mode": "classification_saved",
+      "coloring_mode_source": "2D classification final 8 colors - classification_automated",
+      "colorization_policy": "layered_raster_overlay_caps_plus_source_solid_underlay",
+      "colorizer_version": "v3_fast_source_region_classification_authority_v42_layered_raised_color_caps_20260603_layered_raster_overlay_caps_solid_underlay_v2",
+      "filled_layer_gap_area_mm2": 0.0,
+      "filled_layer_gap_count": 0,
+      "final_color_count": 8,
+      "geometry_warning_count": 0,
+      "geometry_warnings": [],
+      "gpx_geometries": 1,
+      "layered_base_support_faces": 24,
+      "layered_coloring_policy": "preserve_saved_source_solid_geometry_add_saved_2d_classification_raster_overlay_on_visible_caps",
+      "layered_raster_cap_note": "colored cap overlay is lifted above the structural shell for stable browser preview; structural watertightness is checked on the source layered terrain shell",
+      "layered_raster_cap_preview_lift_mm": 0.08,
+      "materials": [
+        {
+          "hex": "#2752B4",
+          "index": 0,
+          "name": "gpx-trace-01",
+          "role": "gpx"
+        },
+        {
+          "faces": 320394,
+          "hex": "#8D8154",
+          "index": 1,
+          "name": "layer-solid-underlay-color-01",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 262019,
+          "hex": "#358111",
+          "index": 2,
+          "name": "layer-solid-underlay-color-02",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 52222,
+          "hex": "#7D932C",
+          "index": 3,
+          "name": "layer-solid-underlay-color-03",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 876,
+          "hex": "#167F6B",
+          "index": 4,
+          "name": "layer-solid-underlay-color-04",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 384,
+          "hex": "#197065",
+          "index": 5,
+          "name": "layer-solid-underlay-color-05",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 65,
+          "hex": "#17616B",
+          "index": 6,
+          "name": "layer-solid-underlay-color-06",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 5187,
+          "hex": "#81806D",
+          "index": 7,
+          "name": "layer-solid-underlay-color-07",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 8651,
+          "hex": "#DCCEB6",
+          "index": 8,
+          "name": "layer-solid-underlay-color-08",
+          "role": "terrain_solid_underlay"
+        },
+        {
+          "faces": 34,
+          "hex": "#889682",
+          "index": 1,
+          "name": "base-bottom",
+          "role": "base"
+        },
+        {
+          "area_mm2": 10157.65254578592,
+          "faces": 529090,
+          "hex": "#8D8154",
+          "index": 1,
+          "name": "layer-top-region-color-01",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 7348.742636367981,
+          "faces": 382780,
+          "hex": "#358111",
+          "index": 2,
+          "name": "layer-top-region-color-02",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 1684.616408527137,
+          "faces": 87748,
+          "hex": "#7D932C",
+          "index": 3,
+          "name": "layer-top-region-color-03",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 1006.7228339146877,
+          "faces": 52438,
+          "hex": "#167F6B",
+          "index": 4,
+          "name": "layer-top-region-color-04",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 876.9036225997802,
+          "faces": 45676,
+          "hex": "#197065",
+          "index": 5,
+          "name": "layer-top-region-color-05",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 812.2819921227056,
+          "faces": 42310,
+          "hex": "#17616B",
+          "index": 6,
+          "name": "layer-top-region-color-06",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 312.74104589172475,
+          "faces": 16290,
+          "hex": "#81806D",
+          "index": 7,
+          "name": "layer-top-region-color-07",
+          "pieces": 1,
+          "role": "terrain_top"
+        },
+        {
+          "area_mm2": 300.2621214086295,
+          "faces": 15640,
+          "hex": "#DCCEB6",
+          "index": 8,
+          "name": "layer-top-region-color-08",
+          "pieces": 1,
+          "role": "terrain_top"
+        }
+      ],
+      "mode": "classification_saved",
+      "recipe_export_contract": {
+        "color_recipe": {
+          "base_color": {
+            "hex": "#889682",
+            "label": "Base",
+            "role": "base"
+          },
+          "classification_id": "classification_automated",
+          "coloring_mode": "classification_saved",
+          "final_color_count": 8,
+          "gpx_palette": [
+            {
+              "hex": "#2752B4",
+              "index": 1,
+              "label": "01_LilleHardelot.gpx",
+              "role": "gpx"
+            }
+          ],
+          "terrain_palette": [
+            {
+              "hex": "#8D8154",
+              "index": 1,
+              "label": "Sand Desert Or Dry Soil",
+              "percent": 0.450529,
+              "source_group_ids": [
+                "group_16",
+                "group_13",
+                "group_03",
+                "group_30",
+                "group_21",
+                "group_14",
+                "group_19",
+                "group_22",
+                "group_10",
+                "group_29",
+                "group_01",
+                "group_07",
+                "group_09"
+              ]
+            },
+            {
+              "hex": "#358111",
+              "index": 2,
+              "label": "Vegetation Or Forest",
+              "percent": 0.326026,
+              "source_group_ids": [
+                "group_27",
+                "group_35",
+                "group_36",
+                "group_23",
+                "group_28",
+                "group_06",
+                "group_33",
+                "group_24",
+                "group_08",
+                "group_31",
+                "group_05",
+                "group_15",
+                "group_02",
+                "group_34"
+              ]
+            },
+            {
+              "hex": "#7D932C",
+              "index": 3,
+              "label": "Mixed Natural Ground",
+              "percent": 0.074751,
+              "source_group_ids": [
+                "group_04",
+                "group_17"
+              ]
+            },
+            {
+              "hex": "#167F6B",
+              "index": 4,
+              "label": "Urban Rock Or Bare Ground",
+              "percent": 0.045354,
+              "source_group_ids": [
+                "group_12",
+                "group_32"
+              ]
+            },
+            {
+              "hex": "#197065",
+              "index": 5,
+              "label": "Rock Mountain Or Shadow",
+              "percent": 0.039509,
+              "source_group_ids": [
+                "group_18",
+                "group_20"
+              ]
+            },
+            {
+              "hex": "#17616B",
+              "index": 6,
+              "label": "Dirt Road Or Beach Track",
+              "percent": 0.03664,
+              "source_group_ids": [
+                "group_11"
+              ]
+            },
+            {
+              "hex": "#81806D",
+              "index": 7,
+              "label": "Dirt Road Or Beach Track",
+              "percent": 0.013877,
+              "source_group_ids": [
+                "group_25"
+              ]
+            },
+            {
+              "hex": "#DCCEB6",
+              "index": 8,
+              "label": "Rock Mountain Or Shadow",
+              "percent": 0.013315,
+              "source_group_ids": [
+                "group_26"
+              ]
+            }
+          ],
+          "terrain_palette_meta": [
+            {
+              "hex": "#8D8154",
+              "index": 1,
+              "label": "Sand Desert Or Dry Soil",
+              "merged_source_slots": [
+                1
+              ],
+              "percent": 0.450529,
+              "slot": 1,
+              "source_group_ids": [
+                "group_16",
+                "group_13",
+                "group_03",
+                "group_30",
+                "group_21",
+                "group_14",
+                "group_19",
+                "group_22",
+                "group_10",
+                "group_29",
+                "group_01",
+                "group_07",
+                "group_09"
+              ]
+            },
+            {
+              "hex": "#358111",
+              "index": 2,
+              "label": "Vegetation Or Forest",
+              "merged_source_slots": [
+                2
+              ],
+              "percent": 0.326026,
+              "slot": 2,
+              "source_group_ids": [
+                "group_27",
+                "group_35",
+                "group_36",
+                "group_23",
+                "group_28",
+                "group_06",
+                "group_33",
+                "group_24",
+                "group_08",
+                "group_31",
+                "group_05",
+                "group_15",
+                "group_02",
+                "group_34"
+              ]
+            },
+            {
+              "hex": "#7D932C",
+              "index": 3,
+              "label": "Mixed Natural Ground",
+              "merged_source_slots": [
+                3
+              ],
+              "percent": 0.074751,
+              "slot": 3,
+              "source_group_ids": [
+                "group_04",
+                "group_17"
+              ]
+            },
+            {
+              "hex": "#167F6B",
+              "index": 4,
+              "label": "Urban Rock Or Bare Ground",
+              "merged_source_slots": [
+                4
+              ],
+              "percent": 0.045354,
+              "slot": 4,
+              "source_group_ids": [
+                "group_12",
+                "group_32"
+              ]
+            },
+            {
+              "hex": "#197065",
+              "index": 5,
+              "label": "Rock Mountain Or Shadow",
+              "merged_source_slots": [
+                5
+              ],
+              "percent": 0.039509,
+              "slot": 5,
+              "source_group_ids": [
+                "group_18",
+                "group_20"
+              ]
+            },
+            {
+              "hex": "#17616B",
+              "index": 6,
+              "label": "Dirt Road Or Beach Track",
+              "merged_source_slots": [
+                6
+              ],
+              "percent": 0.03664,
+              "slot": 6,
+              "source_group_ids": [
+                "group_11"
+              ]
+            },
+            {
+              "hex": "#81806D",
+              "index": 7,
+              "label": "Dirt Road Or Beach Track",
+              "merged_source_slots": [
+                7
+              ],
+              "percent": 0.013877,
+              "slot": 7,
+              "source_group_ids": [
+                "group_25"
+              ]
+            },
+            {
+              "hex": "#DCCEB6",
+              "index": 8,
+              "label": "Rock Mountain Or Shadow",
+              "merged_source_slots": [
+                8
+              ],
+              "percent": 0.013315,
+              "slot": 8,
+              "source_group_ids": [
+                "group_26"
+              ]
+            }
+          ]
+        },
+        "color_recipe_hash": "4645f781c2fefed9",
+        "contract_note": "Exported model is generated from the saved terrain design recipe plus saved coloring recipe; preview/final quality changes resolution only, not user parameters.",
+        "created_at": "2026-06-06T06:36:20Z",
+        "design_base_recipe_hash": "11dc8138c6a1f0a0",
+        "design_quality_recipe_hash": "11dc8138c6a1f0a0",
+        "design_recipe": {
+          "parameters": {
+            "base_thickness_mm": 3,
+            "custom_relief_height_mm": 3,
+            "design_quality_mode": "draft",
+            "display_relief_boost": 2.6,
+            "enhanced_relief_boost": 1.8,
+            "hybrid_detail_strength": 0.35,
+            "hybrid_landform_contrast": 0.25,
+            "hybrid_noise_cleanup": 0.35,
+            "hybrid_peak_softness": 0.2,
+            "hybrid_ridge_clarity": 0.35,
+            "hybrid_valley_readability": 0.25,
+            "layer_border_smoothness": 0.68,
+            "layer_count": 80,
+            "max_long_side": 340,
+            "minimum_printable_region_percent": 0.005,
+            "peak_layer_density": 0.45,
+            "relief": 1,
+            "smoothness": 0.42,
+            "vertical_scale_mode": "display_strong",
+            "z_exaggeration": 1
+          },
+          "source_model_id": "mesh_0001",
+          "studio_type": "layered",
+          "terrain_type": "layered"
+        },
+        "export_intent": "export_publish_fast_preview_quality",
+        "export_recipe_hash": "f7edf090fa391e74",
+        "requested_quality_mode": "draft",
+        "schema": "myrace3d.v3.recipe_export_contract.v1",
+        "source_design_build_id": "layered-001-fast-preview-export-authority_001",
+        "source_design_label": "Layered 001 - Fast Preview Export Authority",
+        "source_design_quality_mode": "draft"
+      },
+      "source_axis_layout": "gltf_y_up",
+      "source_base_thickness_mm": 3.0,
+      "source_design_terrain_type": "layered",
+      "source_model": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_08\\layered-001-fast-preview-export-authority_001\\models\\model.glb",
+      "source_solid_underlay_faces": 649798,
+      "source_top_faces_preserved_as_underlay": 160371,
+      "spatial_sampling_axes": "source_walls_sampled_like_realistic_caps_use_saved_classification_raster_overlay",
+      "spatial_sampling_transform": "gltf_z_negated_to_internal_print_y",
+      "terrain_face_groups": 8,
+      "terrain_palette": [
+        {
+          "area_types": [],
+          "hex": "#8D8154",
+          "index": 1,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.450529,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#358111",
+          "index": 2,
+          "label": "Vegetation Or Forest",
+          "percent": 0.326026,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#7D932C",
+          "index": 3,
+          "label": "Mixed Natural Ground",
+          "percent": 0.074751,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#167F6B",
+          "index": 4,
+          "label": "Urban Rock Or Bare Ground",
+          "percent": 0.045354,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#197065",
+          "index": 5,
+          "label": "Rock Mountain Or Shadow",
+          "percent": 0.039509,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#17616B",
+          "index": 6,
+          "label": "Dirt Road Or Beach Track",
+          "percent": 0.03664,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#81806D",
+          "index": 7,
+          "label": "Dirt Road Or Beach Track",
+          "percent": 0.013877,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#DCCEB6",
+          "index": 8,
+          "label": "Rock Mountain Or Shadow",
+          "percent": 0.013315,
+          "role": "classification_final_color"
+        }
+      ],
+      "terrain_raster_max_grid_side": 768,
+      "terrain_raster_top_cap_count": 74,
+      "terrain_raster_top_cell_count": 585986,
+      "terrain_raster_top_emissive_strength": 0.28,
+      "terrain_raster_top_unlit_extension": {
+        "materials": [
+          "layer-top-raster-color-01",
+          "layer-top-raster-color-02",
+          "layer-top-raster-color-03",
+          "layer-top-raster-color-04",
+          "layer-top-raster-color-05",
+          "layer-top-raster-color-06",
+          "layer-top-raster-color-07",
+          "layer-top-raster-color-08"
+        ],
+        "status": "applied",
+        "updated_materials": 8
+      },
+      "updated_materials": 18
+    },
+    "base_color": {
+      "hex": "#889682",
+      "label": "Base",
+      "role": "base"
+    },
+    "classification_id": "classification_automated",
+    "color_recipe_hash": "4645f781c2fefed9",
+    "coloring_mode": "classification_saved",
+    "coloring_mode_source": "2D classification final 8 colors - classification_automated",
+    "created_at": "2026-06-06T06:36:51Z",
+    "design_base_recipe_hash": "11dc8138c6a1f0a0",
+    "design_quality_recipe_hash": "11dc8138c6a1f0a0",
+    "export_recipe_hash": "f7edf090fa391e74",
+    "final_color_count": 8,
+    "geometry_policy": "colors_only_geometry_unchanged_from_source_design_build",
+    "gpx_palette": [
+      {
+        "hex": "#2752B4",
+        "index": 1,
+        "label": "Trace 1",
+        "role": "gpx"
+      }
+    ],
+    "premium_terrain_colors": {
+      "color_count": 8,
+      "colors": [
+        {
+          "area_types": [],
+          "hex": "#8D8154",
+          "index": 1,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.450529,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#358111",
+          "index": 2,
+          "label": "Vegetation Or Forest",
+          "percent": 0.326026,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#7D932C",
+          "index": 3,
+          "label": "Mixed Natural Ground",
+          "percent": 0.074751,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#167F6B",
+          "index": 4,
+          "label": "Urban Rock Or Bare Ground",
+          "percent": 0.045354,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#197065",
+          "index": 5,
+          "label": "Rock Mountain Or Shadow",
+          "percent": 0.039509,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#17616B",
+          "index": 6,
+          "label": "Dirt Road Or Beach Track",
+          "percent": 0.03664,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#81806D",
+          "index": 7,
+          "label": "Dirt Road Or Beach Track",
+          "percent": 0.013877,
+          "role": "classification_final_color"
+        },
+        {
+          "area_types": [],
+          "hex": "#DCCEB6",
+          "index": 8,
+          "label": "Rock Mountain Or Shadow",
+          "percent": 0.013315,
+          "role": "classification_final_color"
+        }
+      ],
+      "mode": "classification_saved",
+      "requested_color_count": 8,
+      "source": "2D classification final 8 colors - classification_automated"
+    },
+    "project_slug": "lillehardelot",
+    "recipe_export_contract": {
+      "color_recipe": {
+        "base_color": {
+          "hex": "#889682",
+          "label": "Base",
+          "role": "base"
+        },
+        "classification_id": "classification_automated",
+        "coloring_mode": "classification_saved",
+        "final_color_count": 8,
+        "gpx_palette": [
+          {
+            "hex": "#2752B4",
+            "index": 1,
+            "label": "01_LilleHardelot.gpx",
+            "role": "gpx"
+          }
+        ],
+        "terrain_palette": [
+          {
+            "hex": "#8D8154",
+            "index": 1,
+            "label": "Sand Desert Or Dry Soil",
+            "percent": 0.450529,
+            "source_group_ids": [
+              "group_16",
+              "group_13",
+              "group_03",
+              "group_30",
+              "group_21",
+              "group_14",
+              "group_19",
+              "group_22",
+              "group_10",
+              "group_29",
+              "group_01",
+              "group_07",
+              "group_09"
+            ]
+          },
+          {
+            "hex": "#358111",
+            "index": 2,
+            "label": "Vegetation Or Forest",
+            "percent": 0.326026,
+            "source_group_ids": [
+              "group_27",
+              "group_35",
+              "group_36",
+              "group_23",
+              "group_28",
+              "group_06",
+              "group_33",
+              "group_24",
+              "group_08",
+              "group_31",
+              "group_05",
+              "group_15",
+              "group_02",
+              "group_34"
+            ]
+          },
+          {
+            "hex": "#7D932C",
+            "index": 3,
+            "label": "Mixed Natural Ground",
+            "percent": 0.074751,
+            "source_group_ids": [
+              "group_04",
+              "group_17"
+            ]
+          },
+          {
+            "hex": "#167F6B",
+            "index": 4,
+            "label": "Urban Rock Or Bare Ground",
+            "percent": 0.045354,
+            "source_group_ids": [
+              "group_12",
+              "group_32"
+            ]
+          },
+          {
+            "hex": "#197065",
+            "index": 5,
+            "label": "Rock Mountain Or Shadow",
+            "percent": 0.039509,
+            "source_group_ids": [
+              "group_18",
+              "group_20"
+            ]
+          },
+          {
+            "hex": "#17616B",
+            "index": 6,
+            "label": "Dirt Road Or Beach Track",
+            "percent": 0.03664,
+            "source_group_ids": [
+              "group_11"
+            ]
+          },
+          {
+            "hex": "#81806D",
+            "index": 7,
+            "label": "Dirt Road Or Beach Track",
+            "percent": 0.013877,
+            "source_group_ids": [
+              "group_25"
+            ]
+          },
+          {
+            "hex": "#DCCEB6",
+            "index": 8,
+            "label": "Rock Mountain Or Shadow",
+            "percent": 0.013315,
+            "source_group_ids": [
+              "group_26"
+            ]
+          }
+        ],
+        "terrain_palette_meta": [
+          {
+            "hex": "#8D8154",
+            "index": 1,
+            "label": "Sand Desert Or Dry Soil",
+            "merged_source_slots": [
+              1
+            ],
+            "percent": 0.450529,
+            "slot": 1,
+            "source_group_ids": [
+              "group_16",
+              "group_13",
+              "group_03",
+              "group_30",
+              "group_21",
+              "group_14",
+              "group_19",
+              "group_22",
+              "group_10",
+              "group_29",
+              "group_01",
+              "group_07",
+              "group_09"
+            ]
+          },
+          {
+            "hex": "#358111",
+            "index": 2,
+            "label": "Vegetation Or Forest",
+            "merged_source_slots": [
+              2
+            ],
+            "percent": 0.326026,
+            "slot": 2,
+            "source_group_ids": [
+              "group_27",
+              "group_35",
+              "group_36",
+              "group_23",
+              "group_28",
+              "group_06",
+              "group_33",
+              "group_24",
+              "group_08",
+              "group_31",
+              "group_05",
+              "group_15",
+              "group_02",
+              "group_34"
+            ]
+          },
+          {
+            "hex": "#7D932C",
+            "index": 3,
+            "label": "Mixed Natural Ground",
+            "merged_source_slots": [
+              3
+            ],
+            "percent": 0.074751,
+            "slot": 3,
+            "source_group_ids": [
+              "group_04",
+              "group_17"
+            ]
+          },
+          {
+            "hex": "#167F6B",
+            "index": 4,
+            "label": "Urban Rock Or Bare Ground",
+            "merged_source_slots": [
+              4
+            ],
+            "percent": 0.045354,
+            "slot": 4,
+            "source_group_ids": [
+              "group_12",
+              "group_32"
+            ]
+          },
+          {
+            "hex": "#197065",
+            "index": 5,
+            "label": "Rock Mountain Or Shadow",
+            "merged_source_slots": [
+              5
+            ],
+            "percent": 0.039509,
+            "slot": 5,
+            "source_group_ids": [
+              "group_18",
+              "group_20"
+            ]
+          },
+          {
+            "hex": "#17616B",
+            "index": 6,
+            "label": "Dirt Road Or Beach Track",
+            "merged_source_slots": [
+              6
+            ],
+            "percent": 0.03664,
+            "slot": 6,
+            "source_group_ids": [
+              "group_11"
+            ]
+          },
+          {
+            "hex": "#81806D",
+            "index": 7,
+            "label": "Dirt Road Or Beach Track",
+            "merged_source_slots": [
+              7
+            ],
+            "percent": 0.013877,
+            "slot": 7,
+            "source_group_ids": [
+              "group_25"
+            ]
+          },
+          {
+            "hex": "#DCCEB6",
+            "index": 8,
+            "label": "Rock Mountain Or Shadow",
+            "merged_source_slots": [
+              8
+            ],
+            "percent": 0.013315,
+            "slot": 8,
+            "source_group_ids": [
+              "group_26"
+            ]
+          }
+        ]
+      },
+      "color_recipe_hash": "4645f781c2fefed9",
+      "contract_note": "Exported model is generated from the saved terrain design recipe plus saved coloring recipe; preview/final quality changes resolution only, not user parameters.",
+      "created_at": "2026-06-06T06:36:20Z",
+      "design_base_recipe_hash": "11dc8138c6a1f0a0",
+      "design_quality_recipe_hash": "11dc8138c6a1f0a0",
+      "design_recipe": {
+        "parameters": {
+          "base_thickness_mm": 3,
+          "custom_relief_height_mm": 3,
+          "design_quality_mode": "draft",
+          "display_relief_boost": 2.6,
+          "enhanced_relief_boost": 1.8,
+          "hybrid_detail_strength": 0.35,
+          "hybrid_landform_contrast": 0.25,
+          "hybrid_noise_cleanup": 0.35,
+          "hybrid_peak_softness": 0.2,
+          "hybrid_ridge_clarity": 0.35,
+          "hybrid_valley_readability": 0.25,
+          "layer_border_smoothness": 0.68,
+          "layer_count": 80,
+          "max_long_side": 340,
+          "minimum_printable_region_percent": 0.005,
+          "peak_layer_density": 0.45,
+          "relief": 1,
+          "smoothness": 0.42,
+          "vertical_scale_mode": "display_strong",
+          "z_exaggeration": 1
+        },
+        "source_model_id": "mesh_0001",
+        "studio_type": "layered",
+        "terrain_type": "layered"
+      },
+      "export_intent": "export_publish_fast_preview_quality",
+      "export_recipe_hash": "f7edf090fa391e74",
+      "requested_quality_mode": "draft",
+      "schema": "myrace3d.v3.recipe_export_contract.v1",
+      "source_design_build_id": "layered-001-fast-preview-export-authority_001",
+      "source_design_label": "Layered 001 - Fast Preview Export Authority",
+      "source_design_quality_mode": "draft"
+    },
+    "requested_source_design_build_id": "layered-001_001",
+    "requested_source_model_id": "layered-001_001",
+    "schema": "myrace3d.v3.colored_build_parameters.v1",
+    "source_design_build_id": "layered-001-fast-preview-export-authority_001",
+    "source_design_geometry_report": {
+      "axis_convention": {
+        "bed_plane": "XY",
+        "coordinate_system": "internal_print_z_up",
+        "glb_export_coordinate_system": "standard_gltf_y_up",
+        "glb_export_transform": "x_gltf=x_print, y_gltf=z_print, z_gltf=-y_print",
+        "vertical_axis": "Z",
+        "viewer_note": "Worker geometry remains print Z-up; exported GLB is rotated once into standard glTF Y-up for model-viewer and Blender.",
+        "x_axis": "model_width_mm",
+        "y_axis": "model_depth_mm",
+        "z_axis": "model_height_mm"
+      },
+      "base_thickness_mm": 3.0,
+      "cols": 340,
+      "controls": {
+        "base_thickness_mm": 3,
+        "custom_relief_height_mm": 3,
+        "design_quality_mode": "draft",
+        "display_relief_boost": 2.6,
+        "enhanced_relief_boost": 1.8,
+        "geometry_algorithm_version": "v3_fast_design_relief_shaded_preview_v29_winding_safe_slab_topology_20260603",
+        "hybrid_detail_strength": 0.35,
+        "hybrid_landform_contrast": 0.25,
+        "hybrid_noise_cleanup": 0.35,
+        "hybrid_peak_softness": 0.2,
+        "hybrid_ridge_clarity": 0.35,
+        "hybrid_valley_readability": 0.25,
+        "layer_border_smoothness": 0.68,
+        "layer_count": 80,
+        "max_long_side": 340,
+        "minimum_printable_region_percent": 0.005,
+        "peak_layer_density": 0.45,
+        "relief": 1,
+        "smoothness": 0.42,
+        "terrain_type": "layered",
+        "vertical_scale_mode": "display_strong",
+        "z_exaggeration": 1
+      },
+      "depth_mm": 150.0,
+      "design_quality_mode": "draft",
+      "exported_terrain_geometry_topology": [
+        {
+          "boundary_edges": 0,
+          "faces": 649832,
+          "nonmanifold_edges": 36,
+          "positive_volume": false,
+          "printable_topology": false,
+          "vertices": 325640,
+          "volume_mm3": null,
+          "watertight": false
+        }
+      ],
+      "faces": 649832,
+      "fill_policy": "solid_watertight_shell_with_z0_floor_and_perimeter_walls",
+      "geometry_algorithm_version": "v3_fast_design_relief_shaded_preview_v29_winding_safe_slab_topology_20260603",
+      "geometry_kind": "layered_exterior_contour_shell",
+      "gpx_traces": {
+        "enabled": true,
+        "projection_policy": "visible_layer_top_quantized_tube",
+        "surface_offset_mm": 0.261,
+        "trace_count": 1,
+        "trace_embed_mm": 0.189,
+        "trace_radius_mm": 0.45
+      },
+      "height_max_mm": 7.0,
+      "height_min_mm": 3.0,
+      "height_quality": {
+        "height_max_mm": 4.0,
+        "height_min_mm": 0.0,
+        "height_p50_mm": 0.9689174890518188,
+        "height_p95_mm": 2.8521101474761963,
+        "height_p99_mm": 3.3180129528045654,
+        "mesh_volume_mm3": null,
+        "mesh_watertight": false,
+        "peak_plateau_percent": 0.0027107617240444562,
+        "peak_plateau_tolerance_mm": 0.03,
+        "relief_error_mm": 0.0,
+        "relief_error_percent": 0.0,
+        "relief_height_mm": 4.0,
+        "target_relief_height_mm": 4.0
+      },
+      "hybrid_policy": {},
+      "is_closed_heightfield": true,
+      "layered_policy": {
+        "boundary_edge_count": 0,
+        "closed_slab_component_percent": 0.0,
+        "closed_slab_components": 68,
+        "contour_surface_policy": "all_layers_threshold_one_shared_smoothed_high_resolution_elevation_surface",
+        "flatness": {
+          "faces_total": 649832,
+          "horizontal_face_percent": 49.59897327309212,
+          "non_axis_aligned_face_percent": 0.0,
+          "vertical_face_percent": 50.40102672690788
+        },
+        "footprint_area_inversions": 0,
+        "footprint_area_max_mm2": 22500.0,
+        "footprint_area_min_mm2": 0.0,
+        "footprint_rule": "closed_incremental_layer_slabs_without_cross_slab_vertex_merge",
+        "hidden_internal_top_area_removed_mm2": 277873.29611858353,
+        "horizontal_surface_faces": 324916,
+        "layer_count": 80,
+        "layer_step_max_mm": 0.11943379789590836,
+        "layer_step_min_mm": 0.015070915222167969,
+        "min_hole_area_mm2": 14.0625,
+        "minimum_region_area_mm2": 1.125,
+        "nonmanifold_edge_count": 36,
+        "open_slab_components": 6,
+        "open_slab_diagnostics": [
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 18086.563799708212,
+            "nonmanifold_edges": 3,
+            "open_part_count": 1,
+            "parts": [
+              {
+                "area_mm2": 17960.480283822755,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 4572,
+                  "nonmanifold_edges": 3,
+                  "watertight": false
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 4572,
+                  "nonmanifold_edges": 3,
+                  "watertight": false
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 3,
+                "selected_watertight": false
+              },
+              {
+                "area_mm2": 98.5229216956015,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 976,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 976,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 11.653233100466233,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 276,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 276,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 15.907838368699291,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 368,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 368,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 4
+            },
+            "slab_index": 1,
+            "watertight": false,
+            "z0_mm": 3.119433879852295,
+            "z1_mm": 3.2357397079467773
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 1926.2896311054176,
+            "nonmanifold_edges": 6,
+            "open_part_count": 1,
+            "parts": [
+              {
+                "area_mm2": 16.701739601508628,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 248,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 248,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 16.3810696139253,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 164,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 164,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 60.47052156674905,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 480,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 480,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 534.179579182431,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 3088,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 3088,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 9
+            },
+            "slab_index": 33,
+            "watertight": false,
+            "z0_mm": 5.660795211791992,
+            "z1_mm": 5.710544586181641
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 1492.3079449486365,
+            "nonmanifold_edges": 9,
+            "open_part_count": 2,
+            "parts": [
+              {
+                "area_mm2": 6.7183861132327305,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 160,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 160,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 8.166417236057685,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 140,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 140,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 39.58329496146995,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 368,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 368,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 329.5491948540508,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 2324,
+                  "nonmanifold_edges": 6,
+                  "watertight": false
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 2324,
+                  "nonmanifold_edges": 6,
+                  "watertight": false
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 6,
+                "selected_watertight": false
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 10
+            },
+            "slab_index": 35,
+            "watertight": false,
+            "z0_mm": 5.75899076461792,
+            "z1_mm": 5.806168556213379
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 640.3876536061988,
+            "nonmanifold_edges": 6,
+            "open_part_count": 1,
+            "parts": [
+              {
+                "area_mm2": 26.77450617136423,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 316,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 316,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 136.16659752365095,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 904,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 904,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 8.767749274962862,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 184,
+                  "nonmanifold_edges": 6,
+                  "watertight": false
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 184,
+                  "nonmanifold_edges": 6,
+                  "watertight": false
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 6,
+                "selected_watertight": false
+              },
+              {
+                "area_mm2": 141.93433384580138,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1236,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1236,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 7
+            },
+            "slab_index": 41,
+            "watertight": false,
+            "z0_mm": 6.02415657043457,
+            "z1_mm": 6.064389705657959
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 421.4060971885979,
+            "nonmanifold_edges": 6,
+            "open_part_count": 2,
+            "parts": [
+              {
+                "area_mm2": 13.903695490182589,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 256,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 256,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 72.47271950602723,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 760,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 760,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 4.824980903381627,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 140,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 140,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 4.284120002550899,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 148,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 148,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 9
+            },
+            "slab_index": 44,
+            "watertight": false,
+            "z0_mm": 6.141722202301025,
+            "z1_mm": 6.178875923156738
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 238.32922340979349,
+            "nonmanifold_edges": 6,
+            "open_part_count": 2,
+            "parts": [
+              {
+                "area_mm2": 10.853340247893515,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 204,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 204,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 58.85519571692459,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 728,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 728,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 119.20484722094784,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1468,
+                  "nonmanifold_edges": 3,
+                  "watertight": false
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1468,
+                  "nonmanifold_edges": 3,
+                  "watertight": false
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 3,
+                "selected_watertight": false
+              },
+              {
+                "area_mm2": 34.83207433043706,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 476,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 476,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 6
+            },
+            "slab_index": 48,
+            "watertight": false,
+            "z0_mm": 6.284601211547852,
+            "z1_mm": 6.3180131912231445
+          }
+        ],
+        "peak_preservation_policy": "smoothed_contour_surface_rescaled_to_original_height_range",
+        "peak_step_policy": "fixed_layer_count_with_smaller_vertical_steps_at_higher_elevation",
+        "print_feature_floor_mm2": 5.625,
+        "simplify_mm": 0.07963133640552997,
+        "slab_components": 74,
+        "slab_diagnostics_sample": [
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 22500.0,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 22499.99999992945,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 44,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 44,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 1
+            },
+            "slab_index": 0,
+            "watertight": true,
+            "z0_mm": 0.0,
+            "z1_mm": 3.119433879852295
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 18086.563799708212,
+            "nonmanifold_edges": 3,
+            "open_part_count": 1,
+            "parts": [
+              {
+                "area_mm2": 17960.480283822755,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 4572,
+                  "nonmanifold_edges": 3,
+                  "watertight": false
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 4572,
+                  "nonmanifold_edges": 3,
+                  "watertight": false
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 3,
+                "selected_watertight": false
+              },
+              {
+                "area_mm2": 98.5229216956015,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 976,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 976,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 11.653233100466233,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 276,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 276,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 15.907838368699291,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 368,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 368,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 4
+            },
+            "slab_index": 1,
+            "watertight": false,
+            "z0_mm": 3.119433879852295,
+            "z1_mm": 3.2357397079467773
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 17137.31654693579,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 17104.008700482213,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 5380,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 5380,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 33.308308410372724,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 200,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 200,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 2
+            },
+            "slab_index": 2,
+            "watertight": true,
+            "z0_mm": 3.2357397079467773,
+            "z1_mm": 3.348999500274658
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 16539.881648740036,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 16520.414207063946,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 6708,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 6708,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 6.394812135098656,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 140,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 140,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 13.07325002356351,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 212,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 212,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 3
+            },
+            "slab_index": 3,
+            "watertight": true,
+            "z0_mm": 3.348999500274658,
+            "z1_mm": 3.4592933654785156
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 14994.150281949369,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 14930.438191978665,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11452,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11452,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 63.71319533030185,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 372,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 372,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 2
+            },
+            "slab_index": 4,
+            "watertight": true,
+            "z0_mm": 3.4592933654785156,
+            "z1_mm": 3.5666985511779785
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 13773.966613078805,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 13552.279242635026,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 14088,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 14088,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 7.589784246147335,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 136,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 136,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 62.84949145643516,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 484,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 484,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 36.7206714479158,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 280,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 280,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 6
+            },
+            "slab_index": 5,
+            "watertight": true,
+            "z0_mm": 3.5666985511779785,
+            "z1_mm": 3.671290874481201
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 12743.287405674506,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 12125.433599268063,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 12876,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 12876,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 376.04225872773,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1600,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1600,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 115.59349002102114,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 796,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 796,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 24.537621409244903,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 348,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 348,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 7
+            },
+            "slab_index": 6,
+            "watertight": true,
+            "z0_mm": 3.671290874481201,
+            "z1_mm": 3.773143768310547
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 11932.783486836048,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 10247.428946299975,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 8476,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 8476,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 68.14734454952843,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 620,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 620,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 242.7725133718208,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1168,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1168,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 6.085500681187259,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 80,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 80,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 9
+            },
+            "slab_index": 7,
+            "watertight": true,
+            "z0_mm": 3.773143768310547,
+            "z1_mm": 3.8723294734954834
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 11287.095864372488,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 9933.567383124535,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11176,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11176,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 10.249562405884824,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 176,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 176,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 127.16223515712511,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 808,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 808,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 12.016478921992217,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 184,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 184,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 10
+            },
+            "slab_index": 8,
+            "watertight": true,
+            "z0_mm": 3.8723294734954834,
+            "z1_mm": 3.9689173698425293
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 10714.832137313839,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 9563.73388026982,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11888,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11888,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 82.32619172588463,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 708,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 708,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 12.050986935520745,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 128,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 128,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 150.13710922406295,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1260,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 1260,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 10
+            },
+            "slab_index": 9,
+            "watertight": true,
+            "z0_mm": 3.9689173698425293,
+            "z1_mm": 4.062975883483887
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 10153.954194198697,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 9118.87977095112,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11460,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 11460,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 35.45956360200335,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 292,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 292,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 44.33156724137954,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 404,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 404,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 9.584765005397625,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 176,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 176,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 11
+            },
+            "slab_index": 10,
+            "watertight": true,
+            "z0_mm": 4.062975883483887,
+            "z1_mm": 4.154571056365967
+          },
+          {
+            "boundary_edges": 0,
+            "footprint_area_mm2": 9660.662281263678,
+            "nonmanifold_edges": 0,
+            "open_part_count": 0,
+            "parts": [
+              {
+                "area_mm2": 8746.26350677919,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 12184,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 12184,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 24.482905701311434,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 236,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 236,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 26.789897094741242,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 464,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 464,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              },
+              {
+                "area_mm2": 66.78697876103014,
+                "authority": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 496,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "manual_shared_vertex": {
+                  "available": true,
+                  "boundary_edges": 0,
+                  "faces": 496,
+                  "nonmanifold_edges": 0,
+                  "watertight": true
+                },
+                "selected_boundary_edges": 0,
+                "selected_method": "trimesh_extrude_polygon",
+                "selected_nonmanifold_edges": 0,
+                "selected_watertight": true
+              }
+            ],
+            "selected_methods": {
+              "manual_shared_vertex": 0,
+              "trimesh_extrude_polygon": 9
+            },
+            "slab_index": 11,
+            "watertight": true,
+            "z0_mm": 4.154571056365967,
+            "z1_mm": 4.243767261505127
+          }
+        ],
+        "smooth_radius_mm": 1.017511520737327,
+        "solid_stack_combined_watertight": false,
+        "support_closure_added_area_mm2": 1.401176952242622e-10,
+        "upsample_factor": 4,
+        "vertical_wall_faces": 324916,
+        "watertight_note": "layer increments are exported as closed components without cross-slab vertex merge; true boolean-unioned exterior export remains a later print-export refinement"
+      },
+      "max_long_side": 340,
+      "mesh_topology": {
+        "boundary_edges": 0,
+        "faces": 649832,
+        "nonmanifold_edges": 36,
+        "positive_volume": false,
+        "printable_topology": false,
+        "vertices": 325640,
+        "volume_mm3": null,
+        "watertight": false
+      },
+      "model_path": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_08\\layered-001-fast-preview-export-authority_001\\models\\model.glb",
+      "quality_checks": {
+        "all_layer_slabs_closed": false,
+        "boundary_edges": 0,
+        "closed_slab_component_percent": 0.0,
+        "has_gpx_overlay": true,
+        "height_authority_preserved": true,
+        "layer_footprint_inversions": 0,
+        "mesh_watertight": false,
+        "non_horizontal_face_percent": 0.0,
+        "nonmanifold_edges": 36,
+        "peak_clipping_risk": false,
+        "peak_plateau_percent": 0.0027107617240444562,
+        "peak_preservation_policy": "smoothed_contour_surface_rescaled_to_original_height_range",
+        "printable_topology": false,
+        "relief_error_percent": 0.0,
+        "solid_base_policy": "z0_floor_with_base_thickness"
+      },
+      "relief_height_mm": 4.0,
+      "rows": 217,
+      "schema": "myrace3d.v3.design_geometry_report.v1",
+      "size_authority": {
+        "bounds_source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+        "depth_mm": 150.0,
+        "mode": "target_print_mm",
+        "terrain_aspect": 1.0000000000000002,
+        "terrain_depth_m": 128702.68681454181,
+        "terrain_width_m": 128702.68681454183,
+        "width_mm": 150.0
+      },
+      "source_elevation": {
+        "elevation_max_m": 228.10903930664062,
+        "elevation_min_m": -65.0,
+        "elevation_range_m": 293.1090393066406,
+        "source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_03\\terrain_0001\\elevation_normalization_contract.json"
+      },
+      "terrain_type": "layered",
+      "vertical_scale": {
+        "base_relief_height_mm": 4.0,
+        "bounds_source": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_03\\terrain_0001\\downstream_geometry_contract.json",
+        "custom_relief_height_mm": 3.0,
+        "depth_mm": 150.0,
+        "display_relief_boost": 2.6,
+        "enhanced_floor_mm": null,
+        "enhanced_relief_boost": null,
+        "hybrid_policy": {},
+        "mega_landscape_relief_boost": null,
+        "meters_per_print_mm": 858.0179120969456,
+        "meters_per_print_mm_x": 858.0179120969456,
+        "meters_per_print_mm_y": 858.0179120969455,
+        "mode": "display_strong",
+        "policy": "true_project_xy_scale_with_optional_enhancement",
+        "preview_dem_max": 233.04559326171875,
+        "preview_dem_min": 54.64350891113281,
+        "preview_dem_range": 178.40208435058594,
+        "print_relief_height_mm": 4.0,
+        "relief": 1.0,
+        "source_elevation_max_m": 228.10903930664062,
+        "source_elevation_min_m": -65.0,
+        "source_elevation_range_m": 293.1090393066406,
+        "source_max_m": 228.10903930664062,
+        "source_min_m": -65.0,
+        "source_range_m": 293.1090393066406,
+        "terrain_depth_m": 128702.68681454181,
+        "terrain_width_m": 128702.68681454183,
+        "true_relief_height_mm": 0.3416117952483058,
+        "width_mm": 150.0,
+        "xy_scale_mismatch_percent": 1.3249937573421054e-14,
+        "z_exaggeration": 1.0
+      },
+      "vertices": 325640,
+      "width_mm": 150.0
+    },
+    "source_design_label": "Layered 001 - Fast Preview Export Authority",
+    "source_design_terrain_type": "layered",
+    "source_model_id": "layered-001-fast-preview-export-authority_001",
+    "source_model_path": "E:\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lillehardelot\\outputs\\part_08\\layered-001-fast-preview-export-authority_001\\models\\model.glb",
+    "source_palette": {
+      "analysis_colors": [
+        "#8D8154",
+        "#358111",
+        "#7D932C",
+        "#167F6B",
+        "#197065",
+        "#17616B",
+        "#81806D",
+        "#DCCEB6"
+      ],
+      "classification_id": "classification_automated",
+      "colors": [
+        {
+          "analysis_hex": "#8D8154",
+          "hex": "#8D8154",
+          "index": 1,
+          "label": "Sand Desert Or Dry Soil",
+          "merged_source_slots": [
+            1
+          ],
+          "percent": 0.450529,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_16",
+            "group_13",
+            "group_03",
+            "group_30",
+            "group_21",
+            "group_14",
+            "group_19",
+            "group_22",
+            "group_10",
+            "group_29",
+            "group_01",
+            "group_07",
+            "group_09"
+          ],
+          "source_slot": 1
+        },
+        {
+          "analysis_hex": "#358111",
+          "hex": "#358111",
+          "index": 2,
+          "label": "Vegetation Or Forest",
+          "merged_source_slots": [
+            2
+          ],
+          "percent": 0.326026,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_27",
+            "group_35",
+            "group_36",
+            "group_23",
+            "group_28",
+            "group_06",
+            "group_33",
+            "group_24",
+            "group_08",
+            "group_31",
+            "group_05",
+            "group_15",
+            "group_02",
+            "group_34"
+          ],
+          "source_slot": 2
+        },
+        {
+          "analysis_hex": "#7D932C",
+          "hex": "#7D932C",
+          "index": 3,
+          "label": "Mixed Natural Ground",
+          "merged_source_slots": [
+            3
+          ],
+          "percent": 0.074751,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_04",
+            "group_17"
+          ],
+          "source_slot": 3
+        },
+        {
+          "analysis_hex": "#167F6B",
+          "hex": "#167F6B",
+          "index": 4,
+          "label": "Urban Rock Or Bare Ground",
+          "merged_source_slots": [
+            4
+          ],
+          "percent": 0.045354,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_12",
+            "group_32"
+          ],
+          "source_slot": 4
+        },
+        {
+          "analysis_hex": "#197065",
+          "hex": "#197065",
+          "index": 5,
+          "label": "Rock Mountain Or Shadow",
+          "merged_source_slots": [
+            5
+          ],
+          "percent": 0.039509,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_18",
+            "group_20"
+          ],
+          "source_slot": 5
+        },
+        {
+          "analysis_hex": "#17616B",
+          "hex": "#17616B",
+          "index": 6,
+          "label": "Dirt Road Or Beach Track",
+          "merged_source_slots": [
+            6
+          ],
+          "percent": 0.03664,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_11"
+          ],
+          "source_slot": 6
+        },
+        {
+          "analysis_hex": "#81806D",
+          "hex": "#81806D",
+          "index": 7,
+          "label": "Dirt Road Or Beach Track",
+          "merged_source_slots": [
+            7
+          ],
+          "percent": 0.013877,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_25"
+          ],
+          "source_slot": 7
+        },
+        {
+          "analysis_hex": "#DCCEB6",
+          "hex": "#DCCEB6",
+          "index": 8,
+          "label": "Rock Mountain Or Shadow",
+          "merged_source_slots": [
+            8
+          ],
+          "percent": 0.013315,
+          "role": "classification_final_color",
+          "source_group_ids": [
+            "group_26"
+          ],
+          "source_slot": 8
+        }
+      ],
+      "final_color_count": 8,
+      "final_color_plan": {
+        "assignment_mode": "auto_delta_e",
+        "color_distance": {
+          "algorithm": "CIEDE2000",
+          "basis": "vivid_analysis_hex",
+          "merge_history": [
+            {
+              "delta_e": 5.2294,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_03",
+                "group_30"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 35
+            },
+            {
+              "delta_e": 5.4167,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_05",
+                "group_15"
+              ],
+              "right_element": "vegetation",
+              "to_count": 34
+            },
+            {
+              "delta_e": 5.4785,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_02",
+                "group_34"
+              ],
+              "right_element": "vegetation",
+              "to_count": 33
+            },
+            {
+              "delta_e": 5.7622,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_08",
+                "group_31"
+              ],
+              "right_element": "vegetation",
+              "to_count": 32
+            },
+            {
+              "delta_e": 5.8004,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_35",
+                "group_36"
+              ],
+              "right_element": "vegetation",
+              "to_count": 31
+            },
+            {
+              "delta_e": 5.9791,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_19",
+                "group_22"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 30
+            },
+            {
+              "delta_e": 5.9954,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_07",
+                "group_09"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 29
+            },
+            {
+              "delta_e": 5.3288,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_01",
+                "group_07",
+                "group_09"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 28
+            },
+            {
+              "delta_e": 6.0652,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_08",
+                "group_24",
+                "group_31"
+              ],
+              "right_element": "vegetation",
+              "to_count": 27
+            },
+            {
+              "delta_e": 6.218,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_02",
+                "group_05",
+                "group_15",
+                "group_34"
+              ],
+              "right_element": "vegetation",
+              "to_count": 26
+            },
+            {
+              "delta_e": 6.3027,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_06",
+                "group_33"
+              ],
+              "right_element": "vegetation",
+              "to_count": 25
+            },
+            {
+              "delta_e": 6.289,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_06",
+                "group_28",
+                "group_33"
+              ],
+              "right_element": "vegetation",
+              "to_count": 24
+            },
+            {
+              "delta_e": 7.0076,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_14",
+                "group_19",
+                "group_22"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 23
+            },
+            {
+              "delta_e": 7.1992,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_03",
+                "group_13",
+                "group_30"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 22
+            },
+            {
+              "delta_e": 8.0007,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_01",
+                "group_07",
+                "group_09",
+                "group_29"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 21
+            },
+            {
+              "delta_e": 8.2447,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_27",
+                "group_35",
+                "group_36"
+              ],
+              "right_element": "vegetation",
+              "to_count": 20
+            },
+            {
+              "delta_e": 8.2796,
+              "kept_element": "mountain_rock",
+              "left_element": "mountain_rock",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_18",
+                "group_20"
+              ],
+              "right_element": "mountain_rock",
+              "to_count": 19
+            },
+            {
+              "delta_e": 8.3064,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_01",
+                "group_07",
+                "group_09",
+                "group_10",
+                "group_29"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 18
+            },
+            {
+              "delta_e": 8.4295,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_06",
+                "group_23",
+                "group_28",
+                "group_33"
+              ],
+              "right_element": "vegetation",
+              "to_count": 17
+            },
+            {
+              "delta_e": 8.441,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_02",
+                "group_05",
+                "group_08",
+                "group_15",
+                "group_24",
+                "group_31",
+                "group_34"
+              ],
+              "right_element": "vegetation",
+              "to_count": 16
+            },
+            {
+              "delta_e": 9.2027,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_01",
+                "group_07",
+                "group_09",
+                "group_10",
+                "group_14",
+                "group_19",
+                "group_22",
+                "group_29"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 15
+            },
+            {
+              "delta_e": 10.2783,
+              "kept_element": "urban_infrastructure",
+              "left_element": "urban_infrastructure",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_12",
+                "group_32"
+              ],
+              "right_element": "urban_infrastructure",
+              "to_count": 14
+            },
+            {
+              "delta_e": 10.7114,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_02",
+                "group_05",
+                "group_06",
+                "group_08",
+                "group_15",
+                "group_23",
+                "group_24",
+                "group_28",
+                "group_31",
+                "group_33",
+                "group_34"
+              ],
+              "right_element": "vegetation",
+              "to_count": 13
+            },
+            {
+              "delta_e": 11.2577,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_03",
+                "group_13",
+                "group_16",
+                "group_30"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 12
+            },
+            {
+              "delta_e": 11.2725,
+              "kept_element": "mixed_land",
+              "left_element": "mixed_land",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_04",
+                "group_17"
+              ],
+              "right_element": "mixed_land",
+              "to_count": 11
+            },
+            {
+              "delta_e": 11.8773,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_01",
+                "group_07",
+                "group_09",
+                "group_10",
+                "group_14",
+                "group_19",
+                "group_21",
+                "group_22",
+                "group_29"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 10
+            },
+            {
+              "delta_e": 12.4891,
+              "kept_element": "desert_sand",
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_01",
+                "group_03",
+                "group_07",
+                "group_09",
+                "group_10",
+                "group_13",
+                "group_14",
+                "group_16",
+                "group_19",
+                "group_21",
+                "group_22",
+                "group_29",
+                "group_30"
+              ],
+              "right_element": "desert_sand",
+              "to_count": 9
+            },
+            {
+              "delta_e": 13.4388,
+              "kept_element": "vegetation",
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_group_ids": [
+                "group_02",
+                "group_05",
+                "group_06",
+                "group_08",
+                "group_15",
+                "group_23",
+                "group_24",
+                "group_27",
+                "group_28",
+                "group_31",
+                "group_33",
+                "group_34",
+                "group_35",
+                "group_36"
+              ],
+              "right_element": "vegetation",
+              "to_count": 8
+            },
+            {
+              "delta_e": 15.1361,
+              "kept_element": "urban_infrastructure",
+              "kept_slot": 4,
+              "left_element": "urban_infrastructure",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                4,
+                6
+              ],
+              "right_element": "urban_infrastructure",
+              "to_count": 7
+            },
+            {
+              "delta_e": 22.6667,
+              "kept_element": "urban_infrastructure",
+              "kept_slot": 4,
+              "left_element": "urban_infrastructure",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                4,
+                6,
+                7
+              ],
+              "right_element": "urban_infrastructure",
+              "to_count": 6
+            },
+            {
+              "delta_e": 45.4869,
+              "kept_element": "mountain_rock",
+              "kept_slot": 5,
+              "left_element": "mountain_rock",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                5,
+                8
+              ],
+              "right_element": "mountain_rock",
+              "to_count": 5
+            },
+            {
+              "delta_e": 26.7342,
+              "kept_element": "urban_infrastructure",
+              "kept_slot": 4,
+              "left_element": "mixed_land",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                3,
+                4,
+                6,
+                7
+              ],
+              "right_element": "urban_infrastructure",
+              "to_count": 4
+            },
+            {
+              "delta_e": 10.4453,
+              "kept_element": "vegetation",
+              "kept_slot": 2,
+              "left_element": "vegetation",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                2,
+                3,
+                4,
+                6,
+                7
+              ],
+              "right_element": "urban_infrastructure",
+              "to_count": 3
+            },
+            {
+              "delta_e": 16.84,
+              "kept_element": "vegetation",
+              "kept_slot": 2,
+              "left_element": "mountain_rock",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "right_element": "vegetation",
+              "to_count": 2
+            },
+            {
+              "delta_e": 20.4236,
+              "kept_element": "desert_sand",
+              "kept_slot": 2,
+              "left_element": "desert_sand",
+              "merge_basis": "semantic_priority_delta_e",
+              "merged_slots": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "right_element": "vegetation",
+              "to_count": 1
+            }
+          ],
+          "reduction_strategy": "semantic_priority_delta_e",
+          "terrain_element_priority": {
+            "coastal_beach": {
+              "label": "Beach / coastline",
+              "protect_until": 4,
+              "rank": 86
+            },
+            "dark_shadow": {
+              "label": "Dark rock / shadow",
+              "protect_until": 0,
+              "rank": 58
+            },
+            "desert_sand": {
+              "label": "Desert / sand / dry soil",
+              "protect_until": 3,
+              "rank": 70
+            },
+            "mixed_land": {
+              "label": "Mixed land",
+              "protect_until": 0,
+              "rank": 50
+            },
+            "mountain_rock": {
+              "label": "Rock / mountain / cliffs",
+              "protect_until": 3,
+              "rank": 72
+            },
+            "snow_ice": {
+              "label": "Snow / ice / salt",
+              "protect_until": 4,
+              "rank": 76
+            },
+            "urban_infrastructure": {
+              "label": "City / roads / infrastructure",
+              "protect_until": 5,
+              "rank": 84
+            },
+            "vegetation": {
+              "label": "Vegetation / forest",
+              "protect_until": 4,
+              "rank": 78
+            },
+            "water": {
+              "label": "Water / sea / lakes",
+              "protect_until": 2,
+              "rank": 100
+            }
+          },
+          "thresholds": {
+            "1": 20.4236,
+            "2": 16.84,
+            "3": 10.4453,
+            "4": 26.7342,
+            "5": 45.4869,
+            "6": 22.6667,
+            "7": 15.1361,
+            "8": 13.4388
+          }
+        },
+        "label": "Automated palette",
+        "max_colors": 8,
+        "reductions": {
+          "1": {
+            "active_slots": [
+              2
+            ],
+            "merge_map": {
+              "1": 2,
+              "3": 2,
+              "4": 2,
+              "5": 2,
+              "6": 2,
+              "7": 2,
+              "8": 2
+            }
+          },
+          "2": {
+            "active_slots": [
+              1,
+              2
+            ],
+            "merge_map": {
+              "3": 2,
+              "4": 2,
+              "5": 2,
+              "6": 2,
+              "7": 2,
+              "8": 2
+            }
+          },
+          "3": {
+            "active_slots": [
+              1,
+              2,
+              5
+            ],
+            "merge_map": {
+              "3": 2,
+              "4": 2,
+              "6": 2,
+              "7": 2,
+              "8": 5
+            }
+          },
+          "4": {
+            "active_slots": [
+              1,
+              2,
+              4,
+              5
+            ],
+            "merge_map": {
+              "3": 4,
+              "6": 4,
+              "7": 4,
+              "8": 5
+            }
+          },
+          "5": {
+            "active_slots": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "merge_map": {
+              "6": 4,
+              "7": 4,
+              "8": 5
+            }
+          },
+          "6": {
+            "active_slots": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              8
+            ],
+            "merge_map": {
+              "6": 4,
+              "7": 4
+            }
+          },
+          "7": {
+            "active_slots": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8
+            ],
+            "merge_map": {
+              "6": 4
+            }
+          }
+        },
+        "schema": "myrace3d.v3.final_color_plan.v1",
+        "slots": [
+          {
+            "analysis_hex": "#8D8154",
+            "element_weights": {
+              "desert_sand": 0.45052899999999996
+            },
+            "group_ids": [
+              "group_16",
+              "group_13",
+              "group_03",
+              "group_30",
+              "group_21",
+              "group_14",
+              "group_19",
+              "group_22",
+              "group_10",
+              "group_29",
+              "group_01",
+              "group_07",
+              "group_09"
+            ],
+            "hex": "#8D8154",
+            "label": "Sand Desert Or Dry Soil",
+            "manual_hex": false,
+            "percent": 0.450529,
+            "slot": 1,
+            "terrain_element": "desert_sand",
+            "terrain_element_label": "Desert / sand / dry soil"
+          },
+          {
+            "analysis_hex": "#358111",
+            "element_weights": {
+              "vegetation": 0.326026
+            },
+            "group_ids": [
+              "group_27",
+              "group_35",
+              "group_36",
+              "group_23",
+              "group_28",
+              "group_06",
+              "group_33",
+              "group_24",
+              "group_08",
+              "group_31",
+              "group_05",
+              "group_15",
+              "group_02",
+              "group_34"
+            ],
+            "hex": "#358111",
+            "label": "Vegetation Or Forest",
+            "manual_hex": false,
+            "percent": 0.326026,
+            "slot": 2,
+            "terrain_element": "vegetation",
+            "terrain_element_label": "Vegetation / forest"
+          },
+          {
+            "analysis_hex": "#7D932C",
+            "element_weights": {
+              "mixed_land": 0.074751
+            },
+            "group_ids": [
+              "group_04",
+              "group_17"
+            ],
+            "hex": "#7D932C",
+            "label": "Mixed Natural Ground",
+            "manual_hex": false,
+            "percent": 0.074751,
+            "slot": 3,
+            "terrain_element": "mixed_land",
+            "terrain_element_label": "Mixed land"
+          },
+          {
+            "analysis_hex": "#167F6B",
+            "element_weights": {
+              "urban_infrastructure": 0.045354000000000005
+            },
+            "group_ids": [
+              "group_12",
+              "group_32"
+            ],
+            "hex": "#167F6B",
+            "label": "Urban Rock Or Bare Ground",
+            "manual_hex": false,
+            "percent": 0.045354,
+            "slot": 4,
+            "terrain_element": "urban_infrastructure",
+            "terrain_element_label": "City / roads / infrastructure"
+          },
+          {
+            "analysis_hex": "#197065",
+            "element_weights": {
+              "mountain_rock": 0.039509
+            },
+            "group_ids": [
+              "group_18",
+              "group_20"
+            ],
+            "hex": "#197065",
+            "label": "Rock Mountain Or Shadow",
+            "manual_hex": false,
+            "percent": 0.039509,
+            "slot": 5,
+            "terrain_element": "mountain_rock",
+            "terrain_element_label": "Rock / mountain / cliffs"
+          },
+          {
+            "analysis_hex": "#17616B",
+            "element_weights": {
+              "urban_infrastructure": 0.03664
+            },
+            "group_ids": [
+              "group_11"
+            ],
+            "hex": "#17616B",
+            "label": "Dirt Road Or Beach Track",
+            "manual_hex": false,
+            "percent": 0.03664,
+            "slot": 6,
+            "terrain_element": "urban_infrastructure",
+            "terrain_element_label": "City / roads / infrastructure"
+          },
+          {
+            "analysis_hex": "#81806D",
+            "element_weights": {
+              "urban_infrastructure": 0.013877
+            },
+            "group_ids": [
+              "group_25"
+            ],
+            "hex": "#81806D",
+            "label": "Dirt Road Or Beach Track",
+            "manual_hex": false,
+            "percent": 0.013877,
+            "slot": 7,
+            "terrain_element": "urban_infrastructure",
+            "terrain_element_label": "City / roads / infrastructure"
+          },
+          {
+            "analysis_hex": "#DCCEB6",
+            "element_weights": {
+              "mountain_rock": 0.013315
+            },
+            "group_ids": [
+              "group_26"
+            ],
+            "hex": "#DCCEB6",
+            "label": "Rock Mountain Or Shadow",
+            "manual_hex": false,
+            "percent": 0.013315,
+            "slot": 8,
+            "terrain_element": "mountain_rock",
+            "terrain_element_label": "Rock / mountain / cliffs"
+          }
+        ]
+      },
+      "source": "2D classification final 8 colors - classification_automated"
+    },
+    "studio_type": "layered",
+    "updated_at": "2026-06-06T06:36:51Z"
+  },
+  "prepared_at": "2026-06-06T06:36:53Z",
+  "print_model_bytes": 58837036,
+  "print_model_path": "models/model.glb",
+  "project_slug": "lillehardelot",
+  "publication_id": "lillehardelot-layered-8-colors-export-publish-fast-preview-q_001",
+  "published_at": "2026-06-06T06:36:53Z",
+  "schema": "myrace3d.v3.local_colored_build_manifest.v1",
+  "source_design_build_id": "layered-001-fast-preview-export-authority_001",
+  "source_design_label": "Layered 001 - Fast Preview Export Authority",
+  "source_label": "Layered Design Build - Colored Build",
+  "source_type": "design_layered_colored",
+  "studio_type": "layered",
+  "title": "LilleHardelot Layered 8 colors",
+  "updated_at": "2026-06-06T06:36:51Z",
+  "web_model_bytes": 58837036,
+  "web_model_path": "models/model.glb",
+  "web_preview_report": {
+    "reason": "Original GLB is small enough for a faithful web preview.",
+    "source_mb": 56.11,
+    "status": "not_needed",
+    "threshold_mb": 80
+  }
+}
