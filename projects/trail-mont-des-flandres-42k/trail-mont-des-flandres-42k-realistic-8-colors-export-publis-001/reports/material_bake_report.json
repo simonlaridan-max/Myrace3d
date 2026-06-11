@@ -1,0 +1,437 @@
+{
+  "classification_label_map": "/data/live-projects/trail-mont-des-flandres-42k/project_core/design_variations/color_classification/classification_automated/palette_index_map.png",
+  "classification_palette": [
+    "#9C9558",
+    "#4C8627",
+    "#B79D6C",
+    "#B49067",
+    "#C1B08B",
+    "#7A6F57",
+    "#4B5F32",
+    "#99735A"
+  ],
+  "classification_print_authority": {
+    "available": true,
+    "changed_pixel_ratio": 0.200672,
+    "majority_filter": {
+      "final_passes": 1,
+      "final_size": 3,
+      "passes": 2,
+      "size": 3
+    },
+    "minimum_island_pixels": 48,
+    "policy": "majority_filter_then_tiny_island_merge",
+    "unique_labels_after": 8,
+    "unique_labels_before": 8
+  },
+  "classification_sampling_policy": "raw_saved_palette_index_map_then_selected_reduction_lookup",
+  "coloring_mode": "classification_saved",
+  "coloring_mode_source": "2D classification final 8 colors - classification_automated",
+  "colorization_policy": "spatial_face_groups_from_source_design_geometry",
+  "colorizer_version": "v3_fast_source_region_classification_authority_v43_realistic_preview_raster_caps_20260606",
+  "final_color_count": 8,
+  "gpx_geometries": 1,
+  "image_source": "/data/live-projects/trail-mont-des-flandres-42k/project_core/design_variations/color_classification/working/copernicus_saturated_analysis.png",
+  "layered_base_support_faces": 0,
+  "layered_coloring_policy": "",
+  "materials": [
+    {
+      "hex": "#2752B4",
+      "index": 0,
+      "name": "gpx-trace-01",
+      "role": "gpx"
+    },
+    {
+      "faces": 560340,
+      "hex": "#9C9558",
+      "index": 1,
+      "name": "terrain-color-01",
+      "role": "terrain"
+    },
+    {
+      "faces": 409943,
+      "hex": "#4C8627",
+      "index": 2,
+      "name": "terrain-color-02",
+      "role": "terrain"
+    },
+    {
+      "faces": 108663,
+      "hex": "#B79D6C",
+      "index": 3,
+      "name": "terrain-color-03",
+      "role": "terrain"
+    },
+    {
+      "faces": 31255,
+      "hex": "#B49067",
+      "index": 4,
+      "name": "terrain-color-04",
+      "role": "terrain"
+    },
+    {
+      "faces": 22090,
+      "hex": "#C1B08B",
+      "index": 5,
+      "name": "terrain-color-05",
+      "role": "terrain"
+    },
+    {
+      "faces": 21347,
+      "hex": "#7A6F57",
+      "index": 6,
+      "name": "terrain-color-06",
+      "role": "terrain"
+    },
+    {
+      "faces": 10593,
+      "hex": "#4B5F32",
+      "index": 7,
+      "name": "terrain-color-07",
+      "role": "terrain"
+    },
+    {
+      "faces": 6259,
+      "hex": "#99735A",
+      "index": 8,
+      "name": "terrain-color-08",
+      "role": "terrain"
+    },
+    {
+      "faces": 1164226,
+      "hex": "#889682",
+      "index": 1,
+      "name": "base-bottom",
+      "role": "base"
+    }
+  ],
+  "mode": "classification_saved",
+  "recipe_export_contract": {
+    "color_recipe": {
+      "base_color": {
+        "hex": "#889682",
+        "label": "Base",
+        "role": "base"
+      },
+      "classification_id": "classification_automated",
+      "coloring_mode": "classification_saved",
+      "final_color_count": 8,
+      "gpx_palette": [
+        {
+          "hex": "#2752B4",
+          "index": 1,
+          "label": "01_ultra-trail-monts-de-flandres-42km.gpx",
+          "role": "gpx"
+        }
+      ],
+      "terrain_palette": [
+        {
+          "hex": "#9C9558",
+          "index": 1,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.479086,
+          "source_group_ids": [
+            "group_07",
+            "group_05",
+            "group_01",
+            "group_03"
+          ]
+        },
+        {
+          "hex": "#4C8627",
+          "index": 2,
+          "label": "Vegetation Or Forest",
+          "percent": 0.350028,
+          "source_group_ids": [
+            "group_04",
+            "group_14",
+            "group_02",
+            "group_08",
+            "group_09"
+          ]
+        },
+        {
+          "hex": "#B79D6C",
+          "index": 3,
+          "label": "Rock Mountain Or Shadow",
+          "percent": 0.092756,
+          "source_group_ids": [
+            "group_06"
+          ]
+        },
+        {
+          "hex": "#B49067",
+          "index": 4,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.026643,
+          "source_group_ids": [
+            "group_10",
+            "group_15"
+          ]
+        },
+        {
+          "hex": "#C1B08B",
+          "index": 5,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.018933,
+          "source_group_ids": [
+            "group_11"
+          ]
+        },
+        {
+          "hex": "#7A6F57",
+          "index": 6,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.018072,
+          "source_group_ids": [
+            "group_12"
+          ]
+        },
+        {
+          "hex": "#4B5F32",
+          "index": 7,
+          "label": "Dirt Road Or Beach Track",
+          "percent": 0.009104,
+          "source_group_ids": [
+            "group_13"
+          ]
+        },
+        {
+          "hex": "#99735A",
+          "index": 8,
+          "label": "Sand Desert Or Dry Soil",
+          "percent": 0.005382,
+          "source_group_ids": [
+            "group_16"
+          ]
+        }
+      ],
+      "terrain_palette_meta": [
+        {
+          "hex": "#9C9558",
+          "index": 1,
+          "label": "Sand Desert Or Dry Soil",
+          "merged_source_slots": [
+            1
+          ],
+          "percent": 0.479086,
+          "slot": 1,
+          "source_group_ids": [
+            "group_07",
+            "group_05",
+            "group_01",
+            "group_03"
+          ]
+        },
+        {
+          "hex": "#4C8627",
+          "index": 2,
+          "label": "Vegetation Or Forest",
+          "merged_source_slots": [
+            2
+          ],
+          "percent": 0.350028,
+          "slot": 2,
+          "source_group_ids": [
+            "group_04",
+            "group_14",
+            "group_02",
+            "group_08",
+            "group_09"
+          ]
+        },
+        {
+          "hex": "#B79D6C",
+          "index": 3,
+          "label": "Rock Mountain Or Shadow",
+          "merged_source_slots": [
+            3
+          ],
+          "percent": 0.092756,
+          "slot": 3,
+          "source_group_ids": [
+            "group_06"
+          ]
+        },
+        {
+          "hex": "#B49067",
+          "index": 4,
+          "label": "Sand Desert Or Dry Soil",
+          "merged_source_slots": [
+            4
+          ],
+          "percent": 0.026643,
+          "slot": 4,
+          "source_group_ids": [
+            "group_10",
+            "group_15"
+          ]
+        },
+        {
+          "hex": "#C1B08B",
+          "index": 5,
+          "label": "Sand Desert Or Dry Soil",
+          "merged_source_slots": [
+            5
+          ],
+          "percent": 0.018933,
+          "slot": 5,
+          "source_group_ids": [
+            "group_11"
+          ]
+        },
+        {
+          "hex": "#7A6F57",
+          "index": 6,
+          "label": "Sand Desert Or Dry Soil",
+          "merged_source_slots": [
+            6
+          ],
+          "percent": 0.018072,
+          "slot": 6,
+          "source_group_ids": [
+            "group_12"
+          ]
+        },
+        {
+          "hex": "#4B5F32",
+          "index": 7,
+          "label": "Dirt Road Or Beach Track",
+          "merged_source_slots": [
+            7
+          ],
+          "percent": 0.009104,
+          "slot": 7,
+          "source_group_ids": [
+            "group_13"
+          ]
+        },
+        {
+          "hex": "#99735A",
+          "index": 8,
+          "label": "Sand Desert Or Dry Soil",
+          "merged_source_slots": [
+            8
+          ],
+          "percent": 0.005382,
+          "slot": 8,
+          "source_group_ids": [
+            "group_16"
+          ]
+        }
+      ]
+    },
+    "color_recipe_hash": "a7826749ae328309",
+    "contract_note": "Exported model is generated from the saved terrain design recipe plus saved coloring recipe; preview/final quality changes resolution only, not user parameters.",
+    "created_at": "2026-06-11T15:34:28Z",
+    "design_base_recipe_hash": "83bc4eb5a3ef60e6",
+    "design_quality_recipe_hash": "83bc4eb5a3ef60e6",
+    "design_recipe": {
+      "parameters": {
+        "base_thickness_mm": 3,
+        "custom_relief_height_mm": 3,
+        "design_quality_mode": "final",
+        "display_relief_boost": 2.6,
+        "enhanced_relief_boost": 1.8,
+        "hybrid_detail_strength": 0.38,
+        "hybrid_landform_contrast": 0.28,
+        "hybrid_noise_cleanup": 0.36,
+        "hybrid_peak_softness": 0.09,
+        "hybrid_ridge_clarity": 0.34,
+        "hybrid_valley_readability": 0.32,
+        "layer_border_smoothness": 0.55,
+        "layer_count": 48,
+        "max_long_side": 960,
+        "minimum_printable_region_percent": 0.005,
+        "peak_layer_density": 0,
+        "relief": 1,
+        "smoothness": 0.17,
+        "vertical_scale_mode": "display_strong",
+        "z_exaggeration": 2
+      },
+      "source_model_id": "mesh_0001",
+      "studio_type": "realistic",
+      "terrain_type": "hybrid"
+    },
+    "export_intent": "export_publish_final_quality",
+    "export_recipe_hash": "0909576b773321b1",
+    "requested_quality_mode": "final",
+    "schema": "myrace3d.v3.recipe_export_contract.v1",
+    "source_design_build_id": "realistic-001-final-quality-export-authority_001",
+    "source_design_label": "Realistic 001 - Final Quality Export Authority",
+    "source_design_quality_mode": "final"
+  },
+  "source_axis_layout": "gltf_y_up",
+  "source_base_thickness_mm": 3.0,
+  "source_design_terrain_type": "hybrid",
+  "spatial_sampling_axes": "x_neg_z_as_print_y",
+  "spatial_sampling_transform": "gltf_z_negated_to_internal_print_y",
+  "terrain_face_groups": 8,
+  "terrain_palette": [
+    {
+      "area_types": [],
+      "hex": "#9C9558",
+      "index": 1,
+      "label": "Sand Desert Or Dry Soil",
+      "percent": 0.479086,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#4C8627",
+      "index": 2,
+      "label": "Vegetation Or Forest",
+      "percent": 0.350028,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#B79D6C",
+      "index": 3,
+      "label": "Rock Mountain Or Shadow",
+      "percent": 0.092756,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#B49067",
+      "index": 4,
+      "label": "Sand Desert Or Dry Soil",
+      "percent": 0.026643,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#C1B08B",
+      "index": 5,
+      "label": "Sand Desert Or Dry Soil",
+      "percent": 0.018933,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#7A6F57",
+      "index": 6,
+      "label": "Sand Desert Or Dry Soil",
+      "percent": 0.018072,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#4B5F32",
+      "index": 7,
+      "label": "Dirt Road Or Beach Track",
+      "percent": 0.009104,
+      "role": "classification_final_color"
+    },
+    {
+      "area_types": [],
+      "hex": "#99735A",
+      "index": 8,
+      "label": "Sand Desert Or Dry Soil",
+      "percent": 0.005382,
+      "role": "classification_final_color"
+    }
+  ],
+  "updated_materials": 10
+}
