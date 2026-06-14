@@ -1,0 +1,7 @@
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "source": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lac-jovet\\outputs\\part_08\\LacJovet_L003\\models\\model.glb", "source_design_terrain_type": "layered", "source_size_bytes": 49431820, "stage": "start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\lac-jovet\\outputs\\part_08\\LacJovet_L002_C4_001_High\\models\\model.glb"}
+{"delta_seconds": 0.001, "elapsed_seconds": 0.001, "stage": "trimesh_load_start"}
+{"delta_seconds": 0.112, "elapsed_seconds": 0.113, "stage": "trimesh_load_done"}
+{"delta_seconds": 0.82, "elapsed_seconds": 0.933, "meshes": 2, "stage": "mesh_dump_done"}
+{"delta_seconds": 0.002, "elapsed_seconds": 0.935, "stage": "design_report_loaded"}
+{"delta_seconds": 0.125, "elapsed_seconds": 1.06, "stage": "terrain_bounds_ready", "terrain_meshes": 1}
+{"delta_seconds": 0.001, "elapsed_seconds": 1.061, "stage": "layered_dispatch_start"}
