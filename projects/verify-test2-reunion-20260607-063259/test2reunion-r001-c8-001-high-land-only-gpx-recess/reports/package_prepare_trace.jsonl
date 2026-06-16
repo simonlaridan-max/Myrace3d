@@ -1,0 +1,148 @@
+{"source": "models/model.glb", "source_bytes": 68104548, "stage": "ensure_3mf_export_start", "target": "models/model.3mf", "time": "2026-06-16T08:45:04Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 12.936182022094727, 75.0]], "stage": "source_loaded", "time": "2026-06-16T08:45:04Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model.3mf", "time": "2026-06-16T08:45:04Z"}
+{"faces": 3526516, "seconds": 0.578, "stage": "mesh_concatenated", "time": "2026-06-16T08:45:04Z", "vertices": 2148084}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.582, "stage": "sanitizer_skipped", "time": "2026-06-16T08:45:04Z"}
+{"faces": 3526516, "seconds": 2.299, "stage": "slicer_transform_complete", "time": "2026-06-16T08:45:06Z", "vertices": 2148084}
+{"bytes": 35981588, "seconds": 11.78, "stage": "3mf_written", "time": "2026-06-16T08:45:16Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T08:45:24Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 595168, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T10:26:31Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 3.0, 75.0]], "stage": "source_loaded", "time": "2026-06-16T10:26:31Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T10:26:31Z"}
+{"faces": 29712, "seconds": 0.012, "stage": "mesh_concatenated", "time": "2026-06-16T10:26:31Z", "vertices": 14856}
+{"seconds": 0.08, "stage": "sanitizer_complete", "status": "already_printable_no_change", "time": "2026-06-16T10:26:31Z"}
+{"faces": 29712, "seconds": 0.111, "stage": "slicer_transform_complete", "time": "2026-06-16T10:26:31Z", "vertices": 14856}
+{"bytes": 241369, "seconds": 0.266, "stage": "3mf_written", "time": "2026-06-16T10:26:31Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 3.0]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T10:26:31Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 25989376, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T10:38:53Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 6.0, 75.0]], "stage": "source_loaded", "time": "2026-06-16T10:38:53Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T10:38:53Z"}
+{"faces": 1299420, "seconds": 0.375, "stage": "mesh_concatenated", "time": "2026-06-16T10:38:53Z", "vertices": 649712}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.376, "stage": "sanitizer_skipped", "time": "2026-06-16T10:38:53Z"}
+{"faces": 1299420, "seconds": 1.539, "stage": "slicer_transform_complete", "time": "2026-06-16T10:38:54Z", "vertices": 649712}
+{"bytes": 13308090, "seconds": 5.519, "stage": "3mf_written", "time": "2026-06-16T10:38:58Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 6.0]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T10:39:01Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 25989376, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T10:46:55Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 6.0, 75.0]], "stage": "source_loaded", "time": "2026-06-16T10:46:55Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T10:46:55Z"}
+{"faces": 1299420, "seconds": 0.368, "stage": "mesh_concatenated", "time": "2026-06-16T10:46:55Z", "vertices": 649712}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.369, "stage": "sanitizer_skipped", "time": "2026-06-16T10:46:55Z"}
+{"faces": 1299420, "seconds": 1.527, "stage": "slicer_transform_complete", "time": "2026-06-16T10:46:56Z", "vertices": 649712}
+{"bytes": 13308093, "seconds": 5.36, "stage": "3mf_written", "time": "2026-06-16T10:47:00Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 6.0]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T10:47:03Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 25989376, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T10:53:55Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 6.0, 75.0]], "stage": "source_loaded", "time": "2026-06-16T10:53:55Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T10:53:55Z"}
+{"faces": 1299420, "seconds": 0.366, "stage": "mesh_concatenated", "time": "2026-06-16T10:53:56Z", "vertices": 649712}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.367, "stage": "sanitizer_skipped", "time": "2026-06-16T10:53:56Z"}
+{"faces": 1299420, "seconds": 1.514, "stage": "slicer_transform_complete", "time": "2026-06-16T10:53:57Z", "vertices": 649712}
+{"bytes": 13308093, "seconds": 5.324, "stage": "3mf_written", "time": "2026-06-16T10:54:01Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 6.0]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T10:54:03Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 25387416, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T15:11:49Z"}
+{"source_bounds": [[-48.8790397644043, 0.0, -49.33333206176758], [67.64859008789062, 6.0, 54.5]], "stage": "source_loaded", "time": "2026-06-16T15:11:50Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T15:11:50Z"}
+{"faces": 1269320, "seconds": 0.382, "stage": "mesh_concatenated", "time": "2026-06-16T15:11:50Z", "vertices": 634662}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.382, "stage": "sanitizer_skipped", "time": "2026-06-16T15:11:50Z"}
+{"faces": 1269320, "seconds": 1.545, "stage": "slicer_transform_complete", "time": "2026-06-16T15:11:51Z", "vertices": 634662}
+{"bytes": 13381870, "seconds": 5.489, "stage": "3mf_written", "time": "2026-06-16T15:11:55Z"}
+{"reloaded_bounds": [[-58.2638149, -51.916666, 0.0], [58.2638149, 51.916666, 6.0]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T15:11:58Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 25387424, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T15:49:36Z"}
+{"source_bounds": [[-48.8790397644043, 0.0, -49.33333206176758], [67.64859008789062, 6.0, 54.5]], "stage": "source_loaded", "time": "2026-06-16T15:49:37Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T15:49:37Z"}
+{"faces": 1269320, "seconds": 0.365, "stage": "mesh_concatenated", "time": "2026-06-16T15:49:37Z", "vertices": 634662}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.366, "stage": "sanitizer_skipped", "time": "2026-06-16T15:49:37Z"}
+{"faces": 1269320, "seconds": 1.533, "stage": "slicer_transform_complete", "time": "2026-06-16T15:49:38Z", "vertices": 634662}
+{"bytes": 13398737, "seconds": 5.384, "stage": "3mf_written", "time": "2026-06-16T15:49:42Z"}
+{"reloaded_bounds": [[-58.2638149, -51.916666, 0.0], [58.2638149, 51.916666, 6.0]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T15:49:45Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 17338708, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T16:12:29Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:12:29Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T16:12:29Z"}
+{"faces": 866884, "seconds": 0.25, "stage": "mesh_concatenated", "time": "2026-06-16T16:12:29Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.25, "stage": "sanitizer_skipped", "time": "2026-06-16T16:12:29Z"}
+{"faces": 866884, "seconds": 1.022, "stage": "slicer_transform_complete", "time": "2026-06-16T16:12:30Z", "vertices": 433444}
+{"bytes": 8487892, "seconds": 3.883, "stage": "3mf_written", "time": "2026-06-16T16:12:33Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:12:35Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 17338716, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:18:10Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:18:11Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:18:11Z"}
+{"faces": 866884, "seconds": 0.247, "stage": "mesh_concatenated", "time": "2026-06-16T16:18:11Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.247, "stage": "sanitizer_skipped", "time": "2026-06-16T16:18:11Z"}
+{"faces": 866884, "seconds": 1.016, "stage": "slicer_transform_complete", "time": "2026-06-16T16:18:12Z", "vertices": 433444}
+{"bytes": 8487856, "seconds": 3.864, "stage": "3mf_written", "time": "2026-06-16T16:18:14Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:18:16Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 17338708, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T16:40:15Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:40:15Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T16:40:15Z"}
+{"faces": 866884, "seconds": 0.266, "stage": "mesh_concatenated", "time": "2026-06-16T16:40:16Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.266, "stage": "sanitizer_skipped", "time": "2026-06-16T16:40:16Z"}
+{"faces": 866884, "seconds": 1.062, "stage": "slicer_transform_complete", "time": "2026-06-16T16:40:17Z", "vertices": 433444}
+{"bytes": 8487891, "seconds": 4.176, "stage": "3mf_written", "time": "2026-06-16T16:40:20Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:40:22Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 17338716, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:40:49Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:40:49Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:40:49Z"}
+{"faces": 866884, "seconds": 0.256, "stage": "mesh_concatenated", "time": "2026-06-16T16:40:50Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.257, "stage": "sanitizer_skipped", "time": "2026-06-16T16:40:50Z"}
+{"faces": 866884, "seconds": 1.045, "stage": "slicer_transform_complete", "time": "2026-06-16T16:40:50Z", "vertices": 433444}
+{"bytes": 8487856, "seconds": 4.147, "stage": "3mf_written", "time": "2026-06-16T16:40:53Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:40:56Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 17338708, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T16:46:14Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:46:15Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T16:46:15Z"}
+{"faces": 866884, "seconds": 0.243, "stage": "mesh_concatenated", "time": "2026-06-16T16:46:15Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.243, "stage": "sanitizer_skipped", "time": "2026-06-16T16:46:15Z"}
+{"faces": 866884, "seconds": 0.996, "stage": "slicer_transform_complete", "time": "2026-06-16T16:46:16Z", "vertices": 433444}
+{"bytes": 8487892, "seconds": 3.875, "stage": "3mf_written", "time": "2026-06-16T16:46:18Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:46:21Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 17338716, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:46:47Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:46:47Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:46:47Z"}
+{"faces": 866884, "seconds": 0.242, "stage": "mesh_concatenated", "time": "2026-06-16T16:46:48Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.242, "stage": "sanitizer_skipped", "time": "2026-06-16T16:46:48Z"}
+{"faces": 866884, "seconds": 0.996, "stage": "slicer_transform_complete", "time": "2026-06-16T16:46:48Z", "vertices": 433444}
+{"bytes": 8487859, "seconds": 3.87, "stage": "3mf_written", "time": "2026-06-16T16:46:51Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:46:53Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 17338708, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T16:55:30Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:55:30Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T16:55:30Z"}
+{"faces": 866884, "seconds": 0.245, "stage": "mesh_concatenated", "time": "2026-06-16T16:55:31Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.246, "stage": "sanitizer_skipped", "time": "2026-06-16T16:55:31Z"}
+{"faces": 866884, "seconds": 0.997, "stage": "slicer_transform_complete", "time": "2026-06-16T16:55:31Z", "vertices": 433444}
+{"bytes": 8487892, "seconds": 3.832, "stage": "3mf_written", "time": "2026-06-16T16:55:34Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:55:36Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 17338716, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:56:02Z"}
+{"source_bounds": [[-48.828125, 0.0, -49.18513870239258], [67.578125, 12.936182022094727, 54.465450286865234]], "stage": "source_loaded", "time": "2026-06-16T16:56:02Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T16:56:02Z"}
+{"faces": 866884, "seconds": 0.245, "stage": "mesh_concatenated", "time": "2026-06-16T16:56:02Z", "vertices": 433444}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.246, "stage": "sanitizer_skipped", "time": "2026-06-16T16:56:02Z"}
+{"faces": 866884, "seconds": 1.002, "stage": "slicer_transform_complete", "time": "2026-06-16T16:56:03Z", "vertices": 433444}
+{"bytes": 8487867, "seconds": 3.837, "stage": "3mf_written", "time": "2026-06-16T16:56:06Z"}
+{"reloaded_bounds": [[-58.203125, -51.8252945, 0.0], [58.203125, 51.8252945, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T16:56:08Z"}
+{"source": "models/model.glb", "source_bytes": 68104548, "stage": "ensure_3mf_export_start", "target": "models/model.3mf", "time": "2026-06-16T17:05:30Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 12.936182022094727, 75.0]], "stage": "source_loaded", "time": "2026-06-16T17:05:31Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model.3mf", "time": "2026-06-16T17:05:31Z"}
+{"faces": 3526516, "seconds": 0.599, "stage": "mesh_concatenated", "time": "2026-06-16T17:05:31Z", "vertices": 2148084}
+{"reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.599, "stage": "sanitizer_skipped", "time": "2026-06-16T17:05:31Z"}
+{"faces": 3526516, "seconds": 2.26, "stage": "slicer_transform_complete", "time": "2026-06-16T17:05:33Z", "vertices": 2148084}
+{"bytes": 35981586, "seconds": 11.249, "stage": "3mf_written", "time": "2026-06-16T17:05:42Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T17:05:50Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 17834508, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T22:35:10Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 12.936182022094727, 75.0]], "stage": "source_loaded", "time": "2026-06-16T22:35:10Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T22:35:10Z"}
+{"faces": 891676, "seconds": 0.244, "stage": "mesh_concatenated", "time": "2026-06-16T22:35:10Z", "vertices": 445840}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.245, "stage": "sanitizer_skipped", "time": "2026-06-16T22:35:10Z"}
+{"faces": 891676, "repair_normals": false, "seconds": 0.245, "stage": "slicer_transform_start", "time": "2026-06-16T22:35:10Z", "vertices": 445840}
+{"faces": 891676, "seconds": 0.35, "stage": "slicer_transform_complete", "time": "2026-06-16T22:35:10Z", "vertices": 445840}
+{"seconds": 0.35, "stage": "3mf_write_start", "time": "2026-06-16T22:35:10Z"}
+{"bytes": 8636641, "seconds": 3.13, "stage": "3mf_written", "time": "2026-06-16T22:35:13Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T22:35:15Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 17834516, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T22:38:15Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 12.936182022094727, 75.0]], "stage": "source_loaded", "time": "2026-06-16T22:38:16Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T22:38:16Z"}
+{"faces": 891676, "seconds": 0.24, "stage": "mesh_concatenated", "time": "2026-06-16T22:38:16Z", "vertices": 445840}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.24, "stage": "sanitizer_skipped", "time": "2026-06-16T22:38:16Z"}
+{"faces": 891676, "repair_normals": false, "seconds": 0.241, "stage": "slicer_transform_start", "time": "2026-06-16T22:38:16Z", "vertices": 445840}
+{"faces": 891676, "seconds": 0.345, "stage": "slicer_transform_complete", "time": "2026-06-16T22:38:16Z", "vertices": 445840}
+{"seconds": 0.346, "stage": "3mf_write_start", "time": "2026-06-16T22:38:16Z"}
+{"bytes": 8639771, "seconds": 3.091, "stage": "3mf_written", "time": "2026-06-16T22:38:19Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 12.936182]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T22:38:21Z"}

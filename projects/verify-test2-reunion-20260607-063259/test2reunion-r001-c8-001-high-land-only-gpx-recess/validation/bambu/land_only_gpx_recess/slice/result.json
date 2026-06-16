@@ -1,0 +1,63 @@
+{
+    "error_string": "Success.",
+    "export_time": 38,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 1148,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 809.3938598632813,
+                "Bridge": 814.1434326171875,
+                "Custom": 4.672796726226807,
+                "Inner wall": 1208.6551513671875,
+                "Internal solid infill": 3527.232666015625,
+                "Outer wall": 1729.578857421875,
+                "Skirt": 22.06489372253418,
+                "Sparse infill": 3684.269775390625,
+                "Top surface": 1197.3828125,
+                "Travel": 1314.4449462890625,
+                "Undefined": 1311.056396484375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "unknown",
+                    "id": 1,
+                    "main_used_g": 0.0,
+                    "total_used_g": 0.0
+                }
+            ],
+            "generate_support_material_time": 276,
+            "id": 1,
+            "infill_time": 5031,
+            "layer_filament_change": 0,
+            "main_predication": 14306.9228515625,
+            "make_perimeters_time": 1337,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 150.0,
+                        "height": 12.936182022094727,
+                        "width": 150.0,
+                        "x": 24.999990463256836,
+                        "y": 25.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "MyRace3D_Terrain",
+                    "triangle_count": 891676
+                }
+            ],
+            "sliced_time": 7793,
+            "sliced_time_with_cache": 1018,
+            "total_predication": 14308.20703125,
+            "triangle_count": 891676,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+}
