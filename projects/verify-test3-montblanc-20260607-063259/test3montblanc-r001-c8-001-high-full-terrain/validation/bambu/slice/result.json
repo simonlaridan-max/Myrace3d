@@ -1,0 +1,63 @@
+{
+    "error_string": "Success.",
+    "export_time": 44,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 2020,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 2237.344482421875,
+                "Bridge": 1726.057861328125,
+                "Custom": 4.646629810333252,
+                "Inner wall": 3790.185546875,
+                "Internal solid infill": 11310.509765625,
+                "Outer wall": 4212.22802734375,
+                "Skirt": 22.06489372253418,
+                "Sparse infill": 13800.341796875,
+                "Top surface": 1964.371826171875,
+                "Travel": 4546.126953125,
+                "Undefined": 4542.7646484375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "unknown",
+                    "id": 1,
+                    "main_used_g": 0.0,
+                    "total_used_g": 0.0
+                }
+            ],
+            "generate_support_material_time": 1399,
+            "id": 1,
+            "infill_time": 28777,
+            "layer_filament_change": 0,
+            "main_predication": 43619.9453125,
+            "make_perimeters_time": 4076,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 150.0,
+                        "height": 16.0394287109375,
+                        "width": 150.0,
+                        "x": 24.999990463256836,
+                        "y": 25.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "model_bambu_validation.stl",
+                    "triangle_count": 2576636
+                }
+            ],
+            "sliced_time": 37758,
+            "sliced_time_with_cache": 3092,
+            "total_predication": 43621.23046875,
+            "triangle_count": 2576636,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+}
