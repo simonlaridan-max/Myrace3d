@@ -33,7 +33,7 @@
     "errors": [],
     "exit_code": 0,
     "gcode_path": "validation/bambu/land_only_cutout/slice/plate_1.gcode",
-    "generated_at": "2026-06-16T21:45:28Z",
+    "generated_at": "2026-06-16T21:55:01Z",
     "passed": true,
     "printer": "Bambu Lab H2D",
     "profile_selection_mode": "active_bambu_config_cli_slice",
@@ -42,7 +42,7 @@
     "result_json_path": "validation/bambu/land_only_cutout/slice/result.json",
     "return_code": 0,
     "schema": "myrace3d.bambu_validation_gate.v1",
-    "seconds": 17.321,
+    "seconds": 16.845,
     "status": "passed",
     "triangle_count": 1116932,
     "validation_stl_copy": null,
@@ -62,7 +62,7 @@
         "printer_family": "Bambu Lab H2D",
         "profile_metadata_policy": "The 3MF is Bambu-parseable and plate-oriented; nozzle/profile choice is recorded in the package manifest and validated through the Bambu CLI validation gate."
       },
-      "bytes": 10943596,
+      "bytes": 10943595,
       "format": "3mf",
       "github_upload_status": "pending_size_check",
       "path": "models/model_land_only_cutout.3mf",
@@ -70,18 +70,6 @@
       "role": "bambu_h2d_studio_handoff",
       "scale_orientation_preserved": true,
       "validation_status": "complete"
-    },
-    "bambu_validation_stl": {
-      "bytes": 55772284,
-      "final_model_modified": false,
-      "format": "stl",
-      "github_upload_status": "local_validation_only",
-      "local_only": true,
-      "online_available": false,
-      "path": "validation/bambu/model_bambu_validation.stl",
-      "report_path": "validation/bambu/bambu_validation_report.json",
-      "role": "validation_only_bambu_h2d_stl_copy",
-      "validation_status": "passed"
     },
     "glb": {
       "bytes": 22339580,
@@ -37674,7 +37662,7 @@
     },
     "updated_at": "2026-06-16T20:08:14Z"
   },
-  "prepared_at": "2026-06-16T21:45:10Z",
+  "prepared_at": "2026-06-16T21:54:42Z",
   "print_model_bytes": 22339580,
   "print_model_path": "models/model_land_only_cutout.glb",
   "printable_base_thickness_mm": 3.0,
@@ -38135,7 +38123,7 @@
       "watertight": true
     },
     "type": "land_only_cutout",
-    "updated_at": "2026-06-16T21:45:10Z",
+    "updated_at": "2026-06-16T21:54:42Z",
     "uses_palette_for_water_decision": false,
     "water_authority_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\project_core\\design_variations\\color_classification\\classification_automated\\water_surface_authority_mask.png",
     "water_cutout_authority": "water_surface_authority_mask",
@@ -38187,7 +38175,7 @@
   "project_slug": "ui-hawaii-diamondhead-e2e-20260616",
   "publication_id": "uihawaiidiamondheade2e20260616-r001-c8-001-high-land-only-cutout",
   "publication_variant_id": "uihawaiidiamondheade2e20260616-r001-c8-001-high-land-only-cutout",
-  "published_at": "2026-06-16T21:45:47Z",
+  "published_at": "2026-06-16T21:55:19Z",
   "requested_export_formats": [
     "3mf",
     "glb"
@@ -38201,11 +38189,11 @@
   "source_label": "Hybrid Design Build - Colored Build",
   "source_type": "design_hybrid_colored",
   "studio_type": "realistic",
-  "threemf_bytes": 10943596,
+  "threemf_bytes": 10943595,
   "threemf_export_report": "models/model_land_only_cutout.3mf.export_report.json",
   "threemf_material_policy": "bambu_h2d_studio_handoff",
   "threemf_path": "models/model_land_only_cutout.3mf",
-  "title": "UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High",
+  "title": "UI Hawaii DiamondHead E2E 20260616 Realistic 8 colors",
   "updated_at": "2026-06-16T20:08:14Z",
   "web_model_bytes": 22339580,
   "web_model_path": "models/model_land_only_cutout.glb",

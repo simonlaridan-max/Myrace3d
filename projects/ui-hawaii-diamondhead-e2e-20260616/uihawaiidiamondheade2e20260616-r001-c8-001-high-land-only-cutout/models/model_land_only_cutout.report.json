@@ -1,6 +1,6 @@
 {
   "color_policy": "Top faces sample the saved final colored full model; cut walls use a darkened adjacent terrain color to avoid a separate grey rim, and underside uses neutral print grey.",
-  "generated_at": "2026-06-16T21:45:22Z",
+  "generated_at": "2026-06-16T21:54:54Z",
   "gpx_trace_policy": "GPX overlay meshes are not baked into the land-only derived terrain to avoid unsupported/floating trace segments over removed water.",
   "model_bytes": 22339580,
   "model_path": "models/model_land_only_cutout.glb",

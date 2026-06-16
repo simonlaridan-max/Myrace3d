@@ -54,10 +54,10 @@
     29.615503311157227
   ],
   "export_mode": "bambu_compatible_3mf_h2d_handoff_z_up",
-  "export_seconds": 3.932,
+  "export_seconds": 3.849,
   "exporter": "trimesh",
   "format": "3mf",
-  "generated_at": "2026-06-16T21:45:28Z",
+  "generated_at": "2026-06-16T21:55:01Z",
   "geometry_sanitizer": {
     "enabled": false,
     "final": {
@@ -84,7 +84,7 @@
   "material_policy": "Bambu-compatible geometry-only 3MF export for Bambu Studio handoff; GLB remains the color/web preview authority until multicolor 3MF materials are separately validated.",
   "max_bound_delta": null,
   "max_extent_delta": 3.132323911358981e-08,
-  "output_bytes": 10943596,
+  "output_bytes": 10943595,
   "output_path": "models/model_land_only_cutout.3mf",
   "reloaded_bounds": [
     [
