@@ -1,0 +1,493 @@
+{
+  "color_policy": "Top faces sample the saved final colored full model; cut walls use a darkened adjacent terrain color to avoid a separate grey rim, and underside uses neutral print grey.",
+  "generated_at": "2026-06-16T20:29:31Z",
+  "gpx_trace_policy": "GPX overlay meshes are not baked into the land-only derived terrain to avoid unsupported/floating trace segments over removed water.",
+  "model_bytes": 22309692,
+  "model_path": "models/model_land_only_cutout.glb",
+  "recipe": {
+    "base_thickness_mm": 3.0,
+    "cell_shape": [
+      767,
+      768
+    ],
+    "controls_subset": {
+      "base_thickness_mm": 3.0,
+      "height_source": "saved_final_full_model_glb",
+      "water_decision_source": "water_surface_authority_mask"
+    },
+    "cut_wall_projection": {
+      "method": "face_centers_mapped_to_retained_land_cell_grid",
+      "note": "Cut walls are required for watertight land-only models; this metric tracks whether the visible closure wall projects into removed-water cells and creates a rim-like artifact.",
+      "removed_water_cells": 312930,
+      "retained_land_cells": 276126,
+      "schema": "myrace3d.realistic.cut_wall_projection_report.v1",
+      "status": "passed",
+      "top_face_count": 552252,
+      "top_projected_cells_in_removed_water": 0,
+      "wall_face_count": 10940,
+      "wall_faces_projected_to_removed_water": 4342,
+      "wall_projected_cells": 4480,
+      "wall_projected_cells_in_removed_water": 1866
+    },
+    "depth_mm": 150.0,
+    "full_model_authority": {
+      "cell_shape": [
+        767,
+        768
+      ],
+      "color_cell_coverage_pct": 100.0,
+      "color_cells_sampled_from_full_model": 589056,
+      "coordinate_source": "saved_final_glb_gltf_y_up_converted_to_internal_print_z_up",
+      "depth_mm": 150.0,
+      "height_max_mm": 29.615503311157227,
+      "height_min_mm": 3.002185583114624,
+      "height_vertex_grid_shape": [
+        768,
+        769
+      ],
+      "missing_height_vertices_filled": 0,
+      "schema": "myrace3d.realistic.full_model_authority_grid.v1",
+      "source_model_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High\\models\\model.glb",
+      "terrain_geometry_count": 8,
+      "width_mm": 150.0
+    },
+    "gpx_recess": {
+      "clearance_mm": 0.25,
+      "enabled": false,
+      "flat_fit_insert_export": null,
+      "insert_export": {},
+      "insert_insertion_depth_mm": 2.0,
+      "insert_total_height_mm": 2.8,
+      "insert_visible_height_mm": 0.8,
+      "insert_width_mm": 1.8,
+      "land_water_component_split": null,
+      "minimum_remaining_floor_mm": 1.0,
+      "recess_depth_mm": 2.0,
+      "through_holes_used": false,
+      "trace_stats": {}
+    },
+    "height_vertex_grid_shape": [
+      768,
+      769
+    ],
+    "land_boundary_regularization": {
+      "area_delta_pct_points": -0.004583604954366827,
+      "candidate_count": 74,
+      "cleanup_stats": {
+        "cell_area_mm2": 0.03819670795306388,
+        "clean_land_pct": 46.87601857887875,
+        "clean_land_px": 276126,
+        "component_count": 11,
+        "kept_count": 4,
+        "kept_top20": [
+          {
+            "area_mm2": 10518.83861636245,
+            "bbox_rc": [
+              0,
+              0,
+              485,
+              767
+            ],
+            "edge_artifact": false,
+            "label": 1,
+            "pct": 46.75039385049978,
+            "px": 275386,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 20.549828878748368,
+            "bbox_rc": [
+              266,
+              28,
+              305,
+              52
+            ],
+            "edge_artifact": false,
+            "label": 9,
+            "pct": 0.0913325727944372,
+            "px": 538,
+            "touches_edge": false
+          },
+          {
+            "area_mm2": 4.087047750977836,
+            "bbox_rc": [
+              46,
+              114,
+              57,
+              125
+            ],
+            "edge_artifact": false,
+            "label": 6,
+            "pct": 0.0181646566710126,
+            "px": 107,
+            "touches_edge": false
+          },
+          {
+            "area_mm2": 3.6286872555410685,
+            "bbox_rc": [
+              32,
+              133,
+              42,
+              146
+            ],
+            "edge_artifact": false,
+            "label": 5,
+            "pct": 0.01612749891351586,
+            "px": 95,
+            "touches_edge": false
+          }
+        ],
+        "max_edge_artifact_mm2": 250.0,
+        "max_edge_artifact_pct": 1.0,
+        "min_component_mm2": 3.0,
+        "min_component_px": 79,
+        "raw_land_pct": 47.51398848326814,
+        "raw_land_px": 279884,
+        "removed_count": 7,
+        "removed_land_px": 3758,
+        "removed_top20": [
+          {
+            "area_mm2": 107.17996251629725,
+            "bbox_rc": [
+              0,
+              155,
+              45,
+              298
+            ],
+            "edge_artifact": true,
+            "label": 3,
+            "pct": 0.4763553889613211,
+            "px": 2806,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 26.508515319426333,
+            "bbox_rc": [
+              261,
+              0,
+              303,
+              27
+            ],
+            "edge_artifact": true,
+            "label": 8,
+            "pct": 0.11781562364189482,
+            "px": 694,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 7.601144882659712,
+            "bbox_rc": [
+              209,
+              0,
+              228,
+              14
+            ],
+            "edge_artifact": true,
+            "label": 7,
+            "pct": 0.03378286614515428,
+            "px": 199,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 0.5729506192959583,
+            "bbox_rc": [
+              0,
+              763,
+              4,
+              767
+            ],
+            "edge_artifact": true,
+            "label": 4,
+            "pct": 0.0025464471968709257,
+            "px": 15,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 0.5729506192959583,
+            "bbox_rc": [
+              762,
+              0,
+              766,
+              4
+            ],
+            "edge_artifact": true,
+            "label": 10,
+            "pct": 0.0025464471968709257,
+            "px": 15,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 0.5729506192959583,
+            "bbox_rc": [
+              762,
+              763,
+              766,
+              767
+            ],
+            "edge_artifact": true,
+            "label": 11,
+            "pct": 0.0025464471968709257,
+            "px": 15,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 0.5347539113428943,
+            "bbox_rc": [
+              0,
+              134,
+              1,
+              143
+            ],
+            "edge_artifact": true,
+            "label": 2,
+            "pct": 0.002376684050412864,
+            "px": 14,
+            "touches_edge": true
+          }
+        ],
+        "schema": "myrace3d.realistic.clean_land_mask.v1"
+      },
+      "enabled": true,
+      "fallback_used": false,
+      "max_area_delta_pct_points": 0.05,
+      "method": "area_preserving_signed_distance_gaussian_rank_search",
+      "net_area_delta_px": -27,
+      "perimeter_delta_pct": -44.28104575163398,
+      "perimeter_px_after": 5456,
+      "perimeter_px_before": 9792,
+      "regularized_area_px": 276126,
+      "schema": "myrace3d.realistic.land_boundary_regularization.v2",
+      "selected_raw_target_area_px": 279884,
+      "sigma_px": 2.4,
+      "target_area_px": 276153
+    },
+    "land_cleanup_stats": {
+      "cell_area_mm2": 0.03819670795306388,
+      "clean_land_pct": 46.88060218383311,
+      "clean_land_px": 276153,
+      "component_count": 9,
+      "kept_count": 8,
+      "kept_top20": [
+        {
+          "area_mm2": 10389.237186277704,
+          "bbox_rc": [
+            0,
+            0,
+            766,
+            767
+          ],
+          "edge_artifact": false,
+          "label": 1,
+          "pct": 46.17438749456758,
+          "px": 271993,
+          "touches_edge": true
+        },
+        {
+          "area_mm2": 110.5030761082138,
+          "bbox_rc": [
+            246,
+            48,
+            307,
+            123
+          ],
+          "edge_artifact": false,
+          "label": 7,
+          "pct": 0.49112478270317256,
+          "px": 2893,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 17.417698826597128,
+          "bbox_rc": [
+            266,
+            29,
+            305,
+            52
+          ],
+          "edge_artifact": false,
+          "label": 8,
+          "pct": 0.07741199478487613,
+          "px": 456,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 14.018191818774444,
+          "bbox_rc": [
+            86,
+            296,
+            110,
+            325
+          ],
+          "edge_artifact": false,
+          "label": 6,
+          "pct": 0.062303074750108656,
+          "px": 367,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 5.920489732724902,
+          "bbox_rc": [
+            35,
+            207,
+            49,
+            225
+          ],
+          "edge_artifact": false,
+          "label": 4,
+          "pct": 0.02631328770099957,
+          "px": 155,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 4.278031290743154,
+          "bbox_rc": [
+            349,
+            189,
+            361,
+            204
+          ],
+          "edge_artifact": false,
+          "label": 9,
+          "pct": 0.019013472403302912,
+          "px": 112,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 3.552293839634941,
+          "bbox_rc": [
+            46,
+            113,
+            57,
+            125
+          ],
+          "edge_artifact": false,
+          "label": 5,
+          "pct": 0.01578797262059974,
+          "px": 93,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 3.208523468057366,
+          "bbox_rc": [
+            32,
+            133,
+            42,
+            147
+          ],
+          "edge_artifact": false,
+          "label": 2,
+          "pct": 0.014260104302477183,
+          "px": 84,
+          "touches_edge": false
+        }
+      ],
+      "max_edge_artifact_mm2": 250.0,
+      "max_edge_artifact_pct": 1.0,
+      "min_component_mm2": 3.0,
+      "min_component_px": 79,
+      "raw_land_pct": 46.8907879726206,
+      "raw_land_px": 276213,
+      "removed_count": 1,
+      "removed_land_px": 60,
+      "removed_top20": [
+        {
+          "area_mm2": 2.291802477183833,
+          "bbox_rc": [
+            34,
+            159,
+            43,
+            167
+          ],
+          "edge_artifact": false,
+          "label": 3,
+          "pct": 0.010185788787483703,
+          "px": 60,
+          "touches_edge": false
+        }
+      ],
+      "schema": "myrace3d.realistic.clean_land_mask.v1"
+    },
+    "mode": "land_only_cutout",
+    "recipe_hash": "ec38f86da88b6944",
+    "source_model_path": "models/model.glb",
+    "strict_base_footprint": {
+      "base_cells_detected": 276126,
+      "base_cells_without_land": 0,
+      "base_footprint_equals_retained_land": true,
+      "bottom_face_count": 552252,
+      "land_cells_without_base": 0,
+      "method": "bottom_face_centers_mapped_to_land_cells",
+      "min_z": 0.0,
+      "retained_land_cells": 276126,
+      "schema": "myrace3d.realistic.strict_base_footprint_report.v1",
+      "status": "passed"
+    },
+    "water_authority_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\project_core\\design_variations\\color_classification\\classification_automated\\water_surface_authority_mask.png",
+    "water_stats": {
+      "authority": "water_surface_authority_mask",
+      "clean_coverage_pct": 53.10921202737941,
+      "clean_positive_px": 312843,
+      "component_count_raw_or_closed": 22,
+      "fallback_used": false,
+      "kept_component_sizes_top10": [
+        289500,
+        11612,
+        6164,
+        4165,
+        882,
+        520
+      ],
+      "kept_components": 6,
+      "max_filled_hole_px": 58,
+      "min_component_px": 294,
+      "native_resolution_used": true,
+      "raw_coverage_pct": 52.222539113428944,
+      "raw_positive_px": 307620,
+      "resized_shape": [
+        767,
+        768
+      ],
+      "small_hole_sizes_top10": [
+        56,
+        52,
+        50,
+        50,
+        44,
+        43,
+        40,
+        34,
+        33,
+        31
+      ],
+      "small_holes_filled": 45,
+      "source_image_size": [
+        768,
+        767
+      ],
+      "source_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\project_core\\design_variations\\color_classification\\classification_automated\\water_surface_authority_mask.png"
+    },
+    "width_mm": 150.0
+  },
+  "schema": "myrace3d.realistic.land_only_cutout_report.v2",
+  "status": "complete",
+  "topology_z_up": {
+    "boundary_edges": 0,
+    "bounds_max": [
+      75.0,
+      75.0,
+      29.615503311157227
+    ],
+    "bounds_min": [
+      -75.0,
+      -20.045631408691406,
+      0.0
+    ],
+    "components": 4,
+    "faces": 1115444,
+    "nonmanifold_edges": 0,
+    "positive_volume": true,
+    "vertices": 557712,
+    "volume_mm3": 81201.50790450633,
+    "watertight": true
+  }
+}

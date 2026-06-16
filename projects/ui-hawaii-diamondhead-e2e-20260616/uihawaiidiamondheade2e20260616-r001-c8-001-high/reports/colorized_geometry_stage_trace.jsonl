@@ -1,0 +1,6 @@
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "source": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R002\\models\\model.glb", "source_design_terrain_type": "hybrid", "source_size_bytes": 69197792, "stage": "start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High\\models\\model.glb"}
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "stage": "trimesh_load_start"}
+{"delta_seconds": 0.098, "elapsed_seconds": 0.098, "stage": "trimesh_load_done"}
+{"delta_seconds": 0.503, "elapsed_seconds": 0.601, "meshes": 1, "stage": "mesh_dump_done"}
+{"delta_seconds": 0.001, "elapsed_seconds": 0.602, "stage": "design_report_loaded"}
+{"delta_seconds": 0.076, "elapsed_seconds": 0.677, "stage": "terrain_bounds_ready", "terrain_meshes": 1}
