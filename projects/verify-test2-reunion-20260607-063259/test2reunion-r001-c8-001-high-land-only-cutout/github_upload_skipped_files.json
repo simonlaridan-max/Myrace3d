@@ -1,0 +1,14 @@
+[
+  {
+    "bytes": 176325884,
+    "github_upload_status": "local_validation_only",
+    "path": "validation/bambu/model_bambu_validation.stl",
+    "reason": "Bambu validation STL is local printability evidence and is not required by the online model-viewer package."
+  },
+  {
+    "bytes": 4090084,
+    "github_upload_status": "local_validation_only",
+    "path": "validation/bambu/gpx_flat_fit_insert/gpx_flat_fit_insert_validation.stl",
+    "reason": "Bambu validation STL is local printability evidence and is not required by the online model-viewer package."
+  }
+]

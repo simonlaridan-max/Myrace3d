@@ -1,0 +1,6 @@
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "source": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R002\\models\\model.glb", "source_design_terrain_type": "hybrid", "source_size_bytes": 70438812, "stage": "start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test2-reunion-20260607_063259\\outputs\\part_08\\Test2Reunion_R001_C8_001_High\\models\\model.glb"}
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "stage": "trimesh_load_start"}
+{"delta_seconds": 0.104, "elapsed_seconds": 0.104, "stage": "trimesh_load_done"}
+{"delta_seconds": 0.493, "elapsed_seconds": 0.598, "meshes": 2, "stage": "mesh_dump_done"}
+{"delta_seconds": 0.001, "elapsed_seconds": 0.598, "stage": "design_report_loaded"}
+{"delta_seconds": 0.074, "elapsed_seconds": 0.673, "stage": "terrain_bounds_ready", "terrain_meshes": 1}
