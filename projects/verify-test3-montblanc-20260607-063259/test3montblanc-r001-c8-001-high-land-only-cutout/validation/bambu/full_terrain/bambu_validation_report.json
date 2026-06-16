@@ -1,0 +1,182 @@
+{
+  "bambu_bbox": {
+    "depth": 150.0,
+    "height": 16.0394287109375,
+    "width": 150.0,
+    "x": 24.999990463256836,
+    "y": 25.0,
+    "z": 0.0
+  },
+  "bambu_exe": "C:\\Program Files\\Bambu Studio\\bambu-studio.exe",
+  "bambu_message": "Success.",
+  "bambu_version": "2.7.1.57",
+  "command": [
+    "C:\\Program Files\\Bambu Studio\\bambu-studio.exe",
+    "--debug=3",
+    "--slice=0",
+    "--outputdir=C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test3-montblanc-20260607_063259\\outputs\\part_08\\Test3MontBlanc_R001_C8_001_High\\validation\\bambu\\full_terrain\\slice",
+    "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test3-montblanc-20260607_063259\\outputs\\part_08\\Test3MontBlanc_R001_C8_001_High\\models\\model.3mf"
+  ],
+  "errors": [],
+  "exit_code": 0,
+  "gcode_bytes": 19899627,
+  "gcode_path": "validation/bambu/full_terrain/slice/plate_1.gcode",
+  "generated_at": "2026-06-16T22:21:46Z",
+  "h2d_profile_inventory": {
+    "printer_family": "Bambu Lab H2D",
+    "profile_root": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL",
+    "profile_selection_mode": "active_bambu_config_cli_slice",
+    "profile_selection_note": "Bambu Studio 02.07.01.57 accepted CLI slicing with the active local Bambu config. Explicit CLI profile injection was not reliable in the 2026-06-15 investigation, so this gate reports requested/available H2D profiles and validates with the active Bambu Studio configuration.",
+    "requested_nozzles_mm_supported_by_inventory": {
+      "0.2": {
+        "machine_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.2 nozzle.json"
+        ],
+        "machine_profile_present": true,
+        "process_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2DP 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.10mm Standard @BBL H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.10mm Standard @BBL H2DP 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Balanced Quality @BBL H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Balanced Quality @BBL H2DP 0.2 nozzle.json"
+        ],
+        "process_profile_present": true
+      },
+      "0.4": {
+        "machine_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template change_filament_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template layer_change_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template machine_end_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template machine_start_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template time_lapse_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template wrapping_detection_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template change_filament_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template layer_change_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template machine_end_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template machine_start_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template time_lapse_gcode.json"
+        ],
+        "machine_profile_present": true,
+        "process_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Fine @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Fine @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Balanced Quality @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Balanced Quality @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Standard @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Standard @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Balanced Strength @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Balanced Strength @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Standard @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Standard @BBL H2DP.json"
+        ],
+        "process_profile_present": true
+      },
+      "0.6": {
+        "machine_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.6 nozzle.json"
+        ],
+        "machine_profile_present": true,
+        "process_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.18mm Balanced Quality @BBL H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.18mm Balanced Quality @BBL H2DP 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.24mm Balanced Strength @BBL H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.24mm Balanced Strength @BBL H2DP 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.30mm Standard @BBL H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.30mm Standard @BBL H2DP 0.6 nozzle.json"
+        ],
+        "process_profile_present": true
+      }
+    }
+  },
+  "passed": true,
+  "printer": "Bambu Lab H2D",
+  "requested_nozzle_mm": "0.4",
+  "result_json": {
+    "error_string": "Success.",
+    "export_time": 49,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 4034,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 2237.34033203125,
+          "Bridge": 4651.86083984375,
+          "Custom": 4.646629810333252,
+          "Inner wall": 2225.671142578125,
+          "Internal solid infill": 10952.9072265625,
+          "Outer wall": 2661.74658203125,
+          "Overhang wall": 1041.7537841796875,
+          "Skirt": 22.061614990234375,
+          "Sparse infill": 11859.681640625,
+          "Top surface": 3515.48486328125,
+          "Travel": 3067.333251953125,
+          "Undefined": 3063.970947265625
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "unknown",
+            "id": 1,
+            "main_used_g": 0.0,
+            "total_used_g": 0.0
+          }
+        ],
+        "generate_support_material_time": 2281,
+        "id": 1,
+        "infill_time": 16848,
+        "layer_filament_change": 0,
+        "main_predication": 42240.72265625,
+        "make_perimeters_time": 5596,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 150.0,
+              "height": 16.0394287109375,
+              "width": 150.0,
+              "x": 24.999990463256836,
+              "y": 25.0,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "MyRace3D_Terrain",
+            "triangle_count": 2576636
+          }
+        ],
+        "sliced_time": 27819,
+        "sliced_time_with_cache": 2607,
+        "total_predication": 42242.0078125,
+        "triangle_count": 2576636,
+        "warning_message": "It seems object MyRace3D_Terrain has floating regions. Please re-orient the object or enable support generation."
+      }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+  },
+  "result_json_path": "validation/bambu/full_terrain/slice/result.json",
+  "return_code": 0,
+  "schema": "myrace3d.bambu_validation_gate.v1",
+  "seconds": 32.286,
+  "sliced_plate_count": 1,
+  "source_model_path": "models/model.glb",
+  "status": "passed",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "triangle_count": 2576636,
+  "validation_input": "models/model.3mf",
+  "validation_input_abs": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test3-montblanc-20260607_063259\\outputs\\part_08\\Test3MontBlanc_R001_C8_001_High\\models\\model.3mf",
+  "validation_input_bytes": 35889309,
+  "validation_input_policy": "generated_3mf_handoff",
+  "validation_policy": "prefer generated single-file 3MF handoff; fallback to validation-only STL copy; final GLB/3MF package files are not modified",
+  "warnings": [
+    "It seems object MyRace3D_Terrain has floating regions. Please re-orient the object or enable support generation."
+  ]
+}

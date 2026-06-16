@@ -1,0 +1,6 @@
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "source": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test3-montblanc-20260607_063259\\outputs\\part_08\\Test3MontBlanc_R006\\models\\model.glb", "source_design_terrain_type": "hybrid", "source_size_bytes": 51533788, "stage": "start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\verify-test3-montblanc-20260607_063259\\outputs\\part_08\\Test3MontBlanc_R001_C8_001_High\\models\\model.glb"}
+{"delta_seconds": 0.0, "elapsed_seconds": 0.0, "stage": "trimesh_load_start"}
+{"delta_seconds": 0.103, "elapsed_seconds": 0.104, "stage": "trimesh_load_done"}
+{"delta_seconds": 0.367, "elapsed_seconds": 0.47, "meshes": 1, "stage": "mesh_dump_done"}
+{"delta_seconds": 0.001, "elapsed_seconds": 0.471, "stage": "design_report_loaded"}
+{"delta_seconds": 0.056, "elapsed_seconds": 0.527, "stage": "terrain_bounds_ready", "terrain_meshes": 1}
