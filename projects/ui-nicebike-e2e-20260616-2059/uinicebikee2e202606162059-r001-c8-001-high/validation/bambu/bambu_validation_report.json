@@ -19,9 +19,9 @@
   ],
   "errors": [],
   "exit_code": 0,
-  "gcode_bytes": 38427457,
+  "gcode_bytes": 39235116,
   "gcode_path": "validation/bambu/slice/plate_1.gcode",
-  "generated_at": "2026-06-16T19:39:10Z",
+  "generated_at": "2026-06-16T19:44:21Z",
   "h2d_profile_inventory": {
     "printer_family": "Bambu Lab H2D",
     "profile_root": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL",
@@ -99,25 +99,25 @@
   "requested_nozzle_mm": "0.4",
   "result_json": {
     "error_string": "Success.",
-    "export_time": 29,
+    "export_time": 28,
     "layer_height": 0.20000000298023224,
     "plate_index": 0,
-    "prepare_time": 1310,
+    "prepare_time": 1275,
     "return_code": 0,
     "sliced_plates": [
       {
         "feature_type_times": {
           "Bottom surface": 1865.7252197265625,
-          "Bridge": 1925.2618408203125,
+          "Bridge": 1896.7222900390625,
           "Custom": 3.306563138961792,
-          "Inner wall": 4905.3623046875,
-          "Internal solid infill": 9237.9365234375,
-          "Outer wall": 5883.78857421875,
+          "Inner wall": 5098.3935546875,
+          "Internal solid infill": 9229.1162109375,
+          "Outer wall": 6136.6005859375,
           "Skirt": 20.477924346923828,
-          "Sparse infill": 15481.017578125,
-          "Top surface": 1841.94580078125,
-          "Travel": 5116.88916015625,
-          "Undefined": 5114.86669921875
+          "Sparse infill": 15255.6748046875,
+          "Top surface": 1829.25390625,
+          "Travel": 5212.43701171875,
+          "Undefined": 5210.41455078125
         },
         "filament_change_times": 0,
         "filaments": [
@@ -128,12 +128,12 @@
             "total_used_g": 0.0
           }
         ],
-        "generate_support_material_time": 1442,
+        "generate_support_material_time": 1423,
         "id": 1,
-        "infill_time": 22865,
+        "infill_time": 22278,
         "layer_filament_change": 0,
-        "main_predication": 46287.5625,
-        "make_perimeters_time": 5709,
+        "main_predication": 46553.39453125,
+        "make_perimeters_time": 4817,
         "obj_cached_cnt": 0,
         "objects": [
           {
@@ -150,9 +150,9 @@
             "triangle_count": 1976252
           }
         ],
-        "sliced_time": 33714,
-        "sliced_time_with_cache": 3283,
-        "total_predication": 46288.84765625,
+        "sliced_time": 32185,
+        "sliced_time_with_cache": 3277,
+        "total_predication": 46554.6796875,
         "triangle_count": 1976252,
         "warning_message": ""
       }
@@ -163,9 +163,9 @@
   "result_json_path": "validation/bambu/slice/result.json",
   "return_code": 0,
   "schema": "myrace3d.bambu_validation_gate.v1",
-  "seconds": 38.104,
+  "seconds": 36.464,
   "sliced_plate_count": 1,
-  "source_model_path": "models/model_land_only_cutout.glb",
+  "source_model_path": "models/model_land_only_gpx_recess.glb",
   "status": "passed",
   "stderr_tail": "",
   "stdout_tail": "",
@@ -191,7 +191,7 @@
       21.738758087158203,
       150.0
     ],
-    "source_model_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_cutout.glb",
+    "source_model_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_gpx_recess.glb",
     "validation_bounds": [
       [
         -75.0,
