@@ -1,0 +1,150 @@
+{
+  "bambu_handoff": {
+    "file_role": "Bambu Studio handoff 3MF",
+    "printer_family": "Bambu Lab H2D",
+    "profile_metadata_policy": "The 3MF is Bambu-parseable and plate-oriented; nozzle/profile choice is recorded in the package manifest and validated through the Bambu CLI validation gate."
+  },
+  "bambu_slicer_transform": {
+    "axis_transform": "MyRace3D Y-up to Bambu 3MF Z-up: (x,y,z)->(x,z,y), reverse face winding, center XY, minZ=0",
+    "build_item_translation_mm": [
+      128.0,
+      128.0,
+      0.0
+    ],
+    "scale_preserved": true,
+    "slicer_bounds": [
+      [
+        -58.203125,
+        -51.825294494628906,
+        0.0
+      ],
+      [
+        58.203125,
+        51.825294494628906,
+        12.936182022094727
+      ]
+    ],
+    "slicer_extents_mm": [
+      116.40625,
+      103.65058898925781,
+      12.936182022094727
+    ],
+    "source_bounds": [
+      [
+        -48.828125,
+        0.0,
+        -49.18513870239258
+      ],
+      [
+        67.578125,
+        12.936182022094727,
+        54.465450286865234
+      ]
+    ],
+    "source_extents_mm": [
+      116.40625,
+      12.936182022094727,
+      103.65058898925781
+    ]
+  },
+  "expected_slicer_extents": [
+    116.40625,
+    103.65058898925781,
+    12.936182022094727
+  ],
+  "export_mode": "bambu_compatible_3mf_h2d_handoff_z_up",
+  "export_seconds": 3.837,
+  "exporter": "trimesh",
+  "format": "3mf",
+  "generated_at": "2026-06-16T16:56:08Z",
+  "geometry_sanitizer": {
+    "enabled": false,
+    "final": {
+      "boundary_edges": "validated_by_bambu_slice_gate",
+      "component_count": "not_checked_in_fast_colored_export_path",
+      "faces": 866884,
+      "nonmanifold_edges": "validated_by_bambu_slice_gate",
+      "vertices": 433444,
+      "watertight": "validated_by_bambu_slice_gate"
+    },
+    "initial": {
+      "boundary_edges": "not_checked_in_fast_colored_export_path",
+      "component_count": "not_checked_in_fast_colored_export_path",
+      "faces": 866884,
+      "nonmanifold_edges": "not_checked_in_fast_colored_export_path",
+      "vertices": 433444,
+      "watertight": "not_checked_in_fast_colored_export_path"
+    },
+    "printable_topology_restored": "validated_by_bambu_slice_gate",
+    "reason": "High-face Realistic colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.",
+    "schema": "myrace3d.3mf_export_topology_sanitizer.v1",
+    "status": "skipped_for_realistic_colored_final_export"
+  },
+  "material_policy": "Bambu-compatible geometry-only 3MF export for Bambu Studio handoff; GLB remains the color/web preview authority until multicolor 3MF materials are separately validated.",
+  "max_bound_delta": null,
+  "max_extent_delta": 2.209472604874918e-08,
+  "output_bytes": 8487867,
+  "output_path": "models/model_land_only_gpx_recess.3mf",
+  "reloaded_bounds": [
+    [
+      -58.203125,
+      -51.8252945,
+      0.0
+    ],
+    [
+      58.203125,
+      51.8252945,
+      12.936182
+    ]
+  ],
+  "reloaded_extents": [
+    116.40625,
+    103.650589,
+    12.936182
+  ],
+  "scale_orientation_preserved": true,
+  "scale_validation": {
+    "actual_extents": [
+      116.40625,
+      103.650589,
+      12.936182
+    ],
+    "axis_transform": "MyRace3D Y-up to Bambu 3MF Z-up: (x,y,z)->(x,z,y), reverse face winding, center XY, minZ=0",
+    "expected_slicer_extents": [
+      116.40625,
+      103.65058898925781,
+      12.936182022094727
+    ],
+    "max_extent_delta": 2.209472604874918e-08,
+    "scale_ok": true,
+    "source_extents": [
+      116.40625,
+      12.936182022094727,
+      103.65058898925781
+    ],
+    "tolerance": 0.058203125
+  },
+  "source_bounds": [
+    [
+      -48.828125,
+      0.0,
+      -49.18513870239258
+    ],
+    [
+      67.578125,
+      12.936182022094727,
+      54.465450286865234
+    ]
+  ],
+  "source_extents": [
+    116.40625,
+    12.936182022094727,
+    103.65058898925781
+  ],
+  "source_model_bytes": 17338716,
+  "source_model_path": "models/model_land_only_gpx_recess.glb",
+  "status": "complete",
+  "tolerance": 0.058203125,
+  "trace_path": "reports/package_prepare_trace.jsonl",
+  "trimesh_version": "4.12.2"
+}
