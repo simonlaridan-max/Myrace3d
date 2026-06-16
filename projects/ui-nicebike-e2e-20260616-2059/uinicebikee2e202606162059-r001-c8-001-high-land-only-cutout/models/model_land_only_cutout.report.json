@@ -1,0 +1,305 @@
+{
+  "color_policy": "Top faces sample the saved final colored full model; cut walls use a darkened adjacent terrain color to avoid a separate grey rim, and underside uses neutral print grey.",
+  "generated_at": "2026-06-16T22:03:03Z",
+  "gpx_trace_policy": "GPX overlay meshes are not baked into the land-only derived terrain to avoid unsupported/floating trace segments over removed water.",
+  "model_bytes": 39526032,
+  "model_path": "models/model_land_only_cutout.glb",
+  "recipe": {
+    "base_thickness_mm": 3.0,
+    "cell_shape": [
+      766,
+      768
+    ],
+    "controls_subset": {
+      "base_thickness_mm": 3.0,
+      "height_source": "saved_final_full_model_glb",
+      "water_decision_source": "water_surface_authority_mask"
+    },
+    "cut_wall_projection": {
+      "method": "face_centers_mapped_to_retained_land_cell_grid",
+      "note": "Cut walls are required for watertight land-only models; this metric tracks whether the visible closure wall projects into removed-water cells and creates a rim-like artifact.",
+      "removed_water_cells": 96198,
+      "retained_land_cells": 492090,
+      "schema": "myrace3d.realistic.cut_wall_projection_report.v1",
+      "status": "passed",
+      "top_face_count": 984180,
+      "top_projected_cells_in_removed_water": 0,
+      "wall_face_count": 7892,
+      "wall_faces_projected_to_removed_water": 2044,
+      "wall_projected_cells": 3000,
+      "wall_projected_cells_in_removed_water": 868
+    },
+    "depth_mm": 150.0,
+    "full_model_authority": {
+      "cell_shape": [
+        766,
+        768
+      ],
+      "color_cell_coverage_pct": 100.0,
+      "color_cells_sampled_from_full_model": 588288,
+      "coordinate_source": "saved_final_glb_gltf_y_up_converted_to_internal_print_z_up",
+      "depth_mm": 150.0,
+      "height_max_mm": 21.738758087158203,
+      "height_min_mm": 3.0,
+      "height_vertex_grid_shape": [
+        767,
+        769
+      ],
+      "missing_height_vertices_filled": 54599,
+      "schema": "myrace3d.realistic.full_model_authority_grid.v1",
+      "source_model_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model.glb",
+      "terrain_geometry_count": 8,
+      "width_mm": 150.0
+    },
+    "gpx_recess": {
+      "clearance_mm": 0.25,
+      "enabled": false,
+      "flat_fit_insert_export": null,
+      "insert_export": {},
+      "insert_insertion_depth_mm": 2.0,
+      "insert_total_height_mm": 2.8,
+      "insert_visible_height_mm": 0.8,
+      "insert_width_mm": 1.8,
+      "land_water_component_split": null,
+      "minimum_remaining_floor_mm": 1.0,
+      "recess_depth_mm": 2.0,
+      "through_holes_used": false,
+      "trace_stats": {}
+    },
+    "height_vertex_grid_shape": [
+      767,
+      769
+    ],
+    "land_boundary_regularization": {
+      "area_delta_pct_points": -0.001019908616184395,
+      "candidate_count": 74,
+      "cleanup_stats": {
+        "cell_area_mm2": 0.03824657310704961,
+        "clean_land_pct": 83.64780515665797,
+        "clean_land_px": 492090,
+        "component_count": 3,
+        "kept_count": 2,
+        "kept_top20": [
+          {
+            "area_mm2": 18811.99769500653,
+            "bbox_rc": [
+              0,
+              0,
+              765,
+              767
+            ],
+            "edge_artifact": false,
+            "edge_seam": false,
+            "label": 1,
+            "min_edge_inward_px": 766,
+            "pct": 83.60887864447345,
+            "px": 491861,
+            "touches_edge": true
+          },
+          {
+            "area_mm2": 8.758465241514362,
+            "bbox_rc": [
+              662,
+              443,
+              672,
+              474
+            ],
+            "edge_artifact": false,
+            "edge_seam": false,
+            "label": 2,
+            "min_edge_inward_px": 0,
+            "pct": 0.038926512184508266,
+            "px": 229,
+            "touches_edge": false
+          }
+        ],
+        "max_edge_artifact_mm2": 250.0,
+        "max_edge_artifact_pct": 1.0,
+        "max_edge_seam_inward_px": 6,
+        "min_component_mm2": 3.0,
+        "min_component_px": 79,
+        "raw_land_pct": 83.64882506527415,
+        "raw_land_px": 492096,
+        "removed_count": 1,
+        "removed_land_px": 6,
+        "removed_top20": [
+          {
+            "area_mm2": 0.22947943864229767,
+            "bbox_rc": [
+              763,
+              765,
+              765,
+              767
+            ],
+            "edge_artifact": true,
+            "edge_seam": true,
+            "label": 3,
+            "min_edge_inward_px": 3,
+            "pct": 0.0010199086161879897,
+            "px": 6,
+            "touches_edge": true
+          }
+        ],
+        "schema": "myrace3d.realistic.clean_land_mask.v1"
+      },
+      "enabled": true,
+      "fallback_used": false,
+      "max_area_delta_pct_points": 0.05,
+      "method": "area_preserving_signed_distance_gaussian_rank_search",
+      "net_area_delta_px": -6,
+      "perimeter_delta_pct": -21.18847539015606,
+      "perimeter_px_after": 3939,
+      "perimeter_px_before": 4998,
+      "regularized_area_px": 492090,
+      "schema": "myrace3d.realistic.land_boundary_regularization.v2",
+      "selected_raw_target_area_px": 492096,
+      "sigma_px": 2.4,
+      "target_area_px": 492096
+    },
+    "land_cleanup_stats": {
+      "cell_area_mm2": 0.03824657310704961,
+      "clean_land_pct": 83.64882506527415,
+      "clean_land_px": 492096,
+      "component_count": 3,
+      "kept_count": 3,
+      "kept_top20": [
+        {
+          "area_mm2": 18807.025640502612,
+          "bbox_rc": [
+            0,
+            0,
+            765,
+            767
+          ],
+          "edge_artifact": false,
+          "edge_seam": false,
+          "label": 1,
+          "min_edge_inward_px": 766,
+          "pct": 83.58678062445605,
+          "px": 491731,
+          "touches_edge": true
+        },
+        {
+          "area_mm2": 8.72021866840731,
+          "bbox_rc": [
+            661,
+            443,
+            672,
+            476
+          ],
+          "edge_artifact": false,
+          "edge_seam": false,
+          "label": 3,
+          "min_edge_inward_px": 0,
+          "pct": 0.0387565274151436,
+          "px": 228,
+          "touches_edge": false
+        },
+        {
+          "area_mm2": 5.239780515665797,
+          "bbox_rc": [
+            10,
+            652,
+            21,
+            671
+          ],
+          "edge_artifact": false,
+          "edge_seam": false,
+          "label": 2,
+          "min_edge_inward_px": 0,
+          "pct": 0.023287913402959094,
+          "px": 137,
+          "touches_edge": false
+        }
+      ],
+      "max_edge_artifact_mm2": 250.0,
+      "max_edge_artifact_pct": 1.0,
+      "max_edge_seam_inward_px": 6,
+      "min_component_mm2": 3.0,
+      "min_component_px": 79,
+      "raw_land_pct": 83.64882506527415,
+      "raw_land_px": 492096,
+      "removed_count": 0,
+      "removed_land_px": 0,
+      "removed_top20": [],
+      "schema": "myrace3d.realistic.clean_land_mask.v1"
+    },
+    "mode": "land_only_cutout",
+    "recipe_hash": "d68f4fc9bb979c9e",
+    "source_model_path": "models/model.glb",
+    "strict_base_footprint": {
+      "base_cells_detected": 492090,
+      "base_cells_without_land": 0,
+      "base_footprint_equals_retained_land": true,
+      "bottom_face_count": 984180,
+      "land_cells_without_base": 0,
+      "method": "bottom_face_centers_mapped_to_land_cells",
+      "min_z": 0.0,
+      "retained_land_cells": 492090,
+      "schema": "myrace3d.realistic.strict_base_footprint_report.v1",
+      "status": "passed"
+    },
+    "water_authority_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\project_core\\design_variations\\color_classification\\classification_automated\\water_surface_authority_mask.png",
+    "water_stats": {
+      "authority": "water_surface_authority_mask",
+      "clean_coverage_pct": 16.351174934725847,
+      "clean_positive_px": 96192,
+      "component_count_raw_or_closed": 12,
+      "fallback_used": false,
+      "kept_component_sizes_top10": [
+        94635,
+        554,
+        351,
+        331,
+        321
+      ],
+      "kept_components": 5,
+      "max_filled_hole_px": 58,
+      "min_component_px": 294,
+      "native_resolution_used": true,
+      "raw_coverage_pct": 16.452315872497824,
+      "raw_positive_px": 96787,
+      "resized_shape": [
+        766,
+        768
+      ],
+      "small_hole_sizes_top10": [
+        53,
+        21,
+        12,
+        12,
+        9,
+        9
+      ],
+      "small_holes_filled": 6,
+      "source_image_size": [
+        768,
+        766
+      ],
+      "source_path": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\project_core\\design_variations\\color_classification\\classification_automated\\water_surface_authority_mask.png"
+    },
+    "width_mm": 150.0
+  },
+  "schema": "myrace3d.realistic.land_only_cutout_report.v2",
+  "status": "complete",
+  "topology_z_up": {
+    "boundary_edges": 0,
+    "bounds_max": [
+      75.0,
+      75.0,
+      21.738758087158203
+    ],
+    "bounds_min": [
+      -75.0,
+      -75.0,
+      0.0
+    ],
+    "components": 2,
+    "faces": 1976252,
+    "nonmanifold_edges": 0,
+    "positive_volume": true,
+    "vertices": 988128,
+    "volume_mm3": 182147.16309898827,
+    "watertight": true
+  }
+}

@@ -1,0 +1,40 @@
+{"source": "models/model.glb", "source_bytes": 59255088, "stage": "ensure_3mf_export_start", "target": "models/model.3mf", "time": "2026-06-16T19:33:24Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 21.738758087158203, 75.0]], "stage": "source_loaded", "time": "2026-06-16T19:33:25Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model.3mf", "time": "2026-06-16T19:33:25Z"}
+{"faces": 2738996, "seconds": 0.533, "stage": "mesh_concatenated", "time": "2026-06-16T19:33:25Z", "vertices": 2198174}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.537, "stage": "sanitizer_skipped", "time": "2026-06-16T19:33:25Z"}
+{"faces": 2738996, "repair_normals": false, "seconds": 0.538, "stage": "slicer_transform_start", "time": "2026-06-16T19:33:25Z", "vertices": 2198174}
+{"faces": 2738996, "seconds": 1.139, "stage": "slicer_transform_complete", "time": "2026-06-16T19:33:26Z", "vertices": 2198174}
+{"seconds": 1.14, "stage": "3mf_write_start", "time": "2026-06-16T19:33:26Z"}
+{"bytes": 36427839, "seconds": 10.204, "stage": "3mf_written", "time": "2026-06-16T19:33:35Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 21.7387581]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T19:33:43Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 39526032, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T19:39:00Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 21.738758087158203, 75.0]], "stage": "source_loaded", "time": "2026-06-16T19:39:00Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T19:39:00Z"}
+{"faces": 1976252, "seconds": 0.554, "stage": "mesh_concatenated", "time": "2026-06-16T19:39:00Z", "vertices": 988128}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.555, "stage": "sanitizer_skipped", "time": "2026-06-16T19:39:00Z"}
+{"faces": 1976252, "repair_normals": false, "seconds": 0.555, "stage": "slicer_transform_start", "time": "2026-06-16T19:39:00Z", "vertices": 988128}
+{"faces": 1976252, "seconds": 0.789, "stage": "slicer_transform_complete", "time": "2026-06-16T19:39:01Z", "vertices": 988128}
+{"seconds": 0.79, "stage": "3mf_write_start", "time": "2026-06-16T19:39:01Z"}
+{"bytes": 19111607, "seconds": 6.187, "stage": "3mf_written", "time": "2026-06-16T19:39:06Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 21.7387581]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T19:39:10Z"}
+{"source": "models/model_land_only_gpx_recess.glb", "source_bytes": 39526040, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_gpx_recess.3mf", "time": "2026-06-16T19:44:11Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 21.738758087158203, 75.0]], "stage": "source_loaded", "time": "2026-06-16T19:44:11Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_gpx_recess.3mf", "time": "2026-06-16T19:44:11Z"}
+{"faces": 1976252, "seconds": 0.562, "stage": "mesh_concatenated", "time": "2026-06-16T19:44:11Z", "vertices": 988128}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.563, "stage": "sanitizer_skipped", "time": "2026-06-16T19:44:11Z"}
+{"faces": 1976252, "repair_normals": false, "seconds": 0.563, "stage": "slicer_transform_start", "time": "2026-06-16T19:44:11Z", "vertices": 988128}
+{"faces": 1976252, "seconds": 0.803, "stage": "slicer_transform_complete", "time": "2026-06-16T19:44:12Z", "vertices": 988128}
+{"seconds": 0.804, "stage": "3mf_write_start", "time": "2026-06-16T19:44:12Z"}
+{"bytes": 19112811, "seconds": 6.13, "stage": "3mf_written", "time": "2026-06-16T19:44:17Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 21.7387581]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T19:44:21Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 39526032, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T22:03:03Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 21.738758087158203, 75.0]], "stage": "source_loaded", "time": "2026-06-16T22:03:03Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T22:03:03Z"}
+{"faces": 1976252, "seconds": 0.536, "stage": "mesh_concatenated", "time": "2026-06-16T22:03:04Z", "vertices": 988128}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.536, "stage": "sanitizer_skipped", "time": "2026-06-16T22:03:04Z"}
+{"faces": 1976252, "repair_normals": false, "seconds": 0.537, "stage": "slicer_transform_start", "time": "2026-06-16T22:03:04Z", "vertices": 988128}
+{"faces": 1976252, "seconds": 0.774, "stage": "slicer_transform_complete", "time": "2026-06-16T22:03:04Z", "vertices": 988128}
+{"seconds": 0.774, "stage": "3mf_write_start", "time": "2026-06-16T22:03:04Z"}
+{"bytes": 19111612, "seconds": 6.311, "stage": "3mf_written", "time": "2026-06-16T22:03:10Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 21.7387581]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T22:03:14Z"}
