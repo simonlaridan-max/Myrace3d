@@ -1,0 +1,63 @@
+{
+    "error_string": "Success.",
+    "export_time": 33,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 1557,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 1024.508056640625,
+                "Bridge": 785.1189575195313,
+                "Custom": 5.128993988037109,
+                "Inner wall": 3516.876708984375,
+                "Internal solid infill": 4806.572265625,
+                "Outer wall": 4315.53955078125,
+                "Skirt": 16.80191421508789,
+                "Sparse infill": 6754.033203125,
+                "Top surface": 922.7062377929688,
+                "Travel": 3073.793701171875,
+                "Undefined": 3070.16357421875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "unknown",
+                    "id": 1,
+                    "main_used_g": 0.0,
+                    "total_used_g": 0.0
+                }
+            ],
+            "generate_support_material_time": 683,
+            "id": 1,
+            "infill_time": 8183,
+            "layer_filament_change": 0,
+            "main_predication": 25215.421875,
+            "make_perimeters_time": 3864,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 94.85006713867188,
+                        "height": 29.615503311157227,
+                        "width": 150.0,
+                        "x": 25.0,
+                        "y": 52.57496643066406,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "MyRace3D_Terrain",
+                    "triangle_count": 1116932
+                }
+            ],
+            "sliced_time": 14924,
+            "sliced_time_with_cache": 1982,
+            "total_predication": 25216.919921875,
+            "triangle_count": 1116932,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+}

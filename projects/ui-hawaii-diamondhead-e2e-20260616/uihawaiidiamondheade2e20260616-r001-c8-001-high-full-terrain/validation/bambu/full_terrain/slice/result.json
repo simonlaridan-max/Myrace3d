@@ -1,0 +1,64 @@
+{
+    "error_string": "Success.",
+    "export_time": 70,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 4688,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 2237.34033203125,
+                "Bridge": 2590.919189453125,
+                "Custom": 4.921663284301758,
+                "Inner wall": 2351.727294921875,
+                "Internal solid infill": 9754.1025390625,
+                "Outer wall": 2612.411376953125,
+                "Overhang wall": 118.44745635986328,
+                "Skirt": 22.061614990234375,
+                "Sparse infill": 9316.8056640625,
+                "Top surface": 2288.025634765625,
+                "Travel": 2403.62841796875,
+                "Undefined": 2399.990966796875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "unknown",
+                    "id": 1,
+                    "main_used_g": 0.0,
+                    "total_used_g": 0.0
+                }
+            ],
+            "generate_support_material_time": 937,
+            "id": 1,
+            "infill_time": 5629,
+            "layer_filament_change": 0,
+            "main_predication": 33695.15625,
+            "make_perimeters_time": 2325,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 150.0,
+                        "height": 29.615503311157227,
+                        "width": 150.0,
+                        "x": 24.999990463256836,
+                        "y": 25.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "MyRace3D_Terrain",
+                    "triangle_count": 3459836
+                }
+            ],
+            "sliced_time": 11560,
+            "sliced_time_with_cache": 2424,
+            "total_predication": 33696.44140625,
+            "triangle_count": 3459836,
+            "warning_message": "It seems object MyRace3D_Terrain has floating regions. Please re-orient the object or enable support generation."
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+}

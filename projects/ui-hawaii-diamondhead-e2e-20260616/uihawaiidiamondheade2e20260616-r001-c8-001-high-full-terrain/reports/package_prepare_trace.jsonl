@@ -1,0 +1,40 @@
+{"source": "models/model.glb", "source_bytes": 67594636, "stage": "ensure_3mf_export_start", "target": "models/model.3mf", "time": "2026-06-16T20:11:29Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 29.615503311157227, 75.0]], "stage": "source_loaded", "time": "2026-06-16T20:11:30Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High\\models\\model.3mf", "time": "2026-06-16T20:11:30Z"}
+{"faces": 3459836, "seconds": 0.578, "stage": "mesh_concatenated", "time": "2026-06-16T20:11:30Z", "vertices": 2172364}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.582, "stage": "sanitizer_skipped", "time": "2026-06-16T20:11:30Z"}
+{"faces": 3459836, "repair_normals": false, "seconds": 0.583, "stage": "slicer_transform_start", "time": "2026-06-16T20:11:30Z", "vertices": 2172364}
+{"faces": 3459836, "seconds": 1.212, "stage": "slicer_transform_complete", "time": "2026-06-16T20:11:31Z", "vertices": 2172364}
+{"seconds": 1.213, "stage": "3mf_write_start", "time": "2026-06-16T20:11:31Z"}
+{"bytes": 36640178, "seconds": 10.396, "stage": "3mf_written", "time": "2026-06-16T20:11:40Z"}
+{"reloaded_bounds": [[-75.0, -75.0, 0.0], [75.0, 75.0, 29.6155033]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T20:11:48Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 22309692, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T20:29:31Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 29.615503311157227, 20.045631408691406]], "stage": "source_loaded", "time": "2026-06-16T20:29:31Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T20:29:31Z"}
+{"faces": 1115444, "seconds": 0.3, "stage": "mesh_concatenated", "time": "2026-06-16T20:29:32Z", "vertices": 557712}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.3, "stage": "sanitizer_skipped", "time": "2026-06-16T20:29:32Z"}
+{"faces": 1115444, "repair_normals": false, "seconds": 0.301, "stage": "slicer_transform_start", "time": "2026-06-16T20:29:32Z", "vertices": 557712}
+{"faces": 1115444, "seconds": 0.428, "stage": "slicer_transform_complete", "time": "2026-06-16T20:29:32Z", "vertices": 557712}
+{"seconds": 0.429, "stage": "3mf_write_start", "time": "2026-06-16T20:29:32Z"}
+{"bytes": 11040359, "seconds": 3.697, "stage": "3mf_written", "time": "2026-06-16T20:29:35Z"}
+{"reloaded_bounds": [[-75.0, -47.5228157, 0.0], [75.0, 47.5228157, 29.6155033]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T20:29:37Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 22339580, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T21:45:22Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 29.615503311157227, 19.850065231323242]], "stage": "source_loaded", "time": "2026-06-16T21:45:22Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T21:45:22Z"}
+{"faces": 1116932, "seconds": 0.306, "stage": "mesh_concatenated", "time": "2026-06-16T21:45:22Z", "vertices": 558464}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.307, "stage": "sanitizer_skipped", "time": "2026-06-16T21:45:22Z"}
+{"faces": 1116932, "repair_normals": false, "seconds": 0.307, "stage": "slicer_transform_start", "time": "2026-06-16T21:45:22Z", "vertices": 558464}
+{"faces": 1116932, "seconds": 0.469, "stage": "slicer_transform_complete", "time": "2026-06-16T21:45:22Z", "vertices": 558464}
+{"seconds": 0.47, "stage": "3mf_write_start", "time": "2026-06-16T21:45:22Z"}
+{"bytes": 10943596, "seconds": 3.932, "stage": "3mf_written", "time": "2026-06-16T21:45:26Z"}
+{"reloaded_bounds": [[-75.0, -47.4250326, 0.0], [75.0, 47.4250326, 29.6155033]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T21:45:28Z"}
+{"source": "models/model_land_only_cutout.glb", "source_bytes": 22339580, "stage": "ensure_3mf_export_start", "target": "models/model_land_only_cutout.3mf", "time": "2026-06-16T21:54:54Z"}
+{"source_bounds": [[-75.0, 0.0, -75.0], [75.0, 29.615503311157227, 19.850065231323242]], "stage": "source_loaded", "time": "2026-06-16T21:54:54Z"}
+{"stage": "3mf_export_start", "target": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-hawaii-diamondhead-e2e-20260616\\outputs\\part_08\\UIHawaiiDiamondHeadE2E20260616_R001_C8_001_High\\models\\model_land_only_cutout.3mf", "time": "2026-06-16T21:54:54Z"}
+{"faces": 1116932, "seconds": 0.311, "stage": "mesh_concatenated", "time": "2026-06-16T21:54:55Z", "vertices": 558464}
+{"reason": "High-face colored final exports preserve source geometry and use the Bambu CLI slice gate as the package printability authority; full component splitting is too slow for this path.", "seconds": 0.312, "stage": "sanitizer_skipped", "time": "2026-06-16T21:54:55Z"}
+{"faces": 1116932, "repair_normals": false, "seconds": 0.312, "stage": "slicer_transform_start", "time": "2026-06-16T21:54:55Z", "vertices": 558464}
+{"faces": 1116932, "seconds": 0.452, "stage": "slicer_transform_complete", "time": "2026-06-16T21:54:55Z", "vertices": 558464}
+{"seconds": 0.452, "stage": "3mf_write_start", "time": "2026-06-16T21:54:55Z"}
+{"bytes": 10943595, "seconds": 3.849, "stage": "3mf_written", "time": "2026-06-16T21:54:58Z"}
+{"reloaded_bounds": [[-75.0, -47.4250326, 0.0], [75.0, 47.4250326, 29.6155033]], "stage": "3mf_bounds_reloaded", "time": "2026-06-16T21:55:01Z"}
