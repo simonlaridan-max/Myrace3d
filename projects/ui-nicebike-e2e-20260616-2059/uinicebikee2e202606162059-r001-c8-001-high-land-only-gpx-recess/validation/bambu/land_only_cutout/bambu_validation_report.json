@@ -1,0 +1,179 @@
+{
+  "bambu_bbox": {
+    "depth": 150.0,
+    "height": 21.738758087158203,
+    "width": 150.0,
+    "x": 24.999990463256836,
+    "y": 25.0,
+    "z": 0.0
+  },
+  "bambu_exe": "C:\\Program Files\\Bambu Studio\\bambu-studio.exe",
+  "bambu_message": "Success.",
+  "bambu_version": "2.7.1.57",
+  "command": [
+    "C:\\Program Files\\Bambu Studio\\bambu-studio.exe",
+    "--debug=3",
+    "--slice=0",
+    "--outputdir=C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\validation\\bambu\\land_only_cutout\\slice",
+    "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_cutout.3mf"
+  ],
+  "errors": [],
+  "exit_code": 0,
+  "gcode_bytes": 38427286,
+  "gcode_path": "validation/bambu/land_only_cutout/slice/plate_1.gcode",
+  "generated_at": "2026-06-16T22:03:14Z",
+  "h2d_profile_inventory": {
+    "printer_family": "Bambu Lab H2D",
+    "profile_root": "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL",
+    "profile_selection_mode": "active_bambu_config_cli_slice",
+    "profile_selection_note": "Bambu Studio 02.07.01.57 accepted CLI slicing with the active local Bambu config. Explicit CLI profile injection was not reliable in the 2026-06-15 investigation, so this gate reports requested/available H2D profiles and validates with the active Bambu Studio configuration.",
+    "requested_nozzles_mm_supported_by_inventory": {
+      "0.2": {
+        "machine_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.2 nozzle.json"
+        ],
+        "machine_profile_present": true,
+        "process_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2DP 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.10mm Standard @BBL H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.10mm Standard @BBL H2DP 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Balanced Quality @BBL H2D 0.2 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Balanced Quality @BBL H2DP 0.2 nozzle.json"
+        ],
+        "process_profile_present": true
+      },
+      "0.4": {
+        "machine_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template change_filament_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template layer_change_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template machine_end_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template machine_start_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template time_lapse_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle template wrapping_detection_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.4 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template change_filament_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template layer_change_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template machine_end_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template machine_start_gcode.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.4 nozzle template time_lapse_gcode.json"
+        ],
+        "machine_profile_present": true,
+        "process_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.08mm Extra Fine @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Fine @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.12mm Fine @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Balanced Quality @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Balanced Quality @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Standard @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.16mm Standard @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Balanced Strength @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Balanced Strength @BBL H2DP.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Standard @BBL H2D.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.20mm Standard @BBL H2DP.json"
+        ],
+        "process_profile_present": true
+      },
+      "0.6": {
+        "machine_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\machine\\Bambu Lab H2D Pro 0.6 nozzle.json"
+        ],
+        "machine_profile_present": true,
+        "process_profile_paths": [
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.18mm Balanced Quality @BBL H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.18mm Balanced Quality @BBL H2DP 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.24mm Balanced Strength @BBL H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.24mm Balanced Strength @BBL H2DP 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.30mm Standard @BBL H2D 0.6 nozzle.json",
+          "C:\\Program Files\\Bambu Studio\\resources\\profiles\\BBL\\process\\0.30mm Standard @BBL H2DP 0.6 nozzle.json"
+        ],
+        "process_profile_present": true
+      }
+    }
+  },
+  "passed": true,
+  "printer": "Bambu Lab H2D",
+  "requested_nozzle_mm": "0.4",
+  "result_json": {
+    "error_string": "Success.",
+    "export_time": 50,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 2572,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 1865.7252197265625,
+          "Bridge": 1925.2618408203125,
+          "Custom": 3.306563138961792,
+          "Inner wall": 4905.3623046875,
+          "Internal solid infill": 9237.9365234375,
+          "Outer wall": 5883.7958984375,
+          "Skirt": 20.477924346923828,
+          "Sparse infill": 15481.017578125,
+          "Top surface": 1841.94580078125,
+          "Travel": 5116.89501953125,
+          "Undefined": 5114.87255859375
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "unknown",
+            "id": 1,
+            "main_used_g": 0.0,
+            "total_used_g": 0.0
+          }
+        ],
+        "generate_support_material_time": 1425,
+        "id": 1,
+        "infill_time": 22070,
+        "layer_filament_change": 0,
+        "main_predication": 46287.57421875,
+        "make_perimeters_time": 4776,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 150.0,
+              "height": 21.738758087158203,
+              "width": 150.0,
+              "x": 24.999990463256836,
+              "y": 25.0,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "MyRace3D_Terrain",
+            "triangle_count": 1976252
+          }
+        ],
+        "sliced_time": 32038,
+        "sliced_time_with_cache": 3379,
+        "total_predication": 46288.859375,
+        "triangle_count": 1976252,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+  },
+  "result_json_path": "validation/bambu/land_only_cutout/slice/result.json",
+  "return_code": 0,
+  "schema": "myrace3d.bambu_validation_gate.v1",
+  "seconds": 35.039,
+  "sliced_plate_count": 1,
+  "source_model_path": "models/model_land_only_cutout.glb",
+  "status": "passed",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "triangle_count": 1976252,
+  "validation_input": "models/model_land_only_cutout.3mf",
+  "validation_input_abs": "C:\\Migrated_E\\MyRace3D_WORKING\\LOCAL_PROJECTS\\ui-nicebike-e2e-20260616-2059\\outputs\\part_08\\UINiceBikeE2E202606162059_R001_C8_001_High\\models\\model_land_only_cutout.3mf",
+  "validation_input_bytes": 19111612,
+  "validation_input_policy": "generated_3mf_handoff",
+  "validation_policy": "prefer generated single-file 3MF handoff; fallback to validation-only STL copy; final GLB/3MF package files are not modified",
+  "warnings": []
+}
